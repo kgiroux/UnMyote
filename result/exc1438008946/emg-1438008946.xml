@@ -1,0 +1,2062 @@
+<data>
+    <timestamp time="1438008946256532">
+        <emg0>-1</emg0>
+        <emg1>-2</emg1>
+        <emg2>-4</emg2>
+        <emg3>-5</emg3>
+        <emg4>-4</emg4>
+        <emg5>-4</emg5>
+        <emg6>-1</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946256532">
+        <emg0>-1</emg0>
+        <emg1>2</emg1>
+        <emg2>-4</emg2>
+        <emg3>-4</emg3>
+        <emg4>11</emg4>
+        <emg5>-1</emg5>
+        <emg6>0</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946261536">
+        <emg0>1</emg0>
+        <emg1>4</emg1>
+        <emg2>1</emg2>
+        <emg3>-1</emg3>
+        <emg4>-1</emg4>
+        <emg5>-2</emg5>
+        <emg6>0</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946261536">
+        <emg0>1</emg0>
+        <emg1>1</emg1>
+        <emg2>2</emg2>
+        <emg3>4</emg3>
+        <emg4>4</emg4>
+        <emg5>-2</emg5>
+        <emg6>-1</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946262537">
+        <emg0>-4</emg0>
+        <emg1>-2</emg1>
+        <emg2>-2</emg2>
+        <emg3>-3</emg3>
+        <emg4>-1</emg4>
+        <emg5>1</emg5>
+        <emg6>0</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946262537">
+        <emg0>-2</emg0>
+        <emg1>-6</emg1>
+        <emg2>-5</emg2>
+        <emg3>-1</emg3>
+        <emg4>-8</emg4>
+        <emg5>-3</emg5>
+        <emg6>-2</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946264538">
+        <emg0>-3</emg0>
+        <emg1>-1</emg1>
+        <emg2>-2</emg2>
+        <emg3>-1</emg3>
+        <emg4>-2</emg4>
+        <emg5>-2</emg5>
+        <emg6>-2</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946264538">
+        <emg0>-2</emg0>
+        <emg1>-1</emg1>
+        <emg2>1</emg2>
+        <emg3>-1</emg3>
+        <emg4>5</emg4>
+        <emg5>0</emg5>
+        <emg6>-1</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946275545">
+        <emg0>0</emg0>
+        <emg1>2</emg1>
+        <emg2>1</emg2>
+        <emg3>0</emg3>
+        <emg4>6</emg4>
+        <emg5>0</emg5>
+        <emg6>0</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946275545">
+        <emg0>-2</emg0>
+        <emg1>1</emg1>
+        <emg2>-1</emg2>
+        <emg3>-7</emg3>
+        <emg4>-9</emg4>
+        <emg5>-2</emg5>
+        <emg6>-2</emg6>
+        <emg7>-4</emg7>
+    </timestamp>
+    <timestamp time="1438008946286552">
+        <emg0>1</emg0>
+        <emg1>-3</emg1>
+        <emg2>-4</emg2>
+        <emg3>-1</emg3>
+        <emg4>-1</emg4>
+        <emg5>4</emg5>
+        <emg6>0</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946286552">
+        <emg0>0</emg0>
+        <emg1>-2</emg1>
+        <emg2>-3</emg2>
+        <emg3>-4</emg3>
+        <emg4>-9</emg4>
+        <emg5>-2</emg5>
+        <emg6>0</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946289554">
+        <emg0>-2</emg0>
+        <emg1>-1</emg1>
+        <emg2>1</emg2>
+        <emg3>2</emg3>
+        <emg4>2</emg4>
+        <emg5>-1</emg5>
+        <emg6>0</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946289554">
+        <emg0>2</emg0>
+        <emg1>1</emg1>
+        <emg2>1</emg2>
+        <emg3>-3</emg3>
+        <emg4>4</emg4>
+        <emg5>1</emg5>
+        <emg6>-2</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946304564">
+        <emg0>-1</emg0>
+        <emg1>-1</emg1>
+        <emg2>0</emg2>
+        <emg3>11</emg3>
+        <emg4>-10</emg4>
+        <emg5>-4</emg5>
+        <emg6>-2</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946304564">
+        <emg0>0</emg0>
+        <emg1>-2</emg1>
+        <emg2>0</emg2>
+        <emg3>-4</emg3>
+        <emg4>-7</emg4>
+        <emg5>4</emg5>
+        <emg6>-1</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946314573">
+        <emg0>2</emg0>
+        <emg1>1</emg1>
+        <emg2>-2</emg2>
+        <emg3>-9</emg3>
+        <emg4>-18</emg4>
+        <emg5>-3</emg5>
+        <emg6>-2</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946314573">
+        <emg0>0</emg0>
+        <emg1>1</emg1>
+        <emg2>1</emg2>
+        <emg3>8</emg3>
+        <emg4>1</emg4>
+        <emg5>1</emg5>
+        <emg6>0</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946329581">
+        <emg0>-1</emg0>
+        <emg1>-1</emg1>
+        <emg2>-2</emg2>
+        <emg3>-11</emg3>
+        <emg4>-1</emg4>
+        <emg5>-4</emg5>
+        <emg6>-3</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946329581">
+        <emg0>-2</emg0>
+        <emg1>-5</emg1>
+        <emg2>-1</emg2>
+        <emg3>-3</emg3>
+        <emg4>4</emg4>
+        <emg5>-2</emg5>
+        <emg6>-3</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946334585">
+        <emg0>0</emg0>
+        <emg1>1</emg1>
+        <emg2>0</emg2>
+        <emg3>3</emg3>
+        <emg4>1</emg4>
+        <emg5>-1</emg5>
+        <emg6>-1</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946334585">
+        <emg0>-2</emg0>
+        <emg1>-2</emg1>
+        <emg2>-3</emg2>
+        <emg3>-3</emg3>
+        <emg4>-9</emg4>
+        <emg5>-3</emg5>
+        <emg6>-1</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946349595">
+        <emg0>-3</emg0>
+        <emg1>-5</emg1>
+        <emg2>-2</emg2>
+        <emg3>-3</emg3>
+        <emg4>1</emg4>
+        <emg5>-2</emg5>
+        <emg6>-1</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008946349595">
+        <emg0>-1</emg0>
+        <emg1>0</emg1>
+        <emg2>-2</emg2>
+        <emg3>0</emg3>
+        <emg4>4</emg4>
+        <emg5>2</emg5>
+        <emg6>0</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008946390621">
+        <emg0>1</emg0>
+        <emg1>0</emg1>
+        <emg2>-3</emg2>
+        <emg3>-6</emg3>
+        <emg4>-12</emg4>
+        <emg5>-4</emg5>
+        <emg6>-2</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946390621">
+        <emg0>1</emg0>
+        <emg1>-2</emg1>
+        <emg2>0</emg2>
+        <emg3>9</emg3>
+        <emg4>-3</emg4>
+        <emg5>-3</emg5>
+        <emg6>0</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946391622">
+        <emg0>-1</emg0>
+        <emg1>-1</emg1>
+        <emg2>0</emg2>
+        <emg3>-5</emg3>
+        <emg4>-2</emg4>
+        <emg5>-2</emg5>
+        <emg6>1</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946391622">
+        <emg0>-1</emg0>
+        <emg1>-2</emg1>
+        <emg2>0</emg2>
+        <emg3>-8</emg3>
+        <emg4>-6</emg4>
+        <emg5>2</emg5>
+        <emg6>-1</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946392623">
+        <emg0>-1</emg0>
+        <emg1>-1</emg1>
+        <emg2>-2</emg2>
+        <emg3>-4</emg3>
+        <emg4>-8</emg4>
+        <emg5>-1</emg5>
+        <emg6>3</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946392623">
+        <emg0>-1</emg0>
+        <emg1>1</emg1>
+        <emg2>0</emg2>
+        <emg3>-4</emg3>
+        <emg4>-6</emg4>
+        <emg5>-1</emg5>
+        <emg6>-9</emg6>
+        <emg7>-6</emg7>
+    </timestamp>
+    <timestamp time="1438008946394624">
+        <emg0>-2</emg0>
+        <emg1>-4</emg1>
+        <emg2>-6</emg2>
+        <emg3>-7</emg3>
+        <emg4>-3</emg4>
+        <emg5>2</emg5>
+        <emg6>1</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946394624">
+        <emg0>0</emg0>
+        <emg1>4</emg1>
+        <emg2>6</emg2>
+        <emg3>16</emg3>
+        <emg4>-3</emg4>
+        <emg5>1</emg5>
+        <emg6>-1</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946403630">
+        <emg0>-3</emg0>
+        <emg1>-2</emg1>
+        <emg2>-3</emg2>
+        <emg3>-2</emg3>
+        <emg4>2</emg4>
+        <emg5>-1</emg5>
+        <emg6>-3</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946403630">
+        <emg0>1</emg0>
+        <emg1>-1</emg1>
+        <emg2>2</emg2>
+        <emg3>6</emg3>
+        <emg4>-10</emg4>
+        <emg5>-1</emg5>
+        <emg6>1</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946409634">
+        <emg0>1</emg0>
+        <emg1>0</emg1>
+        <emg2>-2</emg2>
+        <emg3>-1</emg3>
+        <emg4>-3</emg4>
+        <emg5>1</emg5>
+        <emg6>0</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946409634">
+        <emg0>-6</emg0>
+        <emg1>-3</emg1>
+        <emg2>-8</emg2>
+        <emg3>-9</emg3>
+        <emg4>-6</emg4>
+        <emg5>-3</emg5>
+        <emg6>0</emg6>
+        <emg7>-5</emg7>
+    </timestamp>
+    <timestamp time="1438008946418640">
+        <emg0>5</emg0>
+        <emg1>-1</emg1>
+        <emg2>-5</emg2>
+        <emg3>-7</emg3>
+        <emg4>-3</emg4>
+        <emg5>-1</emg5>
+        <emg6>3</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946418640">
+        <emg0>-5</emg0>
+        <emg1>1</emg1>
+        <emg2>3</emg2>
+        <emg3>11</emg3>
+        <emg4>8</emg4>
+        <emg5>-2</emg5>
+        <emg6>1</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946432650">
+        <emg0>0</emg0>
+        <emg1>2</emg1>
+        <emg2>2</emg2>
+        <emg3>4</emg3>
+        <emg4>16</emg4>
+        <emg5>5</emg5>
+        <emg6>-4</emg6>
+        <emg7>-4</emg7>
+    </timestamp>
+    <timestamp time="1438008946432650">
+        <emg0>-15</emg0>
+        <emg1>-6</emg1>
+        <emg2>-1</emg2>
+        <emg3>4</emg3>
+        <emg4>4</emg4>
+        <emg5>0</emg5>
+        <emg6>-6</emg6>
+        <emg7>-5</emg7>
+    </timestamp>
+    <timestamp time="1438008946441656">
+        <emg0>0</emg0>
+        <emg1>-1</emg1>
+        <emg2>1</emg2>
+        <emg3>-1</emg3>
+        <emg4>-3</emg4>
+        <emg5>1</emg5>
+        <emg6>-3</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946441656">
+        <emg0>8</emg0>
+        <emg1>0</emg1>
+        <emg2>-3</emg2>
+        <emg3>-11</emg3>
+        <emg4>1</emg4>
+        <emg5>-5</emg5>
+        <emg6>-1</emg6>
+        <emg7>4</emg7>
+    </timestamp>
+    <timestamp time="1438008946454664">
+        <emg0>-2</emg0>
+        <emg1>-1</emg1>
+        <emg2>3</emg2>
+        <emg3>-9</emg3>
+        <emg4>-2</emg4>
+        <emg5>-1</emg5>
+        <emg6>3</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008946454664">
+        <emg0>5</emg0>
+        <emg1>1</emg1>
+        <emg2>-1</emg2>
+        <emg3>6</emg3>
+        <emg4>1</emg4>
+        <emg5>0</emg5>
+        <emg6>2</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946463670">
+        <emg0>-2</emg0>
+        <emg1>2</emg1>
+        <emg2>-3</emg2>
+        <emg3>9</emg3>
+        <emg4>12</emg4>
+        <emg5>3</emg5>
+        <emg6>0</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946463670">
+        <emg0>0</emg0>
+        <emg1>0</emg1>
+        <emg2>-3</emg2>
+        <emg3>-13</emg3>
+        <emg4>-16</emg4>
+        <emg5>1</emg5>
+        <emg6>1</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946478680">
+        <emg0>0</emg0>
+        <emg1>-2</emg1>
+        <emg2>-1</emg2>
+        <emg3>5</emg3>
+        <emg4>3</emg4>
+        <emg5>0</emg5>
+        <emg6>-2</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946478680">
+        <emg0>5</emg0>
+        <emg1>1</emg1>
+        <emg2>2</emg2>
+        <emg3>-8</emg3>
+        <emg4>12</emg4>
+        <emg5>-5</emg5>
+        <emg6>-3</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946480681">
+        <emg0>-3</emg0>
+        <emg1>1</emg1>
+        <emg2>5</emg2>
+        <emg3>6</emg3>
+        <emg4>-9</emg4>
+        <emg5>-1</emg5>
+        <emg6>-1</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946480681">
+        <emg0>4</emg0>
+        <emg1>1</emg1>
+        <emg2>1</emg2>
+        <emg3>-4</emg3>
+        <emg4>3</emg4>
+        <emg5>7</emg5>
+        <emg6>3</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946500695">
+        <emg0>-9</emg0>
+        <emg1>-3</emg1>
+        <emg2>-7</emg2>
+        <emg3>10</emg3>
+        <emg4>5</emg4>
+        <emg5>-4</emg5>
+        <emg6>-1</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946500695">
+        <emg0>-4</emg0>
+        <emg1>2</emg1>
+        <emg2>5</emg2>
+        <emg3>4</emg3>
+        <emg4>-2</emg4>
+        <emg5>-3</emg5>
+        <emg6>-1</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946502696">
+        <emg0>2</emg0>
+        <emg1>0</emg1>
+        <emg2>-1</emg2>
+        <emg3>-16</emg3>
+        <emg4>-10</emg4>
+        <emg5>-6</emg5>
+        <emg6>-2</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008946502696">
+        <emg0>1</emg0>
+        <emg1>-6</emg1>
+        <emg2>-1</emg2>
+        <emg3>27</emg3>
+        <emg4>15</emg4>
+        <emg5>-1</emg5>
+        <emg6>-1</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946514705">
+        <emg0>4</emg0>
+        <emg1>-7</emg1>
+        <emg2>-12</emg2>
+        <emg3>-14</emg3>
+        <emg4>17</emg4>
+        <emg5>-5</emg5>
+        <emg6>1</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946514705">
+        <emg0>5</emg0>
+        <emg1>-1</emg1>
+        <emg2>-8</emg2>
+        <emg3>-35</emg3>
+        <emg4>-45</emg4>
+        <emg5>2</emg5>
+        <emg6>-4</emg6>
+        <emg7>-5</emg7>
+    </timestamp>
+    <timestamp time="1438008946523710">
+        <emg0>-33</emg0>
+        <emg1>-5</emg1>
+        <emg2>9</emg2>
+        <emg3>56</emg3>
+        <emg4>38</emg4>
+        <emg5>0</emg5>
+        <emg6>-4</emg6>
+        <emg7>-9</emg7>
+    </timestamp>
+    <timestamp time="1438008946523710">
+        <emg0>14</emg0>
+        <emg1>1</emg1>
+        <emg2>2</emg2>
+        <emg3>-15</emg3>
+        <emg4>-14</emg4>
+        <emg5>-1</emg5>
+        <emg6>-4</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946537719">
+        <emg0>-26</emg0>
+        <emg1>-11</emg1>
+        <emg2>-6</emg2>
+        <emg3>-2</emg3>
+        <emg4>23</emg4>
+        <emg5>-8</emg5>
+        <emg6>-5</emg6>
+        <emg7>-8</emg7>
+    </timestamp>
+    <timestamp time="1438008946537719">
+        <emg0>20</emg0>
+        <emg1>9</emg1>
+        <emg2>9</emg2>
+        <emg3>6</emg3>
+        <emg4>41</emg4>
+        <emg5>11</emg5>
+        <emg6>4</emg6>
+        <emg7>4</emg7>
+    </timestamp>
+    <timestamp time="1438008946544724">
+        <emg0>-34</emg0>
+        <emg1>-15</emg1>
+        <emg2>-10</emg2>
+        <emg3>-18</emg3>
+        <emg4>-5</emg4>
+        <emg5>1</emg5>
+        <emg6>-4</emg6>
+        <emg7>-8</emg7>
+    </timestamp>
+    <timestamp time="1438008946544724">
+        <emg0>16</emg0>
+        <emg1>5</emg1>
+        <emg2>-6</emg2>
+        <emg3>-19</emg3>
+        <emg4>-43</emg4>
+        <emg5>-6</emg5>
+        <emg6>-2</emg6>
+        <emg7>11</emg7>
+    </timestamp>
+    <timestamp time="1438008946560735">
+        <emg0>66</emg0>
+        <emg1>23</emg1>
+        <emg2>12</emg2>
+        <emg3>-9</emg3>
+        <emg4>-3</emg4>
+        <emg5>10</emg5>
+        <emg6>8</emg6>
+        <emg7>10</emg7>
+    </timestamp>
+    <timestamp time="1438008946560735">
+        <emg0>-40</emg0>
+        <emg1>-23</emg1>
+        <emg2>-4</emg2>
+        <emg3>30</emg3>
+        <emg4>32</emg4>
+        <emg5>1</emg5>
+        <emg6>-7</emg6>
+        <emg7>-17</emg7>
+    </timestamp>
+    <timestamp time="1438008946562735">
+        <emg0>-38</emg0>
+        <emg1>-12</emg1>
+        <emg2>-3</emg2>
+        <emg3>-25</emg3>
+        <emg4>0</emg4>
+        <emg5>5</emg5>
+        <emg6>9</emg6>
+        <emg7>-4</emg7>
+    </timestamp>
+    <timestamp time="1438008946562735">
+        <emg0>-23</emg0>
+        <emg1>-4</emg1>
+        <emg2>-3</emg2>
+        <emg3>44</emg3>
+        <emg4>27</emg4>
+        <emg5>1</emg5>
+        <emg6>1</emg6>
+        <emg7>-8</emg7>
+    </timestamp>
+    <timestamp time="1438008946574743">
+        <emg0>1</emg0>
+        <emg1>0</emg1>
+        <emg2>6</emg2>
+        <emg3>8</emg3>
+        <emg4>13</emg4>
+        <emg5>1</emg5>
+        <emg6>3</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008946574743">
+        <emg0>36</emg0>
+        <emg1>14</emg1>
+        <emg2>4</emg2>
+        <emg3>-19</emg3>
+        <emg4>-47</emg4>
+        <emg5>-21</emg5>
+        <emg6>-4</emg6>
+        <emg7>11</emg7>
+    </timestamp>
+    <timestamp time="1438008946583749">
+        <emg0>31</emg0>
+        <emg1>14</emg1>
+        <emg2>24</emg2>
+        <emg3>50</emg3>
+        <emg4>35</emg4>
+        <emg5>15</emg5>
+        <emg6>14</emg6>
+        <emg7>12</emg7>
+    </timestamp>
+    <timestamp time="1438008946583749">
+        <emg0>-9</emg0>
+        <emg1>-7</emg1>
+        <emg2>-10</emg2>
+        <emg3>-22</emg3>
+        <emg4>-7</emg4>
+        <emg5>-11</emg5>
+        <emg6>-6</emg6>
+        <emg7>-10</emg7>
+    </timestamp>
+    <timestamp time="1438008946597759">
+        <emg0>-28</emg0>
+        <emg1>-2</emg1>
+        <emg2>-5</emg2>
+        <emg3>1</emg3>
+        <emg4>-22</emg4>
+        <emg5>-3</emg5>
+        <emg6>-19</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008946597759">
+        <emg0>-35</emg0>
+        <emg1>-17</emg1>
+        <emg2>-6</emg2>
+        <emg3>7</emg3>
+        <emg4>23</emg4>
+        <emg5>2</emg5>
+        <emg6>-15</emg6>
+        <emg7>-15</emg7>
+    </timestamp>
+    <timestamp time="1438008946604764">
+        <emg0>15</emg0>
+        <emg1>0</emg1>
+        <emg2>-28</emg2>
+        <emg3>-109</emg3>
+        <emg4>-46</emg4>
+        <emg5>-11</emg5>
+        <emg6>-6</emg6>
+        <emg7>6</emg7>
+    </timestamp>
+    <timestamp time="1438008946604764">
+        <emg0>35</emg0>
+        <emg1>23</emg1>
+        <emg2>33</emg2>
+        <emg3>78</emg3>
+        <emg4>19</emg4>
+        <emg5>1</emg5>
+        <emg6>14</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946620775">
+        <emg0>-15</emg0>
+        <emg1>-4</emg1>
+        <emg2>15</emg2>
+        <emg3>41</emg3>
+        <emg4>16</emg4>
+        <emg5>5</emg5>
+        <emg6>0</emg6>
+        <emg7>-6</emg7>
+    </timestamp>
+    <timestamp time="1438008946620775">
+        <emg0>35</emg0>
+        <emg1>9</emg1>
+        <emg2>-9</emg2>
+        <emg3>-67</emg3>
+        <emg4>-102</emg4>
+        <emg5>-14</emg5>
+        <emg6>-2</emg6>
+        <emg7>12</emg7>
+    </timestamp>
+    <timestamp time="1438008946622775">
+        <emg0>-10</emg0>
+        <emg1>-1</emg1>
+        <emg2>-4</emg2>
+        <emg3>14</emg3>
+        <emg4>-44</emg4>
+        <emg5>-24</emg5>
+        <emg6>-9</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946622775">
+        <emg0>65</emg0>
+        <emg1>12</emg1>
+        <emg2>-3</emg2>
+        <emg3>-15</emg3>
+        <emg4>-22</emg4>
+        <emg5>3</emg5>
+        <emg6>7</emg6>
+        <emg7>26</emg7>
+    </timestamp>
+    <timestamp time="1438008946643790">
+        <emg0>-87</emg0>
+        <emg1>-41</emg1>
+        <emg2>-30</emg2>
+        <emg3>-36</emg3>
+        <emg4>8</emg4>
+        <emg5>-3</emg5>
+        <emg6>-15</emg6>
+        <emg7>-38</emg7>
+    </timestamp>
+    <timestamp time="1438008946643790">
+        <emg0>19</emg0>
+        <emg1>0</emg1>
+        <emg2>-10</emg2>
+        <emg3>4</emg3>
+        <emg4>-46</emg4>
+        <emg5>-13</emg5>
+        <emg6>14</emg6>
+        <emg7>7</emg7>
+    </timestamp>
+    <timestamp time="1438008946645792">
+        <emg0>45</emg0>
+        <emg1>19</emg1>
+        <emg2>31</emg2>
+        <emg3>33</emg3>
+        <emg4>91</emg4>
+        <emg5>30</emg5>
+        <emg6>21</emg6>
+        <emg7>16</emg7>
+    </timestamp>
+    <timestamp time="1438008946645792">
+        <emg0>17</emg0>
+        <emg1>9</emg1>
+        <emg2>4</emg2>
+        <emg3>45</emg3>
+        <emg4>-15</emg4>
+        <emg5>10</emg5>
+        <emg6>17</emg6>
+        <emg7>22</emg7>
+    </timestamp>
+    <timestamp time="1438008946657800">
+        <emg0>-25</emg0>
+        <emg1>-11</emg1>
+        <emg2>-7</emg2>
+        <emg3>-2</emg3>
+        <emg4>-12</emg4>
+        <emg5>-23</emg5>
+        <emg6>-20</emg6>
+        <emg7>-24</emg7>
+    </timestamp>
+    <timestamp time="1438008946657800">
+        <emg0>-11</emg0>
+        <emg1>1</emg1>
+        <emg2>9</emg2>
+        <emg3>50</emg3>
+        <emg4>23</emg4>
+        <emg5>6</emg5>
+        <emg6>-23</emg6>
+        <emg7>-4</emg7>
+    </timestamp>
+    <timestamp time="1438008946664805">
+        <emg0>-2</emg0>
+        <emg1>-3</emg1>
+        <emg2>-9</emg2>
+        <emg3>-9</emg3>
+        <emg4>15</emg4>
+        <emg5>-1</emg5>
+        <emg6>7</emg6>
+        <emg7>-12</emg7>
+    </timestamp>
+    <timestamp time="1438008946664805">
+        <emg0>-22</emg0>
+        <emg1>-5</emg1>
+        <emg2>1</emg2>
+        <emg3>-12</emg3>
+        <emg4>-8</emg4>
+        <emg5>-7</emg5>
+        <emg6>3</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008946680815">
+        <emg0>28</emg0>
+        <emg1>13</emg1>
+        <emg2>-1</emg2>
+        <emg3>-18</emg3>
+        <emg4>22</emg4>
+        <emg5>20</emg5>
+        <emg6>22</emg6>
+        <emg7>13</emg7>
+    </timestamp>
+    <timestamp time="1438008946680815">
+        <emg0>46</emg0>
+        <emg1>27</emg1>
+        <emg2>35</emg2>
+        <emg3>41</emg3>
+        <emg4>-16</emg4>
+        <emg5>22</emg5>
+        <emg6>45</emg6>
+        <emg7>52</emg7>
+    </timestamp>
+    <timestamp time="1438008946682815">
+        <emg0>-28</emg0>
+        <emg1>-19</emg1>
+        <emg2>-20</emg2>
+        <emg3>-27</emg3>
+        <emg4>-61</emg4>
+        <emg5>-27</emg5>
+        <emg6>-6</emg6>
+        <emg7>-29</emg7>
+    </timestamp>
+    <timestamp time="1438008946682815">
+        <emg0>-32</emg0>
+        <emg1>-20</emg1>
+        <emg2>-19</emg2>
+        <emg3>-25</emg3>
+        <emg4>90</emg4>
+        <emg5>11</emg5>
+        <emg6>-18</emg6>
+        <emg7>-12</emg7>
+    </timestamp>
+    <timestamp time="1438008946710835">
+        <emg0>-2</emg0>
+        <emg1>9</emg1>
+        <emg2>21</emg2>
+        <emg3>52</emg3>
+        <emg4>-25</emg4>
+        <emg5>-23</emg5>
+        <emg6>-43</emg6>
+        <emg7>-30</emg7>
+    </timestamp>
+    <timestamp time="1438008946710835">
+        <emg0>12</emg0>
+        <emg1>10</emg1>
+        <emg2>15</emg2>
+        <emg3>-10</emg3>
+        <emg4>-58</emg4>
+        <emg5>-33</emg5>
+        <emg6>35</emg6>
+        <emg7>19</emg7>
+    </timestamp>
+    <timestamp time="1438008946712835">
+        <emg0>26</emg0>
+        <emg1>-1</emg1>
+        <emg2>-14</emg2>
+        <emg3>-21</emg3>
+        <emg4>1</emg4>
+        <emg5>-18</emg5>
+        <emg6>15</emg6>
+        <emg7>19</emg7>
+    </timestamp>
+    <timestamp time="1438008946712835">
+        <emg0>-31</emg0>
+        <emg1>-13</emg1>
+        <emg2>-2</emg2>
+        <emg3>-14</emg3>
+        <emg4>36</emg4>
+        <emg5>59</emg5>
+        <emg6>-8</emg6>
+        <emg7>-11</emg7>
+    </timestamp>
+    <timestamp time="1438008946717840">
+        <emg0>27</emg0>
+        <emg1>5</emg1>
+        <emg2>-9</emg2>
+        <emg3>-56</emg3>
+        <emg4>-16</emg4>
+        <emg5>-11</emg5>
+        <emg6>14</emg6>
+        <emg7>14</emg7>
+    </timestamp>
+    <timestamp time="1438008946717840">
+        <emg0>-19</emg0>
+        <emg1>-10</emg1>
+        <emg2>-7</emg2>
+        <emg3>4</emg3>
+        <emg4>70</emg4>
+        <emg5>26</emg5>
+        <emg6>-17</emg6>
+        <emg7>-26</emg7>
+    </timestamp>
+    <timestamp time="1438008946725844">
+        <emg0>-2</emg0>
+        <emg1>-4</emg1>
+        <emg2>1</emg2>
+        <emg3>0</emg3>
+        <emg4>-13</emg4>
+        <emg5>-27</emg5>
+        <emg6>-13</emg6>
+        <emg7>8</emg7>
+    </timestamp>
+    <timestamp time="1438008946725844">
+        <emg0>-25</emg0>
+        <emg1>-13</emg1>
+        <emg2>-14</emg2>
+        <emg3>-20</emg3>
+        <emg4>-39</emg4>
+        <emg5>-70</emg5>
+        <emg6>-24</emg6>
+        <emg7>-20</emg7>
+    </timestamp>
+    <timestamp time="1438008946740854">
+        <emg0>59</emg0>
+        <emg1>10</emg1>
+        <emg2>-15</emg2>
+        <emg3>-44</emg3>
+        <emg4>40</emg4>
+        <emg5>56</emg5>
+        <emg6>16</emg6>
+        <emg7>30</emg7>
+    </timestamp>
+    <timestamp time="1438008946740854">
+        <emg0>-68</emg0>
+        <emg1>-11</emg1>
+        <emg2>2</emg2>
+        <emg3>2</emg3>
+        <emg4>-12</emg4>
+        <emg5>-4</emg5>
+        <emg6>-3</emg6>
+        <emg7>-25</emg7>
+    </timestamp>
+    <timestamp time="1438008946742855">
+        <emg0>-18</emg0>
+        <emg1>-6</emg1>
+        <emg2>-11</emg2>
+        <emg3>10</emg3>
+        <emg4>13</emg4>
+        <emg5>5</emg5>
+        <emg6>-45</emg6>
+        <emg7>-17</emg7>
+    </timestamp>
+    <timestamp time="1438008946742855">
+        <emg0>-6</emg0>
+        <emg1>-1</emg1>
+        <emg2>-7</emg2>
+        <emg3>-12</emg3>
+        <emg4>-8</emg4>
+        <emg5>-32</emg5>
+        <emg6>38</emg6>
+        <emg7>6</emg7>
+    </timestamp>
+    <timestamp time="1438008946763870">
+        <emg0>5</emg0>
+        <emg1>2</emg1>
+        <emg2>1</emg2>
+        <emg3>11</emg3>
+        <emg4>-4</emg4>
+        <emg5>-45</emg5>
+        <emg6>-50</emg6>
+        <emg7>4</emg7>
+    </timestamp>
+    <timestamp time="1438008946763870">
+        <emg0>11</emg0>
+        <emg1>-3</emg1>
+        <emg2>-16</emg2>
+        <emg3>-64</emg3>
+        <emg4>24</emg4>
+        <emg5>96</emg5>
+        <emg6>39</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946764871">
+        <emg0>18</emg0>
+        <emg1>8</emg1>
+        <emg2>13</emg2>
+        <emg3>23</emg3>
+        <emg4>-43</emg4>
+        <emg5>7</emg5>
+        <emg6>28</emg6>
+        <emg7>8</emg7>
+    </timestamp>
+    <timestamp time="1438008946764871">
+        <emg0>-6</emg0>
+        <emg1>1</emg1>
+        <emg2>-2</emg2>
+        <emg3>-26</emg3>
+        <emg4>-18</emg4>
+        <emg5>-71</emg5>
+        <emg6>5</emg6>
+        <emg7>7</emg7>
+    </timestamp>
+    <timestamp time="1438008946785884">
+        <emg0>0</emg0>
+        <emg1>3</emg1>
+        <emg2>9</emg2>
+        <emg3>12</emg3>
+        <emg4>-39</emg4>
+        <emg5>-108</emg5>
+        <emg6>-56</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946785884">
+        <emg0>-19</emg0>
+        <emg1>-11</emg1>
+        <emg2>-19</emg2>
+        <emg3>-3</emg3>
+        <emg4>28</emg4>
+        <emg5>73</emg5>
+        <emg6>36</emg6>
+        <emg7>-31</emg7>
+    </timestamp>
+    <timestamp time="1438008946787884">
+        <emg0>12</emg0>
+        <emg1>2</emg1>
+        <emg2>7</emg2>
+        <emg3>1</emg3>
+        <emg4>45</emg4>
+        <emg5>-5</emg5>
+        <emg6>-14</emg6>
+        <emg7>7</emg7>
+    </timestamp>
+    <timestamp time="1438008946787884">
+        <emg0>11</emg0>
+        <emg1>-5</emg1>
+        <emg2>-1</emg2>
+        <emg3>0</emg3>
+        <emg4>-11</emg4>
+        <emg5>-65</emg5>
+        <emg6>-46</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008946800894">
+        <emg0>-2</emg0>
+        <emg1>-1</emg1>
+        <emg2>-2</emg2>
+        <emg3>25</emg3>
+        <emg4>-7</emg4>
+        <emg5>16</emg5>
+        <emg6>53</emg6>
+        <emg7>18</emg7>
+    </timestamp>
+    <timestamp time="1438008946800894">
+        <emg0>-17</emg0>
+        <emg1>8</emg1>
+        <emg2>9</emg2>
+        <emg3>20</emg3>
+        <emg4>16</emg4>
+        <emg5>-68</emg5>
+        <emg6>-56</emg6>
+        <emg7>-13</emg7>
+    </timestamp>
+    <timestamp time="1438008946802894">
+        <emg0>19</emg0>
+        <emg1>2</emg1>
+        <emg2>-15</emg2>
+        <emg3>5</emg3>
+        <emg4>39</emg4>
+        <emg5>59</emg5>
+        <emg6>2</emg6>
+        <emg7>-11</emg7>
+    </timestamp>
+    <timestamp time="1438008946802894">
+        <emg0>5</emg0>
+        <emg1>2</emg1>
+        <emg2>15</emg2>
+        <emg3>4</emg3>
+        <emg4>-15</emg4>
+        <emg5>19</emg5>
+        <emg6>35</emg6>
+        <emg7>16</emg7>
+    </timestamp>
+    <timestamp time="1438008946823909">
+        <emg0>-68</emg0>
+        <emg1>-29</emg1>
+        <emg2>-17</emg2>
+        <emg3>-14</emg3>
+        <emg4>-44</emg4>
+        <emg5>-17</emg5>
+        <emg6>-39</emg6>
+        <emg7>-21</emg7>
+    </timestamp>
+    <timestamp time="1438008946823909">
+        <emg0>-18</emg0>
+        <emg1>-12</emg1>
+        <emg2>-7</emg2>
+        <emg3>5</emg3>
+        <emg4>38</emg4>
+        <emg5>10</emg5>
+        <emg6>3</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946824910">
+        <emg0>5</emg0>
+        <emg1>9</emg1>
+        <emg2>13</emg2>
+        <emg3>13</emg3>
+        <emg4>-14</emg4>
+        <emg5>-7</emg5>
+        <emg6>27</emg6>
+        <emg7>6</emg7>
+    </timestamp>
+    <timestamp time="1438008946824910">
+        <emg0>7</emg0>
+        <emg1>9</emg1>
+        <emg2>6</emg2>
+        <emg3>-10</emg3>
+        <emg4>1</emg4>
+        <emg5>28</emg5>
+        <emg6>-24</emg6>
+        <emg7>-12</emg7>
+    </timestamp>
+    <timestamp time="1438008946837918">
+        <emg0>22</emg0>
+        <emg1>2</emg1>
+        <emg2>1</emg2>
+        <emg3>-8</emg3>
+        <emg4>-4</emg4>
+        <emg5>31</emg5>
+        <emg6>7</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008946837918">
+        <emg0>15</emg0>
+        <emg1>-7</emg1>
+        <emg2>-1</emg2>
+        <emg3>27</emg3>
+        <emg4>30</emg4>
+        <emg5>-43</emg5>
+        <emg6>13</emg6>
+        <emg7>11</emg7>
+    </timestamp>
+    <timestamp time="1438008946844922">
+        <emg0>-5</emg0>
+        <emg1>-3</emg1>
+        <emg2>-5</emg2>
+        <emg3>-2</emg3>
+        <emg4>-14</emg4>
+        <emg5>-9</emg5>
+        <emg6>-13</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008946844922">
+        <emg0>-8</emg0>
+        <emg1>1</emg1>
+        <emg2>0</emg2>
+        <emg3>-31</emg3>
+        <emg4>-21</emg4>
+        <emg5>28</emg5>
+        <emg6>-9</emg6>
+        <emg7>-7</emg7>
+    </timestamp>
+    <timestamp time="1438008946860934">
+        <emg0>6</emg0>
+        <emg1>6</emg1>
+        <emg2>10</emg2>
+        <emg3>20</emg3>
+        <emg4>64</emg4>
+        <emg5>38</emg5>
+        <emg6>40</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946860934">
+        <emg0>16</emg0>
+        <emg1>1</emg1>
+        <emg2>-6</emg2>
+        <emg3>-3</emg3>
+        <emg4>-49</emg4>
+        <emg5>-47</emg5>
+        <emg6>-21</emg6>
+        <emg7>3</emg7>
+    </timestamp>
+    <timestamp time="1438008946862934">
+        <emg0>-3</emg0>
+        <emg1>0</emg1>
+        <emg2>4</emg2>
+        <emg3>-17</emg3>
+        <emg4>-13</emg4>
+        <emg5>14</emg5>
+        <emg6>-13</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008946862934">
+        <emg0>-6</emg0>
+        <emg1>-6</emg1>
+        <emg2>-11</emg2>
+        <emg3>11</emg3>
+        <emg4>40</emg4>
+        <emg5>22</emg5>
+        <emg6>0</emg6>
+        <emg7>-6</emg7>
+    </timestamp>
+    <timestamp time="1438008946883950">
+        <emg0>3</emg0>
+        <emg1>4</emg1>
+        <emg2>5</emg2>
+        <emg3>21</emg3>
+        <emg4>5</emg4>
+        <emg5>10</emg5>
+        <emg6>32</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008946883950">
+        <emg0>7</emg0>
+        <emg1>3</emg1>
+        <emg2>4</emg2>
+        <emg3>-19</emg3>
+        <emg4>-11</emg4>
+        <emg5>-29</emg5>
+        <emg6>-25</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946884949">
+        <emg0>27</emg0>
+        <emg1>3</emg1>
+        <emg2>-3</emg2>
+        <emg3>2</emg3>
+        <emg4>-5</emg4>
+        <emg5>-4</emg5>
+        <emg6>-13</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008946884949">
+        <emg0>-39</emg0>
+        <emg1>-11</emg1>
+        <emg2>-10</emg2>
+        <emg3>-34</emg3>
+        <emg4>-28</emg4>
+        <emg5>0</emg5>
+        <emg6>7</emg6>
+        <emg7>-6</emg7>
+    </timestamp>
+    <timestamp time="1438008946905964">
+        <emg0>-19</emg0>
+        <emg1>-3</emg1>
+        <emg2>7</emg2>
+        <emg3>40</emg3>
+        <emg4>1</emg4>
+        <emg5>-1</emg5>
+        <emg6>-2</emg6>
+        <emg7>-11</emg7>
+    </timestamp>
+    <timestamp time="1438008946905964">
+        <emg0>6</emg0>
+        <emg1>-2</emg1>
+        <emg2>-7</emg2>
+        <emg3>1</emg3>
+        <emg4>12</emg4>
+        <emg5>-1</emg5>
+        <emg6>5</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008946907964">
+        <emg0>-6</emg0>
+        <emg1>3</emg1>
+        <emg2>2</emg2>
+        <emg3>3</emg3>
+        <emg4>-6</emg4>
+        <emg5>-8</emg5>
+        <emg6>-13</emg6>
+        <emg7>-6</emg7>
+    </timestamp>
+    <timestamp time="1438008946907964">
+        <emg0>-9</emg0>
+        <emg1>0</emg1>
+        <emg2>6</emg2>
+        <emg3>16</emg3>
+        <emg4>3</emg4>
+        <emg5>17</emg5>
+        <emg6>25</emg6>
+        <emg7>6</emg7>
+    </timestamp>
+    <timestamp time="1438008946920972">
+        <emg0>-17</emg0>
+        <emg1>-10</emg1>
+        <emg2>-23</emg2>
+        <emg3>-67</emg3>
+        <emg4>-49</emg4>
+        <emg5>-1</emg5>
+        <emg6>3</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008946920972">
+        <emg0>29</emg0>
+        <emg1>12</emg1>
+        <emg2>16</emg2>
+        <emg3>27</emg3>
+        <emg4>16</emg4>
+        <emg5>-1</emg5>
+        <emg6>5</emg6>
+        <emg7>20</emg7>
+    </timestamp>
+    <timestamp time="1438008946922974">
+        <emg0>-39</emg0>
+        <emg1>-16</emg1>
+        <emg2>-20</emg2>
+        <emg3>-47</emg3>
+        <emg4>-32</emg4>
+        <emg5>-20</emg5>
+        <emg6>5</emg6>
+        <emg7>-25</emg7>
+    </timestamp>
+    <timestamp time="1438008946922974">
+        <emg0>41</emg0>
+        <emg1>23</emg1>
+        <emg2>59</emg2>
+        <emg3>88</emg3>
+        <emg4>24</emg4>
+        <emg5>24</emg5>
+        <emg6>-18</emg6>
+        <emg7>-5</emg7>
+    </timestamp>
+    <timestamp time="1438008946943989">
+        <emg0>-12</emg0>
+        <emg1>-2</emg1>
+        <emg2>1</emg2>
+        <emg3>-16</emg3>
+        <emg4>-13</emg4>
+        <emg5>-1</emg5>
+        <emg6>-6</emg6>
+        <emg7>-19</emg7>
+    </timestamp>
+    <timestamp time="1438008946943989">
+        <emg0>10</emg0>
+        <emg1>-9</emg1>
+        <emg2>-28</emg2>
+        <emg3>-46</emg3>
+        <emg4>-26</emg4>
+        <emg5>-19</emg5>
+        <emg6>-9</emg6>
+        <emg7>-21</emg7>
+    </timestamp>
+    <timestamp time="1438008946944990">
+        <emg0>-5</emg0>
+        <emg1>-2</emg1>
+        <emg2>-14</emg2>
+        <emg3>-34</emg3>
+        <emg4>-30</emg4>
+        <emg5>-18</emg5>
+        <emg6>11</emg6>
+        <emg7>59</emg7>
+    </timestamp>
+    <timestamp time="1438008946944990">
+        <emg0>39</emg0>
+        <emg1>11</emg1>
+        <emg2>-8</emg2>
+        <emg3>-41</emg3>
+        <emg4>-54</emg4>
+        <emg5>-11</emg5>
+        <emg6>6</emg6>
+        <emg7>-7</emg7>
+    </timestamp>
+    <timestamp time="1438008946956998">
+        <emg0>-34</emg0>
+        <emg1>0</emg1>
+        <emg2>3</emg2>
+        <emg3>-18</emg3>
+        <emg4>-24</emg4>
+        <emg5>12</emg5>
+        <emg6>4</emg6>
+        <emg7>-4</emg7>
+    </timestamp>
+    <timestamp time="1438008946956998">
+        <emg0>-43</emg0>
+        <emg1>-22</emg1>
+        <emg2>5</emg2>
+        <emg3>17</emg3>
+        <emg4>-25</emg4>
+        <emg5>-8</emg5>
+        <emg6>-47</emg6>
+        <emg7>-20</emg7>
+    </timestamp>
+    <timestamp time="1438008946966003">
+        <emg0>-10</emg0>
+        <emg1>-11</emg1>
+        <emg2>-10</emg2>
+        <emg3>-4</emg3>
+        <emg4>3</emg4>
+        <emg5>-4</emg5>
+        <emg6>-9</emg6>
+        <emg7>-22</emg7>
+    </timestamp>
+    <timestamp time="1438008946966003">
+        <emg0>-2</emg0>
+        <emg1>-11</emg1>
+        <emg2>-33</emg2>
+        <emg3>-47</emg3>
+        <emg4>15</emg4>
+        <emg5>-4</emg5>
+        <emg6>24</emg6>
+        <emg7>14</emg7>
+    </timestamp>
+    <timestamp time="1438008946981013">
+        <emg0>29</emg0>
+        <emg1>15</emg1>
+        <emg2>28</emg2>
+        <emg3>85</emg3>
+        <emg4>-9</emg4>
+        <emg5>1</emg5>
+        <emg6>-10</emg6>
+        <emg7>11</emg7>
+    </timestamp>
+    <timestamp time="1438008946981013">
+        <emg0>21</emg0>
+        <emg1>12</emg1>
+        <emg2>5</emg2>
+        <emg3>36</emg3>
+        <emg4>34</emg4>
+        <emg5>3</emg5>
+        <emg6>23</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008946983015">
+        <emg0>-31</emg0>
+        <emg1>-10</emg1>
+        <emg2>5</emg2>
+        <emg3>9</emg3>
+        <emg4>4</emg4>
+        <emg5>4</emg5>
+        <emg6>-6</emg6>
+        <emg7>-9</emg7>
+    </timestamp>
+    <timestamp time="1438008946983015">
+        <emg0>-10</emg0>
+        <emg1>-2</emg1>
+        <emg2>-3</emg2>
+        <emg3>-4</emg3>
+        <emg4>17</emg4>
+        <emg5>10</emg5>
+        <emg6>-7</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008947004029">
+        <emg0>17</emg0>
+        <emg1>1</emg1>
+        <emg2>-6</emg2>
+        <emg3>7</emg3>
+        <emg4>13</emg4>
+        <emg5>-11</emg5>
+        <emg6>-7</emg6>
+        <emg7>3</emg7>
+    </timestamp>
+    <timestamp time="1438008947004029">
+        <emg0>-4</emg0>
+        <emg1>4</emg1>
+        <emg2>-2</emg2>
+        <emg3>-11</emg3>
+        <emg4>-12</emg4>
+        <emg5>-11</emg5>
+        <emg6>-3</emg6>
+        <emg7>6</emg7>
+    </timestamp>
+    <timestamp time="1438008947005029">
+        <emg0>17</emg0>
+        <emg1>4</emg1>
+        <emg2>14</emg2>
+        <emg3>38</emg3>
+        <emg4>24</emg4>
+        <emg5>20</emg5>
+        <emg6>10</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008947005029">
+        <emg0>-17</emg0>
+        <emg1>-5</emg1>
+        <emg2>-4</emg2>
+        <emg3>29</emg3>
+        <emg4>7</emg4>
+        <emg5>-9</emg5>
+        <emg6>-19</emg6>
+        <emg7>-17</emg7>
+    </timestamp>
+    <timestamp time="1438008947017037">
+        <emg0>27</emg0>
+        <emg1>14</emg1>
+        <emg2>14</emg2>
+        <emg3>-21</emg3>
+        <emg4>-21</emg4>
+        <emg5>-37</emg5>
+        <emg6>9</emg6>
+        <emg7>15</emg7>
+    </timestamp>
+    <timestamp time="1438008947017037">
+        <emg0>0</emg0>
+        <emg1>4</emg1>
+        <emg2>8</emg2>
+        <emg3>1</emg3>
+        <emg4>19</emg4>
+        <emg5>64</emg5>
+        <emg6>19</emg6>
+        <emg7>7</emg7>
+    </timestamp>
+    <timestamp time="1438008947026043">
+        <emg0>4</emg0>
+        <emg1>-5</emg1>
+        <emg2>-21</emg2>
+        <emg3>-29</emg3>
+        <emg4>-8</emg4>
+        <emg5>13</emg5>
+        <emg6>5</emg6>
+        <emg7>-8</emg7>
+    </timestamp>
+    <timestamp time="1438008947026043">
+        <emg0>-9</emg0>
+        <emg1>5</emg1>
+        <emg2>17</emg2>
+        <emg3>29</emg3>
+        <emg4>53</emg4>
+        <emg5>1</emg5>
+        <emg6>0</emg6>
+        <emg7>-5</emg7>
+    </timestamp>
+    <timestamp time="1438008947043054">
+        <emg0>1</emg0>
+        <emg1>-19</emg1>
+        <emg2>-30</emg2>
+        <emg3>-36</emg3>
+        <emg4>-12</emg4>
+        <emg5>21</emg5>
+        <emg6>-1</emg6>
+        <emg7>4</emg7>
+    </timestamp>
+    <timestamp time="1438008947043054">
+        <emg0>12</emg0>
+        <emg1>4</emg1>
+        <emg2>1</emg2>
+        <emg3>-35</emg3>
+        <emg4>-28</emg4>
+        <emg5>-35</emg5>
+        <emg6>-24</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008947044055">
+        <emg0>-9</emg0>
+        <emg1>10</emg1>
+        <emg2>22</emg2>
+        <emg3>48</emg3>
+        <emg4>13</emg4>
+        <emg5>-10</emg5>
+        <emg6>43</emg6>
+        <emg7>11</emg7>
+    </timestamp>
+    <timestamp time="1438008947044055">
+        <emg0>6</emg0>
+        <emg1>-21</emg1>
+        <emg2>-31</emg2>
+        <emg3>-39</emg3>
+        <emg4>-27</emg4>
+        <emg5>8</emg5>
+        <emg6>-16</emg6>
+        <emg7>4</emg7>
+    </timestamp>
+    <timestamp time="1438008947065069">
+        <emg0>3</emg0>
+        <emg1>11</emg1>
+        <emg2>10</emg2>
+        <emg3>-2</emg3>
+        <emg4>-8</emg4>
+        <emg5>-16</emg5>
+        <emg6>-27</emg6>
+        <emg7>-23</emg7>
+    </timestamp>
+    <timestamp time="1438008947065069">
+        <emg0>2</emg0>
+        <emg1>-10</emg1>
+        <emg2>-20</emg2>
+        <emg3>-11</emg3>
+        <emg4>4</emg4>
+        <emg5>-67</emg5>
+        <emg6>-23</emg6>
+        <emg7>-12</emg7>
+    </timestamp>
+    <timestamp time="1438008947067070">
+        <emg0>-32</emg0>
+        <emg1>-6</emg1>
+        <emg2>16</emg2>
+        <emg3>21</emg3>
+        <emg4>20</emg4>
+        <emg5>-2</emg5>
+        <emg6>-20</emg6>
+        <emg7>-22</emg7>
+    </timestamp>
+    <timestamp time="1438008947067070">
+        <emg0>-18</emg0>
+        <emg1>-11</emg1>
+        <emg2>-19</emg2>
+        <emg3>-29</emg3>
+        <emg4>-45</emg4>
+        <emg5>84</emg5>
+        <emg6>56</emg6>
+        <emg7>1</emg7>
+    </timestamp>
+    <timestamp time="1438008947077077">
+        <emg0>3</emg0>
+        <emg1>0</emg1>
+        <emg2>2</emg2>
+        <emg3>0</emg3>
+        <emg4>-5</emg4>
+        <emg5>-89</emg5>
+        <emg6>-6</emg6>
+        <emg7>14</emg7>
+    </timestamp>
+    <timestamp time="1438008947077077">
+        <emg0>-12</emg0>
+        <emg1>-9</emg1>
+        <emg2>-11</emg2>
+        <emg3>-12</emg3>
+        <emg4>22</emg4>
+        <emg5>102</emg5>
+        <emg6>-1</emg6>
+        <emg7>-7</emg7>
+    </timestamp>
+    <timestamp time="1438008947094088">
+        <emg0>39</emg0>
+        <emg1>21</emg1>
+        <emg2>16</emg2>
+        <emg3>4</emg3>
+        <emg4>-3</emg4>
+        <emg5>36</emg5>
+        <emg6>-12</emg6>
+        <emg7>19</emg7>
+    </timestamp>
+    <timestamp time="1438008947094088">
+        <emg0>-13</emg0>
+        <emg1>-2</emg1>
+        <emg2>7</emg2>
+        <emg3>9</emg3>
+        <emg4>24</emg4>
+        <emg5>-31</emg5>
+        <emg6>-7</emg6>
+        <emg7>-9</emg7>
+    </timestamp>
+    <timestamp time="1438008947101093">
+        <emg0>1</emg0>
+        <emg1>-7</emg1>
+        <emg2>-9</emg2>
+        <emg3>-7</emg3>
+        <emg4>-3</emg4>
+        <emg5>-6</emg5>
+        <emg6>11</emg6>
+        <emg7>3</emg7>
+    </timestamp>
+    <timestamp time="1438008947101093">
+        <emg0>5</emg0>
+        <emg1>8</emg1>
+        <emg2>2</emg2>
+        <emg3>7</emg3>
+        <emg4>-42</emg4>
+        <emg5>-31</emg5>
+        <emg6>0</emg6>
+        <emg7>4</emg7>
+    </timestamp>
+    <timestamp time="1438008947103094">
+        <emg0>10</emg0>
+        <emg1>-2</emg1>
+        <emg2>7</emg2>
+        <emg3>24</emg3>
+        <emg4>55</emg4>
+        <emg5>-23</emg5>
+        <emg6>0</emg6>
+        <emg7>11</emg7>
+    </timestamp>
+    <timestamp time="1438008947103094">
+        <emg0>7</emg0>
+        <emg1>8</emg1>
+        <emg2>7</emg2>
+        <emg3>-43</emg3>
+        <emg4>-78</emg4>
+        <emg5>-2</emg5>
+        <emg6>1</emg6>
+        <emg7>-9</emg7>
+    </timestamp>
+    <timestamp time="1438008947123107">
+        <emg0>14</emg0>
+        <emg1>1</emg1>
+        <emg2>8</emg2>
+        <emg3>67</emg3>
+        <emg4>67</emg4>
+        <emg5>26</emg5>
+        <emg6>1</emg6>
+        <emg7>-1</emg7>
+    </timestamp>
+    <timestamp time="1438008947123107">
+        <emg0>-21</emg0>
+        <emg1>-5</emg1>
+        <emg2>9</emg2>
+        <emg3>-6</emg3>
+        <emg4>1</emg4>
+        <emg5>-9</emg5>
+        <emg6>20</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008947125108">
+        <emg0>-5</emg0>
+        <emg1>-5</emg1>
+        <emg2>-8</emg2>
+        <emg3>-11</emg3>
+        <emg4>-38</emg4>
+        <emg5>1</emg5>
+        <emg6>-7</emg6>
+        <emg7>-16</emg7>
+    </timestamp>
+    <timestamp time="1438008947125108">
+        <emg0>-5</emg0>
+        <emg1>-4</emg1>
+        <emg2>-15</emg2>
+        <emg3>-17</emg3>
+        <emg4>9</emg4>
+        <emg5>-15</emg5>
+        <emg6>11</emg6>
+        <emg7>19</emg7>
+    </timestamp>
+    <timestamp time="1438008947137117">
+        <emg0>49</emg0>
+        <emg1>18</emg1>
+        <emg2>15</emg2>
+        <emg3>28</emg3>
+        <emg4>24</emg4>
+        <emg5>33</emg5>
+        <emg6>-19</emg6>
+        <emg7>17</emg7>
+    </timestamp>
+    <timestamp time="1438008947137117">
+        <emg0>-43</emg0>
+        <emg1>-15</emg1>
+        <emg2>-19</emg2>
+        <emg3>-45</emg3>
+        <emg4>37</emg4>
+        <emg5>-7</emg5>
+        <emg6>-5</emg6>
+        <emg7>-21</emg7>
+    </timestamp>
+    <timestamp time="1438008947146121">
+        <emg0>51</emg0>
+        <emg1>16</emg1>
+        <emg2>25</emg2>
+        <emg3>71</emg3>
+        <emg4>-21</emg4>
+        <emg5>-2</emg5>
+        <emg6>0</emg6>
+        <emg7>14</emg7>
+    </timestamp>
+    <timestamp time="1438008947146121">
+        <emg0>-76</emg0>
+        <emg1>-34</emg1>
+        <emg2>-1</emg2>
+        <emg3>13</emg3>
+        <emg4>-6</emg4>
+        <emg5>-20</emg5>
+        <emg6>8</emg6>
+        <emg7>-22</emg7>
+    </timestamp>
+    <timestamp time="1438008947161133">
+        <emg0>-29</emg0>
+        <emg1>3</emg1>
+        <emg2>15</emg2>
+        <emg3>-18</emg3>
+        <emg4>16</emg4>
+        <emg5>24</emg5>
+        <emg6>10</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+    <timestamp time="1438008947161133">
+        <emg0>0</emg0>
+        <emg1>2</emg1>
+        <emg2>5</emg2>
+        <emg3>40</emg3>
+        <emg4>3</emg4>
+        <emg5>9</emg5>
+        <emg6>-11</emg6>
+        <emg7>-20</emg7>
+    </timestamp>
+    <timestamp time="1438008947163134">
+        <emg0>15</emg0>
+        <emg1>-4</emg1>
+        <emg2>-32</emg2>
+        <emg3>-36</emg3>
+        <emg4>52</emg4>
+        <emg5>-3</emg5>
+        <emg6>6</emg6>
+        <emg7>25</emg7>
+    </timestamp>
+    <timestamp time="1438008947163134">
+        <emg0>66</emg0>
+        <emg1>35</emg1>
+        <emg2>41</emg2>
+        <emg3>54</emg3>
+        <emg4>-15</emg4>
+        <emg5>-24</emg5>
+        <emg6>-4</emg6>
+        <emg7>13</emg7>
+    </timestamp>
+    <timestamp time="1438008947183148">
+        <emg0>21</emg0>
+        <emg1>11</emg1>
+        <emg2>-10</emg2>
+        <emg3>-83</emg3>
+        <emg4>-87</emg4>
+        <emg5>20</emg5>
+        <emg6>27</emg6>
+        <emg7>6</emg7>
+    </timestamp>
+    <timestamp time="1438008947183148">
+        <emg0>36</emg0>
+        <emg1>19</emg1>
+        <emg2>28</emg2>
+        <emg3>99</emg3>
+        <emg4>81</emg4>
+        <emg5>10</emg5>
+        <emg6>-6</emg6>
+        <emg7>21</emg7>
+    </timestamp>
+    <timestamp time="1438008947185149">
+        <emg0>-100</emg0>
+        <emg1>-43</emg1>
+        <emg2>-7</emg2>
+        <emg3>18</emg3>
+        <emg4>66</emg4>
+        <emg5>9</emg5>
+        <emg6>-11</emg6>
+        <emg7>-52</emg7>
+    </timestamp>
+    <timestamp time="1438008947185149">
+        <emg0>31</emg0>
+        <emg1>12</emg1>
+        <emg2>1</emg2>
+        <emg3>-39</emg3>
+        <emg4>-47</emg4>
+        <emg5>-5</emg5>
+        <emg6>-22</emg6>
+        <emg7>17</emg7>
+    </timestamp>
+    <timestamp time="1438008947197157">
+        <emg0>-11</emg0>
+        <emg1>-11</emg1>
+        <emg2>-10</emg2>
+        <emg3>20</emg3>
+        <emg4>-18</emg4>
+        <emg5>-12</emg5>
+        <emg6>18</emg6>
+        <emg7>4</emg7>
+    </timestamp>
+    <timestamp time="1438008947197157">
+        <emg0>23</emg0>
+        <emg1>8</emg1>
+        <emg2>-3</emg2>
+        <emg3>-29</emg3>
+        <emg4>28</emg4>
+        <emg5>8</emg5>
+        <emg6>-6</emg6>
+        <emg7>15</emg7>
+    </timestamp>
+    <timestamp time="1438008947206162">
+        <emg0>24</emg0>
+        <emg1>7</emg1>
+        <emg2>-9</emg2>
+        <emg3>-1</emg3>
+        <emg4>-23</emg4>
+        <emg5>-13</emg5>
+        <emg6>12</emg6>
+        <emg7>8</emg7>
+    </timestamp>
+    <timestamp time="1438008947206162">
+        <emg0>-8</emg0>
+        <emg1>-2</emg1>
+        <emg2>-1</emg2>
+        <emg3>-2</emg3>
+        <emg4>54</emg4>
+        <emg5>12</emg5>
+        <emg6>-13</emg6>
+        <emg7>-9</emg7>
+    </timestamp>
+    <timestamp time="1438008947221173">
+        <emg0>-11</emg0>
+        <emg1>-6</emg1>
+        <emg2>-4</emg2>
+        <emg3>-15</emg3>
+        <emg4>-32</emg4>
+        <emg5>-3</emg5>
+        <emg6>-10</emg6>
+        <emg7>-17</emg7>
+    </timestamp>
+    <timestamp time="1438008947221173">
+        <emg0>11</emg0>
+        <emg1>2</emg1>
+        <emg2>-3</emg2>
+        <emg3>-3</emg3>
+        <emg4>-16</emg4>
+        <emg5>-7</emg5>
+        <emg6>9</emg6>
+        <emg7>5</emg7>
+    </timestamp>
+    <timestamp time="1438008947223174">
+        <emg0>-1</emg0>
+        <emg1>1</emg1>
+        <emg2>4</emg2>
+        <emg3>-4</emg3>
+        <emg4>-27</emg4>
+        <emg5>-9</emg5>
+        <emg6>-7</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008947223174">
+        <emg0>-14</emg0>
+        <emg1>-15</emg1>
+        <emg2>-26</emg2>
+        <emg3>-25</emg3>
+        <emg4>32</emg4>
+        <emg5>3</emg5>
+        <emg6>-2</emg6>
+        <emg7>-11</emg7>
+    </timestamp>
+    <timestamp time="1438008947243186">
+        <emg0>16</emg0>
+        <emg1>16</emg1>
+        <emg2>28</emg2>
+        <emg3>23</emg3>
+        <emg4>-17</emg4>
+        <emg5>3</emg5>
+        <emg6>0</emg6>
+        <emg7>7</emg7>
+    </timestamp>
+    <timestamp time="1438008947243186">
+        <emg0>-4</emg0>
+        <emg1>-3</emg1>
+        <emg2>-7</emg2>
+        <emg3>-13</emg3>
+        <emg4>-10</emg4>
+        <emg5>-5</emg5>
+        <emg6>8</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008947245188">
+        <emg0>16</emg0>
+        <emg1>8</emg1>
+        <emg2>13</emg2>
+        <emg3>-3</emg3>
+        <emg4>-10</emg4>
+        <emg5>-3</emg5>
+        <emg6>-5</emg6>
+        <emg7>-2</emg7>
+    </timestamp>
+    <timestamp time="1438008947245188">
+        <emg0>-11</emg0>
+        <emg1>4</emg1>
+        <emg2>-7</emg2>
+        <emg3>30</emg3>
+        <emg4>5</emg4>
+        <emg5>3</emg5>
+        <emg6>-16</emg6>
+        <emg7>-6</emg7>
+    </timestamp>
+    <timestamp time="1438008947257196">
+        <emg0>-40</emg0>
+        <emg1>-30</emg1>
+        <emg2>-14</emg2>
+        <emg3>5</emg3>
+        <emg4>18</emg4>
+        <emg5>-1</emg5>
+        <emg6>5</emg6>
+        <emg7>-11</emg7>
+    </timestamp>
+    <timestamp time="1438008947257196">
+        <emg0>-28</emg0>
+        <emg1>-10</emg1>
+        <emg2>-11</emg2>
+        <emg3>-4</emg3>
+        <emg4>-11</emg4>
+        <emg5>-12</emg5>
+        <emg6>5</emg6>
+        <emg7>2</emg7>
+    </timestamp>
+    <timestamp time="1438008947272208">
+        <emg0>31</emg0>
+        <emg1>11</emg1>
+        <emg2>6</emg2>
+        <emg3>-22</emg3>
+        <emg4>-40</emg4>
+        <emg5>0</emg5>
+        <emg6>-4</emg6>
+        <emg7>-3</emg7>
+    </timestamp>
+    <timestamp time="1438008947272208">
+        <emg0>-11</emg0>
+        <emg1>5</emg1>
+        <emg2>0</emg2>
+        <emg3>11</emg3>
+        <emg4>29</emg4>
+        <emg5>1</emg5>
+        <emg6>1</emg6>
+        <emg7>0</emg7>
+    </timestamp>
+</data>

@@ -41,8 +41,8 @@ public:
 		std::stringstream ss;
 		ss << timestamp;
 		//create result folder
-		_mkdir("../result");
-		std::string pathToFolder = "../result/exc" + ss.str();
+		_mkdir("./result");
+		std::string pathToFolder = "./result/exc" + ss.str();
 		// create excution folder in result
 		_mkdir(pathToFolder.c_str());
 
