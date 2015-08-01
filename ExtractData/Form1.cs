@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,35 +22,21 @@ namespace ExtractData
 
         private void Browse_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog1 = new OpenFileDialog();
-            // Set filter options and filter index.
-            openFileDialog1.Filter = "XML Files (.xml)|*.xml|All Files (*.*)|*.*";
-            openFileDialog1.FilterIndex = 1;
 
-            openFileDialog1.Multiselect = true;
-            XmlDocument xmlDoc = new XmlDocument();
-            // Call the ShowDialog method to show the dialog box.
-            DialogResult result = openFileDialog1.ShowDialog();
+            FolderBrowserDialog fbd = new FolderBrowserDialog();
+            Console.WriteLine("PATH : " + Path.GetDirectoryName(Application.ExecutablePath));
+            fbd.SelectedPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            DialogResult result = fbd.ShowDialog();
+            string[] files = Directory.GetFiles(fbd.SelectedPath);
 
-            // Process input if the user clicked OK.
-            if (result == DialogResult.OK)
+            Acquisition acq = new Acquisition(files);
+
+            acq.StartReadFile();
+
+            foreach (string file in files)
             {
-                try
-                {
-                    xmlDoc.Load(openFileDialog1.FileName);
-                    //reader = XmlReader.Create(openFileDialog1.FileName);
-                    foreach(XmlNode xmlNode in xmlDoc.DocumentElement)
-                    {
-                        Console.WriteLine(xmlNode.Name);
-                    }
-                    Console.WriteLine(xmlDoc.ToString());
-                    
+                Console.WriteLine("file : " + file);
 
-                }
-                catch(Exception ex)
-                {
-                    Console.WriteLine("MAIN : "  + ex.Message);
-                }
             }
         }
     }
