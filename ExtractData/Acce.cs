@@ -19,7 +19,7 @@ namespace ExtractData
             Z = new Data("Z");
         }
 
-        public void addData(int pos, int data)
+        public void addData(int pos, double data)
         {
             switch (pos)
             {

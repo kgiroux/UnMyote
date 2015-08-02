@@ -29,7 +29,7 @@ namespace ExtractData
             emg8 = new Data("emg8");
         }
 
-        public void addData(int pos, int data)
+        public void addData(int pos, double data)
         {
             switch (pos)
             {

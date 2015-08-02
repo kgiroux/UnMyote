@@ -19,7 +19,7 @@ namespace ExtractData
             yaw = new Data("yaw");
         }
 
-        public void addData(int pos, int data)
+        public void addData(int pos, double data)
         {
             switch (pos)
             {

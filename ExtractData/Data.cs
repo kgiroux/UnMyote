@@ -12,12 +12,12 @@ namespace ExtractData
     {
         //public List<int> dataList;
 
-        public List<int> dataList { get; set; }
+        public List<double> dataList { get; set; }
         public string NameData { get; set; }
 
         public Data(string name)
         {
-            dataList = new List<int>();
+            dataList = new List<double>();
             NameData = name;
         }
 
@@ -26,14 +26,14 @@ namespace ExtractData
         {
             dataList = null;
         }
-        public void addData(int data)
+        public void addData(double data)
         {
             dataList.Add(data);
         }
 
         public void printData()
         {
-            foreach (int data in dataList)
+            foreach (double data in dataList)
             {
                 Console.WriteLine("Data : " + data);
             }

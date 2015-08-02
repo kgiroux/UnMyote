@@ -11,7 +11,14 @@ namespace ExtractData
         public Orientation orien { get; set; }
         public EulerOrientation eulorien { get; set; }
         public string[] filesData { get; set; }
-        public Acquisition(string[] files)
+        public string[] typeofdata { get; set; }
+        public string[] subtypeDataEmg { get; set; }
+        public string[] subtypeDataAcce { get; set; }
+        public string[] subtypeDataGyro { get; set; }
+        public string[] subtypeDataOrient { get; set; }
+        public string[] subtypeDataEulerOrient { get; set; }
+
+        public Acquisition( string[] files)
         {
             emgs = new Emg();
             gyro = new Gyro();
@@ -19,6 +26,12 @@ namespace ExtractData
             orien = new Orientation();
             eulorien = new EulerOrientation();
             filesData = files;
+            typeofdata = new string[] { "Emg","Gyrometer","Accelerometer","Orientation","Euler's Orientation" };
+            subtypeDataEmg = new string[] { "1", "2", "3", "4", "5", "6", "7", "8" };
+            subtypeDataAcce = new string[] { "X", "Y", "Z"};
+            subtypeDataGyro = new string[] { "X", "Y", "Z" };
+            subtypeDataOrient = new string[] { "X", "Y", "Z", "W" };
+            subtypeDataEulerOrient = new string[] { "roll", "pitch", "yaw"};
         }
 
         public void StartReadFile()
@@ -51,55 +64,67 @@ namespace ExtractData
                 readFile(file, nbData);
             }
 
-            emgs.emg1.printData();
+            //emgs.emg1.printData();
 
         }
         private void readFile(string file, int nbData)
         {
             XmlDocument xmlDoc = new XmlDocument();
+            Console.WriteLine(file);
             xmlDoc.Load(file);
             try
             {
 
                 foreach (XmlNode xmlNode in xmlDoc.DocumentElement)
                 {
+                    int compteur = 0;
                     foreach (XmlNode xmlChild in xmlNode)
                     {
-                        int compteur = 0;
+                        
                         if (file.Contains("emg"))
                         {
-                            emgs.addData(compteur, Convert.ToInt32(xmlChild.InnerText));
+                            Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            emgs.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".",",")));
                             compteur++;
-                            Console.WriteLine(xmlChild.Name);
                         }
                         else if (file.Contains("accelerometer"))
                         {
-                            acce.addData(compteur, Convert.ToInt32(xmlChild.InnerText));
+                            Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            acce.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
                         else if (file.Contains("gyro"))
                         {
-                            gyro.addData(compteur, Convert.ToInt32(xmlChild.InnerText));
+                            Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            gyro.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
                         else if (file.Contains("orientation"))
                         {
-                            orien.addData(compteur, Convert.ToInt32(xmlChild.InnerText));
+                            Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            orien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
                         else if (file.Contains("orientationEuler"))
                         {
-                            eulorien.addData(compteur, Convert.ToInt32(xmlChild.InnerText));
+                            Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            eulorien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++; 
                         }
                         
                     }
                 }
-                Console.WriteLine(xmlDoc.ToString());
+                xmlDoc = null;
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+            }
+            catch(FormatException format)
+            {
+                Console.WriteLine("Acquisition : format : " + format.Message);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("MAIN : " + ex.Message);
+                Console.WriteLine("Acquision : " + ex.Message);
             }
         }
     }

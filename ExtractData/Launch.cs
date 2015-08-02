@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using ZedGraph;
 
 namespace ExtractData
 {
@@ -30,14 +31,13 @@ namespace ExtractData
             string[] files = Directory.GetFiles(fbd.SelectedPath);
 
             Acquisition acq = new Acquisition(files);
-
             acq.StartReadFile();
 
-            foreach (string file in files)
-            {
-                Console.WriteLine("file : " + file);
+            Graphic gph = new Graphic(acq);
+            this.Hide();
+            gph.ShowDialog();
+            this.Close();
 
-            }
         }
     }
 }
