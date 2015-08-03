@@ -17,6 +17,8 @@ namespace ExtractData
         public Data emg7 { get; set; }
         public Data emg8 { get; set; }
 
+        public List<Data> listEMG { get; set; }
+
         public Emg()
         {
             emg1 = new Data("emg1");
@@ -27,6 +29,7 @@ namespace ExtractData
             emg6 = new Data("emg6");
             emg7 = new Data("emg7");
             emg8 = new Data("emg8");
+            listEMG = new List<Data>();
         }
 
         public void addData(int pos, double data)
@@ -57,6 +60,21 @@ namespace ExtractData
                 case 7:
                     emg8.addData(data);
                     break;
+            }
+        }
+
+        public void packData()
+        {
+            if(listEMG.Count == 0)
+            {
+                listEMG.Add(emg1);
+                listEMG.Add(emg2);
+                listEMG.Add(emg3);
+                listEMG.Add(emg4);
+                listEMG.Add(emg5);
+                listEMG.Add(emg6);
+                listEMG.Add(emg7);
+                listEMG.Add(emg8);
             }
         }
 

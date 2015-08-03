@@ -15,17 +15,57 @@ namespace ExtractData
     public partial class Graphic : Form
     {
         Acquisition acqData;
-
+        private int heightInitPoint = 0;
+        private int widthInitPoint = 0;
+        private int heightZedGraph = 414;
         private ZedGraph.ZedGraphControl z1;
         private System.ComponentModel.Container components = null;
+        private Panel pane;
+        
+        public void initZedGraph(ZedGraphControl z1, string name)
+        {
+
+            
+            // 
+            // z1
+            // 
+            z1.IsShowPointValues = false;
+            z1.Location = new System.Drawing.Point(widthInitPoint, heightInitPoint);
+            z1.Name = "z1";
+            z1.PointValueFormat = "G";
+            z1.Size = new System.Drawing.Size(680, 414);
+            z1.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            ClientSize = new System.Drawing.Size(680, 414);
+
+            pane.Height = ClientSize.Height;
+            pane.Width = ClientSize.Width;
+            pane.Controls.Add(z1);
+            Controls.Add(pane);
+            Name = "Graph data";
+            Text = "Graph Data";
+            ResumeLayout(false);
+        }
+
 
         public Graphic(Acquisition acq)
         {
+
             InitializeComponent();
+            pane = new Panel();
+            pane.Name = "Panel";
+            pane.Height = this.ClientSize.Height;
+            pane.Width = this.ClientSize.Width;
+            pane.AutoScroll = true;
             acqData = acq;
             z1 = new ZedGraphControl();
             ToolStripMenuItem fileItem = new ToolStripMenuItem("Files");
             ToolStripMenuItem fourierItem = new ToolStripMenuItem("Fourier");
+            ToolStripMenuItem OptionsItem = new ToolStripMenuItem("Settings");
+            ToolStripMenuItem AboutItem = new ToolStripMenuItem("About");
             foreach (string type in acqData.typeofdata)
             {
                 ToolStripMenuItem comp = new ToolStripMenuItem();
@@ -73,7 +113,7 @@ namespace ExtractData
                         sub_comp_fourier.Name = "dynamicSubItemFourier " + subtype;
                         sub_comp_fourier.Tag = "Fourier " + type + " " + subtype;
                         sub_comp_fourier.Text = "Fourier " + type + " " + subtype;
-                        sub_comp_fourier.Click += new EventHandler(MenuItemClickHandler);
+                        sub_comp_fourier.Click += new EventHandler(MenuItemClickHandlerFourier);
                         fouriercomp.DropDownItems.Add(sub_comp_fourier);
                     }
 
@@ -82,30 +122,49 @@ namespace ExtractData
                 fileItem.DropDownItems.Add(comp);
                 fourierItem.DropDownItems.Add(fouriercomp);
             }
+
+            //ToolStripMenuItem AddTrace = new ToolStripMenuItem("Add a another Trace");
+            /*foreach (string type in acqData.typeofdata)
+            {
+
+            }*/
+
+            ToolStripMenuItem DisplayTrace = new ToolStripMenuItem("Display all Trace");
+
+            foreach (string type in acqData.typeofdata)
+            {
+                ToolStripMenuItem subItemDisplay = new ToolStripMenuItem();
+                subItemDisplay.Name = "DisplayALL" + type;
+                subItemDisplay.Text = "Display all " + type;
+                subItemDisplay.Tag = subItemDisplay.Text;
+                subItemDisplay.Click += new EventHandler(MenuItemClickHandlerSettings);
+                DisplayTrace.DropDownItems.Add(subItemDisplay);
+            }
+
+            ToolStripMenuItem DisplayTraceFourier = new ToolStripMenuItem("Display all Trace EMG");
+            foreach (string type in acqData.typeofdata)
+            {
+                ToolStripMenuItem subItemDisplay = new ToolStripMenuItem();
+                subItemDisplay.Name = "DisplayALL" + type;
+                subItemDisplay.Text = "Display all fourier " + type;
+                subItemDisplay.Tag = subItemDisplay.Text;
+                subItemDisplay.Click += new EventHandler(MenuItemClickHandlerSettings);
+                DisplayTraceFourier.DropDownItems.Add(subItemDisplay);
+            }
+
+            //OptionsItem.DropDownItems.Add(AddTrace);
+            OptionsItem.DropDownItems.Add(DisplayTrace);
+            OptionsItem.DropDownItems.Add(DisplayTraceFourier);
+
             Menu.Items.Add(fileItem);
             Menu.Items.Add(fourierItem);
-            // 
-            // z1
-            // 
-            this.z1.IsShowPointValues = false;
-            this.z1.Location = new System.Drawing.Point(0, 0);
-            this.z1.Name = "z1";
-            this.z1.PointValueFormat = "G";
-            this.z1.Size = new System.Drawing.Size(680, 414);
-            this.z1.TabIndex = 0;
-            // 
-            // Form1
-            // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(680, 414);
-            this.Controls.Add(this.z1);
-            this.Name = "Graph data";
-            this.Text = "Graph Data";
-            this.ResumeLayout(false);
+            Menu.Items.Add(OptionsItem);
+            Menu.Items.Add(AboutItem);
 
+            initZedGraph(z1,"z1");
         }
 
-        private void CreateGraph(Data temp, string Title)
+        private void CreateGraph(Data temp, string Title, ZedGraphControl z1)
         {
             int compteur = 0;
 
@@ -133,12 +192,203 @@ namespace ExtractData
             z1.Invalidate();
         }
 
+        private void clearPane()
+        {
+            pane.Controls.Clear();
+        }
+
+        private void AddEMG()
+        {
+            List<Data> temp;
+            acqData.emgs.packData();
+            temp = acqData.emgs.listEMG;
+            int compteur = 0;
+            foreach (Data data in temp)
+            {
+                ZedGraphControl z2 = new ZedGraphControl();
+                heightInitPoint = heightZedGraph * compteur;
+                compteur++;
+                initZedGraph(z2,"z"+compteur);
+                if(data != null)
+                {
+                    CreateGraph(data, data.NameData + "'s Data from Myo armhand ", z2);
+                }
+            }
+        }
+        private void AddEMGFourier()
+        {
+            List<Data> temp;
+            acqData.emgs.packData();
+            temp = acqData.emgs.listEMG;
+            int compteur = 0;
+
+
+
+            foreach (Data data in temp)
+            {
+                ZedGraphControl z2 = new ZedGraphControl();
+                heightInitPoint = heightZedGraph * compteur;
+                compteur++;
+                initZedGraph(z2, "z" + compteur);
+                if (data != null)
+                {
+                    TFFGRaphic(data, z2, false);
+                }
+            }
+        }
+        private void MenuItemClickHandlerSettings(object sender, EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            Console.WriteLine(clickedItem.Tag);
+            clearPane();
+            switch (clickedItem.Tag.ToString())
+            {
+                case "Display all Emg":
+                    AddEMG();
+                    break;
+                case "Display all Gyrometer":
+                    break;
+                case "Display all Accelerometer":
+                    break;
+                case "Display all Orientation":
+                    break;
+                case "Display all Euler's Orientation":
+                    break;
+                case "Display all fourier Emg":
+                    AddEMGFourier();
+                    break;
+                case "Display all fourier Gyrometer":
+                    break;
+                case "Display all fourier Accelerometer":
+                    break;
+                case "Display all fourier Orientation":
+                    break;
+                case "Display all fourier Euler's Orientation":
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void MenuItemClickHandlerFourier(object sender,EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            Console.WriteLine(clickedItem.Tag);
+            Data temp = null;
+            switch (clickedItem.Tag.ToString())
+            {
+                case "Fourier Emg 1":
+                    temp = acqData.emgs.emg1;
+                    break;
+                case "Fourier Emg 2":
+                    temp = acqData.emgs.emg2;
+                    break;
+                case "Fourier Emg 3":
+                    temp = acqData.emgs.emg3;
+                    break;
+                case "Fourier Emg 4":
+                    temp = acqData.emgs.emg4;
+                    break;
+                case "Fourier Emg 5":
+                    temp = acqData.emgs.emg5;
+                    break;
+                case "Fourier Emg 6":
+                    temp = acqData.emgs.emg6;
+                    break;
+                case "Fourier Emg 7":
+                    temp = acqData.emgs.emg7;
+                    break;
+                case "Fourier Emg 8":
+                    temp = acqData.emgs.emg8;
+                    break;
+                case "Fourier Gyrometer X":
+                    temp = acqData.gyro.X;
+                    break;
+                case "Fourier Gyrometer Y":
+                    temp = acqData.gyro.Y;
+                    break;
+                case "Fourier Gyrometer Z":
+                    temp = acqData.gyro.Z;
+                    break;
+                case "Fourier Accelerometer X":
+                    temp = acqData.acce.X;
+                    break;
+                case "Fourier Accelerometer Y":
+                    temp = acqData.acce.Y;
+                    break;
+                case "Fourier Accelerometer Z":
+                    temp = acqData.acce.Z;
+                    break;
+                case "Fourier Orientation X":
+                    temp = acqData.orien.X;
+                    break;
+                case "Fourier Orientation Y":
+                    temp = acqData.orien.Y;
+                    break;
+                case "Fourier Orientation Z":
+                    temp = acqData.orien.Z;
+                    break;
+                case "Fourier Orientation W":
+                    temp = acqData.orien.W;
+                    break;
+                case "Fourier Euler's Orientation roll":
+                    temp = acqData.eulorien.roll;
+                    break;
+                case "Fourier Euler's Orientation pitch":
+                    temp = acqData.eulorien.pitch;
+                    break;
+                case "Fourier Euler's Orientation yaw":
+                    temp = acqData.eulorien.yaw;
+                    break;
+                default:
+                    temp = null;
+                    break;
+            }
+            if(temp != null)
+            {
+                TFFGRaphic(temp, z1, true);
+            }
+            else
+            {
+                MessageBox.Show("No data found.Please check the xml file");
+            }
+        }
+
+        private void TFFGRaphic(Data temp, ZedGraphControl z1,Boolean clear)
+        {
+            int size = temp.dataList.Count * 2;
+            double[] listDouble = new double[size];
+            int compteur = 0;
+            foreach (double datatemp in temp.dataList)
+            {
+                listDouble[compteur] = datatemp;
+                compteur++;
+                listDouble[compteur] = 0.0;
+                compteur++;
+            }
+            try
+            {
+                ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
+                if ((size % 2 == 0) && listDouble.Length != 0)
+                    cft.TransformForward(listDouble);
+            }
+            catch (System.ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            temp.dataList = listDouble.ToList<double>();
+            //TF TO BE DONE HERE ON TEMP VARIABLE
+            if(clear)
+                clearPane();
+            CreateGraph(temp, temp.NameData + "'s Fourier Data from Myo armhand ", z1);
+        }
+
         private void MenuItemClickHandler(object sender, EventArgs e)
         {
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
             Console.WriteLine(clickedItem.Tag);
             Data temp = null;
-            Boolean fourier = false;
 
             switch (clickedItem.Tag.ToString())
             {
@@ -205,125 +455,15 @@ namespace ExtractData
                 case "Euler's Orientation yaw":
                     temp = acqData.eulorien.yaw;
                     break;
-                case "Fourier Emg 1":
-                    fourier = true;
-                    temp = acqData.emgs.emg1;
-                    break;
-                case "Fourier Emg 2":
-                    fourier = true;
-                    temp = acqData.emgs.emg2;
-                    break;
-                case "Fourier Emg 3":
-                    fourier = true;
-                    temp = acqData.emgs.emg3;
-                    break;
-                case "Fourier Emg 4":
-                    fourier = true;
-                    temp = acqData.emgs.emg4;
-                    break;
-                case "Fourier Emg 5":
-                    fourier = true;
-                    temp = acqData.emgs.emg5;
-                    break;
-                case "Fourier Emg 6":
-                    fourier = true;
-                    temp = acqData.emgs.emg6;
-                    break;
-                case "Fourier Emg 7":
-                    fourier = true;
-                    temp = acqData.emgs.emg7;
-                    break;
-                case "Fourier Emg 8":
-                    fourier = true;
-                    temp = acqData.emgs.emg8;
-                    break;
-                case "Fourier Gyrometer X":
-                    fourier = true;
-                    temp = acqData.gyro.X;
-                    break;
-                case "Fourier Gyrometer Y":
-                    fourier = true;
-                    temp = acqData.gyro.Y;
-                    break;
-                case "Fourier Gyrometer Z":
-                    fourier = true;
-                    temp = acqData.gyro.Z;
-                    break;
-                case "Fourier Accelerometer X":
-                    fourier = true;
-                    temp = acqData.acce.X;
-                    break;
-                case "Fourier Accelerometer Y":
-                    fourier = true;
-                    temp = acqData.acce.Y;
-                    break;
-                case "Fourier Accelerometer Z":
-                    fourier = true;
-                    temp = acqData.acce.Z;
-                    break;
-                case "Fourier Orientation X":
-                    fourier = true;
-                    temp = acqData.orien.X;
-                    break;
-                case "Fourier Orientation Y":
-                    fourier = true;
-                    temp = acqData.orien.Y;
-                    break;
-                case "Fourier Orientation Z":
-                    fourier = true;
-                    temp = acqData.orien.Z;
-                    break;
-                case "Fourier Orientation W":
-                    fourier = true;
-                    temp = acqData.orien.W;
-                    break;
-                case "Fourier Euler's Orientation roll":
-                    fourier = true;
-                    temp = acqData.eulorien.roll;
-                    break;
-                case "Fourier Euler's Orientation pitch":
-                    fourier = true;
-                    temp = acqData.eulorien.pitch;
-                    break;
-                case "Fourier Euler's Orientation yaw":
-                    fourier = true;
-                    temp = acqData.eulorien.yaw;
+                default:
+                    temp = null;
                     break;
             }
             if (temp != null)
             {
-                if (!fourier)
-                {
-                
-                    CreateGraph(temp, temp.NameData + "'s Data from Myo armhand ");
-                }
-                else // Calcul de la TF de 
-                {
-                    int size = temp.dataList.Count * 2;
-                    double[] listDouble = new double[size];
-                    int compteur = 0;
-                    foreach (double datatemp in temp.dataList)
-                    {
-                        listDouble[compteur] = datatemp;
-                        compteur++;
-                        listDouble[compteur] = 0.0;
-                        compteur++;
-                    }
-                    try
-                    {
-                        ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
-                        if((size% 2 == 0) && listDouble.Length != 0)
-                            cft.TransformForward(listDouble);
-                    }catch (System.ArgumentException ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                    }
-
-                    temp.dataList = listDouble.ToList<double>();
-                    //TF TO BE DONE HERE ON TEMP VARIABLE
-                    CreateGraph(temp, temp.NameData + "'s Fourier"   + " from Myo armhand's data");
-                }
-            }
+                clearPane();
+                CreateGraph(temp, temp.NameData + "'s Data from Myo armhand ",z1);
+           }    
             else
             {
                 MessageBox.Show("No data found.Please check the xml file");
