@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ZedGraph;
+using MathNet.Numerics.Transformations;
 
 namespace ExtractData
 {
@@ -98,8 +99,8 @@ namespace ExtractData
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.ClientSize = new System.Drawing.Size(680, 414);
             this.Controls.Add(this.z1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Graph data";
+            this.Text = "Graph Data";
             this.ResumeLayout(false);
 
         }
@@ -298,6 +299,27 @@ namespace ExtractData
                 }
                 else // Calcul de la TF de 
                 {
+                    int size = temp.dataList.Count * 2;
+                    double[] listDouble = new double[size];
+                    int compteur = 0;
+                    foreach (double datatemp in temp.dataList)
+                    {
+                        listDouble[compteur] = datatemp;
+                        compteur++;
+                        listDouble[compteur] = 0.0;
+                        compteur++;
+                    }
+                    try
+                    {
+                        ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
+                        if((size% 2 == 0) && listDouble.Length != 0)
+                            cft.TransformForward(listDouble);
+                    }catch (System.ArgumentException ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+
+                    temp.dataList = listDouble.ToList<double>();
                     //TF TO BE DONE HERE ON TEMP VARIABLE
                     CreateGraph(temp, temp.NameData + "'s Fourier"   + " from Myo armhand's data");
                 }
