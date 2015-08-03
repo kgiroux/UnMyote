@@ -181,6 +181,7 @@ namespace ExtractData
                 
                 z1.Refresh();
                 z1.GraphPane.AddCurve("Signal", x, y, Color.Red, SymbolType.Circle);
+                z1.GraphPane.XAxis.Max = x.Length * 20;
                 z1.AxisChange();
                 z1.Invalidate();
             }
