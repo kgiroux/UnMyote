@@ -11,13 +11,14 @@ namespace ExtractData
         public Data X { get; set; }
         public Data Y { get; set; }
         public Data Z { get; set; }
-
+        public List<Data> listGyro { get; set; }
 
         public Gyro()
         {
             X = new Data("X");
             Y = new Data("Y");
             Z = new Data("Z");
+            listGyro = new List<Data>();
         }
 
         public void addData(int pos, double data)
@@ -33,6 +34,16 @@ namespace ExtractData
                 case 2:
                     Z.addData(data);
                     break;
+            }
+        }
+
+        public void packData()
+        {
+            if (listGyro.Count == 0)
+            {
+                listGyro.Add(X);
+                listGyro.Add(Y);
+                listGyro.Add(Z);
             }
         }
     }

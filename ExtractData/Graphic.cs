@@ -197,11 +197,8 @@ namespace ExtractData
             pane.Controls.Clear();
         }
 
-        private void AddEMG()
+        private void AddAllMeasure(List<Data> temp)
         {
-            List<Data> temp;
-            acqData.emgs.packData();
-            temp = acqData.emgs.listEMG;
             int compteur = 0;
             foreach (Data data in temp)
             {
@@ -215,15 +212,12 @@ namespace ExtractData
                 }
             }
         }
-        private void AddEMGFourier()
+
+
+        private void AddAllFourier(List<Data> temp)
         {
-            List<Data> temp;
-            acqData.emgs.packData();
-            temp = acqData.emgs.listEMG;
+            
             int compteur = 0;
-
-
-
             foreach (Data data in temp)
             {
                 ZedGraphControl z2 = new ZedGraphControl();
@@ -238,32 +232,63 @@ namespace ExtractData
         }
         private void MenuItemClickHandlerSettings(object sender, EventArgs e)
         {
+            List<Data> temp;
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
             Console.WriteLine(clickedItem.Tag);
             clearPane();
             switch (clickedItem.Tag.ToString())
             {
                 case "Display all Emg":
-                    AddEMG();
+                    
+                    acqData.emgs.packData();
+                    temp = acqData.emgs.listEMG;
+                    AddAllMeasure(temp);
                     break;
                 case "Display all Gyrometer":
+                    acqData.gyro.packData();
+                    temp = acqData.gyro.listGyro;
+                    AddAllMeasure(temp);
                     break;
                 case "Display all Accelerometer":
+                    acqData.acce.packData();
+                    temp = acqData.acce.listAccero;
+                    AddAllMeasure(temp);
                     break;
                 case "Display all Orientation":
+                    acqData.orien.packData();
+                    temp = acqData.orien.listOrientation;
+                    AddAllMeasure(temp);
                     break;
                 case "Display all Euler's Orientation":
+                    acqData.eulorien.packData();
+                    temp = acqData.eulorien.listEulerOrientation;
+                    AddAllMeasure(temp);
                     break;
                 case "Display all fourier Emg":
-                    AddEMGFourier();
+                    acqData.emgs.packData();
+                    temp = acqData.emgs.listEMG;
+                    AddAllFourier(temp);
                     break;
                 case "Display all fourier Gyrometer":
+                    acqData.gyro.packData();
+                    temp = acqData.gyro.listGyro;
+                    AddAllFourier(temp);
                     break;
                 case "Display all fourier Accelerometer":
+                    acqData.acce.packData();
+                    temp = acqData.acce.listAccero;
+                    AddAllFourier(temp);
                     break;
                 case "Display all fourier Orientation":
+                    acqData.orien.packData();
+                    temp = acqData.orien.listOrientation;
+                    AddAllFourier(temp);
                     break;
                 case "Display all fourier Euler's Orientation":
+                    acqData.eulorien.printAllData();
+                    acqData.eulorien.packData();
+                    temp = acqData.eulorien.listEulerOrientation;
+                    AddAllFourier(temp);
                     break;
                 default:
                     break;

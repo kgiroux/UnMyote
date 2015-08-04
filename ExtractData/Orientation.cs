@@ -12,13 +12,14 @@ namespace ExtractData
         public Data Y { get; set; }
         public Data Z { get; set; }
         public Data W { get; set; }
-
+        public List<Data> listOrientation { get; set; }
         public Orientation()
         {
             X = new Data("X");
             Y = new Data("Y");
             Z = new Data("Z");
             W = new Data("W");
+            listOrientation = new List<Data>();
         }
 
         public void addData(int pos, double data)
@@ -39,5 +40,17 @@ namespace ExtractData
                     break;
             }
         }
+
+        public void packData()
+        {
+            if (listOrientation.Count == 0)
+            {
+                listOrientation.Add(X);
+                listOrientation.Add(Y);
+                listOrientation.Add(Z);
+                listOrientation.Add(W);
+            }
+        }
+
     }
 }

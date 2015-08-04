@@ -52,15 +52,14 @@ namespace ExtractData
                 {
                     nbData = 3;
                 }
-                else if (file.Contains("orientation"))
-                {
-                    nbData = 4;
-                }
                 else if (file.Contains("orientationEuler"))
                 {
                     nbData = 3;
                 }
-
+                else if (file.Contains("orientation"))
+                {
+                    nbData = 4;
+                }
                 readFile(file, nbData);
             }
 
@@ -70,7 +69,7 @@ namespace ExtractData
         private void readFile(string file, int nbData)
         {
             XmlDocument xmlDoc = new XmlDocument();
-            Console.WriteLine(file);
+            Console.WriteLine("#################====>>> " + file);
             xmlDoc.Load(file);
             try
             {
@@ -99,19 +98,18 @@ namespace ExtractData
                             gyro.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
+                        else if (file.Contains("orientationEuler"))
+                        {
+                            Console.WriteLine("xmlChild orientationEuler : " + xmlChild.InnerText);
+                            eulorien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
+                            compteur++; 
+                        }
                         else if (file.Contains("orientation"))
                         {
                             Console.WriteLine("xmlChild : " + xmlChild.InnerText);
                             orien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
-                        else if (file.Contains("orientationEuler"))
-                        {
-                            Console.WriteLine("xmlChild : " + xmlChild.InnerText);
-                            eulorien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
-                            compteur++; 
-                        }
-                        
                     }
                 }
                 xmlDoc = null;

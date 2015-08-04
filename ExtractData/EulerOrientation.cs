@@ -11,12 +11,13 @@ namespace ExtractData
         public Data pitch { get; set; }
         public Data roll { get; set; }
         public Data yaw { get; set; }
-
+        public List<Data> listEulerOrientation { get; set; }
         public EulerOrientation()
         {
             pitch = new Data("pitch");
             roll = new Data("roll");
             yaw = new Data("yaw");
+            listEulerOrientation = new List<Data>();
         }
 
         public void addData(int pos, double data)
@@ -33,6 +34,23 @@ namespace ExtractData
                     yaw.addData(data);
                     break;
             }
+        }
+
+        public void packData()
+        {
+            if (listEulerOrientation.Count == 0)
+            {
+                listEulerOrientation.Add(roll);
+                listEulerOrientation.Add(pitch);
+                listEulerOrientation.Add(yaw);
+            }
+        }
+
+        public void printAllData()
+        {
+            roll.printData();
+            pitch.printData();
+            yaw.printData();
         }
 
     }

@@ -11,12 +11,13 @@ namespace ExtractData
         public Data X { get; set; }
         public Data Y { get; set; }
         public Data Z { get; set; }
-
+        public List<Data> listAccero { get; set; }
         public Acce()
         {
             X = new Data("X");
             Y = new Data("Y");
             Z = new Data("Z");
+            listAccero = new List<Data>();
         }
 
         public void addData(int pos, double data)
@@ -32,6 +33,15 @@ namespace ExtractData
                 case 2:
                     Z.addData(data);
                     break;
+            }
+        }
+        public void packData()
+        {
+            if (listAccero.Count == 0)
+            {
+                listAccero.Add(X);
+                listAccero.Add(Y);
+                listAccero.Add(Z);
             }
         }
     }
