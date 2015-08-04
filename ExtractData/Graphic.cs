@@ -141,7 +141,7 @@ namespace ExtractData
                 DisplayTrace.DropDownItems.Add(subItemDisplay);
             }
 
-            ToolStripMenuItem DisplayTraceFourier = new ToolStripMenuItem("Display all Trace EMG");
+            ToolStripMenuItem DisplayTraceFourier = new ToolStripMenuItem("Display all Trace Fourier");
             foreach (string type in acqData.typeofdata)
             {
                 ToolStripMenuItem subItemDisplay = new ToolStripMenuItem();
@@ -152,9 +152,16 @@ namespace ExtractData
                 DisplayTraceFourier.DropDownItems.Add(subItemDisplay);
             }
 
+            ToolStripMenuItem CleanTrace = new ToolStripMenuItem("Clean all trace");
+            CleanTrace.Name = "Clean Trace";
+            CleanTrace.Text = "Clean Trace";
+            CleanTrace.Tag = CleanTrace.Text;
+            CleanTrace.Click += new EventHandler(MenuItemClickHandlerSettings);
+
             //OptionsItem.DropDownItems.Add(AddTrace);
             OptionsItem.DropDownItems.Add(DisplayTrace);
             OptionsItem.DropDownItems.Add(DisplayTraceFourier);
+            OptionsItem.DropDownItems.Add(CleanTrace);
 
             Menu.Items.Add(fileItem);
             Menu.Items.Add(fourierItem);
@@ -164,19 +171,43 @@ namespace ExtractData
             initZedGraph(z1,"z1");
         }
 
-        private void CreateGraph(Data temp, string Title, ZedGraphControl z1)
+        private void CreateGraph(Data temp, string Title, ZedGraphControl z1, Boolean fourier)
         {
             int compteur = 0;
-
-            double[] x = new double[temp.dataList.Count];
-            double[] y = new double[temp.dataList.Count];
+            double[] x = null;
+            double[] y = null;
+            if (fourier)
+            {
+                 x = new double[temp.dataList.Count/2];
+                 y = new double[temp.dataList.Count/2];
+            }
+            else
+            {
+                x = new double[temp.dataList.Count];
+                y = new double[temp.dataList.Count];
+            }
+             
 
             z1.IsShowPointValues = true;
             z1.GraphPane.Title = Title;
             foreach (double data in temp.dataList)
             {
-                x[compteur] = compteur * 20;
-                y[compteur] = data;
+                if(x != null && y != null && fourier)
+                {
+                    if (compteur % 2 == 0)
+                    {
+                        y[compteur/2] = data;
+                    }
+                    else
+                    {
+                        x[compteur/2] = (compteur -1)* 20;
+                    }
+                }
+                else
+                {
+                    y[compteur] = data;
+                    x[compteur] = compteur * 20;
+                }
                 compteur++;
             }
             Console.WriteLine("Count list : " + z1.GraphPane.CurveList.Count);
@@ -191,6 +222,59 @@ namespace ExtractData
             z1.AxisChange();
             z1.Invalidate();
         }
+
+        private void CreateGraph(Data temp, string Title,  Boolean fourier)
+        {
+            int compteur = 0;
+            double[] x = null;
+            double[] y = null;
+            if (fourier)
+            {
+                x = new double[temp.dataList.Count / 2];
+                y = new double[temp.dataList.Count / 2];
+            }
+            else
+            {
+                x = new double[temp.dataList.Count];
+                y = new double[temp.dataList.Count];
+            }
+
+
+            z1.IsShowPointValues = true;
+            z1.GraphPane.Title = Title;
+            foreach (double data in temp.dataList)
+            {
+                if (x != null && y != null && fourier)
+                {
+                    if (compteur % 2 == 0)
+                    {
+                        y[compteur/2] = data;
+                    }
+                    else
+                    {
+                        x[compteur/2] = (compteur - 1) * 20;
+                    }
+                }
+                else
+                {
+                    y[compteur] = data;
+                    x[compteur] = compteur * 20;
+                }
+                compteur++;
+            }
+            Console.WriteLine("Count list : " + z1.GraphPane.CurveList.Count);
+            if (z1.GraphPane.CurveList.Count > 0)
+            {
+                z1.GraphPane.CurveList.Clear();
+            }
+
+            z1.Refresh();
+            z1.GraphPane.AddCurve("Signal", x, y, Color.Red, SymbolType.Circle);
+            z1.GraphPane.XAxis.Max = x.Length * 20;
+            z1.AxisChange();
+            z1.Invalidate();
+        }
+
 
         private void clearPane()
         {
@@ -208,7 +292,7 @@ namespace ExtractData
                 initZedGraph(z2,"z"+compteur);
                 if(data != null)
                 {
-                    CreateGraph(data, data.NameData + "'s Data from Myo armhand ", z2);
+                    CreateGraph(data, data.NameData + "'s Data from Myo armhand ", z2, false);
                 }
             }
         }
@@ -285,10 +369,12 @@ namespace ExtractData
                     AddAllFourier(temp);
                     break;
                 case "Display all fourier Euler's Orientation":
-                    acqData.eulorien.printAllData();
                     acqData.eulorien.packData();
                     temp = acqData.eulorien.listEulerOrientation;
                     AddAllFourier(temp);
+                    break;
+                case "Clean Trace":
+                    clearPane();
                     break;
                 default:
                     break;
@@ -300,6 +386,7 @@ namespace ExtractData
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
             Console.WriteLine(clickedItem.Tag);
             Data temp = null;
+            heightInitPoint = 0;
             switch (clickedItem.Tag.ToString())
             {
                 case "Fourier Emg 1":
@@ -371,7 +458,7 @@ namespace ExtractData
             }
             if(temp != null)
             {
-                TFFGRaphic(temp, z1, true);
+                TFFGRaphic(temp,  true);
             }
             else
             {
@@ -379,9 +466,13 @@ namespace ExtractData
             }
         }
 
-        private void TFFGRaphic(Data temp, ZedGraphControl z1,Boolean clear)
+
+        private void TFFGRaphic(Data temp, Boolean clear)
         {
-            int size = temp.dataList.Count * 2;
+            Console.WriteLine("ICI" + temp.NameData);
+            int real = closest_pow(temp.dataList.Count);
+            int size = (int)Math.Pow(2,real);
+            size = size * 2;
             double[] listDouble = new double[size];
             int compteur = 0;
             foreach (double datatemp in temp.dataList)
@@ -399,14 +490,52 @@ namespace ExtractData
             }
             catch (System.ArgumentException ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("ICI erreur : " + ex.Message + "Size : " + size);
             }
 
-            temp.dataList = listDouble.ToList<double>();
+            //temp.dataList = listDouble.ToList<double>();
+            Data tff = new Data(temp.NameData);
+            tff.dataList = listDouble.ToList<double>();
             //TF TO BE DONE HERE ON TEMP VARIABLE
-            if(clear)
+            if (clear)
                 clearPane();
-            CreateGraph(temp, temp.NameData + "'s Fourier Data from Myo armhand ", z1);
+            initZedGraph(z1, temp.NameData + "'s Fourier Data from Myo armhand ");
+            CreateGraph(tff, temp.NameData + "'s Fourier Data from Myo armhand ",  true);
+        }
+
+        private void TFFGRaphic(Data temp, ZedGraphControl z1,Boolean clear)
+        {
+            Console.WriteLine("ICI" + temp.NameData);
+            int real = closest_pow(temp.dataList.Count);
+            int size = (int)Math.Pow(2, real);
+            size = size * 2;
+            double[] listDouble = new double[size];
+            int compteur = 0;
+            foreach (double datatemp in temp.dataList)
+            {
+                listDouble[compteur] = datatemp;
+                compteur++;
+                listDouble[compteur] = 0.0;
+                compteur++;
+            }
+            try
+            {
+                ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
+                if ((size % 2 == 0) && listDouble.Length != 0)
+                    cft.TransformForward(listDouble);
+            }
+            catch (System.ArgumentException ex)
+            {
+                Console.WriteLine("ICI erreur : " + ex.Message+ "Size : "+ size);
+            }
+
+            //temp.dataList = listDouble.ToList<double>();
+            Data tff = new Data(temp.NameData);
+            tff.dataList = listDouble.ToList<double>();
+            //TF TO BE DONE HERE ON TEMP VARIABLE
+            if (clear)
+                clearPane();
+            CreateGraph(temp, temp.NameData + "'s Fourier Data from Myo armhand ", z1,true);
         }
 
         private void MenuItemClickHandler(object sender, EventArgs e)
@@ -414,7 +543,7 @@ namespace ExtractData
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
             Console.WriteLine(clickedItem.Tag);
             Data temp = null;
-
+            heightInitPoint = 0;
             switch (clickedItem.Tag.ToString())
             {
                 case "Emg 1":
@@ -487,11 +616,32 @@ namespace ExtractData
             if (temp != null)
             {
                 clearPane();
-                CreateGraph(temp, temp.NameData + "'s Data from Myo armhand ",z1);
+                initZedGraph(z1, temp.NameData + "'s Data from Myo armhand ");
+                CreateGraph(temp, temp.NameData + "'s Data from Myo armhand ",false);
            }    
             else
             {
                 MessageBox.Show("No data found.Please check the xml file");
+            }
+        }
+
+
+        private int closest_pow(int x)
+        {
+            int i = 0;
+            int p = 1;
+            while (p < x)
+            {
+                p = p * 2;
+                i++;
+            }
+            if ((p - x) < (x - p / 2))
+            {
+                return i;
+            }
+            else
+            {
+                return i - 1;
             }
         }
     }
