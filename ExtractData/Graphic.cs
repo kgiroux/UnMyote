@@ -221,6 +221,7 @@ namespace ExtractData
             z1.GraphPane.XAxis.Max = x.Length * 20;
             z1.AxisChange();
             z1.Invalidate();
+            z1.GraphPane.Image.Save("./images/"+Title+".png");
         }
 
         private void CreateGraph(Data temp, string Title,  Boolean fourier)
@@ -273,6 +274,7 @@ namespace ExtractData
             z1.GraphPane.XAxis.Max = x.Length * 20;
             z1.AxisChange();
             z1.Invalidate();
+            z1.GraphPane.Image.Save("./images/" + Title + ".png");
         }
 
 
