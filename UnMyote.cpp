@@ -16,7 +16,7 @@
 #include <time.h>
 #include "tinyxml2.h"
 #include <direct.h>
-#include <myo/myo.hpp>
+#include "./include/myo/myo.hpp"
 using namespace tinyxml2;
 class DataCollector : public myo::DeviceListener {
 public:

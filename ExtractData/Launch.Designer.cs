@@ -29,11 +29,14 @@
         private void InitializeComponent()
         {
             this.Browse = new System.Windows.Forms.Button();
+            this.Log = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Browse
             // 
-            this.Browse.Location = new System.Drawing.Point(102, 28);
+            this.Browse.Location = new System.Drawing.Point(203, 26);
             this.Browse.Name = "Browse";
             this.Browse.Size = new System.Drawing.Size(75, 23);
             this.Browse.TabIndex = 0;
@@ -41,21 +44,54 @@
             this.Browse.UseVisualStyleBackColor = true;
             this.Browse.Click += new System.EventHandler(this.Browse_Click);
             // 
+            // Log
+            // 
+            this.Log.Location = new System.Drawing.Point(12, 99);
+            this.Log.Name = "Log";
+            this.Log.Size = new System.Drawing.Size(265, 148);
+            this.Log.TabIndex = 1;
+            this.Log.Text = "";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(112, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Open a directory";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Logs : ";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 84);
+            this.ClientSize = new System.Drawing.Size(290, 259);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Log);
             this.Controls.Add(this.Browse);
             this.Name = "Main";
             this.Text = "InterpreteUnMyote";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button Browse;
+        private System.Windows.Forms.RichTextBox Log;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

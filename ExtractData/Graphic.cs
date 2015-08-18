@@ -221,6 +221,7 @@ namespace ExtractData
             z1.GraphPane.XAxis.Max = x.Length * 20;
             z1.AxisChange();
             z1.Invalidate();
+            System.IO.Directory.CreateDirectory("./images");
             z1.GraphPane.Image.Save("./images/"+Title+".png");
         }
 

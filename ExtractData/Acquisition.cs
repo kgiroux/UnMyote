@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Windows.Forms;
 using System.Xml;
 
 namespace ExtractData
 {
     public class Acquisition
     {
+
+        private Main launchForm;
         public Emg emgs { get; set; }
         public Gyro gyro { get; set; }
         public Acce acce { get; set; }
@@ -18,8 +21,9 @@ namespace ExtractData
         public string[] subtypeDataOrient { get; set; }
         public string[] subtypeDataEulerOrient { get; set; }
 
-        public Acquisition( string[] files)
+        public Acquisition( string[] files, Main form)
         {
+            launchForm = form;
             emgs = new Emg();
             gyro = new Gyro();
             acce = new Acce();
@@ -33,6 +37,12 @@ namespace ExtractData
             subtypeDataOrient = new string[] { "X", "Y", "Z", "W" };
             subtypeDataEulerOrient = new string[] { "roll", "pitch", "yaw"};
         }
+
+        public void updateOutputLog(String text, int type)
+        {
+            this.launchForm.updateConsoleLog(text, type);
+        }
+
 
         public void StartReadFile()
         {
@@ -70,6 +80,7 @@ namespace ExtractData
         {
             XmlDocument xmlDoc = new XmlDocument();
             Console.WriteLine("#################====>>> " + file);
+            this.updateOutputLog("Loading file : " + file, 0);
             xmlDoc.Load(file);
             try
             {
@@ -83,29 +94,35 @@ namespace ExtractData
                         if (file.Contains("emg"))
                         {
                             Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            this.updateOutputLog("Emg XML CHILD : " + xmlChild.InnerText, 0);
                             emgs.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".",",")));
                             compteur++;
                         }
                         else if (file.Contains("accelerometer"))
                         {
                             Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            this.updateOutputLog("accelerometer XML CHILD : " + xmlChild.InnerText, 0);
                             acce.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
                         else if (file.Contains("gyro"))
                         {
                             Console.WriteLine("xmlChild : " + xmlChild.InnerText);
+                            this.updateOutputLog("gyro XML CHILD : " + xmlChild.InnerText, 0);
                             gyro.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
                         else if (file.Contains("orientationEuler"))
                         {
+                            this.updateOutputLog("orientationEuler XML CHILD : " + xmlChild.InnerText, 0);
                             Console.WriteLine("xmlChild orientationEuler : " + xmlChild.InnerText);
                             eulorien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++; 
                         }
                         else if (file.Contains("orientation"))
                         {
+
+                            this.updateOutputLog("orientation XML CHILD : " + xmlChild.InnerText, 0);
                             Console.WriteLine("xmlChild : " + xmlChild.InnerText);
                             orien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
@@ -118,10 +135,12 @@ namespace ExtractData
             }
             catch(FormatException format)
             {
+                this.updateOutputLog("Erreur => Acquisition : format : " + format.Message, -1);
                 Console.WriteLine("Acquisition : format : " + format.Message);
             }
             catch (Exception ex)
             {
+                this.updateOutputLog("Erreur => Acquisition : general : " + ex.Message, -1);
                 Console.WriteLine("Acquision : " + ex.Message);
             }
         }
