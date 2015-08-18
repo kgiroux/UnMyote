@@ -81,6 +81,8 @@
             this.Controls.Add(this.Browse);
             this.Name = "Main";
             this.Text = "InterpreteUnMyote";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

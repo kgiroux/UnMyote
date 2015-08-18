@@ -21,40 +21,12 @@ namespace ExtractData
         private ZedGraph.ZedGraphControl z1;
         private System.ComponentModel.Container components = null;
         private Panel pane;
-        
-        public void initZedGraph(ZedGraphControl z1, string name)
-        {
-
-            
-            // 
-            // z1
-            // 
-            z1.IsShowPointValues = false;
-            z1.Location = new System.Drawing.Point(widthInitPoint, heightInitPoint);
-            z1.Name = "z1";
-            z1.PointValueFormat = "G";
-            z1.Size = new System.Drawing.Size(680, 414);
-            z1.TabIndex = 0;
-            // 
-            // Form1
-            // 
-            AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            ClientSize = new System.Drawing.Size(680, 414);
-
-            pane.Height = ClientSize.Height;
-            pane.Width = ClientSize.Width;
-            pane.Controls.Add(z1);
-            Controls.Add(pane);
-            Name = "Graph data";
-            Text = "Graph Data";
-            ResumeLayout(false);
-        }
-
-
-        public Graphic(Acquisition acq)
+        private Main formMain;
+        public Graphic(Acquisition acq, Main form)
         {
 
             InitializeComponent();
+            this.formMain = form;
             pane = new Panel();
             pane.Name = "Panel";
             pane.Height = this.ClientSize.Height;
@@ -66,6 +38,8 @@ namespace ExtractData
             ToolStripMenuItem fourierItem = new ToolStripMenuItem("Fourier");
             ToolStripMenuItem OptionsItem = new ToolStripMenuItem("Settings");
             ToolStripMenuItem AboutItem = new ToolStripMenuItem("About");
+
+            /* Menu */
             foreach (string type in acqData.typeofdata)
             {
                 ToolStripMenuItem comp = new ToolStripMenuItem();
@@ -95,14 +69,14 @@ namespace ExtractData
                         subtypelist = acqData.subtypeDataEulerOrient;
                         break;
                 }
-               if(subtypelist != null)
+                if (subtypelist != null)
                 {
                     foreach (string subtype in subtypelist)
                     {
                         ToolStripMenuItem sub_comp = new ToolStripMenuItem();
                         sub_comp.Name = "dynamicSubItem " + subtype;
-                        sub_comp.Tag = type + " " +subtype;
-                        sub_comp.Text =  type + " " + subtype;
+                        sub_comp.Tag = type + " " + subtype;
+                        sub_comp.Text = type + " " + subtype;
                         sub_comp.Click += new EventHandler(MenuItemClickHandler);
                         comp.DropDownItems.Add(sub_comp);
                     }
@@ -118,7 +92,6 @@ namespace ExtractData
                     }
 
                 }
-                //comp.Click += new EventHandler(MenuItemClickHandler);
                 fileItem.DropDownItems.Add(comp);
                 fourierItem.DropDownItems.Add(fouriercomp);
             }
@@ -163,14 +136,104 @@ namespace ExtractData
             OptionsItem.DropDownItems.Add(DisplayTraceFourier);
             OptionsItem.DropDownItems.Add(CleanTrace);
 
+            ToolStripMenuItem UnMyote = new ToolStripMenuItem("UnMyote");
+            UnMyote.Name = "UnMyote";
+            UnMyote.Text = "UnMyote";
+            UnMyote.Tag = UnMyote.Text;
+            UnMyote.Click += new EventHandler(MenuItemClickHandlerAbout);
+
+            AboutItem.DropDownItems.Add(UnMyote);
+
             Menu.Items.Add(fileItem);
             Menu.Items.Add(fourierItem);
             Menu.Items.Add(OptionsItem);
             Menu.Items.Add(AboutItem);
 
-            initZedGraph(z1,"z1");
+            initZedGraph(z1, "z1");
         }
 
+        public void initZedGraph(ZedGraphControl z1, string name)
+        {
+
+            
+            // 
+            // z1
+            // 
+            z1.IsShowPointValues = false;
+            z1.Location = new System.Drawing.Point(widthInitPoint, heightInitPoint);
+            z1.Name = "z1";
+            z1.PointValueFormat = "G";
+            z1.Size = new System.Drawing.Size(680, 414);
+            z1.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            ClientSize = new System.Drawing.Size(680, 414);
+
+            pane.Height = ClientSize.Height;
+            pane.Width = ClientSize.Width;
+            pane.Controls.Add(z1);
+            Controls.Add(pane);
+            Name = "Graph data";
+            Text = "Graph Data";
+            ResumeLayout(false);
+        }
+
+        /* Create Graph */
+        private void CreateGraph(Data temp, string Title, Boolean fourier)
+        {
+            int compteur = 0;
+            double[] x = null;
+            double[] y = null;
+            if (fourier)
+            {
+                x = new double[temp.dataList.Count / 2];
+                y = new double[temp.dataList.Count / 2];
+            }
+            else
+            {
+                x = new double[temp.dataList.Count];
+                y = new double[temp.dataList.Count];
+            }
+
+
+            z1.IsShowPointValues = true;
+            z1.GraphPane.Title = Title;
+            foreach (double data in temp.dataList)
+            {
+                if (x != null && y != null && fourier)
+                {
+                    if (compteur % 2 == 0)
+                    {
+                        y[compteur / 2] = data;
+                    }
+                    else
+                    {
+                        x[compteur / 2] = (compteur - 1) * 20;
+                    }
+                }
+                else
+                {
+                    y[compteur] = data;
+                    x[compteur] = compteur * 20;
+                }
+                compteur++;
+            }
+            Console.WriteLine("Count list : " + z1.GraphPane.CurveList.Count);
+            if (z1.GraphPane.CurveList.Count > 0)
+            {
+                z1.GraphPane.CurveList.Clear();
+            }
+
+            z1.Refresh();
+            z1.GraphPane.AddCurve("Signal", x, y, Color.Red, SymbolType.Circle);
+            z1.GraphPane.XAxis.Max = x.Length * 20;
+            z1.AxisChange();
+            z1.Invalidate();
+            System.IO.Directory.CreateDirectory("./images");
+            z1.GraphPane.Image.Save("./images/" + Title + ".png");
+        }
         private void CreateGraph(Data temp, string Title, ZedGraphControl z1, Boolean fourier)
         {
             int compteur = 0;
@@ -224,66 +287,10 @@ namespace ExtractData
             System.IO.Directory.CreateDirectory("./images");
             z1.GraphPane.Image.Save("./images/"+Title+".png");
         }
+        
+       
 
-        private void CreateGraph(Data temp, string Title,  Boolean fourier)
-        {
-            int compteur = 0;
-            double[] x = null;
-            double[] y = null;
-            if (fourier)
-            {
-                x = new double[temp.dataList.Count / 2];
-                y = new double[temp.dataList.Count / 2];
-            }
-            else
-            {
-                x = new double[temp.dataList.Count];
-                y = new double[temp.dataList.Count];
-            }
-
-
-            z1.IsShowPointValues = true;
-            z1.GraphPane.Title = Title;
-            foreach (double data in temp.dataList)
-            {
-                if (x != null && y != null && fourier)
-                {
-                    if (compteur % 2 == 0)
-                    {
-                        y[compteur/2] = data;
-                    }
-                    else
-                    {
-                        x[compteur/2] = (compteur - 1) * 20;
-                    }
-                }
-                else
-                {
-                    y[compteur] = data;
-                    x[compteur] = compteur * 20;
-                }
-                compteur++;
-            }
-            Console.WriteLine("Count list : " + z1.GraphPane.CurveList.Count);
-            if (z1.GraphPane.CurveList.Count > 0)
-            {
-                z1.GraphPane.CurveList.Clear();
-            }
-
-            z1.Refresh();
-            z1.GraphPane.AddCurve("Signal", x, y, Color.Red, SymbolType.Circle);
-            z1.GraphPane.XAxis.Max = x.Length * 20;
-            z1.AxisChange();
-            z1.Invalidate();
-            z1.GraphPane.Image.Save("./images/" + Title + ".png");
-        }
-
-
-        private void clearPane()
-        {
-            pane.Controls.Clear();
-        }
-
+        /* Add All Trace */
         private void AddAllMeasure(List<Data> temp)
         {
             int compteur = 0;
@@ -299,8 +306,6 @@ namespace ExtractData
                 }
             }
         }
-
-
         private void AddAllFourier(List<Data> temp)
         {
             
@@ -317,6 +322,8 @@ namespace ExtractData
                 }
             }
         }
+
+        /* Menu Handler */
         private void MenuItemClickHandlerSettings(object sender, EventArgs e)
         {
             List<Data> temp;
@@ -378,6 +385,20 @@ namespace ExtractData
                     break;
                 case "Clean Trace":
                     clearPane();
+                    break;
+                default:
+                    break;
+            }
+        }
+        private void MenuItemClickHandlerAbout(object sender, EventArgs e)
+        {
+            ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
+            Console.WriteLine(clickedItem.Tag);
+            switch (clickedItem.Tag.ToString())
+            {
+                case "UnMyote":
+                    Unmyote un = new Unmyote();
+                    un.ShowDialog();
                     break;
                 default:
                     break;
@@ -468,79 +489,6 @@ namespace ExtractData
                 MessageBox.Show("No data found.Please check the xml file");
             }
         }
-
-
-        private void TFFGRaphic(Data temp, Boolean clear)
-        {
-            Console.WriteLine("ICI" + temp.NameData);
-            int real = closest_pow(temp.dataList.Count);
-            int size = (int)Math.Pow(2,real);
-            size = size * 2;
-            double[] listDouble = new double[size];
-            int compteur = 0;
-            foreach (double datatemp in temp.dataList)
-            {
-                listDouble[compteur] = datatemp;
-                compteur++;
-                listDouble[compteur] = 0.0;
-                compteur++;
-            }
-            try
-            {
-                ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
-                if ((size % 2 == 0) && listDouble.Length != 0)
-                    cft.TransformForward(listDouble);
-            }
-            catch (System.ArgumentException ex)
-            {
-                Console.WriteLine("ICI erreur : " + ex.Message + "Size : " + size);
-            }
-
-            //temp.dataList = listDouble.ToList<double>();
-            Data tff = new Data(temp.NameData);
-            tff.dataList = listDouble.ToList<double>();
-            //TF TO BE DONE HERE ON TEMP VARIABLE
-            if (clear)
-                clearPane();
-            initZedGraph(z1, temp.NameData + "'s Fourier Data from Myo armhand ");
-            CreateGraph(tff, temp.NameData + "'s Fourier Data from Myo armhand ",  true);
-        }
-
-        private void TFFGRaphic(Data temp, ZedGraphControl z1,Boolean clear)
-        {
-            Console.WriteLine("ICI" + temp.NameData);
-            int real = closest_pow(temp.dataList.Count);
-            int size = (int)Math.Pow(2, real);
-            size = size * 2;
-            double[] listDouble = new double[size];
-            int compteur = 0;
-            foreach (double datatemp in temp.dataList)
-            {
-                listDouble[compteur] = datatemp;
-                compteur++;
-                listDouble[compteur] = 0.0;
-                compteur++;
-            }
-            try
-            {
-                ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
-                if ((size % 2 == 0) && listDouble.Length != 0)
-                    cft.TransformForward(listDouble);
-            }
-            catch (System.ArgumentException ex)
-            {
-                Console.WriteLine("ICI erreur : " + ex.Message+ "Size : "+ size);
-            }
-
-            //temp.dataList = listDouble.ToList<double>();
-            Data tff = new Data(temp.NameData);
-            tff.dataList = listDouble.ToList<double>();
-            //TF TO BE DONE HERE ON TEMP VARIABLE
-            if (clear)
-                clearPane();
-            CreateGraph(temp, temp.NameData + "'s Fourier Data from Myo armhand ", z1,true);
-        }
-
         private void MenuItemClickHandler(object sender, EventArgs e)
         {
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
@@ -620,8 +568,8 @@ namespace ExtractData
             {
                 clearPane();
                 initZedGraph(z1, temp.NameData + "'s Data from Myo armhand ");
-                CreateGraph(temp, temp.NameData + "'s Data from Myo armhand ",false);
-           }    
+                CreateGraph(temp, temp.NameData + "'s Data from Myo armhand ", false);
+            }
             else
             {
                 MessageBox.Show("No data found.Please check the xml file");
@@ -629,6 +577,85 @@ namespace ExtractData
         }
 
 
+        /* Transformer de fourrier */
+        private void TFFGRaphic(Data temp, Boolean clear)
+        {
+            Console.WriteLine("ICI" + temp.NameData);
+            int real = closest_pow(temp.dataList.Count);
+            int size = (int)Math.Pow(2,real);
+            size = size * 2;
+            double[] listDouble = new double[size];
+            int compteur = 0;
+            foreach (double datatemp in temp.dataList)
+            {
+                listDouble[compteur] = datatemp;
+                compteur++;
+                listDouble[compteur] = 0.0;
+                compteur++;
+            }
+            try
+            {
+                ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
+                if ((size % 2 == 0) && listDouble.Length != 0)
+                    cft.TransformForward(listDouble);
+            }
+            catch (System.ArgumentException ex)
+            {
+                Console.WriteLine("ICI erreur : " + ex.Message + "Size : " + size);
+                this.updateOutputLog("Argument Exception Graphic.cs :" + ex.Message, -1);
+            }
+
+            //temp.dataList = listDouble.ToList<double>();
+            Data tff = new Data(temp.NameData);
+            tff.dataList = listDouble.ToList<double>();
+            //TF TO BE DONE HERE ON TEMP VARIABLE
+            if (clear)
+                clearPane();
+            initZedGraph(z1, temp.NameData + "'s Fourier Data from Myo armhand ");
+            CreateGraph(tff, temp.NameData + "'s Fourier Data from Myo armhand ",  true);
+        }
+        private void TFFGRaphic(Data temp, ZedGraphControl z1,Boolean clear)
+        {
+            Console.WriteLine("ICI" + temp.NameData);
+            int real = closest_pow(temp.dataList.Count);
+            int size = (int)Math.Pow(2, real);
+            size = size * 2;
+            double[] listDouble = new double[size];
+            int compteur = 0;
+            foreach (double datatemp in temp.dataList)
+            {
+                listDouble[compteur] = datatemp;
+                compteur++;
+                listDouble[compteur] = 0.0;
+                compteur++;
+            }
+            try
+            {
+                ComplexFourierTransformation cft = new ComplexFourierTransformation(TransformationConvention.Matlab);
+                if ((size % 2 == 0) && listDouble.Length != 0)
+                    cft.TransformForward(listDouble);
+            }
+            catch (System.ArgumentException ex)
+            {
+                Console.WriteLine("ICI erreur : " + ex.Message+ "Size : "+ size);
+                this.updateOutputLog("Argument Exception Graphic.cs :" + ex.Message, -1);
+            }
+
+            //temp.dataList = listDouble.ToList<double>();
+            Data tff = new Data(temp.NameData);
+            tff.dataList = listDouble.ToList<double>();
+            //TF TO BE DONE HERE ON TEMP VARIABLE
+            if (clear)
+                clearPane();
+            CreateGraph(temp, temp.NameData + "'s Fourier Data from Myo armhand ", z1,true);
+        }
+
+        /* Utils */
+
+        private void clearPane()
+        {
+            pane.Controls.Clear();
+        }
         private int closest_pow(int x)
         {
             int i = 0;
@@ -646,6 +673,11 @@ namespace ExtractData
             {
                 return i - 1;
             }
+        }
+
+        public void updateOutputLog(String text, int type)
+        {
+            this.formMain.updateConsoleLog(text, type);
         }
     }
 }

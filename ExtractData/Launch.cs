@@ -24,12 +24,8 @@ namespace ExtractData
             Acquisition acq = new Acquisition(files, this);
             acq.StartReadFile();
 
-            Graphic gph = new Graphic(acq);
-            this.Hide();
+            Graphic gph = new Graphic(acq,this);
             gph.Show();
-            this.Close();
-
-            
         }
 
         public void updateConsoleLog(string text, int type)
@@ -71,6 +67,14 @@ namespace ExtractData
             }
         }
 
+        private void Main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void Main_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
