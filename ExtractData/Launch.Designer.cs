@@ -32,6 +32,7 @@
             this.Log = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.ReadingProgressBar = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // Browse
@@ -46,7 +47,7 @@
             // 
             // Log
             // 
-            this.Log.Location = new System.Drawing.Point(12, 99);
+            this.Log.Location = new System.Drawing.Point(9, 123);
             this.Log.Name = "Log";
             this.Log.Size = new System.Drawing.Size(265, 148);
             this.Log.TabIndex = 1;
@@ -64,17 +65,25 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 80);
+            this.label2.Location = new System.Drawing.Point(12, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Logs : ";
             // 
+            // ReadingProgressBar
+            // 
+            this.ReadingProgressBar.Location = new System.Drawing.Point(9, 94);
+            this.ReadingProgressBar.Name = "ReadingProgressBar";
+            this.ReadingProgressBar.Size = new System.Drawing.Size(265, 23);
+            this.ReadingProgressBar.TabIndex = 4;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 259);
+            this.ClientSize = new System.Drawing.Size(286, 283);
+            this.Controls.Add(this.ReadingProgressBar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Log);
@@ -94,6 +103,7 @@
         private System.Windows.Forms.RichTextBox Log;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ProgressBar ReadingProgressBar;
     }
 }
 

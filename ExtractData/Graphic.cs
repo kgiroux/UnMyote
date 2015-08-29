@@ -588,10 +588,14 @@ namespace ExtractData
             int compteur = 0;
             foreach (double datatemp in temp.dataList)
             {
-                listDouble[compteur] = datatemp;
-                compteur++;
-                listDouble[compteur] = 0.0;
-                compteur++;
+                if(compteur < listDouble.Length -1)
+                {
+                    listDouble[compteur] = datatemp;
+                    compteur++;
+                    listDouble[compteur] = 0.0;
+                    compteur++;
+                }
+                
             }
             try
             {

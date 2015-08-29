@@ -36,6 +36,11 @@ public:
 	std::ostringstream accelerometerFileString;
 	std::ostringstream orientationFileString;
 	std::ostringstream orientationEulerFileString;
+
+	int previous_x;
+	int previous_y;
+	int previous_z;
+	int previous_w;
 	void openFiles() {
 		time_t timestamp = std::time(0);
 		std::stringstream ss;
@@ -103,6 +108,45 @@ public:
 
 		//emgFile << std::endl;
 	}
+	void checkOrientation(float x, float y, float z, float w) {
+
+		std::cout << "rotation x :" << x << std::endl;
+		std::cout << "rotation y :" << y << std::endl;
+
+		std::cout << "rotation z :" << z << std::endl;
+		std::cout << "rotation w :" << w << std::endl;
+
+		if (previous_x < x) {
+
+		}
+		else {
+
+		}
+
+		if (previous_y < y) {
+
+		}
+		else {
+
+		}
+
+		if (previous_z < z) {
+
+		}
+		else {
+
+		}
+
+		if (previous_w < w) {
+
+		}
+		else {
+
+		}
+	}
+
+	
+
 
 	// onOrientationData is called whenever new orientation data is provided
 	// Be warned: This will not make any distiction between data from other Myo armbands
@@ -115,6 +159,10 @@ public:
 		sstring << timestamp;
 		timestampElem->SetAttribute("time", sstring.str().c_str());
 		
+
+		checkOrientation(rotation.x(), rotation.y(), rotation.z(), rotation.w());
+
+
 		XMLElement * xElem = doc.NewElement("X");
 		sstring.str("");
 		sstring.clear();
@@ -306,6 +354,8 @@ public:
 		datatoStoreORIENEULER->DeleteChildren();
 		doc.DeleteChildren();
 
+
+		
 	}
 
 	// The files we are logging to
@@ -351,7 +401,7 @@ int main(int argc, char** argv)
 		hub.addListener(&collector);
 		int compteur = 0;
 		// Finally we enter our main loop.
-		while (compteur != 1000) {
+		while (compteur != 5000) {
 			// In each iteration of our main loop, we run the Myo event loop for a set number of milliseconds.
 			// In this case, we wish to update our display 50 times a second, so we run for 1000/20 milliseconds.
 			hub.run(1);

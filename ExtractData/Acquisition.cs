@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -6,6 +7,9 @@ namespace ExtractData
 {
     public class Acquisition
     {
+
+        //public string file { get; set; }
+        //public int nbData { get; set; }
 
         private Main launchForm;
         public Emg emgs { get; set; }
@@ -47,6 +51,7 @@ namespace ExtractData
         public void StartReadFile()
         {
             int nbData = 0;
+            //int nbData = 0;
             foreach (string file in filesData)
             {
                 
@@ -76,7 +81,8 @@ namespace ExtractData
             //emgs.emg1.printData();
 
         }
-        private void readFile(string file, int nbData)
+
+        private void read(string file, int nbData)
         {
             XmlDocument xmlDoc = new XmlDocument();
             Console.WriteLine("#################====>>> " + file);
@@ -90,12 +96,12 @@ namespace ExtractData
                     int compteur = 0;
                     foreach (XmlNode xmlChild in xmlNode)
                     {
-                        
+
                         if (file.Contains("emg"))
                         {
                             Console.WriteLine("xmlChild : " + xmlChild.InnerText);
                             this.updateOutputLog("Emg XML CHILD : " + xmlChild.InnerText, 0);
-                            emgs.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".",",")));
+                            emgs.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
                             compteur++;
                         }
                         else if (file.Contains("accelerometer"))
@@ -117,7 +123,7 @@ namespace ExtractData
                             this.updateOutputLog("orientationEuler XML CHILD : " + xmlChild.InnerText, 0);
                             Console.WriteLine("xmlChild orientationEuler : " + xmlChild.InnerText);
                             eulorien.addData(compteur, double.Parse(xmlChild.InnerText.Replace(".", ",")));
-                            compteur++; 
+                            compteur++;
                         }
                         else if (file.Contains("orientation"))
                         {
@@ -128,12 +134,14 @@ namespace ExtractData
                             compteur++;
                         }
                     }
+                    
                 }
                 xmlDoc = null;
                 GC.Collect();
                 GC.WaitForPendingFinalizers();
+                
             }
-            catch(FormatException format)
+            catch (FormatException format)
             {
                 this.updateOutputLog("Erreur => Acquisition : format : " + format.Message, -1);
                 Console.WriteLine("Acquisition : format : " + format.Message);
@@ -143,6 +151,14 @@ namespace ExtractData
                 this.updateOutputLog("Erreur => Acquisition : general : " + ex.Message, -1);
                 Console.WriteLine("Acquision : " + ex.Message);
             }
+            this.launchForm.updateProgressBar();
+        }
+
+        private void readFile(string file, int nbData)
+        {
+            Thread readFile = new Thread(() => read(file, nbData));
+            readFile.Start();
+
         }
     }
 }

@@ -7,9 +7,13 @@ namespace ExtractData
 {
     public partial class Main : Form
     {
+        private int val;
+        private int lenghtFileList;
+        private Graphic gph;
         public Main()
         {
             InitializeComponent();
+            val = 1;
         }
 
         private void Browse_Click(object sender, EventArgs e)
@@ -21,14 +25,39 @@ namespace ExtractData
             DialogResult result = fbd.ShowDialog();
             string[] files = Directory.GetFiles(fbd.SelectedPath);
 
+            lenghtFileList = files.Length;
+            ReadingProgressBar.Maximum = files.Length;
+            ReadingProgressBar.Minimum = 0;
+
             Acquisition acq = new Acquisition(files, this);
             acq.StartReadFile();
 
-            Graphic gph = new Graphic(acq,this);
-            gph.Show();
+            gph = new Graphic(acq,this);
+            
         }
 
-        public void updateConsoleLog(string text, int type)
+
+        public void updateProgressBar()
+        {
+            ReadingProgressBar.Invoke(new updatebar(this.UpdateProgress));
+        }
+
+        public delegate void updatebar();
+
+        private void UpdateProgress()
+        {
+            ReadingProgressBar.Value += val;
+            this.updateConsoleLog("val : " + lenghtFileList, -1);
+            this.updateConsoleLog("maximum : " + ReadingProgressBar.Maximum,-1);
+            if (lenghtFileList == ReadingProgressBar.Maximum)
+            {
+                gph.Show();
+            }
+        }
+
+
+
+    public void updateConsoleLog(string text, int type)
         {
             /* Création d'une méthode sécurisé (pointeur sur une fonction) pour changer le contenu de la liste. Cette méthode est anonyme*/
             Func<int> del = delegate ()
