@@ -96,12 +96,6 @@ namespace ExtractData
                 fourierItem.DropDownItems.Add(fouriercomp);
             }
 
-            //ToolStripMenuItem AddTrace = new ToolStripMenuItem("Add a another Trace");
-            /*foreach (string type in acqData.typeofdata)
-            {
-
-            }*/
-
             ToolStripMenuItem DisplayTrace = new ToolStripMenuItem("Display all Trace");
 
             foreach (string type in acqData.typeofdata)
@@ -131,10 +125,20 @@ namespace ExtractData
             CleanTrace.Tag = CleanTrace.Text;
             CleanTrace.Click += new EventHandler(MenuItemClickHandlerSettings);
 
+            ToolStripMenuItem ResizeAxis = new ToolStripMenuItem("Resize Axis");
+            ResizeAxis.Name = "Resize Axis";
+            ResizeAxis.Text = "Resize Axis";
+            ResizeAxis.Tag = ResizeAxis.Text;
+            ResizeAxis.Click += new EventHandler(MenuItemClickHandlerSettings);
+
+
+
+
             //OptionsItem.DropDownItems.Add(AddTrace);
             OptionsItem.DropDownItems.Add(DisplayTrace);
             OptionsItem.DropDownItems.Add(DisplayTraceFourier);
             OptionsItem.DropDownItems.Add(CleanTrace);
+            OptionsItem.DropDownItems.Add(ResizeAxis);
 
             ToolStripMenuItem UnMyote = new ToolStripMenuItem("UnMyote");
             UnMyote.Name = "UnMyote";
@@ -326,12 +330,31 @@ namespace ExtractData
         /* Menu Handler */
         private void MenuItemClickHandlerSettings(object sender, EventArgs e)
         {
+            int newX;
             List<Data> temp;
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
             Console.WriteLine(clickedItem.Tag);
-            clearPane();
+            if(clickedItem.Tag.ToString() != "Resize Axis")
+                clearPane();
             switch (clickedItem.Tag.ToString())
             {
+                case "Resize Axis":
+                    Resize resize = new Resize();
+                    DialogResult result = resize.ShowDialog();
+                    switch (result)
+                    {
+                        case DialogResult.OK:
+                            newX = resize.SizeOfX;
+                            this.updateOutputLog("New X : " + newX, 1);
+                            this.z1.GraphPane.XAxis.Max = newX;
+                            this.z1.AxisChange();
+                            this.z1.Invalidate();
+                            break;
+                        case DialogResult.Cancel:
+                        default:
+                            break;
+                    }
+                    break;
                 case "Display all Emg":
                     
                     acqData.emgs.packData();
