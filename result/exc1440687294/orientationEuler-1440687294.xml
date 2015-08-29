@@ -1,0 +1,4642 @@
+<data>
+    <timestamp time="1440687294627086">
+        <roll>-0.501746</roll>
+        <pitch>0.187779</pitch>
+        <yaw>-0.907133</yaw>
+    </timestamp>
+    <timestamp time="1440687294652101">
+        <roll>-0.502313</roll>
+        <pitch>0.187506</pitch>
+        <yaw>-0.907175</yaw>
+    </timestamp>
+    <timestamp time="1440687294672115">
+        <roll>-0.502992</roll>
+        <pitch>0.187473</pitch>
+        <yaw>-0.907173</yaw>
+    </timestamp>
+    <timestamp time="1440687294687125">
+        <roll>-0.503457</roll>
+        <pitch>0.187518</pitch>
+        <yaw>-0.907289</yaw>
+    </timestamp>
+    <timestamp time="1440687294711143">
+        <roll>-0.503714</roll>
+        <pitch>0.187303</pitch>
+        <yaw>-0.907694</yaw>
+    </timestamp>
+    <timestamp time="1440687294732158">
+        <roll>-0.504139</roll>
+        <pitch>0.186878</pitch>
+        <yaw>-0.908076</yaw>
+    </timestamp>
+    <timestamp time="1440687294747166">
+        <roll>-0.504232</roll>
+        <pitch>0.186627</pitch>
+        <yaw>-0.908446</yaw>
+    </timestamp>
+    <timestamp time="1440687294803202">
+        <roll>-0.50435</roll>
+        <pitch>0.186577</pitch>
+        <yaw>-0.908461</yaw>
+    </timestamp>
+    <timestamp time="1440687294805203">
+        <roll>-0.504571</roll>
+        <pitch>0.186788</pitch>
+        <yaw>-0.90899</yaw>
+    </timestamp>
+    <timestamp time="1440687294816211">
+        <roll>-0.504655</roll>
+        <pitch>0.187119</pitch>
+        <yaw>-0.909245</yaw>
+    </timestamp>
+    <timestamp time="1440687294831221">
+        <roll>-0.504655</roll>
+        <pitch>0.187119</pitch>
+        <yaw>-0.909245</yaw>
+    </timestamp>
+    <timestamp time="1440687294853236">
+        <roll>-0.504701</roll>
+        <pitch>0.18725</pitch>
+        <yaw>-0.90915</yaw>
+    </timestamp>
+    <timestamp time="1440687294884255">
+        <roll>-0.504701</roll>
+        <pitch>0.18725</pitch>
+        <yaw>-0.90915</yaw>
+    </timestamp>
+    <timestamp time="1440687294915277">
+        <roll>-0.505042</roll>
+        <pitch>0.187728</pitch>
+        <yaw>-0.908964</yaw>
+    </timestamp>
+    <timestamp time="1440687294916278">
+        <roll>-0.50523</roll>
+        <pitch>0.188011</pitch>
+        <yaw>-0.908529</yaw>
+    </timestamp>
+    <timestamp time="1440687294928290">
+        <roll>-0.505603</roll>
+        <pitch>0.188306</pitch>
+        <yaw>-0.908275</yaw>
+    </timestamp>
+    <timestamp time="1440687294950299">
+        <roll>-0.505603</roll>
+        <pitch>0.188306</pitch>
+        <yaw>-0.908275</yaw>
+    </timestamp>
+    <timestamp time="1440687294972314">
+        <roll>-0.506113</roll>
+        <pitch>0.188529</pitch>
+        <yaw>-0.908182</yaw>
+    </timestamp>
+    <timestamp time="1440687294990326">
+        <roll>-0.506113</roll>
+        <pitch>0.188529</pitch>
+        <yaw>-0.908182</yaw>
+    </timestamp>
+    <timestamp time="1440687295013344">
+        <roll>-0.506113</roll>
+        <pitch>0.188529</pitch>
+        <yaw>-0.908182</yaw>
+    </timestamp>
+    <timestamp time="1440687295032357">
+        <roll>-0.506113</roll>
+        <pitch>0.188529</pitch>
+        <yaw>-0.908182</yaw>
+    </timestamp>
+    <timestamp time="1440687295050367">
+        <roll>-0.506353</roll>
+        <pitch>0.188607</pitch>
+        <yaw>-0.907826</yaw>
+    </timestamp>
+    <timestamp time="1440687295069378">
+        <roll>-0.507005</roll>
+        <pitch>0.188981</pitch>
+        <yaw>-0.907393</yaw>
+    </timestamp>
+    <timestamp time="1440687295093397">
+        <roll>-0.50737</roll>
+        <pitch>0.18899</pitch>
+        <yaw>-0.906494</yaw>
+    </timestamp>
+    <timestamp time="1440687295110406">
+        <roll>-0.507851</roll>
+        <pitch>0.188997</pitch>
+        <yaw>-0.905495</yaw>
+    </timestamp>
+    <timestamp time="1440687295131421">
+        <roll>-0.508356</roll>
+        <pitch>0.188887</pitch>
+        <yaw>-0.904872</yaw>
+    </timestamp>
+    <timestamp time="1440687295159438">
+        <roll>-0.508401</roll>
+        <pitch>0.189019</pitch>
+        <yaw>-0.904778</yaw>
+    </timestamp>
+    <timestamp time="1440687295170445">
+        <roll>-0.509653</roll>
+        <pitch>0.188987</pitch>
+        <yaw>-0.904208</yaw>
+    </timestamp>
+    <timestamp time="1440687295191459">
+        <roll>-0.511069</roll>
+        <pitch>0.1879</pitch>
+        <yaw>-0.90364</yaw>
+    </timestamp>
+    <timestamp time="1440687295212475">
+        <roll>-0.512354</roll>
+        <pitch>0.187171</pitch>
+        <yaw>-0.903558</yaw>
+    </timestamp>
+    <timestamp time="1440687295230487">
+        <roll>-0.512708</roll>
+        <pitch>0.186399</pitch>
+        <yaw>-0.903128</yaw>
+    </timestamp>
+    <timestamp time="1440687295251500">
+        <roll>-0.513634</roll>
+        <pitch>0.186205</pitch>
+        <yaw>-0.902716</yaw>
+    </timestamp>
+    <timestamp time="1440687295272513">
+        <roll>-0.514873</roll>
+        <pitch>0.186485</pitch>
+        <yaw>-0.902648</yaw>
+    </timestamp>
+    <timestamp time="1440687295290528">
+        <roll>-0.516201</roll>
+        <pitch>0.186804</pitch>
+        <yaw>-0.902892</yaw>
+    </timestamp>
+    <timestamp time="1440687295311539">
+        <roll>-0.517595</roll>
+        <pitch>0.187183</pitch>
+        <yaw>-0.903305</yaw>
+    </timestamp>
+    <timestamp time="1440687295332555">
+        <roll>-0.519198</roll>
+        <pitch>0.186984</pitch>
+        <yaw>-0.904713</yaw>
+    </timestamp>
+    <timestamp time="1440687295350565">
+        <roll>-0.520948</roll>
+        <pitch>0.186945</pitch>
+        <yaw>-0.907045</yaw>
+    </timestamp>
+    <timestamp time="1440687295371579">
+        <roll>-0.523391</roll>
+        <pitch>0.186538</pitch>
+        <yaw>-0.910814</yaw>
+    </timestamp>
+    <timestamp time="1440687295392593">
+        <roll>-0.526789</roll>
+        <pitch>0.185763</pitch>
+        <yaw>-0.915932</yaw>
+    </timestamp>
+    <timestamp time="1440687295414607">
+        <roll>-0.531014</roll>
+        <pitch>0.184541</pitch>
+        <yaw>-0.92322</yaw>
+    </timestamp>
+    <timestamp time="1440687295431622">
+        <roll>-0.536022</roll>
+        <pitch>0.182915</pitch>
+        <yaw>-0.932963</yaw>
+    </timestamp>
+    <timestamp time="1440687295452633">
+        <roll>-0.540944</roll>
+        <pitch>0.181492</pitch>
+        <yaw>-0.945456</yaw>
+    </timestamp>
+    <timestamp time="1440687295474648">
+        <roll>-0.545758</roll>
+        <pitch>0.179819</pitch>
+        <yaw>-0.959748</yaw>
+    </timestamp>
+    <timestamp time="1440687295491660">
+        <roll>-0.551076</roll>
+        <pitch>0.178226</pitch>
+        <yaw>-0.975227</yaw>
+    </timestamp>
+    <timestamp time="1440687295512673">
+        <roll>-0.55708</roll>
+        <pitch>0.175979</pitch>
+        <yaw>-0.991903</yaw>
+    </timestamp>
+    <timestamp time="1440687295534690">
+        <roll>-0.563744</roll>
+        <pitch>0.172982</pitch>
+        <yaw>-1.00988</yaw>
+    </timestamp>
+    <timestamp time="1440687295551699">
+        <roll>-0.571164</roll>
+        <pitch>0.169689</pitch>
+        <yaw>-1.02962</yaw>
+    </timestamp>
+    <timestamp time="1440687295572713">
+        <roll>-0.578524</roll>
+        <pitch>0.166947</pitch>
+        <yaw>-1.05158</yaw>
+    </timestamp>
+    <timestamp time="1440687295594727">
+        <roll>-0.586418</roll>
+        <pitch>0.164794</pitch>
+        <yaw>-1.07553</yaw>
+    </timestamp>
+    <timestamp time="1440687295611739">
+        <roll>-0.594402</roll>
+        <pitch>0.163035</pitch>
+        <yaw>-1.10059</yaw>
+    </timestamp>
+    <timestamp time="1440687295632752">
+        <roll>-0.602055</roll>
+        <pitch>0.161101</pitch>
+        <yaw>-1.12589</yaw>
+    </timestamp>
+    <timestamp time="1440687295654768">
+        <roll>-0.609439</roll>
+        <pitch>0.15868</pitch>
+        <yaw>-1.15134</yaw>
+    </timestamp>
+    <timestamp time="1440687295670778">
+        <roll>-0.616934</roll>
+        <pitch>0.156463</pitch>
+        <yaw>-1.17778</yaw>
+    </timestamp>
+    <timestamp time="1440687295692792">
+        <roll>-0.623775</roll>
+        <pitch>0.154918</pitch>
+        <yaw>-1.20501</yaw>
+    </timestamp>
+    <timestamp time="1440687295722812">
+        <roll>-0.629807</roll>
+        <pitch>0.153031</pitch>
+        <yaw>-1.23233</yaw>
+    </timestamp>
+    <timestamp time="1440687295731820">
+        <roll>-0.635988</roll>
+        <pitch>0.150186</pitch>
+        <yaw>-1.25933</yaw>
+    </timestamp>
+    <timestamp time="1440687295752831">
+        <roll>-0.641993</roll>
+        <pitch>0.146886</pitch>
+        <yaw>-1.28642</yaw>
+    </timestamp>
+    <timestamp time="1440687295777849">
+        <roll>-0.647803</roll>
+        <pitch>0.144889</pitch>
+        <yaw>-1.31474</yaw>
+    </timestamp>
+    <timestamp time="1440687295790858">
+        <roll>-0.651879</roll>
+        <pitch>0.142533</pitch>
+        <yaw>-1.34351</yaw>
+    </timestamp>
+    <timestamp time="1440687295811872">
+        <roll>-0.655546</roll>
+        <pitch>0.139883</pitch>
+        <yaw>-1.37092</yaw>
+    </timestamp>
+    <timestamp time="1440687295835888">
+        <roll>-0.658954</roll>
+        <pitch>0.136722</pitch>
+        <yaw>-1.39704</yaw>
+    </timestamp>
+    <timestamp time="1440687295850897">
+        <roll>-0.661734</roll>
+        <pitch>0.133384</pitch>
+        <yaw>-1.42252</yaw>
+    </timestamp>
+    <timestamp time="1440687295871911">
+        <roll>-0.664365</roll>
+        <pitch>0.129803</pitch>
+        <yaw>-1.44798</yaw>
+    </timestamp>
+    <timestamp time="1440687295895926">
+        <roll>-0.666356</roll>
+        <pitch>0.127068</pitch>
+        <yaw>-1.47405</yaw>
+    </timestamp>
+    <timestamp time="1440687295911938">
+        <roll>-0.667827</roll>
+        <pitch>0.124444</pitch>
+        <yaw>-1.49923</yaw>
+    </timestamp>
+    <timestamp time="1440687295934954">
+        <roll>-0.669729</roll>
+        <pitch>0.121218</pitch>
+        <yaw>-1.52362</yaw>
+    </timestamp>
+    <timestamp time="1440687295954966">
+        <roll>-0.673351</roll>
+        <pitch>0.118508</pitch>
+        <yaw>-1.5483</yaw>
+    </timestamp>
+    <timestamp time="1440687295971977">
+        <roll>-0.675168</roll>
+        <pitch>0.115994</pitch>
+        <yaw>-1.57304</yaw>
+    </timestamp>
+    <timestamp time="1440687295993992">
+        <roll>-0.67656</roll>
+        <pitch>0.113583</pitch>
+        <yaw>-1.59723</yaw>
+    </timestamp>
+    <timestamp time="1440687296016008">
+        <roll>-0.678291</roll>
+        <pitch>0.111133</pitch>
+        <yaw>-1.6204</yaw>
+    </timestamp>
+    <timestamp time="1440687296032017">
+        <roll>-0.680369</roll>
+        <pitch>0.108328</pitch>
+        <yaw>-1.64294</yaw>
+    </timestamp>
+    <timestamp time="1440687296054031">
+        <roll>-0.683906</roll>
+        <pitch>0.106369</pitch>
+        <yaw>-1.66565</yaw>
+    </timestamp>
+    <timestamp time="1440687296075046">
+        <roll>-0.687308</roll>
+        <pitch>0.105089</pitch>
+        <yaw>-1.68868</yaw>
+    </timestamp>
+    <timestamp time="1440687296091057">
+        <roll>-0.690653</roll>
+        <pitch>0.103901</pitch>
+        <yaw>-1.71107</yaw>
+    </timestamp>
+    <timestamp time="1440687296114076">
+        <roll>-0.693721</roll>
+        <pitch>0.102446</pitch>
+        <yaw>-1.73318</yaw>
+    </timestamp>
+    <timestamp time="1440687296135089">
+        <roll>-0.697035</roll>
+        <pitch>0.101281</pitch>
+        <yaw>-1.75484</yaw>
+    </timestamp>
+    <timestamp time="1440687296151098">
+        <roll>-0.700065</roll>
+        <pitch>0.0997645</pitch>
+        <yaw>-1.77612</yaw>
+    </timestamp>
+    <timestamp time="1440687296174111">
+        <roll>-0.703014</roll>
+        <pitch>0.0985892</pitch>
+        <yaw>-1.79739</yaw>
+    </timestamp>
+    <timestamp time="1440687296203131">
+        <roll>-0.706689</roll>
+        <pitch>0.0971268</pitch>
+        <yaw>-1.81814</yaw>
+    </timestamp>
+    <timestamp time="1440687296218143">
+        <roll>-0.710877</roll>
+        <pitch>0.0958168</pitch>
+        <yaw>-1.83877</yaw>
+    </timestamp>
+    <timestamp time="1440687296234151">
+        <roll>-0.713885</roll>
+        <pitch>0.0950569</pitch>
+        <yaw>-1.85995</yaw>
+    </timestamp>
+    <timestamp time="1440687296255166">
+        <roll>-0.714894</roll>
+        <pitch>0.0943048</pitch>
+        <yaw>-1.88158</yaw>
+    </timestamp>
+    <timestamp time="1440687296271177">
+        <roll>-0.715072</roll>
+        <pitch>0.0934799</pitch>
+        <yaw>-1.9029</yaw>
+    </timestamp>
+    <timestamp time="1440687296294191">
+        <roll>-0.714246</roll>
+        <pitch>0.0919196</pitch>
+        <yaw>-1.9234</yaw>
+    </timestamp>
+    <timestamp time="1440687296317208">
+        <roll>-0.7137</roll>
+        <pitch>0.0898246</pitch>
+        <yaw>-1.94374</yaw>
+    </timestamp>
+    <timestamp time="1440687296331216">
+        <roll>-0.713963</roll>
+        <pitch>0.0874095</pitch>
+        <yaw>-1.96396</yaw>
+    </timestamp>
+    <timestamp time="1440687296354231">
+        <roll>-0.71434</roll>
+        <pitch>0.0854668</pitch>
+        <yaw>-1.98422</yaw>
+    </timestamp>
+    <timestamp time="1440687296377250">
+        <roll>-0.714813</roll>
+        <pitch>0.0840622</pitch>
+        <yaw>-2.00447</yaw>
+    </timestamp>
+    <timestamp time="1440687296391258">
+        <roll>-0.714999</roll>
+        <pitch>0.0827331</pitch>
+        <yaw>-2.02431</yaw>
+    </timestamp>
+    <timestamp time="1440687296414271">
+        <roll>-0.715013</roll>
+        <pitch>0.0822304</pitch>
+        <yaw>-2.04368</yaw>
+    </timestamp>
+    <timestamp time="1440687296437286">
+        <roll>-0.714563</roll>
+        <pitch>0.0822798</pitch>
+        <yaw>-2.06236</yaw>
+    </timestamp>
+    <timestamp time="1440687296458301">
+        <roll>-0.713887</roll>
+        <pitch>0.0838166</pitch>
+        <yaw>-2.0807</yaw>
+    </timestamp>
+    <timestamp time="1440687296482319">
+        <roll>-0.711903</roll>
+        <pitch>0.0854556</pitch>
+        <yaw>-2.09784</yaw>
+    </timestamp>
+    <timestamp time="1440687296497326">
+        <roll>-0.709172</roll>
+        <pitch>0.0872612</pitch>
+        <yaw>-2.11421</yaw>
+    </timestamp>
+    <timestamp time="1440687296518342">
+        <roll>-0.706056</roll>
+        <pitch>0.0900557</pitch>
+        <yaw>-2.12938</yaw>
+    </timestamp>
+    <timestamp time="1440687296534351">
+        <roll>-0.702772</roll>
+        <pitch>0.0930092</pitch>
+        <yaw>-2.14202</yaw>
+    </timestamp>
+    <timestamp time="1440687296557366">
+        <roll>-0.700045</roll>
+        <pitch>0.0952544</pitch>
+        <yaw>-2.15198</yaw>
+    </timestamp>
+    <timestamp time="1440687296578381">
+        <roll>-0.697626</roll>
+        <pitch>0.0975856</pitch>
+        <yaw>-2.1592</yaw>
+    </timestamp>
+    <timestamp time="1440687296594391">
+        <roll>-0.696261</roll>
+        <pitch>0.100437</pitch>
+        <yaw>-2.1635</yaw>
+    </timestamp>
+    <timestamp time="1440687296617408">
+        <roll>-0.695518</roll>
+        <pitch>0.103019</pitch>
+        <yaw>-2.16443</yaw>
+    </timestamp>
+    <timestamp time="1440687296638420">
+        <roll>-0.695305</roll>
+        <pitch>0.105325</pitch>
+        <yaw>-2.16267</yaw>
+    </timestamp>
+    <timestamp time="1440687296654433">
+        <roll>-0.695751</roll>
+        <pitch>0.108281</pitch>
+        <yaw>-2.15834</yaw>
+    </timestamp>
+    <timestamp time="1440687296676447">
+        <roll>-0.696041</roll>
+        <pitch>0.110866</pitch>
+        <yaw>-2.15097</yaw>
+    </timestamp>
+    <timestamp time="1440687296698462">
+        <roll>-0.695883</roll>
+        <pitch>0.112695</pitch>
+        <yaw>-2.14115</yaw>
+    </timestamp>
+    <timestamp time="1440687296714471">
+        <roll>-0.695165</roll>
+        <pitch>0.113924</pitch>
+        <yaw>-2.12902</yaw>
+    </timestamp>
+    <timestamp time="1440687296736485">
+        <roll>-0.693792</roll>
+        <pitch>0.114745</pitch>
+        <yaw>-2.11465</yaw>
+    </timestamp>
+    <timestamp time="1440687296757500">
+        <roll>-0.691362</roll>
+        <pitch>0.115595</pitch>
+        <yaw>-2.09861</yaw>
+    </timestamp>
+    <timestamp time="1440687296774510">
+        <roll>-0.688422</roll>
+        <pitch>0.115739</pitch>
+        <yaw>-2.08033</yaw>
+    </timestamp>
+    <timestamp time="1440687296796525">
+        <roll>-0.684899</roll>
+        <pitch>0.115537</pitch>
+        <yaw>-2.06071</yaw>
+    </timestamp>
+    <timestamp time="1440687296817539">
+        <roll>-0.681276</roll>
+        <pitch>0.115183</pitch>
+        <yaw>-2.03947</yaw>
+    </timestamp>
+    <timestamp time="1440687296834550">
+        <roll>-0.677669</roll>
+        <pitch>0.113885</pitch>
+        <yaw>-2.01649</yaw>
+    </timestamp>
+    <timestamp time="1440687296856564">
+        <roll>-0.674403</roll>
+        <pitch>0.112888</pitch>
+        <yaw>-1.99249</yaw>
+    </timestamp>
+    <timestamp time="1440687296877579">
+        <roll>-0.670643</roll>
+        <pitch>0.112173</pitch>
+        <yaw>-1.96735</yaw>
+    </timestamp>
+    <timestamp time="1440687296894590">
+        <roll>-0.666872</roll>
+        <pitch>0.111148</pitch>
+        <yaw>-1.94139</yaw>
+    </timestamp>
+    <timestamp time="1440687296916605">
+        <roll>-0.663454</roll>
+        <pitch>0.109939</pitch>
+        <yaw>-1.91439</yaw>
+    </timestamp>
+    <timestamp time="1440687296937619">
+        <roll>-0.661624</roll>
+        <pitch>0.108733</pitch>
+        <yaw>-1.88671</yaw>
+    </timestamp>
+    <timestamp time="1440687296954632">
+        <roll>-0.659291</roll>
+        <pitch>0.107511</pitch>
+        <yaw>-1.8589</yaw>
+    </timestamp>
+    <timestamp time="1440687296976644">
+        <roll>-0.657663</roll>
+        <pitch>0.107087</pitch>
+        <yaw>-1.83134</yaw>
+    </timestamp>
+    <timestamp time="1440687296997660">
+        <roll>-0.655987</roll>
+        <pitch>0.105939</pitch>
+        <yaw>-1.80302</yaw>
+    </timestamp>
+    <timestamp time="1440687297014670">
+        <roll>-0.654939</roll>
+        <pitch>0.104901</pitch>
+        <yaw>-1.7745</yaw>
+    </timestamp>
+    <timestamp time="1440687297036685">
+        <roll>-0.65385</roll>
+        <pitch>0.103568</pitch>
+        <yaw>-1.74588</yaw>
+    </timestamp>
+    <timestamp time="1440687297057698">
+        <roll>-0.652431</roll>
+        <pitch>0.102795</pitch>
+        <yaw>-1.71725</yaw>
+    </timestamp>
+    <timestamp time="1440687297073709">
+        <roll>-0.650622</roll>
+        <pitch>0.102054</pitch>
+        <yaw>-1.68854</yaw>
+    </timestamp>
+    <timestamp time="1440687297096724">
+        <roll>-0.649345</roll>
+        <pitch>0.101536</pitch>
+        <yaw>-1.65964</yaw>
+    </timestamp>
+    <timestamp time="1440687297117738">
+        <roll>-0.648148</roll>
+        <pitch>0.101</pitch>
+        <yaw>-1.63103</yaw>
+    </timestamp>
+    <timestamp time="1440687297134750">
+        <roll>-0.64701</roll>
+        <pitch>0.100777</pitch>
+        <yaw>-1.60226</yaw>
+    </timestamp>
+    <timestamp time="1440687297156764">
+        <roll>-0.646013</roll>
+        <pitch>0.101086</pitch>
+        <yaw>-1.57345</yaw>
+    </timestamp>
+    <timestamp time="1440687297177778">
+        <roll>-0.644752</roll>
+        <pitch>0.101612</pitch>
+        <yaw>-1.54498</yaw>
+    </timestamp>
+    <timestamp time="1440687297193788">
+        <roll>-0.643034</roll>
+        <pitch>0.102865</pitch>
+        <yaw>-1.51724</yaw>
+    </timestamp>
+    <timestamp time="1440687297216805">
+        <roll>-0.641897</roll>
+        <pitch>0.104831</pitch>
+        <yaw>-1.48997</yaw>
+    </timestamp>
+    <timestamp time="1440687297239819">
+        <roll>-0.642075</roll>
+        <pitch>0.10664</pitch>
+        <yaw>-1.46175</yaw>
+    </timestamp>
+    <timestamp time="1440687297253829">
+        <roll>-0.643278</roll>
+        <pitch>0.108333</pitch>
+        <yaw>-1.43217</yaw>
+    </timestamp>
+    <timestamp time="1440687297276844">
+        <roll>-0.643575</roll>
+        <pitch>0.110702</pitch>
+        <yaw>-1.40257</yaw>
+    </timestamp>
+    <timestamp time="1440687297299860">
+        <roll>-0.643358</roll>
+        <pitch>0.114348</pitch>
+        <yaw>-1.373</yaw>
+    </timestamp>
+    <timestamp time="1440687297313869">
+        <roll>-0.643236</roll>
+        <pitch>0.118451</pitch>
+        <yaw>-1.34302</yaw>
+    </timestamp>
+    <timestamp time="1440687297336883">
+        <roll>-0.643861</roll>
+        <pitch>0.122025</pitch>
+        <yaw>-1.31313</yaw>
+    </timestamp>
+    <timestamp time="1440687297358898">
+        <roll>-0.644709</roll>
+        <pitch>0.125823</pitch>
+        <yaw>-1.2839</yaw>
+    </timestamp>
+    <timestamp time="1440687297373908">
+        <roll>-0.644994</roll>
+        <pitch>0.130373</pitch>
+        <yaw>-1.25511</yaw>
+    </timestamp>
+    <timestamp time="1440687297396925">
+        <roll>-0.644832</roll>
+        <pitch>0.135227</pitch>
+        <yaw>-1.22676</yaw>
+    </timestamp>
+    <timestamp time="1440687297418938">
+        <roll>-0.644933</roll>
+        <pitch>0.14007</pitch>
+        <yaw>-1.19833</yaw>
+    </timestamp>
+    <timestamp time="1440687297433948">
+        <roll>-0.645035</roll>
+        <pitch>0.144999</pitch>
+        <yaw>-1.16975</yaw>
+    </timestamp>
+    <timestamp time="1440687297456963">
+        <roll>-0.644472</roll>
+        <pitch>0.150375</pitch>
+        <yaw>-1.14159</yaw>
+    </timestamp>
+    <timestamp time="1440687297478977">
+        <roll>-0.643615</roll>
+        <pitch>0.155869</pitch>
+        <yaw>-1.11486</yaw>
+    </timestamp>
+    <timestamp time="1440687297493987">
+        <roll>-0.642026</roll>
+        <pitch>0.161088</pitch>
+        <yaw>-1.08939</yaw>
+    </timestamp>
+    <timestamp time="1440687297517004">
+        <roll>-0.640366</roll>
+        <pitch>0.166487</pitch>
+        <yaw>-1.06492</yaw>
+    </timestamp>
+    <timestamp time="1440687297539018">
+        <roll>-0.638216</roll>
+        <pitch>0.171413</pitch>
+        <yaw>-1.04136</yaw>
+    </timestamp>
+    <timestamp time="1440687297560030">
+        <roll>-0.636295</roll>
+        <pitch>0.175701</pitch>
+        <yaw>-1.01895</yaw>
+    </timestamp>
+    <timestamp time="1440687297577046">
+        <roll>-0.634628</roll>
+        <pitch>0.179226</pitch>
+        <yaw>-0.997484</yaw>
+    </timestamp>
+    <timestamp time="1440687297599058">
+        <roll>-0.632498</roll>
+        <pitch>0.182106</pitch>
+        <yaw>-0.976666</yaw>
+    </timestamp>
+    <timestamp time="1440687297620073">
+        <roll>-0.62969</roll>
+        <pitch>0.184115</pitch>
+        <yaw>-0.957171</yaw>
+    </timestamp>
+    <timestamp time="1440687297637083">
+        <roll>-0.62653</roll>
+        <pitch>0.185689</pitch>
+        <yaw>-0.94039</yaw>
+    </timestamp>
+    <timestamp time="1440687297659097">
+        <roll>-0.623491</roll>
+        <pitch>0.186772</pitch>
+        <yaw>-0.925523</yaw>
+    </timestamp>
+    <timestamp time="1440687297680112">
+        <roll>-0.620887</roll>
+        <pitch>0.186751</pitch>
+        <yaw>-0.912268</yaw>
+    </timestamp>
+    <timestamp time="1440687297697122">
+        <roll>-0.618101</roll>
+        <pitch>0.186069</pitch>
+        <yaw>-0.900048</yaw>
+    </timestamp>
+    <timestamp time="1440687297719138">
+        <roll>-0.615237</roll>
+        <pitch>0.185861</pitch>
+        <yaw>-0.890415</yaw>
+    </timestamp>
+    <timestamp time="1440687297740151">
+        <roll>-0.613145</roll>
+        <pitch>0.185563</pitch>
+        <yaw>-0.883493</yaw>
+    </timestamp>
+    <timestamp time="1440687297757164">
+        <roll>-0.61121</roll>
+        <pitch>0.184878</pitch>
+        <yaw>-0.878572</yaw>
+    </timestamp>
+    <timestamp time="1440687297780178">
+        <roll>-0.610633</roll>
+        <pitch>0.184481</pitch>
+        <yaw>-0.875779</yaw>
+    </timestamp>
+    <timestamp time="1440687297800194">
+        <roll>-0.61174</roll>
+        <pitch>0.183547</pitch>
+        <yaw>-0.87529</yaw>
+    </timestamp>
+    <timestamp time="1440687297817206">
+        <roll>-0.613431</roll>
+        <pitch>0.182368</pitch>
+        <yaw>-0.877787</yaw>
+    </timestamp>
+    <timestamp time="1440687297840217">
+        <roll>-0.615311</roll>
+        <pitch>0.181869</pitch>
+        <yaw>-0.884372</yaw>
+    </timestamp>
+    <timestamp time="1440687297860235">
+        <roll>-0.617231</roll>
+        <pitch>0.181344</pitch>
+        <yaw>-0.894066</yaw>
+    </timestamp>
+    <timestamp time="1440687297877244">
+        <roll>-0.619414</roll>
+        <pitch>0.180407</pitch>
+        <yaw>-0.906803</yaw>
+    </timestamp>
+    <timestamp time="1440687297899258">
+        <roll>-0.620862</roll>
+        <pitch>0.179519</pitch>
+        <yaw>-0.921542</yaw>
+    </timestamp>
+    <timestamp time="1440687297920270">
+        <roll>-0.622249</roll>
+        <pitch>0.177845</pitch>
+        <yaw>-0.937028</yaw>
+    </timestamp>
+    <timestamp time="1440687297937283">
+        <roll>-0.624719</roll>
+        <pitch>0.175842</pitch>
+        <yaw>-0.95403</yaw>
+    </timestamp>
+    <timestamp time="1440687297959298">
+        <roll>-0.628248</roll>
+        <pitch>0.173111</pitch>
+        <yaw>-0.9727</yaw>
+    </timestamp>
+    <timestamp time="1440687297980310">
+        <roll>-0.63206</roll>
+        <pitch>0.17014</pitch>
+        <yaw>-0.992305</yaw>
+    </timestamp>
+    <timestamp time="1440687297997322">
+        <roll>-0.636273</roll>
+        <pitch>0.166671</pitch>
+        <yaw>-1.01326</yaw>
+    </timestamp>
+    <timestamp time="1440687298019337">
+        <roll>-0.640595</roll>
+        <pitch>0.163159</pitch>
+        <yaw>-1.03512</yaw>
+    </timestamp>
+    <timestamp time="1440687298040350">
+        <roll>-0.644681</roll>
+        <pitch>0.159554</pitch>
+        <yaw>-1.05775</yaw>
+    </timestamp>
+    <timestamp time="1440687298057362">
+        <roll>-0.649014</roll>
+        <pitch>0.156269</pitch>
+        <yaw>-1.08254</yaw>
+    </timestamp>
+    <timestamp time="1440687298079377">
+        <roll>-0.65376</roll>
+        <pitch>0.153089</pitch>
+        <yaw>-1.10829</yaw>
+    </timestamp>
+    <timestamp time="1440687298102394">
+        <roll>-0.658815</roll>
+        <pitch>0.150181</pitch>
+        <yaw>-1.13416</yaw>
+    </timestamp>
+    <timestamp time="1440687298116401">
+        <roll>-0.66452</roll>
+        <pitch>0.147567</pitch>
+        <yaw>-1.1612</yaw>
+    </timestamp>
+    <timestamp time="1440687298139416">
+        <roll>-0.669394</roll>
+        <pitch>0.144952</pitch>
+        <yaw>-1.18857</yaw>
+    </timestamp>
+    <timestamp time="1440687298160433">
+        <roll>-0.674625</roll>
+        <pitch>0.142151</pitch>
+        <yaw>-1.21659</yaw>
+    </timestamp>
+    <timestamp time="1440687298176440">
+        <roll>-0.681025</roll>
+        <pitch>0.140841</pitch>
+        <yaw>-1.24588</yaw>
+    </timestamp>
+    <timestamp time="1440687298199456">
+        <roll>-0.687979</roll>
+        <pitch>0.139575</pitch>
+        <yaw>-1.27606</yaw>
+    </timestamp>
+    <timestamp time="1440687298221471">
+        <roll>-0.694722</roll>
+        <pitch>0.137663</pitch>
+        <yaw>-1.30631</yaw>
+    </timestamp>
+    <timestamp time="1440687298236480">
+        <roll>-0.701712</roll>
+        <pitch>0.135995</pitch>
+        <yaw>-1.33602</yaw>
+    </timestamp>
+    <timestamp time="1440687298259498">
+        <roll>-0.708253</roll>
+        <pitch>0.134203</pitch>
+        <yaw>-1.36545</yaw>
+    </timestamp>
+    <timestamp time="1440687298281511">
+        <roll>-0.714548</roll>
+        <pitch>0.132282</pitch>
+        <yaw>-1.39564</yaw>
+    </timestamp>
+    <timestamp time="1440687298296522">
+        <roll>-0.72165</roll>
+        <pitch>0.130469</pitch>
+        <yaw>-1.42748</yaw>
+    </timestamp>
+    <timestamp time="1440687298319539">
+        <roll>-0.728034</roll>
+        <pitch>0.129068</pitch>
+        <yaw>-1.4601</yaw>
+    </timestamp>
+    <timestamp time="1440687298341549">
+        <roll>-0.73048</roll>
+        <pitch>0.127825</pitch>
+        <yaw>-1.49223</yaw>
+    </timestamp>
+    <timestamp time="1440687298356562">
+        <roll>-0.731266</roll>
+        <pitch>0.125539</pitch>
+        <yaw>-1.52317</yaw>
+    </timestamp>
+    <timestamp time="1440687298379574">
+        <roll>-0.732141</roll>
+        <pitch>0.121876</pitch>
+        <yaw>-1.55297</yaw>
+    </timestamp>
+    <timestamp time="1440687298401590">
+        <roll>-0.7323</roll>
+        <pitch>0.117221</pitch>
+        <yaw>-1.5821</yaw>
+    </timestamp>
+    <timestamp time="1440687298416599">
+        <roll>-0.731736</roll>
+        <pitch>0.112566</pitch>
+        <yaw>-1.61121</yaw>
+    </timestamp>
+    <timestamp time="1440687298439615">
+        <roll>-0.730955</roll>
+        <pitch>0.108044</pitch>
+        <yaw>-1.64077</yaw>
+    </timestamp>
+    <timestamp time="1440687298462631">
+        <roll>-0.72887</roll>
+        <pitch>0.103426</pitch>
+        <yaw>-1.66982</yaw>
+    </timestamp>
+    <timestamp time="1440687298482643">
+        <roll>-0.725662</roll>
+        <pitch>0.0980216</pitch>
+        <yaw>-1.69772</yaw>
+    </timestamp>
+    <timestamp time="1440687298499656">
+        <roll>-0.721578</roll>
+        <pitch>0.0926578</pitch>
+        <yaw>-1.72514</yaw>
+    </timestamp>
+    <timestamp time="1440687298521669">
+        <roll>-0.718282</roll>
+        <pitch>0.0880707</pitch>
+        <yaw>-1.75218</yaw>
+    </timestamp>
+    <timestamp time="1440687298542683">
+        <roll>-0.715334</roll>
+        <pitch>0.0844572</pitch>
+        <yaw>-1.77941</yaw>
+    </timestamp>
+    <timestamp time="1440687298559697">
+        <roll>-0.711916</roll>
+        <pitch>0.0816421</pitch>
+        <yaw>-1.80627</yaw>
+    </timestamp>
+    <timestamp time="1440687298581709">
+        <roll>-0.708629</roll>
+        <pitch>0.0791608</pitch>
+        <yaw>-1.83231</yaw>
+    </timestamp>
+    <timestamp time="1440687298602723">
+        <roll>-0.706015</roll>
+        <pitch>0.0776138</pitch>
+        <yaw>-1.85739</yaw>
+    </timestamp>
+    <timestamp time="1440687298619735">
+        <roll>-0.703274</roll>
+        <pitch>0.0765285</pitch>
+        <yaw>-1.88067</yaw>
+    </timestamp>
+    <timestamp time="1440687298641749">
+        <roll>-0.699885</roll>
+        <pitch>0.0759304</pitch>
+        <yaw>-1.90322</yaw>
+    </timestamp>
+    <timestamp time="1440687298662764">
+        <roll>-0.696061</roll>
+        <pitch>0.0762288</pitch>
+        <yaw>-1.92472</yaw>
+    </timestamp>
+    <timestamp time="1440687298679775">
+        <roll>-0.693056</roll>
+        <pitch>0.0775542</pitch>
+        <yaw>-1.94426</yaw>
+    </timestamp>
+    <timestamp time="1440687298701788">
+        <roll>-0.689833</roll>
+        <pitch>0.0807488</pitch>
+        <yaw>-1.96175</yaw>
+    </timestamp>
+    <timestamp time="1440687298722804">
+        <roll>-0.684779</roll>
+        <pitch>0.0848501</pitch>
+        <yaw>-1.97686</yaw>
+    </timestamp>
+    <timestamp time="1440687298739814">
+        <roll>-0.679001</roll>
+        <pitch>0.0884688</pitch>
+        <yaw>-1.98916</yaw>
+    </timestamp>
+    <timestamp time="1440687298761830">
+        <roll>-0.674137</roll>
+        <pitch>0.0919674</pitch>
+        <yaw>-1.99939</yaw>
+    </timestamp>
+    <timestamp time="1440687298782845">
+        <roll>-0.670701</roll>
+        <pitch>0.0960097</pitch>
+        <yaw>-2.00778</yaw>
+    </timestamp>
+    <timestamp time="1440687298798853">
+        <roll>-0.668711</roll>
+        <pitch>0.100789</pitch>
+        <yaw>-2.01467</yaw>
+    </timestamp>
+    <timestamp time="1440687298821872">
+        <roll>-0.667107</roll>
+        <pitch>0.106184</pitch>
+        <yaw>-2.01888</yaw>
+    </timestamp>
+    <timestamp time="1440687298842883">
+        <roll>-0.665238</roll>
+        <pitch>0.111305</pitch>
+        <yaw>-2.02058</yaw>
+    </timestamp>
+    <timestamp time="1440687298858894">
+        <roll>-0.662486</roll>
+        <pitch>0.115161</pitch>
+        <yaw>-2.0201</yaw>
+    </timestamp>
+    <timestamp time="1440687298881909">
+        <roll>-0.658907</roll>
+        <pitch>0.118975</pitch>
+        <yaw>-2.01783</yaw>
+    </timestamp>
+    <timestamp time="1440687298902922">
+        <roll>-0.655348</roll>
+        <pitch>0.122663</pitch>
+        <yaw>-2.01441</yaw>
+    </timestamp>
+    <timestamp time="1440687298918933">
+        <roll>-0.652918</roll>
+        <pitch>0.125909</pitch>
+        <yaw>-2.00998</yaw>
+    </timestamp>
+    <timestamp time="1440687298941948">
+        <roll>-0.651882</roll>
+        <pitch>0.128922</pitch>
+        <yaw>-2.00459</yaw>
+    </timestamp>
+    <timestamp time="1440687298962962">
+        <roll>-0.651733</roll>
+        <pitch>0.131593</pitch>
+        <yaw>-1.99757</yaw>
+    </timestamp>
+    <timestamp time="1440687298978972">
+        <roll>-0.652666</roll>
+        <pitch>0.133675</pitch>
+        <yaw>-1.98927</yaw>
+    </timestamp>
+    <timestamp time="1440687299001987">
+        <roll>-0.654208</roll>
+        <pitch>0.134702</pitch>
+        <yaw>-1.97994</yaw>
+    </timestamp>
+    <timestamp time="1440687299023003">
+        <roll>-0.655524</roll>
+        <pitch>0.134838</pitch>
+        <yaw>-1.97027</yaw>
+    </timestamp>
+    <timestamp time="1440687299039013">
+        <roll>-0.656659</roll>
+        <pitch>0.13363</pitch>
+        <yaw>-1.96011</yaw>
+    </timestamp>
+    <timestamp time="1440687299062028">
+        <roll>-0.658609</roll>
+        <pitch>0.130621</pitch>
+        <yaw>-1.95019</yaw>
+    </timestamp>
+    <timestamp time="1440687299083042">
+        <roll>-0.660977</roll>
+        <pitch>0.126087</pitch>
+        <yaw>-1.94006</yaw>
+    </timestamp>
+    <timestamp time="1440687299099053">
+        <roll>-0.663371</roll>
+        <pitch>0.12006</pitch>
+        <yaw>-1.92978</yaw>
+    </timestamp>
+    <timestamp time="1440687299122070">
+        <roll>-0.665047</roll>
+        <pitch>0.112416</pitch>
+        <yaw>-1.91994</yaw>
+    </timestamp>
+    <timestamp time="1440687299144083">
+        <roll>-0.665557</roll>
+        <pitch>0.10301</pitch>
+        <yaw>-1.91025</yaw>
+    </timestamp>
+    <timestamp time="1440687299159093">
+        <roll>-0.666255</roll>
+        <pitch>0.0912264</pitch>
+        <yaw>-1.90082</yaw>
+    </timestamp>
+    <timestamp time="1440687299182108">
+        <roll>-0.666567</roll>
+        <pitch>0.0778104</pitch>
+        <yaw>-1.89176</yaw>
+    </timestamp>
+    <timestamp time="1440687299204124">
+        <roll>-0.666852</roll>
+        <pitch>0.062333</pitch>
+        <yaw>-1.88325</yaw>
+    </timestamp>
+    <timestamp time="1440687299219133">
+        <roll>-0.667102</roll>
+        <pitch>0.0453783</pitch>
+        <yaw>-1.87527</yaw>
+    </timestamp>
+    <timestamp time="1440687299242148">
+        <roll>-0.666702</roll>
+        <pitch>0.0268979</pitch>
+        <yaw>-1.86761</yaw>
+    </timestamp>
+    <timestamp time="1440687299264163">
+        <roll>-0.665547</roll>
+        <pitch>0.00707531</pitch>
+        <yaw>-1.85986</yaw>
+    </timestamp>
+    <timestamp time="1440687299278172">
+        <roll>-0.664309</roll>
+        <pitch>-0.0132102</pitch>
+        <yaw>-1.85232</yaw>
+    </timestamp>
+    <timestamp time="1440687299302187">
+        <roll>-0.66284</roll>
+        <pitch>-0.034414</pitch>
+        <yaw>-1.84505</yaw>
+    </timestamp>
+    <timestamp time="1440687299324202">
+        <roll>-0.661364</roll>
+        <pitch>-0.056836</pitch>
+        <yaw>-1.83838</yaw>
+    </timestamp>
+    <timestamp time="1440687299339215">
+        <roll>-0.660341</roll>
+        <pitch>-0.0797927</pitch>
+        <yaw>-1.83231</yaw>
+    </timestamp>
+    <timestamp time="1440687299362227">
+        <roll>-0.658727</roll>
+        <pitch>-0.103581</pitch>
+        <yaw>-1.82631</yaw>
+    </timestamp>
+    <timestamp time="1440687299384242">
+        <roll>-0.65685</roll>
+        <pitch>-0.128169</pitch>
+        <yaw>-1.82052</yaw>
+    </timestamp>
+    <timestamp time="1440687299413262">
+        <roll>-0.654905</roll>
+        <pitch>-0.152713</pitch>
+        <yaw>-1.81478</yaw>
+    </timestamp>
+    <timestamp time="1440687299422269">
+        <roll>-0.651983</roll>
+        <pitch>-0.177299</pitch>
+        <yaw>-1.80932</yaw>
+    </timestamp>
+    <timestamp time="1440687299444281">
+        <roll>-0.648747</roll>
+        <pitch>-0.202073</pitch>
+        <yaw>-1.80411</yaw>
+    </timestamp>
+    <timestamp time="1440687299467297">
+        <roll>-0.64564</roll>
+        <pitch>-0.22709</pitch>
+        <yaw>-1.79873</yaw>
+    </timestamp>
+    <timestamp time="1440687299482306">
+        <roll>-0.643159</roll>
+        <pitch>-0.252024</pitch>
+        <yaw>-1.79335</yaw>
+    </timestamp>
+    <timestamp time="1440687299504321">
+        <roll>-0.641276</roll>
+        <pitch>-0.276561</pitch>
+        <yaw>-1.78805</yaw>
+    </timestamp>
+    <timestamp time="1440687299525340">
+        <roll>-0.638632</roll>
+        <pitch>-0.300823</pitch>
+        <yaw>-1.78315</yaw>
+    </timestamp>
+    <timestamp time="1440687299541346">
+        <roll>-0.633946</roll>
+        <pitch>-0.324903</pitch>
+        <yaw>-1.77956</yaw>
+    </timestamp>
+    <timestamp time="1440687299564361">
+        <roll>-0.626357</roll>
+        <pitch>-0.349901</pitch>
+        <yaw>-1.77702</yaw>
+    </timestamp>
+    <timestamp time="1440687299585376">
+        <roll>-0.617892</roll>
+        <pitch>-0.374152</pitch>
+        <yaw>-1.77543</yaw>
+    </timestamp>
+    <timestamp time="1440687299602385">
+        <roll>-0.609617</roll>
+        <pitch>-0.399446</pitch>
+        <yaw>-1.77408</yaw>
+    </timestamp>
+    <timestamp time="1440687299624404">
+        <roll>-0.599981</roll>
+        <pitch>-0.425236</pitch>
+        <yaw>-1.77407</yaw>
+    </timestamp>
+    <timestamp time="1440687299645415">
+        <roll>-0.588313</roll>
+        <pitch>-0.450265</pitch>
+        <yaw>-1.77619</yaw>
+    </timestamp>
+    <timestamp time="1440687299662427">
+        <roll>-0.5753</roll>
+        <pitch>-0.475207</pitch>
+        <yaw>-1.77974</yaw>
+    </timestamp>
+    <timestamp time="1440687299684442">
+        <roll>-0.560485</roll>
+        <pitch>-0.501393</pitch>
+        <yaw>-1.78432</yaw>
+    </timestamp>
+    <timestamp time="1440687299705456">
+        <roll>-0.545175</roll>
+        <pitch>-0.52746</pitch>
+        <yaw>-1.78986</yaw>
+    </timestamp>
+    <timestamp time="1440687299721465">
+        <roll>-0.52957</roll>
+        <pitch>-0.552812</pitch>
+        <yaw>-1.79717</yaw>
+    </timestamp>
+    <timestamp time="1440687299744483">
+        <roll>-0.511666</roll>
+        <pitch>-0.576972</pitch>
+        <yaw>-1.80598</yaw>
+    </timestamp>
+    <timestamp time="1440687299765496">
+        <roll>-0.492405</roll>
+        <pitch>-0.600749</pitch>
+        <yaw>-1.81675</yaw>
+    </timestamp>
+    <timestamp time="1440687299781505">
+        <roll>-0.471501</roll>
+        <pitch>-0.624056</pitch>
+        <yaw>-1.82955</yaw>
+    </timestamp>
+    <timestamp time="1440687299804521">
+        <roll>-0.449773</roll>
+        <pitch>-0.644804</pitch>
+        <yaw>-1.84351</yaw>
+    </timestamp>
+    <timestamp time="1440687299825535">
+        <roll>-0.426604</roll>
+        <pitch>-0.664784</pitch>
+        <yaw>-1.85826</yaw>
+    </timestamp>
+    <timestamp time="1440687299841545">
+        <roll>-0.404248</roll>
+        <pitch>-0.684526</pitch>
+        <yaw>-1.87327</yaw>
+    </timestamp>
+    <timestamp time="1440687299864561">
+        <roll>-0.383316</roll>
+        <pitch>-0.701886</pitch>
+        <yaw>-1.88726</yaw>
+    </timestamp>
+    <timestamp time="1440687299885575">
+        <roll>-0.365694</roll>
+        <pitch>-0.715527</pitch>
+        <yaw>-1.89845</yaw>
+    </timestamp>
+    <timestamp time="1440687299901585">
+        <roll>-0.354161</roll>
+        <pitch>-0.72509</pitch>
+        <yaw>-1.90521</yaw>
+    </timestamp>
+    <timestamp time="1440687299924604">
+        <roll>-0.347607</roll>
+        <pitch>-0.730882</pitch>
+        <yaw>-1.90871</yaw>
+    </timestamp>
+    <timestamp time="1440687299945615">
+        <roll>-0.34534</roll>
+        <pitch>-0.732614</pitch>
+        <yaw>-1.90871</yaw>
+    </timestamp>
+    <timestamp time="1440687299961626">
+        <roll>-0.347931</roll>
+        <pitch>-0.72853</pitch>
+        <yaw>-1.90443</yaw>
+    </timestamp>
+    <timestamp time="1440687299984641">
+        <roll>-0.355585</roll>
+        <pitch>-0.718319</pitch>
+        <yaw>-1.89633</yaw>
+    </timestamp>
+    <timestamp time="1440687300005653">
+        <roll>-0.366875</roll>
+        <pitch>-0.702244</pitch>
+        <yaw>-1.88551</yaw>
+    </timestamp>
+    <timestamp time="1440687300021664">
+        <roll>-0.379654</roll>
+        <pitch>-0.681028</pitch>
+        <yaw>-1.87349</yaw>
+    </timestamp>
+    <timestamp time="1440687300044679">
+        <roll>-0.394707</roll>
+        <pitch>-0.656576</pitch>
+        <yaw>-1.85943</yaw>
+    </timestamp>
+    <timestamp time="1440687300065694">
+        <roll>-0.411466</roll>
+        <pitch>-0.627578</pitch>
+        <yaw>-1.84354</yaw>
+    </timestamp>
+    <timestamp time="1440687300081704">
+        <roll>-0.427739</roll>
+        <pitch>-0.594891</pitch>
+        <yaw>-1.82701</yaw>
+    </timestamp>
+    <timestamp time="1440687300104720">
+        <roll>-0.442355</roll>
+        <pitch>-0.558994</pitch>
+        <yaw>-1.81102</yaw>
+    </timestamp>
+    <timestamp time="1440687300126735">
+        <roll>-0.456474</roll>
+        <pitch>-0.520661</pitch>
+        <yaw>-1.79614</yaw>
+    </timestamp>
+    <timestamp time="1440687300140744">
+        <roll>-0.469908</roll>
+        <pitch>-0.481331</pitch>
+        <yaw>-1.78263</yaw>
+    </timestamp>
+    <timestamp time="1440687300164762">
+        <roll>-0.481423</roll>
+        <pitch>-0.442474</pitch>
+        <yaw>-1.77088</yaw>
+    </timestamp>
+    <timestamp time="1440687300186774">
+        <roll>-0.49129</roll>
+        <pitch>-0.403615</pitch>
+        <yaw>-1.76044</yaw>
+    </timestamp>
+    <timestamp time="1440687300200783">
+        <roll>-0.501807</roll>
+        <pitch>-0.364667</pitch>
+        <yaw>-1.75009</yaw>
+    </timestamp>
+    <timestamp time="1440687300231804">
+        <roll>-0.511894</roll>
+        <pitch>-0.327352</pitch>
+        <yaw>-1.73984</yaw>
+    </timestamp>
+    <timestamp time="1440687300246813">
+        <roll>-0.521355</roll>
+        <pitch>-0.291995</pitch>
+        <yaw>-1.72963</yaw>
+    </timestamp>
+    <timestamp time="1440687300275833">
+        <roll>-0.528643</roll>
+        <pitch>-0.2585</pitch>
+        <yaw>-1.72014</yaw>
+    </timestamp>
+    <timestamp time="1440687300283838">
+        <roll>-0.536287</roll>
+        <pitch>-0.224107</pitch>
+        <yaw>-1.71064</yaw>
+    </timestamp>
+    <timestamp time="1440687300306856">
+        <roll>-0.543733</roll>
+        <pitch>-0.19086</pitch>
+        <yaw>-1.70108</yaw>
+    </timestamp>
+    <timestamp time="1440687300327867">
+        <roll>-0.551293</roll>
+        <pitch>-0.157767</pitch>
+        <yaw>-1.69382</yaw>
+    </timestamp>
+    <timestamp time="1440687300344879">
+        <roll>-0.558798</roll>
+        <pitch>-0.125536</pitch>
+        <yaw>-1.68775</yaw>
+    </timestamp>
+    <timestamp time="1440687300366894">
+        <roll>-0.5655</roll>
+        <pitch>-0.095927</pitch>
+        <yaw>-1.68086</yaw>
+    </timestamp>
+    <timestamp time="1440687300387907">
+        <roll>-0.57133</roll>
+        <pitch>-0.0664154</pitch>
+        <yaw>-1.67389</yaw>
+    </timestamp>
+    <timestamp time="1440687300403919">
+        <roll>-0.576305</roll>
+        <pitch>-0.0379099</pitch>
+        <yaw>-1.66641</yaw>
+    </timestamp>
+    <timestamp time="1440687300426935">
+        <roll>-0.580355</roll>
+        <pitch>-0.0121103</pitch>
+        <yaw>-1.65987</yaw>
+    </timestamp>
+    <timestamp time="1440687300447947">
+        <roll>-0.582246</roll>
+        <pitch>0.0120347</pitch>
+        <yaw>-1.65488</yaw>
+    </timestamp>
+    <timestamp time="1440687300463958">
+        <roll>-0.58296</roll>
+        <pitch>0.0347988</pitch>
+        <yaw>-1.65042</yaw>
+    </timestamp>
+    <timestamp time="1440687300486973">
+        <roll>-0.585627</roll>
+        <pitch>0.056886</pitch>
+        <yaw>-1.64578</yaw>
+    </timestamp>
+    <timestamp time="1440687300507991">
+        <roll>-0.589982</roll>
+        <pitch>0.0788229</pitch>
+        <yaw>-1.64133</yaw>
+    </timestamp>
+    <timestamp time="1440687300524000">
+        <roll>-0.592377</roll>
+        <pitch>0.0978543</pitch>
+        <yaw>-1.63758</yaw>
+    </timestamp>
+    <timestamp time="1440687300547014">
+        <roll>-0.593756</roll>
+        <pitch>0.114667</pitch>
+        <yaw>-1.63469</yaw>
+    </timestamp>
+    <timestamp time="1440687300568027">
+        <roll>-0.594956</roll>
+        <pitch>0.129446</pitch>
+        <yaw>-1.6312</yaw>
+    </timestamp>
+    <timestamp time="1440687300584039">
+        <roll>-0.596295</roll>
+        <pitch>0.144143</pitch>
+        <yaw>-1.62842</yaw>
+    </timestamp>
+    <timestamp time="1440687300607053">
+        <roll>-0.598661</roll>
+        <pitch>0.158426</pitch>
+        <yaw>-1.62619</yaw>
+    </timestamp>
+    <timestamp time="1440687300628067">
+        <roll>-0.600889</roll>
+        <pitch>0.170041</pitch>
+        <yaw>-1.62391</yaw>
+    </timestamp>
+    <timestamp time="1440687300644077">
+        <roll>-0.601571</roll>
+        <pitch>0.17906</pitch>
+        <yaw>-1.62139</yaw>
+    </timestamp>
+    <timestamp time="1440687300667093">
+        <roll>-0.600465</roll>
+        <pitch>0.187355</pitch>
+        <yaw>-1.61952</yaw>
+    </timestamp>
+    <timestamp time="1440687300688107">
+        <roll>-0.599978</roll>
+        <pitch>0.195165</pitch>
+        <yaw>-1.61863</yaw>
+    </timestamp>
+    <timestamp time="1440687300704118">
+        <roll>-0.601063</roll>
+        <pitch>0.201024</pitch>
+        <yaw>-1.61819</yaw>
+    </timestamp>
+    <timestamp time="1440687300727133">
+        <roll>-0.603231</roll>
+        <pitch>0.204963</pitch>
+        <yaw>-1.61781</yaw>
+    </timestamp>
+    <timestamp time="1440687300748146">
+        <roll>-0.604503</roll>
+        <pitch>0.207829</pitch>
+        <yaw>-1.61715</yaw>
+    </timestamp>
+    <timestamp time="1440687300764157">
+        <roll>-0.605145</roll>
+        <pitch>0.210391</pitch>
+        <yaw>-1.61664</yaw>
+    </timestamp>
+    <timestamp time="1440687300787173">
+        <roll>-0.606455</roll>
+        <pitch>0.212183</pitch>
+        <yaw>-1.61614</yaw>
+    </timestamp>
+    <timestamp time="1440687300808188">
+        <roll>-0.608431</roll>
+        <pitch>0.211161</pitch>
+        <yaw>-1.61565</yaw>
+    </timestamp>
+    <timestamp time="1440687300824197">
+        <roll>-0.611151</roll>
+        <pitch>0.207297</pitch>
+        <yaw>-1.61502</yaw>
+    </timestamp>
+    <timestamp time="1440687300847212">
+        <roll>-0.613775</roll>
+        <pitch>0.201221</pitch>
+        <yaw>-1.61452</yaw>
+    </timestamp>
+    <timestamp time="1440687300868227">
+        <roll>-0.615987</roll>
+        <pitch>0.193785</pitch>
+        <yaw>-1.61421</yaw>
+    </timestamp>
+    <timestamp time="1440687300884237">
+        <roll>-0.617252</roll>
+        <pitch>0.184731</pitch>
+        <yaw>-1.61432</yaw>
+    </timestamp>
+    <timestamp time="1440687300907252">
+        <roll>-0.617898</roll>
+        <pitch>0.173181</pitch>
+        <yaw>-1.61484</yaw>
+    </timestamp>
+    <timestamp time="1440687300928267">
+        <roll>-0.617928</roll>
+        <pitch>0.159816</pitch>
+        <yaw>-1.61536</yaw>
+    </timestamp>
+    <timestamp time="1440687300943276">
+        <roll>-0.617568</roll>
+        <pitch>0.145212</pitch>
+        <yaw>-1.61587</yaw>
+    </timestamp>
+    <timestamp time="1440687300967292">
+        <roll>-0.616674</roll>
+        <pitch>0.129917</pitch>
+        <yaw>-1.61677</yaw>
+    </timestamp>
+    <timestamp time="1440687300988305">
+        <roll>-0.61561</roll>
+        <pitch>0.113602</pitch>
+        <yaw>-1.61809</yaw>
+    </timestamp>
+    <timestamp time="1440687301003315">
+        <roll>-0.61421</roll>
+        <pitch>0.096251</pitch>
+        <yaw>-1.61997</yaw>
+    </timestamp>
+    <timestamp time="1440687301026331">
+        <roll>-0.612394</roll>
+        <pitch>0.0774134</pitch>
+        <yaw>-1.62192</yaw>
+    </timestamp>
+    <timestamp time="1440687301049346">
+        <roll>-0.610259</roll>
+        <pitch>0.0583296</pitch>
+        <yaw>-1.62426</yaw>
+    </timestamp>
+    <timestamp time="1440687301063355">
+        <roll>-0.607729</roll>
+        <pitch>0.038551</pitch>
+        <yaw>-1.6265</yaw>
+    </timestamp>
+    <timestamp time="1440687301086370">
+        <roll>-0.604811</roll>
+        <pitch>0.0170782</pitch>
+        <yaw>-1.62908</yaw>
+    </timestamp>
+    <timestamp time="1440687301109389">
+        <roll>-0.601456</roll>
+        <pitch>-0.00569835</pitch>
+        <yaw>-1.63234</yaw>
+    </timestamp>
+    <timestamp time="1440687301123396">
+        <roll>-0.596083</roll>
+        <pitch>-0.0287852</pitch>
+        <yaw>-1.63567</yaw>
+    </timestamp>
+    <timestamp time="1440687301146412">
+        <roll>-0.589238</roll>
+        <pitch>-0.0528625</pitch>
+        <yaw>-1.63968</yaw>
+    </timestamp>
+    <timestamp time="1440687301169426">
+        <roll>-0.579805</roll>
+        <pitch>-0.0783364</pitch>
+        <yaw>-1.64482</yaw>
+    </timestamp>
+    <timestamp time="1440687301190439">
+        <roll>-0.566862</roll>
+        <pitch>-0.10372</pitch>
+        <yaw>-1.65127</yaw>
+    </timestamp>
+    <timestamp time="1440687301206450">
+        <roll>-0.553263</roll>
+        <pitch>-0.128533</pitch>
+        <yaw>-1.65738</yaw>
+    </timestamp>
+    <timestamp time="1440687301236471">
+        <roll>-0.54224</roll>
+        <pitch>-0.152131</pitch>
+        <yaw>-1.66155</yaw>
+    </timestamp>
+    <timestamp time="1440687301243477">
+        <roll>-0.53373</roll>
+        <pitch>-0.175287</pitch>
+        <yaw>-1.66488</yaw>
+    </timestamp>
+    <timestamp time="1440687301266491">
+        <roll>-0.525418</roll>
+        <pitch>-0.197288</pitch>
+        <yaw>-1.66806</yaw>
+    </timestamp>
+    <timestamp time="1440687301289505">
+        <roll>-0.517136</roll>
+        <pitch>-0.216046</pitch>
+        <yaw>-1.67033</yaw>
+    </timestamp>
+    <timestamp time="1440687301310523">
+        <roll>-0.511259</roll>
+        <pitch>-0.231328</pitch>
+        <yaw>-1.67115</yaw>
+    </timestamp>
+    <timestamp time="1440687301326532">
+        <roll>-0.508993</roll>
+        <pitch>-0.24334</pitch>
+        <yaw>-1.67073</yaw>
+    </timestamp>
+    <timestamp time="1440687301349546">
+        <roll>-0.508381</roll>
+        <pitch>-0.252447</pitch>
+        <yaw>-1.67005</yaw>
+    </timestamp>
+    <timestamp time="1440687301370560">
+        <roll>-0.507926</roll>
+        <pitch>-0.259329</pitch>
+        <yaw>-1.66835</yaw>
+    </timestamp>
+    <timestamp time="1440687301386570">
+        <roll>-0.508753</roll>
+        <pitch>-0.264214</pitch>
+        <yaw>-1.66553</yaw>
+    </timestamp>
+    <timestamp time="1440687301409590">
+        <roll>-0.511463</roll>
+        <pitch>-0.265963</pitch>
+        <yaw>-1.66144</yaw>
+    </timestamp>
+    <timestamp time="1440687301430600">
+        <roll>-0.513924</roll>
+        <pitch>-0.264785</pitch>
+        <yaw>-1.65766</yaw>
+    </timestamp>
+    <timestamp time="1440687301446610">
+        <roll>-0.514893</roll>
+        <pitch>-0.260008</pitch>
+        <yaw>-1.65431</yaw>
+    </timestamp>
+    <timestamp time="1440687301469625">
+        <roll>-0.515776</roll>
+        <pitch>-0.253094</pitch>
+        <yaw>-1.65045</yaw>
+    </timestamp>
+    <timestamp time="1440687301490641">
+        <roll>-0.517416</roll>
+        <pitch>-0.24525</pitch>
+        <yaw>-1.64421</yaw>
+    </timestamp>
+    <timestamp time="1440687301506650">
+        <roll>-0.520212</roll>
+        <pitch>-0.236264</pitch>
+        <yaw>-1.63552</yaw>
+    </timestamp>
+    <timestamp time="1440687301529665">
+        <roll>-0.524176</roll>
+        <pitch>-0.226841</pitch>
+        <yaw>-1.62475</yaw>
+    </timestamp>
+    <timestamp time="1440687301550679">
+        <roll>-0.528802</roll>
+        <pitch>-0.218113</pitch>
+        <yaw>-1.6119</yaw>
+    </timestamp>
+    <timestamp time="1440687301566690">
+        <roll>-0.533493</roll>
+        <pitch>-0.209289</pitch>
+        <yaw>-1.5976</yaw>
+    </timestamp>
+    <timestamp time="1440687301589706">
+        <roll>-0.536943</roll>
+        <pitch>-0.199281</pitch>
+        <yaw>-1.58202</yaw>
+    </timestamp>
+    <timestamp time="1440687301610721">
+        <roll>-0.539424</roll>
+        <pitch>-0.189265</pitch>
+        <yaw>-1.56505</yaw>
+    </timestamp>
+    <timestamp time="1440687301632735">
+        <roll>-0.541369</roll>
+        <pitch>-0.17839</pitch>
+        <yaw>-1.54642</yaw>
+    </timestamp>
+    <timestamp time="1440687301649745">
+        <roll>-0.543618</roll>
+        <pitch>-0.167087</pitch>
+        <yaw>-1.52628</yaw>
+    </timestamp>
+    <timestamp time="1440687301670760">
+        <roll>-0.546572</roll>
+        <pitch>-0.156157</pitch>
+        <yaw>-1.50513</yaw>
+    </timestamp>
+    <timestamp time="1440687301686769">
+        <roll>-0.550062</roll>
+        <pitch>-0.144345</pitch>
+        <yaw>-1.4827</yaw>
+    </timestamp>
+    <timestamp time="1440687301708784">
+        <roll>-0.554669</roll>
+        <pitch>-0.130834</pitch>
+        <yaw>-1.45869</yaw>
+    </timestamp>
+    <timestamp time="1440687301731802">
+        <roll>-0.559218</roll>
+        <pitch>-0.117023</pitch>
+        <yaw>-1.43454</yaw>
+    </timestamp>
+    <timestamp time="1440687301746809">
+        <roll>-0.56407</roll>
+        <pitch>-0.104277</pitch>
+        <yaw>-1.41135</yaw>
+    </timestamp>
+    <timestamp time="1440687301768823">
+        <roll>-0.568524</roll>
+        <pitch>-0.0899435</pitch>
+        <yaw>-1.39025</yaw>
+    </timestamp>
+    <timestamp time="1440687301791839">
+        <roll>-0.572887</roll>
+        <pitch>-0.0728372</pitch>
+        <yaw>-1.3721</yaw>
+    </timestamp>
+    <timestamp time="1440687301806848">
+        <roll>-0.577253</roll>
+        <pitch>-0.0546745</pitch>
+        <yaw>-1.35828</yaw>
+    </timestamp>
+    <timestamp time="1440687301828864">
+        <roll>-0.580888</roll>
+        <pitch>-0.0369445</pitch>
+        <yaw>-1.34828</yaw>
+    </timestamp>
+    <timestamp time="1440687301851878">
+        <roll>-0.583565</roll>
+        <pitch>-0.0187355</pitch>
+        <yaw>-1.34304</yaw>
+    </timestamp>
+    <timestamp time="1440687301865888">
+        <roll>-0.584732</roll>
+        <pitch>0.00021112</pitch>
+        <yaw>-1.34226</yaw>
+    </timestamp>
+    <timestamp time="1440687301888903">
+        <roll>-0.585163</roll>
+        <pitch>0.0189348</pitch>
+        <yaw>-1.34563</yaw>
+    </timestamp>
+    <timestamp time="1440687301909918">
+        <roll>-0.584081</roll>
+        <pitch>0.0356287</pitch>
+        <yaw>-1.35152</yaw>
+    </timestamp>
+    <timestamp time="1440687301925928">
+        <roll>-0.582477</roll>
+        <pitch>0.0504589</pitch>
+        <yaw>-1.35937</yaw>
+    </timestamp>
+    <timestamp time="1440687301948943">
+        <roll>-0.582176</roll>
+        <pitch>0.0639457</pitch>
+        <yaw>-1.36948</yaw>
+    </timestamp>
+    <timestamp time="1440687301971959">
+        <roll>-0.583437</roll>
+        <pitch>0.0759357</pitch>
+        <yaw>-1.38078</yaw>
+    </timestamp>
+    <timestamp time="1440687301985968">
+        <roll>-0.586207</roll>
+        <pitch>0.0863611</pitch>
+        <yaw>-1.39324</yaw>
+    </timestamp>
+    <timestamp time="1440687302008984">
+        <roll>-0.589008</roll>
+        <pitch>0.0954926</pitch>
+        <yaw>-1.40722</yaw>
+    </timestamp>
+    <timestamp time="1440687302032003">
+        <roll>-0.591066</roll>
+        <pitch>0.103677</pitch>
+        <yaw>-1.42243</yaw>
+    </timestamp>
+    <timestamp time="1440687302046008">
+        <roll>-0.592548</roll>
+        <pitch>0.110561</pitch>
+        <yaw>-1.43779</yaw>
+    </timestamp>
+    <timestamp time="1440687302069024">
+        <roll>-0.594231</roll>
+        <pitch>0.116427</pitch>
+        <yaw>-1.45349</yaw>
+    </timestamp>
+    <timestamp time="1440687302092038">
+        <roll>-0.59609</roll>
+        <pitch>0.121621</pitch>
+        <yaw>-1.46911</yaw>
+    </timestamp>
+    <timestamp time="1440687302106048">
+        <roll>-0.596972</roll>
+        <pitch>0.125787</pitch>
+        <yaw>-1.48468</yaw>
+    </timestamp>
+    <timestamp time="1440687302129064">
+        <roll>-0.596597</roll>
+        <pitch>0.12921</pitch>
+        <yaw>-1.49983</yaw>
+    </timestamp>
+    <timestamp time="1440687302159083">
+        <roll>-0.594354</roll>
+        <pitch>0.131226</pitch>
+        <yaw>-1.51373</yaw>
+    </timestamp>
+    <timestamp time="1440687302166091">
+        <roll>-0.590833</roll>
+        <pitch>0.132868</pitch>
+        <yaw>-1.52642</yaw>
+    </timestamp>
+    <timestamp time="1440687302189102">
+        <roll>-0.58745</roll>
+        <pitch>0.133565</pitch>
+        <yaw>-1.53766</yaw>
+    </timestamp>
+    <timestamp time="1440687302212118">
+        <roll>-0.585151</roll>
+        <pitch>0.133755</pitch>
+        <yaw>-1.54845</yaw>
+    </timestamp>
+    <timestamp time="1440687302226127">
+        <roll>-0.581195</roll>
+        <pitch>0.132777</pitch>
+        <yaw>-1.55882</yaw>
+    </timestamp>
+    <timestamp time="1440687302255146">
+        <roll>-0.576209</roll>
+        <pitch>0.131602</pitch>
+        <yaw>-1.56845</yaw>
+    </timestamp>
+    <timestamp time="1440687302272160">
+        <roll>-0.570307</roll>
+        <pitch>0.130427</pitch>
+        <yaw>-1.57658</yaw>
+    </timestamp>
+    <timestamp time="1440687302293172">
+        <roll>-0.564702</roll>
+        <pitch>0.128678</pitch>
+        <yaw>-1.58338</yaw>
+    </timestamp>
+    <timestamp time="1440687302310184">
+        <roll>-0.558577</roll>
+        <pitch>0.126354</pitch>
+        <yaw>-1.58989</yaw>
+    </timestamp>
+    <timestamp time="1440687302332197">
+        <roll>-0.552535</roll>
+        <pitch>0.123093</pitch>
+        <yaw>-1.59649</yaw>
+    </timestamp>
+    <timestamp time="1440687302353212">
+        <roll>-0.546355</roll>
+        <pitch>0.119126</pitch>
+        <yaw>-1.60288</yaw>
+    </timestamp>
+    <timestamp time="1440687302369225">
+        <roll>-0.541266</roll>
+        <pitch>0.115344</pitch>
+        <yaw>-1.60834</yaw>
+    </timestamp>
+    <timestamp time="1440687302392237">
+        <roll>-0.535185</roll>
+        <pitch>0.111629</pitch>
+        <yaw>-1.61351</yaw>
+    </timestamp>
+    <timestamp time="1440687302413251">
+        <roll>-0.527184</roll>
+        <pitch>0.108372</pitch>
+        <yaw>-1.61809</yaw>
+    </timestamp>
+    <timestamp time="1440687302429263">
+        <roll>-0.518125</roll>
+        <pitch>0.104488</pitch>
+        <yaw>-1.62164</yaw>
+    </timestamp>
+    <timestamp time="1440687302451278">
+        <roll>-0.508601</roll>
+        <pitch>0.0979374</pitch>
+        <yaw>-1.62358</yaw>
+    </timestamp>
+    <timestamp time="1440687302473291">
+        <roll>-0.499383</roll>
+        <pitch>0.0886108</pitch>
+        <yaw>-1.62493</yaw>
+    </timestamp>
+    <timestamp time="1440687302495306">
+        <roll>-0.489343</roll>
+        <pitch>0.0795384</pitch>
+        <yaw>-1.62699</yaw>
+    </timestamp>
+    <timestamp time="1440687302519323">
+        <roll>-0.476728</roll>
+        <pitch>0.0719738</pitch>
+        <yaw>-1.62982</yaw>
+    </timestamp>
+    <timestamp time="1440687302533330">
+        <roll>-0.463397</roll>
+        <pitch>0.0660063</pitch>
+        <yaw>-1.63328</yaw>
+    </timestamp>
+    <timestamp time="1440687302549341">
+        <roll>-0.452786</roll>
+        <pitch>0.0610898</pitch>
+        <yaw>-1.63685</yaw>
+    </timestamp>
+    <timestamp time="1440687302579362">
+        <roll>-0.445476</roll>
+        <pitch>0.0577245</pitch>
+        <yaw>-1.63927</yaw>
+    </timestamp>
+    <timestamp time="1440687302592370">
+        <roll>-0.438928</roll>
+        <pitch>0.0546624</pitch>
+        <yaw>-1.64001</yaw>
+    </timestamp>
+    <timestamp time="1440687302609381">
+        <roll>-0.432168</roll>
+        <pitch>0.0522221</pitch>
+        <yaw>-1.63946</yaw>
+    </timestamp>
+    <timestamp time="1440687302631396">
+        <roll>-0.42764</roll>
+        <pitch>0.0514279</pitch>
+        <yaw>-1.63719</yaw>
+    </timestamp>
+    <timestamp time="1440687302660415">
+        <roll>-0.424658</roll>
+        <pitch>0.0516233</pitch>
+        <yaw>-1.63249</yaw>
+    </timestamp>
+    <timestamp time="1440687302669422">
+        <roll>-0.423017</roll>
+        <pitch>0.0510413</pitch>
+        <yaw>-1.62559</yaw>
+    </timestamp>
+    <timestamp time="1440687302691435">
+        <roll>-0.421556</roll>
+        <pitch>0.0501679</pitch>
+        <yaw>-1.61619</yaw>
+    </timestamp>
+    <timestamp time="1440687302714451">
+        <roll>-0.419682</roll>
+        <pitch>0.0494522</pitch>
+        <yaw>-1.60428</yaw>
+    </timestamp>
+    <timestamp time="1440687302729464">
+        <roll>-0.417447</roll>
+        <pitch>0.0487239</pitch>
+        <yaw>-1.59075</yaw>
+    </timestamp>
+    <timestamp time="1440687302751475">
+        <roll>-0.415665</roll>
+        <pitch>0.0483071</pitch>
+        <yaw>-1.5768</yaw>
+    </timestamp>
+    <timestamp time="1440687302772490">
+        <roll>-0.413565</roll>
+        <pitch>0.0479937</pitch>
+        <yaw>-1.56237</yaw>
+    </timestamp>
+    <timestamp time="1440687302789501">
+        <roll>-0.410307</roll>
+        <pitch>0.0473546</pitch>
+        <yaw>-1.54703</yaw>
+    </timestamp>
+    <timestamp time="1440687302819521">
+        <roll>-0.406283</roll>
+        <pitch>0.0467625</pitch>
+        <yaw>-1.53079</yaw>
+    </timestamp>
+    <timestamp time="1440687302832532">
+        <roll>-0.403169</roll>
+        <pitch>0.0460682</pitch>
+        <yaw>-1.51401</yaw>
+    </timestamp>
+    <timestamp time="1440687302848540">
+        <roll>-0.401364</roll>
+        <pitch>0.0463417</pitch>
+        <yaw>-1.49635</yaw>
+    </timestamp>
+    <timestamp time="1440687302871556">
+        <roll>-0.400024</roll>
+        <pitch>0.0469015</pitch>
+        <yaw>-1.47783</yaw>
+    </timestamp>
+    <timestamp time="1440687302892570">
+        <roll>-0.398941</roll>
+        <pitch>0.0476428</pitch>
+        <yaw>-1.45872</yaw>
+    </timestamp>
+    <timestamp time="1440687302908580">
+        <roll>-0.397767</roll>
+        <pitch>0.0485337</pitch>
+        <yaw>-1.43914</yaw>
+    </timestamp>
+    <timestamp time="1440687302931605">
+        <roll>-0.398519</roll>
+        <pitch>0.0504186</pitch>
+        <yaw>-1.41984</yaw>
+    </timestamp>
+    <timestamp time="1440687302954610">
+        <roll>-0.400228</roll>
+        <pitch>0.0520708</pitch>
+        <yaw>-1.39986</yaw>
+    </timestamp>
+    <timestamp time="1440687302968620">
+        <roll>-0.401438</roll>
+        <pitch>0.0536819</pitch>
+        <yaw>-1.3801</yaw>
+    </timestamp>
+    <timestamp time="1440687302991636">
+        <roll>-0.400793</roll>
+        <pitch>0.0553622</pitch>
+        <yaw>-1.36129</yaw>
+    </timestamp>
+    <timestamp time="1440687303014652">
+        <roll>-0.399298</roll>
+        <pitch>0.0569131</pitch>
+        <yaw>-1.34434</yaw>
+    </timestamp>
+    <timestamp time="1440687303028661">
+        <roll>-0.397721</roll>
+        <pitch>0.0582609</pitch>
+        <yaw>-1.32853</yaw>
+    </timestamp>
+    <timestamp time="1440687303051675">
+        <roll>-0.396983</roll>
+        <pitch>0.0595023</pitch>
+        <yaw>-1.31423</yaw>
+    </timestamp>
+    <timestamp time="1440687303074691">
+        <roll>-0.397141</roll>
+        <pitch>0.0607332</pitch>
+        <yaw>-1.30141</yaw>
+    </timestamp>
+    <timestamp time="1440687303088700">
+        <roll>-0.39727</roll>
+        <pitch>0.0609609</pitch>
+        <yaw>-1.29091</yaw>
+    </timestamp>
+    <timestamp time="1440687303111715">
+        <roll>-0.397073</roll>
+        <pitch>0.0597103</pitch>
+        <yaw>-1.283</yaw>
+    </timestamp>
+    <timestamp time="1440687303133729">
+        <roll>-0.396323</roll>
+        <pitch>0.0574583</pitch>
+        <yaw>-1.27696</yaw>
+    </timestamp>
+    <timestamp time="1440687303149740">
+        <roll>-0.395458</roll>
+        <pitch>0.0554539</pitch>
+        <yaw>-1.27173</yaw>
+    </timestamp>
+    <timestamp time="1440687303171754">
+        <roll>-0.395431</roll>
+        <pitch>0.0532079</pitch>
+        <yaw>-1.26784</yaw>
+    </timestamp>
+    <timestamp time="1440687303193769">
+        <roll>-0.396895</roll>
+        <pitch>0.0506483</pitch>
+        <yaw>-1.26584</yaw>
+    </timestamp>
+    <timestamp time="1440687303208780">
+        <roll>-0.398495</roll>
+        <pitch>0.0478079</pitch>
+        <yaw>-1.26581</yaw>
+    </timestamp>
+    <timestamp time="1440687303231795">
+        <roll>-0.400102</roll>
+        <pitch>0.0458085</pitch>
+        <yaw>-1.26671</yaw>
+    </timestamp>
+    <timestamp time="1440687303253810">
+        <roll>-0.400973</roll>
+        <pitch>0.0447653</pitch>
+        <yaw>-1.26819</yaw>
+    </timestamp>
+    <timestamp time="1440687303268819">
+        <roll>-0.401092</roll>
+        <pitch>0.0437418</pitch>
+        <yaw>-1.2706</yaw>
+    </timestamp>
+    <timestamp time="1440687303291834">
+        <roll>-0.40021</roll>
+        <pitch>0.0428057</pitch>
+        <yaw>-1.27581</yaw>
+    </timestamp>
+    <timestamp time="1440687303313850">
+        <roll>-0.399924</roll>
+        <pitch>0.0417824</pitch>
+        <yaw>-1.28311</yaw>
+    </timestamp>
+    <timestamp time="1440687303334863">
+        <roll>-0.398621</roll>
+        <pitch>0.0417545</pitch>
+        <yaw>-1.29189</yaw>
+    </timestamp>
+    <timestamp time="1440687303351876">
+        <roll>-0.397117</roll>
+        <pitch>0.0412853</pitch>
+        <yaw>-1.30057</yaw>
+    </timestamp>
+    <timestamp time="1440687303373888">
+        <roll>-0.397283</roll>
+        <pitch>0.039463</pitch>
+        <yaw>-1.30957</yaw>
+    </timestamp>
+    <timestamp time="1440687303394903">
+        <roll>-0.396743</roll>
+        <pitch>0.0376722</pitch>
+        <yaw>-1.31803</yaw>
+    </timestamp>
+    <timestamp time="1440687303411915">
+        <roll>-0.39596</roll>
+        <pitch>0.0355354</pitch>
+        <yaw>-1.32672</yaw>
+    </timestamp>
+    <timestamp time="1440687303433929">
+        <roll>-0.3952</roll>
+        <pitch>0.0346331</pitch>
+        <yaw>-1.33729</yaw>
+    </timestamp>
+    <timestamp time="1440687303454943">
+        <roll>-0.395607</roll>
+        <pitch>0.0359457</pitch>
+        <yaw>-1.34986</yaw>
+    </timestamp>
+    <timestamp time="1440687303471954">
+        <roll>-0.400142</roll>
+        <pitch>0.0371251</pitch>
+        <yaw>-1.36529</yaw>
+    </timestamp>
+    <timestamp time="1440687303493969">
+        <roll>-0.403583</roll>
+        <pitch>0.0377971</pitch>
+        <yaw>-1.38004</yaw>
+    </timestamp>
+    <timestamp time="1440687303514983">
+        <roll>-0.406169</roll>
+        <pitch>0.0398892</pitch>
+        <yaw>-1.39473</yaw>
+    </timestamp>
+    <timestamp time="1440687303531995">
+        <roll>-0.406358</roll>
+        <pitch>0.0415214</pitch>
+        <yaw>-1.41042</yaw>
+    </timestamp>
+    <timestamp time="1440687303554009">
+        <roll>-0.408414</roll>
+        <pitch>0.0396716</pitch>
+        <yaw>-1.42809</yaw>
+    </timestamp>
+    <timestamp time="1440687303575023">
+        <roll>-0.412235</roll>
+        <pitch>0.039758</pitch>
+        <yaw>-1.44671</yaw>
+    </timestamp>
+    <timestamp time="1440687303592033">
+        <roll>-0.415348</roll>
+        <pitch>0.0421409</pitch>
+        <yaw>-1.46437</yaw>
+    </timestamp>
+    <timestamp time="1440687303614048">
+        <roll>-0.414469</roll>
+        <pitch>0.0445691</pitch>
+        <yaw>-1.48151</yaw>
+    </timestamp>
+    <timestamp time="1440687303635062">
+        <roll>-0.413009</roll>
+        <pitch>0.0451952</pitch>
+        <yaw>-1.49875</yaw>
+    </timestamp>
+    <timestamp time="1440687303652074">
+        <roll>-0.411495</roll>
+        <pitch>0.0460658</pitch>
+        <yaw>-1.51616</yaw>
+    </timestamp>
+    <timestamp time="1440687303674087">
+        <roll>-0.410778</roll>
+        <pitch>0.0487711</pitch>
+        <yaw>-1.53225</yaw>
+    </timestamp>
+    <timestamp time="1440687303695102">
+        <roll>-0.409681</roll>
+        <pitch>0.0512404</pitch>
+        <yaw>-1.54743</yaw>
+    </timestamp>
+    <timestamp time="1440687303712114">
+        <roll>-0.408291</roll>
+        <pitch>0.0527584</pitch>
+        <yaw>-1.56296</yaw>
+    </timestamp>
+    <timestamp time="1440687303736129">
+        <roll>-0.406967</roll>
+        <pitch>0.0540902</pitch>
+        <yaw>-1.57945</yaw>
+    </timestamp>
+    <timestamp time="1440687303755144">
+        <roll>-0.405446</roll>
+        <pitch>0.0544372</pitch>
+        <yaw>-1.59632</yaw>
+    </timestamp>
+    <timestamp time="1440687303772157">
+        <roll>-0.402299</roll>
+        <pitch>0.0534184</pitch>
+        <yaw>-1.61301</yaw>
+    </timestamp>
+    <timestamp time="1440687303794168">
+        <roll>-0.398211</roll>
+        <pitch>0.0521183</pitch>
+        <yaw>-1.62952</yaw>
+    </timestamp>
+    <timestamp time="1440687303823187">
+        <roll>-0.393261</roll>
+        <pitch>0.0493582</pitch>
+        <yaw>-1.64622</yaw>
+    </timestamp>
+    <timestamp time="1440687303832193">
+        <roll>-0.38766</roll>
+        <pitch>0.046323</pitch>
+        <yaw>-1.66269</yaw>
+    </timestamp>
+    <timestamp time="1440687303854208">
+        <roll>-0.381278</roll>
+        <pitch>0.0446175</pitch>
+        <yaw>-1.67797</yaw>
+    </timestamp>
+    <timestamp time="1440687303875222">
+        <roll>-0.375388</roll>
+        <pitch>0.0423861</pitch>
+        <yaw>-1.69282</yaw>
+    </timestamp>
+    <timestamp time="1440687303891232">
+        <roll>-0.370839</roll>
+        <pitch>0.0388109</pitch>
+        <yaw>-1.70676</yaw>
+    </timestamp>
+    <timestamp time="1440687303914248">
+        <roll>-0.366872</roll>
+        <pitch>0.0369784</pitch>
+        <yaw>-1.71905</yaw>
+    </timestamp>
+    <timestamp time="1440687303937264">
+        <roll>-0.361847</roll>
+        <pitch>0.0381149</pitch>
+        <yaw>-1.72931</yaw>
+    </timestamp>
+    <timestamp time="1440687303951273">
+        <roll>-0.358473</roll>
+        <pitch>0.0392307</pitch>
+        <yaw>-1.7387</yaw>
+    </timestamp>
+    <timestamp time="1440687303974288">
+        <roll>-0.357697</roll>
+        <pitch>0.0393644</pitch>
+        <yaw>-1.74621</yaw>
+    </timestamp>
+    <timestamp time="1440687303996303">
+        <roll>-0.356885</roll>
+        <pitch>0.0399513</pitch>
+        <yaw>-1.74881</yaw>
+    </timestamp>
+    <timestamp time="1440687304011314">
+        <roll>-0.356501</roll>
+        <pitch>0.042148</pitch>
+        <yaw>-1.74746</yaw>
+    </timestamp>
+    <timestamp time="1440687304040330">
+        <roll>-0.357208</roll>
+        <pitch>0.0445787</pitch>
+        <yaw>-1.74389</yaw>
+    </timestamp>
+    <timestamp time="1440687304056342">
+        <roll>-0.358597</roll>
+        <pitch>0.0476307</pitch>
+        <yaw>-1.73853</yaw>
+    </timestamp>
+    <timestamp time="1440687304071352">
+        <roll>-0.359359</roll>
+        <pitch>0.0508122</pitch>
+        <yaw>-1.73079</yaw>
+    </timestamp>
+    <timestamp time="1440687304094366">
+        <roll>-0.359112</roll>
+        <pitch>0.0542351</pitch>
+        <yaw>-1.72008</yaw>
+    </timestamp>
+    <timestamp time="1440687304116382">
+        <roll>-0.359154</roll>
+        <pitch>0.0565906</pitch>
+        <yaw>-1.70796</yaw>
+    </timestamp>
+    <timestamp time="1440687304131392">
+        <roll>-0.359749</roll>
+        <pitch>0.0590882</pitch>
+        <yaw>-1.6944</yaw>
+    </timestamp>
+    <timestamp time="1440687304154407">
+        <roll>-0.361072</roll>
+        <pitch>0.0608691</pitch>
+        <yaw>-1.67877</yaw>
+    </timestamp>
+    <timestamp time="1440687304184428">
+        <roll>-0.362362</roll>
+        <pitch>0.0616782</pitch>
+        <yaw>-1.66141</yaw>
+    </timestamp>
+    <timestamp time="1440687304191432">
+        <roll>-0.364321</roll>
+        <pitch>0.0627528</pitch>
+        <yaw>-1.64261</yaw>
+    </timestamp>
+    <timestamp time="1440687304214449">
+        <roll>-0.365868</roll>
+        <pitch>0.0649068</pitch>
+        <yaw>-1.62343</yaw>
+    </timestamp>
+    <timestamp time="1440687304236461">
+        <roll>-0.366264</roll>
+        <pitch>0.0665568</pitch>
+        <yaw>-1.60406</yaw>
+    </timestamp>
+    <timestamp time="1440687304257477">
+        <roll>-0.365995</roll>
+        <pitch>0.0679529</pitch>
+        <yaw>-1.58365</yaw>
+    </timestamp>
+    <timestamp time="1440687304274486">
+        <roll>-0.365851</roll>
+        <pitch>0.0687683</pitch>
+        <yaw>-1.56161</yaw>
+    </timestamp>
+    <timestamp time="1440687304296501">
+        <roll>-0.365259</roll>
+        <pitch>0.0694595</pitch>
+        <yaw>-1.53796</yaw>
+    </timestamp>
+    <timestamp time="1440687304317517">
+        <roll>-0.363625</roll>
+        <pitch>0.0704867</pitch>
+        <yaw>-1.5141</yaw>
+    </timestamp>
+    <timestamp time="1440687304334527">
+        <roll>-0.359988</roll>
+        <pitch>0.0719852</pitch>
+        <yaw>-1.49037</yaw>
+    </timestamp>
+    <timestamp time="1440687304356542">
+        <roll>-0.355464</roll>
+        <pitch>0.0726136</pitch>
+        <yaw>-1.46739</yaw>
+    </timestamp>
+    <timestamp time="1440687304377556">
+        <roll>-0.351611</roll>
+        <pitch>0.0709752</pitch>
+        <yaw>-1.44399</yaw>
+    </timestamp>
+    <timestamp time="1440687304394566">
+        <roll>-0.349196</roll>
+        <pitch>0.0693101</pitch>
+        <yaw>-1.41883</yaw>
+    </timestamp>
+    <timestamp time="1440687304416582">
+        <roll>-0.347325</roll>
+        <pitch>0.0685535</pitch>
+        <yaw>-1.39263</yaw>
+    </timestamp>
+    <timestamp time="1440687304437595">
+        <roll>-0.345877</roll>
+        <pitch>0.0685364</pitch>
+        <yaw>-1.36565</yaw>
+    </timestamp>
+    <timestamp time="1440687304454607">
+        <roll>-0.345943</roll>
+        <pitch>0.0683909</pitch>
+        <yaw>-1.33937</yaw>
+    </timestamp>
+    <timestamp time="1440687304476621">
+        <roll>-0.347105</roll>
+        <pitch>0.0685101</pitch>
+        <yaw>-1.31344</yaw>
+    </timestamp>
+    <timestamp time="1440687304497635">
+        <roll>-0.34815</roll>
+        <pitch>0.069841</pitch>
+        <yaw>-1.28674</yaw>
+    </timestamp>
+    <timestamp time="1440687304514646">
+        <roll>-0.349173</roll>
+        <pitch>0.0726849</pitch>
+        <yaw>-1.25969</yaw>
+    </timestamp>
+    <timestamp time="1440687304536660">
+        <roll>-0.350642</roll>
+        <pitch>0.0756009</pitch>
+        <yaw>-1.23346</yaw>
+    </timestamp>
+    <timestamp time="1440687304557675">
+        <roll>-0.352659</roll>
+        <pitch>0.0768231</pitch>
+        <yaw>-1.20706</yaw>
+    </timestamp>
+    <timestamp time="1440687304574685">
+        <roll>-0.355023</roll>
+        <pitch>0.07929</pitch>
+        <yaw>-1.18046</yaw>
+    </timestamp>
+    <timestamp time="1440687304596701">
+        <roll>-0.356788</roll>
+        <pitch>0.0826402</pitch>
+        <yaw>-1.1542</yaw>
+    </timestamp>
+    <timestamp time="1440687304617716">
+        <roll>-0.357882</roll>
+        <pitch>0.0856255</pitch>
+        <yaw>-1.12929</yaw>
+    </timestamp>
+    <timestamp time="1440687304634727">
+        <roll>-0.359463</roll>
+        <pitch>0.0869226</pitch>
+        <yaw>-1.10518</yaw>
+    </timestamp>
+    <timestamp time="1440687304656741">
+        <roll>-0.361581</roll>
+        <pitch>0.0902178</pitch>
+        <yaw>-1.08145</yaw>
+    </timestamp>
+    <timestamp time="1440687304677755">
+        <roll>-0.363713</roll>
+        <pitch>0.0948647</pitch>
+        <yaw>-1.05861</yaw>
+    </timestamp>
+    <timestamp time="1440687304693767">
+        <roll>-0.366029</roll>
+        <pitch>0.10036</pitch>
+        <yaw>-1.03898</yaw>
+    </timestamp>
+    <timestamp time="1440687304716779">
+        <roll>-0.369784</roll>
+        <pitch>0.100788</pitch>
+        <yaw>-1.02218</yaw>
+    </timestamp>
+    <timestamp time="1440687304737795">
+        <roll>-0.372932</roll>
+        <pitch>0.102494</pitch>
+        <yaw>-1.0052</yaw>
+    </timestamp>
+    <timestamp time="1440687304753806">
+        <roll>-0.377106</roll>
+        <pitch>0.106481</pitch>
+        <yaw>-0.988831</yaw>
+    </timestamp>
+    <timestamp time="1440687304776819">
+        <roll>-0.379547</roll>
+        <pitch>0.111801</pitch>
+        <yaw>-0.975208</yaw>
+    </timestamp>
+    <timestamp time="1440687304797834">
+        <roll>-0.380972</roll>
+        <pitch>0.11608</pitch>
+        <yaw>-0.966165</yaw>
+    </timestamp>
+    <timestamp time="1440687304813844">
+        <roll>-0.383341</roll>
+        <pitch>0.118973</pitch>
+        <yaw>-0.96173</yaw>
+    </timestamp>
+    <timestamp time="1440687304836860">
+        <roll>-0.38623</roll>
+        <pitch>0.121343</pitch>
+        <yaw>-0.961464</yaw>
+    </timestamp>
+    <timestamp time="1440687304857874">
+        <roll>-0.389216</roll>
+        <pitch>0.124705</pitch>
+        <yaw>-0.966227</yaw>
+    </timestamp>
+    <timestamp time="1440687304873884">
+        <roll>-0.390482</roll>
+        <pitch>0.128956</pitch>
+        <yaw>-0.976104</yaw>
+    </timestamp>
+    <timestamp time="1440687304896900">
+        <roll>-0.390288</roll>
+        <pitch>0.132058</pitch>
+        <yaw>-0.988996</yaw>
+    </timestamp>
+    <timestamp time="1440687304918915">
+        <roll>-0.390597</roll>
+        <pitch>0.133015</pitch>
+        <yaw>-1.00323</yaw>
+    </timestamp>
+    <timestamp time="1440687304933925">
+        <roll>-0.391399</roll>
+        <pitch>0.13262</pitch>
+        <yaw>-1.01799</yaw>
+    </timestamp>
+    <timestamp time="1440687304956939">
+        <roll>-0.392374</roll>
+        <pitch>0.132391</pitch>
+        <yaw>-1.03389</yaw>
+    </timestamp>
+    <timestamp time="1440687304978953">
+        <roll>-0.39372</roll>
+        <pitch>0.132265</pitch>
+        <yaw>-1.05137</yaw>
+    </timestamp>
+    <timestamp time="1440687304993963">
+        <roll>-0.39621</roll>
+        <pitch>0.131431</pitch>
+        <yaw>-1.07015</yaw>
+    </timestamp>
+    <timestamp time="1440687305016979">
+        <roll>-0.400557</roll>
+        <pitch>0.129673</pitch>
+        <yaw>-1.08929</yaw>
+    </timestamp>
+    <timestamp time="1440687305038994">
+        <roll>-0.406379</roll>
+        <pitch>0.12866</pitch>
+        <yaw>-1.10888</yaw>
+    </timestamp>
+    <timestamp time="1440687305054004">
+        <roll>-0.412784</roll>
+        <pitch>0.128394</pitch>
+        <yaw>-1.13008</yaw>
+    </timestamp>
+    <timestamp time="1440687305077019">
+        <roll>-0.41814</roll>
+        <pitch>0.128238</pitch>
+        <yaw>-1.15319</yaw>
+    </timestamp>
+    <timestamp time="1440687305099034">
+        <roll>-0.422841</roll>
+        <pitch>0.128465</pitch>
+        <yaw>-1.17706</yaw>
+    </timestamp>
+    <timestamp time="1440687305113043">
+        <roll>-0.426308</roll>
+        <pitch>0.127683</pitch>
+        <yaw>-1.20062</yaw>
+    </timestamp>
+    <timestamp time="1440687305137059">
+        <roll>-0.428673</roll>
+        <pitch>0.125556</pitch>
+        <yaw>-1.22381</yaw>
+    </timestamp>
+    <timestamp time="1440687305159074">
+        <roll>-0.431132</roll>
+        <pitch>0.124205</pitch>
+        <yaw>-1.24818</yaw>
+    </timestamp>
+    <timestamp time="1440687305180087">
+        <roll>-0.433335</roll>
+        <pitch>0.123051</pitch>
+        <yaw>-1.27322</yaw>
+    </timestamp>
+    <timestamp time="1440687305197099">
+        <roll>-0.436362</roll>
+        <pitch>0.122175</pitch>
+        <yaw>-1.29862</yaw>
+    </timestamp>
+    <timestamp time="1440687305219114">
+        <roll>-0.43993</roll>
+        <pitch>0.120548</pitch>
+        <yaw>-1.32371</yaw>
+    </timestamp>
+    <timestamp time="1440687305240128">
+        <roll>-0.442681</roll>
+        <pitch>0.118507</pitch>
+        <yaw>-1.34846</yaw>
+    </timestamp>
+    <timestamp time="1440687305257139">
+        <roll>-0.444745</roll>
+        <pitch>0.116275</pitch>
+        <yaw>-1.3734</yaw>
+    </timestamp>
+    <timestamp time="1440687305279154">
+        <roll>-0.445733</roll>
+        <pitch>0.114051</pitch>
+        <yaw>-1.39834</yaw>
+    </timestamp>
+    <timestamp time="1440687305300167">
+        <roll>-0.446778</roll>
+        <pitch>0.111983</pitch>
+        <yaw>-1.42362</yaw>
+    </timestamp>
+    <timestamp time="1440687305317179">
+        <roll>-0.447484</roll>
+        <pitch>0.108983</pitch>
+        <yaw>-1.44866</yaw>
+    </timestamp>
+    <timestamp time="1440687305339193">
+        <roll>-0.448077</roll>
+        <pitch>0.105512</pitch>
+        <yaw>-1.47435</yaw>
+    </timestamp>
+    <timestamp time="1440687305360206">
+        <roll>-0.4477</roll>
+        <pitch>0.10224</pitch>
+        <yaw>-1.50083</yaw>
+    </timestamp>
+    <timestamp time="1440687305376218">
+        <roll>-0.446676</roll>
+        <pitch>0.0995022</pitch>
+        <yaw>-1.52694</yaw>
+    </timestamp>
+    <timestamp time="1440687305399234">
+        <roll>-0.445114</roll>
+        <pitch>0.0972381</pitch>
+        <yaw>-1.55267</yaw>
+    </timestamp>
+    <timestamp time="1440687305420249">
+        <roll>-0.442069</roll>
+        <pitch>0.0938102</pitch>
+        <yaw>-1.57872</yaw>
+    </timestamp>
+    <timestamp time="1440687305436258">
+        <roll>-0.438022</roll>
+        <pitch>0.0905927</pitch>
+        <yaw>-1.60457</yaw>
+    </timestamp>
+    <timestamp time="1440687305459275">
+        <roll>-0.433169</roll>
+        <pitch>0.0877743</pitch>
+        <yaw>-1.62976</yaw>
+    </timestamp>
+    <timestamp time="1440687305488293">
+        <roll>-0.429827</roll>
+        <pitch>0.0858007</pitch>
+        <yaw>-1.65429</yaw>
+    </timestamp>
+    <timestamp time="1440687305496297">
+        <roll>-0.426747</roll>
+        <pitch>0.083931</pitch>
+        <yaw>-1.67834</yaw>
+    </timestamp>
+    <timestamp time="1440687305519315">
+        <roll>-0.423853</roll>
+        <pitch>0.0823505</pitch>
+        <yaw>-1.70211</yaw>
+    </timestamp>
+    <timestamp time="1440687305540326">
+        <roll>-0.420776</roll>
+        <pitch>0.080838</pitch>
+        <yaw>-1.72522</yaw>
+    </timestamp>
+    <timestamp time="1440687305556337">
+        <roll>-0.418687</roll>
+        <pitch>0.0798243</pitch>
+        <yaw>-1.74731</yaw>
+    </timestamp>
+    <timestamp time="1440687305579352">
+        <roll>-0.418622</roll>
+        <pitch>0.0795619</pitch>
+        <yaw>-1.7687</yaw>
+    </timestamp>
+    <timestamp time="1440687305601366">
+        <roll>-0.417826</roll>
+        <pitch>0.0795874</pitch>
+        <yaw>-1.7889</yaw>
+    </timestamp>
+    <timestamp time="1440687305616377">
+        <roll>-0.416565</roll>
+        <pitch>0.0794328</pitch>
+        <yaw>-1.80834</yaw>
+    </timestamp>
+    <timestamp time="1440687305639392">
+        <roll>-0.415226</roll>
+        <pitch>0.0786687</pitch>
+        <yaw>-1.82744</yaw>
+    </timestamp>
+    <timestamp time="1440687305660406">
+        <roll>-0.414678</roll>
+        <pitch>0.078464</pitch>
+        <yaw>-1.84613</yaw>
+    </timestamp>
+    <timestamp time="1440687305676417">
+        <roll>-0.412746</roll>
+        <pitch>0.0789818</pitch>
+        <yaw>-1.86458</yaw>
+    </timestamp>
+    <timestamp time="1440687305699432">
+        <roll>-0.409858</roll>
+        <pitch>0.0799956</pitch>
+        <yaw>-1.88185</yaw>
+    </timestamp>
+    <timestamp time="1440687305720446">
+        <roll>-0.406388</roll>
+        <pitch>0.0803954</pitch>
+        <yaw>-1.8981</yaw>
+    </timestamp>
+    <timestamp time="1440687305736458">
+        <roll>-0.40196</roll>
+        <pitch>0.0803772</pitch>
+        <yaw>-1.91407</yaw>
+    </timestamp>
+    <timestamp time="1440687305759472">
+        <roll>-0.398029</roll>
+        <pitch>0.0809133</pitch>
+        <yaw>-1.9293</yaw>
+    </timestamp>
+    <timestamp time="1440687305780485">
+        <roll>-0.394617</roll>
+        <pitch>0.0828364</pitch>
+        <yaw>-1.94283</yaw>
+    </timestamp>
+    <timestamp time="1440687305796496">
+        <roll>-0.393044</roll>
+        <pitch>0.0861959</pitch>
+        <yaw>-1.95498</yaw>
+    </timestamp>
+    <timestamp time="1440687305826516">
+        <roll>-0.392419</roll>
+        <pitch>0.0902929</pitch>
+        <yaw>-1.9653</yaw>
+    </timestamp>
+    <timestamp time="1440687305841526">
+        <roll>-0.392555</roll>
+        <pitch>0.0940088</pitch>
+        <yaw>-1.97349</yaw>
+    </timestamp>
+    <timestamp time="1440687305856537">
+        <roll>-0.393166</roll>
+        <pitch>0.0969253</pitch>
+        <yaw>-1.97937</yaw>
+    </timestamp>
+    <timestamp time="1440687305879553">
+        <roll>-0.393356</roll>
+        <pitch>0.0991966</pitch>
+        <yaw>-1.98294</yaw>
+    </timestamp>
+    <timestamp time="1440687305907570">
+        <roll>-0.393609</roll>
+        <pitch>0.101874</pitch>
+        <yaw>-1.98423</yaw>
+    </timestamp>
+    <timestamp time="1440687305915575">
+        <roll>-0.393215</roll>
+        <pitch>0.103765</pitch>
+        <yaw>-1.98325</yaw>
+    </timestamp>
+    <timestamp time="1440687305939592">
+        <roll>-0.392463</roll>
+        <pitch>0.104306</pitch>
+        <yaw>-1.98068</yaw>
+    </timestamp>
+    <timestamp time="1440687305961607">
+        <roll>-0.391394</roll>
+        <pitch>0.103714</pitch>
+        <yaw>-1.97634</yaw>
+    </timestamp>
+    <timestamp time="1440687305975616">
+        <roll>-0.390234</roll>
+        <pitch>0.102359</pitch>
+        <yaw>-1.96982</yaw>
+    </timestamp>
+    <timestamp time="1440687305999631">
+        <roll>-0.389293</roll>
+        <pitch>0.100425</pitch>
+        <yaw>-1.96189</yaw>
+    </timestamp>
+    <timestamp time="1440687306021646">
+        <roll>-0.389171</roll>
+        <pitch>0.0978572</pitch>
+        <yaw>-1.95322</yaw>
+    </timestamp>
+    <timestamp time="1440687306042661">
+        <roll>-0.3897</roll>
+        <pitch>0.0946207</pitch>
+        <yaw>-1.94405</yaw>
+    </timestamp>
+    <timestamp time="1440687306058671">
+        <roll>-0.390597</roll>
+        <pitch>0.0903248</pitch>
+        <yaw>-1.9347</yaw>
+    </timestamp>
+    <timestamp time="1440687306081685">
+        <roll>-0.391384</roll>
+        <pitch>0.0850032</pitch>
+        <yaw>-1.92473</yaw>
+    </timestamp>
+    <timestamp time="1440687306104701">
+        <roll>-0.392254</roll>
+        <pitch>0.0790936</pitch>
+        <yaw>-1.91409</yaw>
+    </timestamp>
+    <timestamp time="1440687306126715">
+        <roll>-0.393015</roll>
+        <pitch>0.0727031</pitch>
+        <yaw>-1.90309</yaw>
+    </timestamp>
+    <timestamp time="1440687306141726">
+        <roll>-0.394219</roll>
+        <pitch>0.0660422</pitch>
+        <yaw>-1.89169</yaw>
+    </timestamp>
+    <timestamp time="1440687306162741">
+        <roll>-0.395946</roll>
+        <pitch>0.059266</pitch>
+        <yaw>-1.88027</yaw>
+    </timestamp>
+    <timestamp time="1440687306186754">
+        <roll>-0.397973</roll>
+        <pitch>0.0519401</pitch>
+        <yaw>-1.8679</yaw>
+    </timestamp>
+    <timestamp time="1440687306201766">
+        <roll>-0.400384</roll>
+        <pitch>0.0441962</pitch>
+        <yaw>-1.85498</yaw>
+    </timestamp>
+    <timestamp time="1440687306222780">
+        <roll>-0.403344</roll>
+        <pitch>0.0360463</pitch>
+        <yaw>-1.84123</yaw>
+    </timestamp>
+    <timestamp time="1440687306238789">
+        <roll>-0.40644</roll>
+        <pitch>0.0272111</pitch>
+        <yaw>-1.82723</yaw>
+    </timestamp>
+    <timestamp time="1440687306267817">
+        <roll>-0.409979</roll>
+        <pitch>0.017345</pitch>
+        <yaw>-1.81265</yaw>
+    </timestamp>
+    <timestamp time="1440687306282826">
+        <roll>-0.412775</roll>
+        <pitch>0.00545348</pitch>
+        <yaw>-1.79682</yaw>
+    </timestamp>
+    <timestamp time="1440687306298829">
+        <roll>-0.415047</roll>
+        <pitch>-0.00765343</pitch>
+        <yaw>-1.77952</yaw>
+    </timestamp>
+    <timestamp time="1440687306321849">
+        <roll>-0.416838</roll>
+        <pitch>-0.0218272</pitch>
+        <yaw>-1.76054</yaw>
+    </timestamp>
+    <timestamp time="1440687306342859">
+        <roll>-0.417752</roll>
+        <pitch>-0.0359327</pitch>
+        <yaw>-1.74038</yaw>
+    </timestamp>
+    <timestamp time="1440687306358870">
+        <roll>-0.418377</roll>
+        <pitch>-0.0500007</pitch>
+        <yaw>-1.71895</yaw>
+    </timestamp>
+    <timestamp time="1440687306381886">
+        <roll>-0.420282</roll>
+        <pitch>-0.0644106</pitch>
+        <yaw>-1.69645</yaw>
+    </timestamp>
+    <timestamp time="1440687306402899">
+        <roll>-0.422767</roll>
+        <pitch>-0.0795012</pitch>
+        <yaw>-1.67219</yaw>
+    </timestamp>
+    <timestamp time="1440687306418909">
+        <roll>-0.425309</roll>
+        <pitch>-0.095053</pitch>
+        <yaw>-1.64666</yaw>
+    </timestamp>
+    <timestamp time="1440687306441925">
+        <roll>-0.428235</roll>
+        <pitch>-0.109621</pitch>
+        <yaw>-1.62003</yaw>
+    </timestamp>
+    <timestamp time="1440687306462938">
+        <roll>-0.432234</roll>
+        <pitch>-0.123179</pitch>
+        <yaw>-1.59207</yaw>
+    </timestamp>
+    <timestamp time="1440687306478950">
+        <roll>-0.437691</roll>
+        <pitch>-0.136504</pitch>
+        <yaw>-1.56341</yaw>
+    </timestamp>
+    <timestamp time="1440687306501965">
+        <roll>-0.441688</roll>
+        <pitch>-0.149133</pitch>
+        <yaw>-1.53441</yaw>
+    </timestamp>
+    <timestamp time="1440687306522982">
+        <roll>-0.444941</roll>
+        <pitch>-0.159952</pitch>
+        <yaw>-1.50503</yaw>
+    </timestamp>
+    <timestamp time="1440687306538990">
+        <roll>-0.447046</roll>
+        <pitch>-0.169334</pitch>
+        <yaw>-1.47638</yaw>
+    </timestamp>
+    <timestamp time="1440687306562004">
+        <roll>-0.448528</roll>
+        <pitch>-0.178001</pitch>
+        <yaw>-1.44843</yaw>
+    </timestamp>
+    <timestamp time="1440687306583019">
+        <roll>-0.449945</roll>
+        <pitch>-0.184972</pitch>
+        <yaw>-1.42067</yaw>
+    </timestamp>
+    <timestamp time="1440687306599029">
+        <roll>-0.450724</roll>
+        <pitch>-0.189567</pitch>
+        <yaw>-1.39368</yaw>
+    </timestamp>
+    <timestamp time="1440687306622045">
+        <roll>-0.449584</roll>
+        <pitch>-0.192639</pitch>
+        <yaw>-1.36816</yaw>
+    </timestamp>
+    <timestamp time="1440687306643061">
+        <roll>-0.447406</roll>
+        <pitch>-0.192324</pitch>
+        <yaw>-1.3445</yaw>
+    </timestamp>
+    <timestamp time="1440687306665072">
+        <roll>-0.445379</roll>
+        <pitch>-0.189362</pitch>
+        <yaw>-1.322</yaw>
+    </timestamp>
+    <timestamp time="1440687306682084">
+        <roll>-0.444122</roll>
+        <pitch>-0.183335</pitch>
+        <yaw>-1.29995</yaw>
+    </timestamp>
+    <timestamp time="1440687306702098">
+        <roll>-0.442112</roll>
+        <pitch>-0.175038</pitch>
+        <yaw>-1.27973</yaw>
+    </timestamp>
+    <timestamp time="1440687306718109">
+        <roll>-0.4381</roll>
+        <pitch>-0.164693</pitch>
+        <yaw>-1.26196</yaw>
+    </timestamp>
+    <timestamp time="1440687306742124">
+        <roll>-0.434293</roll>
+        <pitch>-0.151568</pitch>
+        <yaw>-1.24655</yaw>
+    </timestamp>
+    <timestamp time="1440687306763138">
+        <roll>-0.433994</roll>
+        <pitch>-0.133906</pitch>
+        <yaw>-1.23213</yaw>
+    </timestamp>
+    <timestamp time="1440687306778148">
+        <roll>-0.435552</roll>
+        <pitch>-0.11442</pitch>
+        <yaw>-1.21953</yaw>
+    </timestamp>
+    <timestamp time="1440687306801163">
+        <roll>-0.435967</roll>
+        <pitch>-0.0930853</pitch>
+        <yaw>-1.21064</yaw>
+    </timestamp>
+    <timestamp time="1440687306824180">
+        <roll>-0.435247</roll>
+        <pitch>-0.0706368</pitch>
+        <yaw>-1.2062</yaw>
+    </timestamp>
+    <timestamp time="1440687306838187">
+        <roll>-0.435501</roll>
+        <pitch>-0.0464025</pitch>
+        <yaw>-1.20594</yaw>
+    </timestamp>
+    <timestamp time="1440687306861203">
+        <roll>-0.436592</roll>
+        <pitch>-0.0211796</pitch>
+        <yaw>-1.20957</yaw>
+    </timestamp>
+    <timestamp time="1440687306884218">
+        <roll>-0.437675</roll>
+        <pitch>0.00331353</pitch>
+        <yaw>-1.21632</yaw>
+    </timestamp>
+    <timestamp time="1440687306898228">
+        <roll>-0.438328</roll>
+        <pitch>0.0261114</pitch>
+        <yaw>-1.22526</yaw>
+    </timestamp>
+    <timestamp time="1440687306921245">
+        <roll>-0.43996</roll>
+        <pitch>0.0466646</pitch>
+        <yaw>-1.23681</yaw>
+    </timestamp>
+    <timestamp time="1440687306944259">
+        <roll>-0.442192</roll>
+        <pitch>0.0638926</pitch>
+        <yaw>-1.25044</yaw>
+    </timestamp>
+    <timestamp time="1440687306958269">
+        <roll>-0.445058</roll>
+        <pitch>0.0791338</pitch>
+        <yaw>-1.26685</yaw>
+    </timestamp>
+    <timestamp time="1440687306981283">
+        <roll>-0.448489</roll>
+        <pitch>0.0917022</pitch>
+        <yaw>-1.28504</yaw>
+    </timestamp>
+    <timestamp time="1440687307004299">
+        <roll>-0.452282</roll>
+        <pitch>0.101719</pitch>
+        <yaw>-1.30519</yaw>
+    </timestamp>
+    <timestamp time="1440687307025311">
+        <roll>-0.457693</roll>
+        <pitch>0.108979</pitch>
+        <yaw>-1.32678</yaw>
+    </timestamp>
+    <timestamp time="1440687307041322">
+        <roll>-0.464626</roll>
+        <pitch>0.114692</pitch>
+        <yaw>-1.34934</yaw>
+    </timestamp>
+    <timestamp time="1440687307064338">
+        <roll>-0.472554</roll>
+        <pitch>0.118918</pitch>
+        <yaw>-1.37315</yaw>
+    </timestamp>
+    <timestamp time="1440687307085351">
+        <roll>-0.481553</roll>
+        <pitch>0.122174</pitch>
+        <yaw>-1.39743</yaw>
+    </timestamp>
+    <timestamp time="1440687307101362">
+        <roll>-0.491666</roll>
+        <pitch>0.124297</pitch>
+        <yaw>-1.42217</yaw>
+    </timestamp>
+    <timestamp time="1440687307124380">
+        <roll>-0.503213</roll>
+        <pitch>0.126494</pitch>
+        <yaw>-1.44822</yaw>
+    </timestamp>
+    <timestamp time="1440687307145391">
+        <roll>-0.515527</roll>
+        <pitch>0.128115</pitch>
+        <yaw>-1.47558</yaw>
+    </timestamp>
+    <timestamp time="1440687307161402">
+        <roll>-0.528365</roll>
+        <pitch>0.129017</pitch>
+        <yaw>-1.50319</yaw>
+    </timestamp>
+    <timestamp time="1440687307184420">
+        <roll>-0.541194</roll>
+        <pitch>0.129835</pitch>
+        <yaw>-1.53127</yaw>
+    </timestamp>
+    <timestamp time="1440687307205432">
+        <roll>-0.553093</roll>
+        <pitch>0.130223</pitch>
+        <yaw>-1.5596</yaw>
+    </timestamp>
+    <timestamp time="1440687307221441">
+        <roll>-0.564068</roll>
+        <pitch>0.129628</pitch>
+        <yaw>-1.58993</yaw>
+    </timestamp>
+    <timestamp time="1440687307244457">
+        <roll>-0.573833</roll>
+        <pitch>0.128421</pitch>
+        <yaw>-1.62199</yaw>
+    </timestamp>
+    <timestamp time="1440687307265471">
+        <roll>-0.582236</roll>
+        <pitch>0.124889</pitch>
+        <yaw>-1.65408</yaw>
+    </timestamp>
+    <timestamp time="1440687307281482">
+        <roll>-0.592072</roll>
+        <pitch>0.121444</pitch>
+        <yaw>-1.68537</yaw>
+    </timestamp>
+    <timestamp time="1440687307304497">
+        <roll>-0.598294</roll>
+        <pitch>0.116927</pitch>
+        <yaw>-1.71603</yaw>
+    </timestamp>
+    <timestamp time="1440687307325517">
+        <roll>-0.599613</roll>
+        <pitch>0.111731</pitch>
+        <yaw>-1.74716</yaw>
+    </timestamp>
+    <timestamp time="1440687307341522">
+        <roll>-0.596651</roll>
+        <pitch>0.104528</pitch>
+        <yaw>-1.77774</yaw>
+    </timestamp>
+    <timestamp time="1440687307364536">
+        <roll>-0.593198</roll>
+        <pitch>0.0981114</pitch>
+        <yaw>-1.80768</yaw>
+    </timestamp>
+    <timestamp time="1440687307385554">
+        <roll>-0.589425</roll>
+        <pitch>0.0915103</pitch>
+        <yaw>-1.83601</yaw>
+    </timestamp>
+    <timestamp time="1440687307401561">
+        <roll>-0.585219</roll>
+        <pitch>0.0857025</pitch>
+        <yaw>-1.86192</yaw>
+    </timestamp>
+    <timestamp time="1440687307424585">
+        <roll>-0.578845</roll>
+        <pitch>0.080324</pitch>
+        <yaw>-1.88555</yaw>
+    </timestamp>
+    <timestamp time="1440687307445591">
+        <roll>-0.570686</roll>
+        <pitch>0.075622</pitch>
+        <yaw>-1.90699</yaw>
+    </timestamp>
+    <timestamp time="1440687307461604">
+        <roll>-0.56183</roll>
+        <pitch>0.0717162</pitch>
+        <yaw>-1.92548</yaw>
+    </timestamp>
+    <timestamp time="1440687307484617">
+        <roll>-0.553586</roll>
+        <pitch>0.0681568</pitch>
+        <yaw>-1.94029</yaw>
+    </timestamp>
+    <timestamp time="1440687307505630">
+        <roll>-0.546134</roll>
+        <pitch>0.0664406</pitch>
+        <yaw>-1.95175</yaw>
+    </timestamp>
+    <timestamp time="1440687307521642">
+        <roll>-0.539564</roll>
+        <pitch>0.0671088</pitch>
+        <yaw>-1.95848</yaw>
+    </timestamp>
+    <timestamp time="1440687307543657">
+        <roll>-0.533792</roll>
+        <pitch>0.0690391</pitch>
+        <yaw>-1.96081</yaw>
+    </timestamp>
+    <timestamp time="1440687307565670">
+        <roll>-0.528348</roll>
+        <pitch>0.0729198</pitch>
+        <yaw>-1.95928</yaw>
+    </timestamp>
+    <timestamp time="1440687307581681">
+        <roll>-0.523285</roll>
+        <pitch>0.0778629</pitch>
+        <yaw>-1.95445</yaw>
+    </timestamp>
+    <timestamp time="1440687307603696">
+        <roll>-0.519306</roll>
+        <pitch>0.0834962</pitch>
+        <yaw>-1.94611</yaw>
+    </timestamp>
+    <timestamp time="1440687307625712">
+        <roll>-0.516886</roll>
+        <pitch>0.0888337</pitch>
+        <yaw>-1.93407</yaw>
+    </timestamp>
+    <timestamp time="1440687307640720">
+        <roll>-0.514595</roll>
+        <pitch>0.0944681</pitch>
+        <yaw>-1.91926</yaw>
+    </timestamp>
+    <timestamp time="1440687307663738">
+        <roll>-0.512942</roll>
+        <pitch>0.100706</pitch>
+        <yaw>-1.9019</yaw>
+    </timestamp>
+    <timestamp time="1440687307684749">
+        <roll>-0.510737</roll>
+        <pitch>0.106542</pitch>
+        <yaw>-1.883</yaw>
+    </timestamp>
+    <timestamp time="1440687307700760">
+        <roll>-0.507399</roll>
+        <pitch>0.112138</pitch>
+        <yaw>-1.86261</yaw>
+    </timestamp>
+    <timestamp time="1440687307723775">
+        <roll>-0.503379</roll>
+        <pitch>0.117297</pitch>
+        <yaw>-1.84087</yaw>
+    </timestamp>
+    <timestamp time="1440687307746791">
+        <roll>-0.49917</roll>
+        <pitch>0.12177</pitch>
+        <yaw>-1.81758</yaw>
+    </timestamp>
+    <timestamp time="1440687307760801">
+        <roll>-0.494292</roll>
+        <pitch>0.125158</pitch>
+        <yaw>-1.7927</yaw>
+    </timestamp>
+    <timestamp time="1440687307783815">
+        <roll>-0.489535</roll>
+        <pitch>0.127946</pitch>
+        <yaw>-1.76667</yaw>
+    </timestamp>
+    <timestamp time="1440687307806830">
+        <roll>-0.484928</roll>
+        <pitch>0.130152</pitch>
+        <yaw>-1.73984</yaw>
+    </timestamp>
+    <timestamp time="1440687307820840">
+        <roll>-0.48153</roll>
+        <pitch>0.131723</pitch>
+        <yaw>-1.71272</yaw>
+    </timestamp>
+    <timestamp time="1440687307843854">
+        <roll>-0.478367</roll>
+        <pitch>0.13105</pitch>
+        <yaw>-1.6845</yaw>
+    </timestamp>
+    <timestamp time="1440687307866870">
+        <roll>-0.475842</roll>
+        <pitch>0.128304</pitch>
+        <yaw>-1.65625</yaw>
+    </timestamp>
+    <timestamp time="1440687307880880">
+        <roll>-0.472835</roll>
+        <pitch>0.124183</pitch>
+        <yaw>-1.62862</yaw>
+    </timestamp>
+    <timestamp time="1440687307903895">
+        <roll>-0.470111</roll>
+        <pitch>0.119271</pitch>
+        <yaw>-1.60209</yaw>
+    </timestamp>
+    <timestamp time="1440687307926911">
+        <roll>-0.467662</roll>
+        <pitch>0.114317</pitch>
+        <yaw>-1.57691</yaw>
+    </timestamp>
+    <timestamp time="1440687307940920">
+        <roll>-0.465742</roll>
+        <pitch>0.109777</pitch>
+        <yaw>-1.55439</yaw>
+    </timestamp>
+    <timestamp time="1440687307963935">
+        <roll>-0.464284</roll>
+        <pitch>0.101906</pitch>
+        <yaw>-1.5339</yaw>
+    </timestamp>
+    <timestamp time="1440687307986949">
+        <roll>-0.468667</roll>
+        <pitch>0.0894267</pitch>
+        <yaw>-1.51425</yaw>
+    </timestamp>
+    <timestamp time="1440687308007965">
+        <roll>-0.47036</roll>
+        <pitch>0.0753167</pitch>
+        <yaw>-1.49377</yaw>
+    </timestamp>
+    <timestamp time="1440687308023974">
+        <roll>-0.469472</roll>
+        <pitch>0.0665143</pitch>
+        <yaw>-1.47409</yaw>
+    </timestamp>
+    <timestamp time="1440687308046990">
+        <roll>-0.466756</roll>
+        <pitch>0.0592946</pitch>
+        <yaw>-1.45943</yaw>
+    </timestamp>
+    <timestamp time="1440687308068005">
+        <roll>-0.467321</roll>
+        <pitch>0.04776</pitch>
+        <yaw>-1.45021</yaw>
+    </timestamp>
+    <timestamp time="1440687308084015">
+        <roll>-0.471947</roll>
+        <pitch>0.0347671</pitch>
+        <yaw>-1.44344</yaw>
+    </timestamp>
+    <timestamp time="1440687308107029">
+        <roll>-0.477323</roll>
+        <pitch>0.0215149</pitch>
+        <yaw>-1.43613</yaw>
+    </timestamp>
+    <timestamp time="1440687308128044">
+        <roll>-0.479895</roll>
+        <pitch>0.00803791</pitch>
+        <yaw>-1.42934</yaw>
+    </timestamp>
+    <timestamp time="1440687308152059">
+        <roll>-0.480318</roll>
+        <pitch>-0.00559501</pitch>
+        <yaw>-1.42509</yaw>
+    </timestamp>
+    <timestamp time="1440687308167070">
+        <roll>-0.483357</roll>
+        <pitch>-0.0180398</pitch>
+        <yaw>-1.42255</yaw>
+    </timestamp>
+    <timestamp time="1440687308188084">
+        <roll>-0.490621</roll>
+        <pitch>-0.0293859</pitch>
+        <yaw>-1.42114</yaw>
+    </timestamp>
+    <timestamp time="1440687308204094">
+        <roll>-0.49924</roll>
+        <pitch>-0.0402634</pitch>
+        <yaw>-1.42094</yaw>
+    </timestamp>
+    <timestamp time="1440687308226109">
+        <roll>-0.507104</roll>
+        <pitch>-0.051107</pitch>
+        <yaw>-1.42243</yaw>
+    </timestamp>
+    <timestamp time="1440687308248123">
+        <roll>-0.514075</roll>
+        <pitch>-0.0621323</pitch>
+        <yaw>-1.42505</yaw>
+    </timestamp>
+    <timestamp time="1440687308264134">
+        <roll>-0.520555</roll>
+        <pitch>-0.072887</pitch>
+        <yaw>-1.429</yaw>
+    </timestamp>
+    <timestamp time="1440687308286150">
+        <roll>-0.526471</roll>
+        <pitch>-0.0838032</pitch>
+        <yaw>-1.43417</yaw>
+    </timestamp>
+    <timestamp time="1440687308308163">
+        <roll>-0.532819</roll>
+        <pitch>-0.0934844</pitch>
+        <yaw>-1.44113</yaw>
+    </timestamp>
+    <timestamp time="1440687308324173">
+        <roll>-0.538583</roll>
+        <pitch>-0.103306</pitch>
+        <yaw>-1.44919</yaw>
+    </timestamp>
+    <timestamp time="1440687308346190">
+        <roll>-0.54332</roll>
+        <pitch>-0.112143</pitch>
+        <yaw>-1.4589</yaw>
+    </timestamp>
+    <timestamp time="1440687308367204">
+        <roll>-0.546915</roll>
+        <pitch>-0.120232</pitch>
+        <yaw>-1.47004</yaw>
+    </timestamp>
+    <timestamp time="1440687308384213">
+        <roll>-0.550136</roll>
+        <pitch>-0.128346</pitch>
+        <yaw>-1.48209</yaw>
+    </timestamp>
+    <timestamp time="1440687308406229">
+        <roll>-0.553199</roll>
+        <pitch>-0.136662</pitch>
+        <yaw>-1.49436</yaw>
+    </timestamp>
+    <timestamp time="1440687308427242">
+        <roll>-0.5557</roll>
+        <pitch>-0.144404</pitch>
+        <yaw>-1.5066</yaw>
+    </timestamp>
+    <timestamp time="1440687308444254">
+        <roll>-0.557531</roll>
+        <pitch>-0.152295</pitch>
+        <yaw>-1.51987</yaw>
+    </timestamp>
+    <timestamp time="1440687308466267">
+        <roll>-0.559028</roll>
+        <pitch>-0.160238</pitch>
+        <yaw>-1.53377</yaw>
+    </timestamp>
+    <timestamp time="1440687308487283">
+        <roll>-0.560813</roll>
+        <pitch>-0.166338</pitch>
+        <yaw>-1.54938</yaw>
+    </timestamp>
+    <timestamp time="1440687308504293">
+        <roll>-0.560802</roll>
+        <pitch>-0.171103</pitch>
+        <yaw>-1.56599</yaw>
+    </timestamp>
+    <timestamp time="1440687308526308">
+        <roll>-0.560068</roll>
+        <pitch>-0.176073</pitch>
+        <yaw>-1.58298</yaw>
+    </timestamp>
+    <timestamp time="1440687308547324">
+        <roll>-0.558509</roll>
+        <pitch>-0.181431</pitch>
+        <yaw>-1.59991</yaw>
+    </timestamp>
+    <timestamp time="1440687308563333">
+        <roll>-0.556246</roll>
+        <pitch>-0.186725</pitch>
+        <yaw>-1.61711</yaw>
+    </timestamp>
+    <timestamp time="1440687308586348">
+        <roll>-0.55331</roll>
+        <pitch>-0.190042</pitch>
+        <yaw>-1.63515</yaw>
+    </timestamp>
+    <timestamp time="1440687308607363">
+        <roll>-0.549441</roll>
+        <pitch>-0.190955</pitch>
+        <yaw>-1.65401</yaw>
+    </timestamp>
+    <timestamp time="1440687308623372">
+        <roll>-0.54439</roll>
+        <pitch>-0.19012</pitch>
+        <yaw>-1.6739</yaw>
+    </timestamp>
+    <timestamp time="1440687308646387">
+        <roll>-0.539284</roll>
+        <pitch>-0.189182</pitch>
+        <yaw>-1.69401</yaw>
+    </timestamp>
+    <timestamp time="1440687308669403">
+        <roll>-0.535132</roll>
+        <pitch>-0.188855</pitch>
+        <yaw>-1.71442</yaw>
+    </timestamp>
+    <timestamp time="1440687308683413">
+        <roll>-0.531863</roll>
+        <pitch>-0.18797</pitch>
+        <yaw>-1.73495</yaw>
+    </timestamp>
+    <timestamp time="1440687308706428">
+        <roll>-0.529411</roll>
+        <pitch>-0.183639</pitch>
+        <yaw>-1.75588</yaw>
+    </timestamp>
+    <timestamp time="1440687308729442">
+        <roll>-0.525163</roll>
+        <pitch>-0.177132</pitch>
+        <yaw>-1.77736</yaw>
+    </timestamp>
+    <timestamp time="1440687308743452">
+        <roll>-0.519705</roll>
+        <pitch>-0.169678</pitch>
+        <yaw>-1.79865</yaw>
+    </timestamp>
+    <timestamp time="1440687308766467">
+        <roll>-0.514816</roll>
+        <pitch>-0.162671</pitch>
+        <yaw>-1.81897</yaw>
+    </timestamp>
+    <timestamp time="1440687308789483">
+        <roll>-0.51242</roll>
+        <pitch>-0.154855</pitch>
+        <yaw>-1.83779</yaw>
+    </timestamp>
+    <timestamp time="1440687308803492">
+        <roll>-0.510479</roll>
+        <pitch>-0.145556</pitch>
+        <yaw>-1.8558</yaw>
+    </timestamp>
+    <timestamp time="1440687308826507">
+        <roll>-0.508801</roll>
+        <pitch>-0.134056</pitch>
+        <yaw>-1.87336</yaw>
+    </timestamp>
+    <timestamp time="1440687308849523">
+        <roll>-0.507253</roll>
+        <pitch>-0.122819</pitch>
+        <yaw>-1.89025</yaw>
+    </timestamp>
+    <timestamp time="1440687308863532">
+        <roll>-0.50741</roll>
+        <pitch>-0.11162</pitch>
+        <yaw>-1.90629</yaw>
+    </timestamp>
+    <timestamp time="1440687308886547">
+        <roll>-0.508387</roll>
+        <pitch>-0.100252</pitch>
+        <yaw>-1.92125</yaw>
+    </timestamp>
+    <timestamp time="1440687308909563">
+        <roll>-0.509164</roll>
+        <pitch>-0.0881703</pitch>
+        <yaw>-1.93579</yaw>
+    </timestamp>
+    <timestamp time="1440687308923573">
+        <roll>-0.510361</roll>
+        <pitch>-0.0759066</pitch>
+        <yaw>-1.94937</yaw>
+    </timestamp>
+    <timestamp time="1440687308946587">
+        <roll>-0.510329</roll>
+        <pitch>-0.0647615</pitch>
+        <yaw>-1.96163</yaw>
+    </timestamp>
+    <timestamp time="1440687308968601">
+        <roll>-0.509201</roll>
+        <pitch>-0.0558676</pitch>
+        <yaw>-1.97282</yaw>
+    </timestamp>
+    <timestamp time="1440687308990615">
+        <roll>-0.507273</roll>
+        <pitch>-0.0491575</pitch>
+        <yaw>-1.98307</yaw>
+    </timestamp>
+    <timestamp time="1440687309006626">
+        <roll>-0.503964</roll>
+        <pitch>-0.0444628</pitch>
+        <yaw>-1.9922</yaw>
+    </timestamp>
+    <timestamp time="1440687309028641">
+        <roll>-0.499875</roll>
+        <pitch>-0.0403652</pitch>
+        <yaw>-1.99982</yaw>
+    </timestamp>
+    <timestamp time="1440687309049655">
+        <roll>-0.496553</roll>
+        <pitch>-0.0363861</pitch>
+        <yaw>-2.0056</yaw>
+    </timestamp>
+    <timestamp time="1440687309066666">
+        <roll>-0.494763</roll>
+        <pitch>-0.0335519</pitch>
+        <yaw>-2.0096</yaw>
+    </timestamp>
+    <timestamp time="1440687309088682">
+        <roll>-0.494246</roll>
+        <pitch>-0.0322242</pitch>
+        <yaw>-2.01203</yaw>
+    </timestamp>
+    <timestamp time="1440687309109695">
+        <roll>-0.494028</roll>
+        <pitch>-0.0321808</pitch>
+        <yaw>-2.01314</yaw>
+    </timestamp>
+    <timestamp time="1440687309126706">
+        <roll>-0.493063</roll>
+        <pitch>-0.033209</pitch>
+        <yaw>-2.01302</yaw>
+    </timestamp>
+    <timestamp time="1440687309148720">
+        <roll>-0.492056</roll>
+        <pitch>-0.0344085</pitch>
+        <yaw>-2.01228</yaw>
+    </timestamp>
+    <timestamp time="1440687309169735">
+        <roll>-0.491418</roll>
+        <pitch>-0.0353777</pitch>
+        <yaw>-2.0109</yaw>
+    </timestamp>
+    <timestamp time="1440687309186746">
+        <roll>-0.491451</roll>
+        <pitch>-0.0366005</pitch>
+        <yaw>-2.00923</yaw>
+    </timestamp>
+    <timestamp time="1440687309208760">
+        <roll>-0.491337</roll>
+        <pitch>-0.0380498</pitch>
+        <yaw>-2.00747</yaw>
+    </timestamp>
+    <timestamp time="1440687309229775">
+        <roll>-0.490653</roll>
+        <pitch>-0.0396858</pitch>
+        <yaw>-2.00562</yaw>
+    </timestamp>
+    <timestamp time="1440687309246785">
+        <roll>-0.489291</roll>
+        <pitch>-0.0414161</pitch>
+        <yaw>-2.00358</yaw>
+    </timestamp>
+    <timestamp time="1440687309268800">
+        <roll>-0.487712</roll>
+        <pitch>-0.0425382</pitch>
+        <yaw>-2.00154</yaw>
+    </timestamp>
+    <timestamp time="1440687309289814">
+        <roll>-0.486691</roll>
+        <pitch>-0.0427603</pitch>
+        <yaw>-1.99972</yaw>
+    </timestamp>
+    <timestamp time="1440687309306826">
+        <roll>-0.486779</roll>
+        <pitch>-0.0427798</pitch>
+        <yaw>-1.99747</yaw>
+    </timestamp>
+    <timestamp time="1440687309328840">
+        <roll>-0.487452</roll>
+        <pitch>-0.0427024</pitch>
+        <yaw>-1.99515</yaw>
+    </timestamp>
+    <timestamp time="1440687309349854">
+        <roll>-0.487774</roll>
+        <pitch>-0.0425283</pitch>
+        <yaw>-1.99274</yaw>
+    </timestamp>
+    <timestamp time="1440687309366865">
+        <roll>-0.487241</roll>
+        <pitch>-0.042229</pitch>
+        <yaw>-1.99067</yaw>
+    </timestamp>
+    <timestamp time="1440687309388880">
+        <roll>-0.486534</roll>
+        <pitch>-0.0418197</pitch>
+        <yaw>-1.9889</yaw>
+    </timestamp>
+    <timestamp time="1440687309409895">
+        <roll>-0.486326</roll>
+        <pitch>-0.0417053</pitch>
+        <yaw>-1.98721</yaw>
+    </timestamp>
+    <timestamp time="1440687309426905">
+        <roll>-0.486239</roll>
+        <pitch>-0.0413037</pitch>
+        <yaw>-1.98524</yaw>
+    </timestamp>
+    <timestamp time="1440687309454925">
+        <roll>-0.485991</roll>
+        <pitch>-0.0413126</pitch>
+        <yaw>-1.98331</yaw>
+    </timestamp>
+    <timestamp time="1440687309469935">
+        <roll>-0.485835</roll>
+        <pitch>-0.0413983</pitch>
+        <yaw>-1.98133</yaw>
+    </timestamp>
+    <timestamp time="1440687309486945">
+        <roll>-0.486092</roll>
+        <pitch>-0.0411666</pitch>
+        <yaw>-1.97914</yaw>
+    </timestamp>
+    <timestamp time="1440687309516965">
+        <roll>-0.486573</roll>
+        <pitch>-0.0406874</pitch>
+        <yaw>-1.97715</yaw>
+    </timestamp>
+    <timestamp time="1440687309529974">
+        <roll>-0.487479</roll>
+        <pitch>-0.040399</pitch>
+        <yaw>-1.97524</yaw>
+    </timestamp>
+    <timestamp time="1440687309546985">
+        <roll>-0.487731</roll>
+        <pitch>-0.0398855</pitch>
+        <yaw>-1.97378</yaw>
+    </timestamp>
+    <timestamp time="1440687309569000">
+        <roll>-0.487678</roll>
+        <pitch>-0.039853</pitch>
+        <yaw>-1.97221</yaw>
+    </timestamp>
+    <timestamp time="1440687309590016">
+        <roll>-0.487351</roll>
+        <pitch>-0.0404035</pitch>
+        <yaw>-1.97105</yaw>
+    </timestamp>
+    <timestamp time="1440687309607024">
+        <roll>-0.487005</roll>
+        <pitch>-0.0407094</pitch>
+        <yaw>-1.97012</yaw>
+    </timestamp>
+    <timestamp time="1440687309629040">
+        <roll>-0.486801</roll>
+        <pitch>-0.0406272</pitch>
+        <yaw>-1.96918</yaw>
+    </timestamp>
+    <timestamp time="1440687309652054">
+        <roll>-0.486349</roll>
+        <pitch>-0.040881</pitch>
+        <yaw>-1.96833</yaw>
+    </timestamp>
+    <timestamp time="1440687309667064">
+        <roll>-0.485759</roll>
+        <pitch>-0.0411793</pitch>
+        <yaw>-1.96797</yaw>
+    </timestamp>
+    <timestamp time="1440687309689079">
+        <roll>-0.485758</roll>
+        <pitch>-0.0409905</pitch>
+        <yaw>-1.96714</yaw>
+    </timestamp>
+    <timestamp time="1440687309711096">
+        <roll>-0.486523</roll>
+        <pitch>-0.0407312</pitch>
+        <yaw>-1.96628</yaw>
+    </timestamp>
+    <timestamp time="1440687309726105">
+        <roll>-0.487474</roll>
+        <pitch>-0.0403871</pitch>
+        <yaw>-1.96556</yaw>
+    </timestamp>
+    <timestamp time="1440687309749120">
+        <roll>-0.488309</roll>
+        <pitch>-0.0396803</pitch>
+        <yaw>-1.96491</yaw>
+    </timestamp>
+    <timestamp time="1440687309771136">
+        <roll>-0.488309</roll>
+        <pitch>-0.0396803</pitch>
+        <yaw>-1.96491</yaw>
+    </timestamp>
+    <timestamp time="1440687309793150">
+        <roll>-0.488062</roll>
+        <pitch>-0.0394829</pitch>
+        <yaw>-1.96466</yaw>
+    </timestamp>
+    <timestamp time="1440687309809159">
+        <roll>-0.488078</roll>
+        <pitch>-0.0394596</pitch>
+        <yaw>-1.96462</yaw>
+    </timestamp>
+    <timestamp time="1440687309831175">
+        <roll>-0.488078</roll>
+        <pitch>-0.0394596</pitch>
+        <yaw>-1.96462</yaw>
+    </timestamp>
+    <timestamp time="1440687309846183">
+        <roll>-0.487628</roll>
+        <pitch>-0.0399034</pitch>
+        <yaw>-1.96459</yaw>
+    </timestamp>
+    <timestamp time="1440687309876205">
+        <roll>-0.4866</roll>
+        <pitch>-0.0404936</pitch>
+        <yaw>-1.96482</yaw>
+    </timestamp>
+    <timestamp time="1440687309891215">
+        <roll>-0.485702</roll>
+        <pitch>-0.0410365</pitch>
+        <yaw>-1.96525</yaw>
+    </timestamp>
+    <timestamp time="1440687309906223">
+        <roll>-0.484894</roll>
+        <pitch>-0.0409623</pitch>
+        <yaw>-1.96523</yaw>
+    </timestamp>
+    <timestamp time="1440687309929239">
+        <roll>-0.484413</roll>
+        <pitch>-0.0406922</pitch>
+        <yaw>-1.96532</yaw>
+    </timestamp>
+    <timestamp time="1440687309959259">
+        <roll>-0.484413</roll>
+        <pitch>-0.0406922</pitch>
+        <yaw>-1.96532</yaw>
+    </timestamp>
+    <timestamp time="1440687309966265">
+        <roll>-0.484393</roll>
+        <pitch>-0.0406739</pitch>
+        <yaw>-1.96516</yaw>
+    </timestamp>
+    <timestamp time="1440687309989279">
+        <roll>-0.483617</roll>
+        <pitch>-0.0405537</pitch>
+        <yaw>-1.96506</yaw>
+    </timestamp>
+    <timestamp time="1440687310011295">
+        <roll>-0.482894</roll>
+        <pitch>-0.0403549</pitch>
+        <yaw>-1.96472</yaw>
+    </timestamp>
+    <timestamp time="1440687310032307">
+        <roll>-0.483303</roll>
+        <pitch>-0.0401525</pitch>
+        <yaw>-1.96439</yaw>
+    </timestamp>
+    <timestamp time="1440687310049320">
+        <roll>-0.483854</roll>
+        <pitch>-0.0395607</pitch>
+        <yaw>-1.96406</yaw>
+    </timestamp>
+    <timestamp time="1440687310071333">
+        <roll>-0.4839</roll>
+        <pitch>-0.0393321</pitch>
+        <yaw>-1.96387</yaw>
+    </timestamp>
+    <timestamp time="1440687310086342">
+        <roll>-0.483346</roll>
+        <pitch>-0.0393498</pitch>
+        <yaw>-1.96367</yaw>
+    </timestamp>
+    <timestamp time="1440687310109358">
+        <roll>-0.48273</roll>
+        <pitch>-0.0392045</pitch>
+        <yaw>-1.96325</yaw>
+    </timestamp>
+    <timestamp time="1440687310131373">
+        <roll>-0.482465</roll>
+        <pitch>-0.0391494</pitch>
+        <yaw>-1.96291</yaw>
+    </timestamp>
+    <timestamp time="1440687310152387">
+        <roll>-0.482654</roll>
+        <pitch>-0.0389181</pitch>
+        <yaw>-1.96244</yaw>
+    </timestamp>
+    <timestamp time="1440687310169398">
+        <roll>-0.482972</roll>
+        <pitch>-0.0386394</pitch>
+        <yaw>-1.96215</yaw>
+    </timestamp>
+    <timestamp time="1440687310191413">
+        <roll>-0.483198</roll>
+        <pitch>-0.0384031</pitch>
+        <yaw>-1.96179</yaw>
+    </timestamp>
+    <timestamp time="1440687310212428">
+        <roll>-0.483198</roll>
+        <pitch>-0.0384031</pitch>
+        <yaw>-1.96179</yaw>
+    </timestamp>
+    <timestamp time="1440687310229438">
+        <roll>-0.482152</roll>
+        <pitch>-0.0376834</pitch>
+        <yaw>-1.96158</yaw>
+    </timestamp>
+    <timestamp time="1440687310251453">
+        <roll>-0.481598</roll>
+        <pitch>-0.0367826</pitch>
+        <yaw>-1.96134</yaw>
+    </timestamp>
+    <timestamp time="1440687310272467">
+        <roll>-0.481816</roll>
+        <pitch>-0.0361188</pitch>
+        <yaw>-1.96108</yaw>
+    </timestamp>
+    <timestamp time="1440687310289478">
+        <roll>-0.482243</roll>
+        <pitch>-0.0357744</pitch>
+        <yaw>-1.96083</yaw>
+    </timestamp>
+    <timestamp time="1440687310311492">
+        <roll>-0.482372</roll>
+        <pitch>-0.0354213</pitch>
+        <yaw>-1.96033</yaw>
+    </timestamp>
+    <timestamp time="1440687310332506">
+        <roll>-0.482057</roll>
+        <pitch>-0.0350214</pitch>
+        <yaw>-1.95966</yaw>
+    </timestamp>
+    <timestamp time="1440687310349518">
+        <roll>-0.482017</roll>
+        <pitch>-0.0347304</pitch>
+        <yaw>-1.95897</yaw>
+    </timestamp>
+    <timestamp time="1440687310371532">
+        <roll>-0.482257</roll>
+        <pitch>-0.0341654</pitch>
+        <yaw>-1.95787</yaw>
+    </timestamp>
+    <timestamp time="1440687310392548">
+        <roll>-0.482731</roll>
+        <pitch>-0.0339782</pitch>
+        <yaw>-1.95715</yaw>
+    </timestamp>
+    <timestamp time="1440687310409556">
+        <roll>-0.482809</roll>
+        <pitch>-0.0339306</pitch>
+        <yaw>-1.95652</yaw>
+    </timestamp>
+    <timestamp time="1440687310431573">
+        <roll>-0.482793</roll>
+        <pitch>-0.0339256</pitch>
+        <yaw>-1.95581</yaw>
+    </timestamp>
+    <timestamp time="1440687310452586">
+        <roll>-0.482034</roll>
+        <pitch>-0.0340133</pitch>
+        <yaw>-1.95531</yaw>
+    </timestamp>
+    <timestamp time="1440687310468597">
+        <roll>-0.48166</roll>
+        <pitch>-0.0340253</pitch>
+        <yaw>-1.95494</yaw>
+    </timestamp>
+    <timestamp time="1440687310491612">
+        <roll>-0.481529</roll>
+        <pitch>-0.0341918</pitch>
+        <yaw>-1.95463</yaw>
+    </timestamp>
+    <timestamp time="1440687310512626">
+        <roll>-0.481289</roll>
+        <pitch>-0.0344242</pitch>
+        <yaw>-1.95428</yaw>
+    </timestamp>
+    <timestamp time="1440687310528637">
+        <roll>-0.480703</roll>
+        <pitch>-0.0346094</pitch>
+        <yaw>-1.95403</yaw>
+    </timestamp>
+    <timestamp time="1440687310551652">
+        <roll>-0.480703</roll>
+        <pitch>-0.0346094</pitch>
+        <yaw>-1.95403</yaw>
+    </timestamp>
+    <timestamp time="1440687310573667">
+        <roll>-0.480743</roll>
+        <pitch>-0.03434</pitch>
+        <yaw>-1.95365</yaw>
+    </timestamp>
+    <timestamp time="1440687310588677">
+        <roll>-0.481415</roll>
+        <pitch>-0.0336568</pitch>
+        <yaw>-1.95333</yaw>
+    </timestamp>
+    <timestamp time="1440687310611692">
+        <roll>-0.48302</roll>
+        <pitch>-0.0331805</pitch>
+        <yaw>-1.95266</yaw>
+    </timestamp>
+    <timestamp time="1440687310633706">
+        <roll>-0.484597</roll>
+        <pitch>-0.0329089</pitch>
+        <yaw>-1.95214</yaw>
+    </timestamp>
+    <timestamp time="1440687310656722">
+        <roll>-0.487372</roll>
+        <pitch>-0.0330147</pitch>
+        <yaw>-1.95149</yaw>
+    </timestamp>
+    <timestamp time="1440687310671731">
+        <roll>-0.49269</roll>
+        <pitch>-0.03433</pitch>
+        <yaw>-1.9497</yaw>
+    </timestamp>
+    <timestamp time="1440687310693747">
+        <roll>-0.505044</roll>
+        <pitch>-0.0400028</pitch>
+        <yaw>-1.94583</yaw>
+    </timestamp>
+    <timestamp time="1440687310708756">
+        <roll>-0.519767</roll>
+        <pitch>-0.0525393</pitch>
+        <yaw>-1.94264</yaw>
+    </timestamp>
+    <timestamp time="1440687310731771">
+        <roll>-0.525283</roll>
+        <pitch>-0.0672093</pitch>
+        <yaw>-1.94115</yaw>
+    </timestamp>
+    <timestamp time="1440687310753787">
+        <roll>-0.522114</roll>
+        <pitch>-0.0844298</pitch>
+        <yaw>-1.93834</yaw>
+    </timestamp>
+    <timestamp time="1440687310768796">
+        <roll>-0.513589</roll>
+        <pitch>-0.106856</pitch>
+        <yaw>-1.93392</yaw>
+    </timestamp>
+    <timestamp time="1440687310791811">
+        <roll>-0.501946</roll>
+        <pitch>-0.13596</pitch>
+        <yaw>-1.92983</yaw>
+    </timestamp>
+    <timestamp time="1440687310813825">
+        <roll>-0.486865</roll>
+        <pitch>-0.171721</pitch>
+        <yaw>-1.92703</yaw>
+    </timestamp>
+    <timestamp time="1440687310834839">
+        <roll>-0.468446</roll>
+        <pitch>-0.214879</pitch>
+        <yaw>-1.92396</yaw>
+    </timestamp>
+    <timestamp time="1440687310851851">
+        <roll>-0.447104</roll>
+        <pitch>-0.263911</pitch>
+        <yaw>-1.92112</yaw>
+    </timestamp>
+    <timestamp time="1440687310873865">
+        <roll>-0.424319</roll>
+        <pitch>-0.319183</pitch>
+        <yaw>-1.9178</yaw>
+    </timestamp>
+    <timestamp time="1440687310894880">
+        <roll>-0.404085</roll>
+        <pitch>-0.379413</pitch>
+        <yaw>-1.91357</yaw>
+    </timestamp>
+    <timestamp time="1440687310911891">
+        <roll>-0.385817</roll>
+        <pitch>-0.443967</pitch>
+        <yaw>-1.90863</yaw>
+    </timestamp>
+    <timestamp time="1440687310933905">
+        <roll>-0.371611</roll>
+        <pitch>-0.510571</pitch>
+        <yaw>-1.90316</yaw>
+    </timestamp>
+    <timestamp time="1440687310954919">
+        <roll>-0.360026</roll>
+        <pitch>-0.578673</pitch>
+        <yaw>-1.89866</yaw>
+    </timestamp>
+    <timestamp time="1440687310971930">
+        <roll>-0.350221</roll>
+        <pitch>-0.648532</pitch>
+        <yaw>-1.89526</yaw>
+    </timestamp>
+    <timestamp time="1440687310993945">
+        <roll>-0.342314</roll>
+        <pitch>-0.717007</pitch>
+        <yaw>-1.89076</yaw>
+    </timestamp>
+    <timestamp time="1440687311014959">
+        <roll>-0.335963</roll>
+        <pitch>-0.786066</pitch>
+        <yaw>-1.88478</yaw>
+    </timestamp>
+    <timestamp time="1440687311031970">
+        <roll>-0.331873</roll>
+        <pitch>-0.854712</pitch>
+        <yaw>-1.87835</yaw>
+    </timestamp>
+    <timestamp time="1440687311054986">
+        <roll>-0.326127</roll>
+        <pitch>-0.918626</pitch>
+        <yaw>-1.87581</yaw>
+    </timestamp>
+    <timestamp time="1440687311075000">
+        <roll>-0.319645</roll>
+        <pitch>-0.978984</pitch>
+        <yaw>-1.87499</yaw>
+    </timestamp>
+    <timestamp time="1440687311092009">
+        <roll>-0.32096</roll>
+        <pitch>-1.03406</pitch>
+        <yaw>-1.8689</yaw>
+    </timestamp>
+    <timestamp time="1440687311122031">
+        <roll>-0.328207</roll>
+        <pitch>-1.08086</pitch>
+        <yaw>-1.85714</yaw>
+    </timestamp>
+    <timestamp time="1440687311135041">
+        <roll>-0.332406</roll>
+        <pitch>-1.1183</pitch>
+        <yaw>-1.84757</yaw>
+    </timestamp>
+    <timestamp time="1440687311152050">
+        <roll>-0.336138</roll>
+        <pitch>-1.14816</pitch>
+        <yaw>-1.83907</yaw>
+    </timestamp>
+    <timestamp time="1440687311174064">
+        <roll>-0.341536</roll>
+        <pitch>-1.1677</pitch>
+        <yaw>-1.83009</yaw>
+    </timestamp>
+    <timestamp time="1440687311195080">
+        <roll>-0.350512</roll>
+        <pitch>-1.17772</pitch>
+        <yaw>-1.8181</yaw>
+    </timestamp>
+    <timestamp time="1440687311211090">
+        <roll>-0.363265</roll>
+        <pitch>-1.18003</pitch>
+        <yaw>-1.8033</yaw>
+    </timestamp>
+    <timestamp time="1440687311234105">
+        <roll>-0.374643</roll>
+        <pitch>-1.17538</pitch>
+        <yaw>-1.79072</yaw>
+    </timestamp>
+    <timestamp time="1440687311255120">
+        <roll>-0.381622</roll>
+        <pitch>-1.16547</pitch>
+        <yaw>-1.78206</yaw>
+    </timestamp>
+    <timestamp time="1440687311271131">
+        <roll>-0.388303</roll>
+        <pitch>-1.15362</pitch>
+        <yaw>-1.77432</yaw>
+    </timestamp>
+    <timestamp time="1440687311294144">
+        <roll>-0.396105</roll>
+        <pitch>-1.13951</pitch>
+        <yaw>-1.76488</yaw>
+    </timestamp>
+    <timestamp time="1440687311315160">
+        <roll>-0.40137</roll>
+        <pitch>-1.12478</pitch>
+        <yaw>-1.75723</yaw>
+    </timestamp>
+    <timestamp time="1440687311331171">
+        <roll>-0.401395</roll>
+        <pitch>-1.11014</pitch>
+        <yaw>-1.75503</yaw>
+    </timestamp>
+    <timestamp time="1440687311354185">
+        <roll>-0.395961</roll>
+        <pitch>-1.09544</pitch>
+        <yaw>-1.757</yaw>
+    </timestamp>
+    <timestamp time="1440687311375200">
+        <roll>-0.390915</roll>
+        <pitch>-1.08168</pitch>
+        <yaw>-1.75807</yaw>
+    </timestamp>
+    <timestamp time="1440687311391208">
+        <roll>-0.387574</roll>
+        <pitch>-1.06798</pitch>
+        <yaw>-1.75695</yaw>
+    </timestamp>
+    <timestamp time="1440687311414224">
+        <roll>-0.381941</roll>
+        <pitch>-1.05494</pitch>
+        <yaw>-1.75803</yaw>
+    </timestamp>
+    <timestamp time="1440687311435238">
+        <roll>-0.374415</roll>
+        <pitch>-1.04263</pitch>
+        <yaw>-1.76059</yaw>
+    </timestamp>
+    <timestamp time="1440687311451249">
+        <roll>-0.369164</roll>
+        <pitch>-1.03087</pitch>
+        <yaw>-1.76205</yaw>
+    </timestamp>
+    <timestamp time="1440687311474264">
+        <roll>-0.365853</roll>
+        <pitch>-1.01899</pitch>
+        <yaw>-1.76248</yaw>
+    </timestamp>
+    <timestamp time="1440687311496278">
+        <roll>-0.362926</roll>
+        <pitch>-1.00641</pitch>
+        <yaw>-1.76244</yaw>
+    </timestamp>
+    <timestamp time="1440687311511288">
+        <roll>-0.360003</roll>
+        <pitch>-0.991853</pitch>
+        <yaw>-1.76164</yaw>
+    </timestamp>
+    <timestamp time="1440687311534305">
+        <roll>-0.354483</roll>
+        <pitch>-0.974082</pitch>
+        <yaw>-1.76148</yaw>
+    </timestamp>
+    <timestamp time="1440687311556318">
+        <roll>-0.344583</roll>
+        <pitch>-0.954085</pitch>
+        <yaw>-1.76474</yaw>
+    </timestamp>
+    <timestamp time="1440687311570329">
+        <roll>-0.333337</roll>
+        <pitch>-0.932101</pitch>
+        <yaw>-1.76947</yaw>
+    </timestamp>
+    <timestamp time="1440687311594343">
+        <roll>-0.324858</roll>
+        <pitch>-0.907669</pitch>
+        <yaw>-1.77266</yaw>
+    </timestamp>
+    <timestamp time="1440687311616359">
+        <roll>-0.320787</roll>
+        <pitch>-0.880287</pitch>
+        <yaw>-1.77329</yaw>
+    </timestamp>
+    <timestamp time="1440687311631367">
+        <roll>-0.316591</roll>
+        <pitch>-0.851023</pitch>
+        <yaw>-1.77424</yaw>
+    </timestamp>
+    <timestamp time="1440687311654384">
+        <roll>-0.311343</roll>
+        <pitch>-0.819791</pitch>
+        <yaw>-1.77676</yaw>
+    </timestamp>
+    <timestamp time="1440687311676398">
+        <roll>-0.307001</roll>
+        <pitch>-0.788151</pitch>
+        <yaw>-1.77956</yaw>
+    </timestamp>
+    <timestamp time="1440687311690409">
+        <roll>-0.304441</roll>
+        <pitch>-0.75554</pitch>
+        <yaw>-1.7821</yaw>
+    </timestamp>
+    <timestamp time="1440687311714423">
+        <roll>-0.303234</roll>
+        <pitch>-0.721868</pitch>
+        <yaw>-1.78413</yaw>
+    </timestamp>
+    <timestamp time="1440687311742444">
+        <roll>-0.301886</roll>
+        <pitch>-0.688088</pitch>
+        <yaw>-1.78578</yaw>
+    </timestamp>
+    <timestamp time="1440687311750448">
+        <roll>-0.299906</roll>
+        <pitch>-0.654915</pitch>
+        <yaw>-1.78902</yaw>
+    </timestamp>
+    <timestamp time="1440687311780469">
+        <roll>-0.29713</roll>
+        <pitch>-0.621485</pitch>
+        <yaw>-1.79517</yaw>
+    </timestamp>
+    <timestamp time="1440687311796478">
+        <roll>-0.295398</roll>
+        <pitch>-0.588325</pitch>
+        <yaw>-1.80051</yaw>
+    </timestamp>
+    <timestamp time="1440687311817493">
+        <roll>-0.294601</roll>
+        <pitch>-0.556618</pitch>
+        <yaw>-1.80474</yaw>
+    </timestamp>
+    <timestamp time="1440687311834506">
+        <roll>-0.294021</roll>
+        <pitch>-0.525133</pitch>
+        <yaw>-1.80828</yaw>
+    </timestamp>
+    <timestamp time="1440687311856517">
+        <roll>-0.293494</roll>
+        <pitch>-0.493329</pitch>
+        <yaw>-1.81242</yaw>
+    </timestamp>
+    <timestamp time="1440687311877533">
+        <roll>-0.291736</roll>
+        <pitch>-0.461772</pitch>
+        <yaw>-1.8179</yaw>
+    </timestamp>
+    <timestamp time="1440687311894542">
+        <roll>-0.290251</roll>
+        <pitch>-0.429876</pitch>
+        <yaw>-1.82322</yaw>
+    </timestamp>
+    <timestamp time="1440687311916559">
+        <roll>-0.290147</roll>
+        <pitch>-0.398711</pitch>
+        <yaw>-1.82688</yaw>
+    </timestamp>
+    <timestamp time="1440687311937572">
+        <roll>-0.290309</roll>
+        <pitch>-0.369044</pitch>
+        <yaw>-1.83025</yaw>
+    </timestamp>
+    <timestamp time="1440687311954585">
+        <roll>-0.291944</roll>
+        <pitch>-0.339928</pitch>
+        <yaw>-1.83406</yaw>
+    </timestamp>
+    <timestamp time="1440687311976598">
+        <roll>-0.295419</roll>
+        <pitch>-0.313183</pitch>
+        <yaw>-1.83781</yaw>
+    </timestamp>
+    <timestamp time="1440687311998612">
+        <roll>-0.299191</roll>
+        <pitch>-0.288566</pitch>
+        <yaw>-1.841</yaw>
+    </timestamp>
+    <timestamp time="1440687312013622">
+        <roll>-0.302722</roll>
+        <pitch>-0.265379</pitch>
+        <yaw>-1.84382</yaw>
+    </timestamp>
+    <timestamp time="1440687312036637">
+        <roll>-0.305257</roll>
+        <pitch>-0.245537</pitch>
+        <yaw>-1.84622</yaw>
+    </timestamp>
+    <timestamp time="1440687312057652">
+        <roll>-0.307997</roll>
+        <pitch>-0.228463</pitch>
+        <yaw>-1.84851</yaw>
+    </timestamp>
+    <timestamp time="1440687312073661">
+        <roll>-0.309903</roll>
+        <pitch>-0.213194</pitch>
+        <yaw>-1.85117</yaw>
+    </timestamp>
+    <timestamp time="1440687312096677">
+        <roll>-0.312454</roll>
+        <pitch>-0.199643</pitch>
+        <yaw>-1.85295</yaw>
+    </timestamp>
+    <timestamp time="1440687312117692">
+        <roll>-0.314241</roll>
+        <pitch>-0.187409</pitch>
+        <yaw>-1.85421</yaw>
+    </timestamp>
+    <timestamp time="1440687312133702">
+        <roll>-0.31616</roll>
+        <pitch>-0.177958</pitch>
+        <yaw>-1.85564</yaw>
+    </timestamp>
+    <timestamp time="1440687312156718">
+        <roll>-0.317926</roll>
+        <pitch>-0.170154</pitch>
+        <yaw>-1.85807</yaw>
+    </timestamp>
+    <timestamp time="1440687312177731">
+        <roll>-0.320608</roll>
+        <pitch>-0.163533</pitch>
+        <yaw>-1.86027</yaw>
+    </timestamp>
+    <timestamp time="1440687312193741">
+        <roll>-0.322902</roll>
+        <pitch>-0.157397</pitch>
+        <yaw>-1.86261</yaw>
+    </timestamp>
+    <timestamp time="1440687312216757">
+        <roll>-0.324412</roll>
+        <pitch>-0.152727</pitch>
+        <yaw>-1.86438</yaw>
+    </timestamp>
+    <timestamp time="1440687312237770">
+        <roll>-0.325389</roll>
+        <pitch>-0.149533</pitch>
+        <yaw>-1.86599</yaw>
+    </timestamp>
+    <timestamp time="1440687312253782">
+        <roll>-0.325359</roll>
+        <pitch>-0.146953</pitch>
+        <yaw>-1.86789</yaw>
+    </timestamp>
+    <timestamp time="1440687312276797">
+        <roll>-0.32538</roll>
+        <pitch>-0.14499</pitch>
+        <yaw>-1.86989</yaw>
+    </timestamp>
+    <timestamp time="1440687312297811">
+        <roll>-0.325412</roll>
+        <pitch>-0.144074</pitch>
+        <yaw>-1.87167</yaw>
+    </timestamp>
+    <timestamp time="1440687312313822">
+        <roll>-0.323813</roll>
+        <pitch>-0.144079</pitch>
+        <yaw>-1.87374</yaw>
+    </timestamp>
+    <timestamp time="1440687312336837">
+        <roll>-0.320202</roll>
+        <pitch>-0.142953</pitch>
+        <yaw>-1.87627</yaw>
+    </timestamp>
+    <timestamp time="1440687312357850">
+        <roll>-0.318171</roll>
+        <pitch>-0.140334</pitch>
+        <yaw>-1.87847</yaw>
+    </timestamp>
+    <timestamp time="1440687312373860">
+        <roll>-0.319144</roll>
+        <pitch>-0.137356</pitch>
+        <yaw>-1.8803</yaw>
+    </timestamp>
+    <timestamp time="1440687312396877">
+        <roll>-0.322186</roll>
+        <pitch>-0.134987</pitch>
+        <yaw>-1.88159</yaw>
+    </timestamp>
+    <timestamp time="1440687312424894">
+        <roll>-0.326566</roll>
+        <pitch>-0.133304</pitch>
+        <yaw>-1.88243</yaw>
+    </timestamp>
+    <timestamp time="1440687312433900">
+        <roll>-0.329589</roll>
+        <pitch>-0.131987</pitch>
+        <yaw>-1.8832</yaw>
+    </timestamp>
+    <timestamp time="1440687312438904">
+        <roll>-0.330118</roll>
+        <pitch>-0.131721</pitch>
+        <yaw>-1.88417</yaw>
+    </timestamp>
+    <timestamp time="1440687312461920">
+        <roll>-0.327982</roll>
+        <pitch>-0.131902</pitch>
+        <yaw>-1.88574</yaw>
+    </timestamp>
+    <timestamp time="1440687312483934">
+        <roll>-0.325083</roll>
+        <pitch>-0.13238</pitch>
+        <yaw>-1.88778</yaw>
+    </timestamp>
+    <timestamp time="1440687312498944">
+        <roll>-0.322747</roll>
+        <pitch>-0.133073</pitch>
+        <yaw>-1.88995</yaw>
+    </timestamp>
+    <timestamp time="1440687312521959">
+        <roll>-0.321571</roll>
+        <pitch>-0.133802</pitch>
+        <yaw>-1.89168</yaw>
+    </timestamp>
+    <timestamp time="1440687312543973">
+        <roll>-0.3206</roll>
+        <pitch>-0.13393</pitch>
+        <yaw>-1.89343</yaw>
+    </timestamp>
+    <timestamp time="1440687312558983">
+        <roll>-0.319971</roll>
+        <pitch>-0.133749</pitch>
+        <yaw>-1.89461</yaw>
+    </timestamp>
+    <timestamp time="1440687312581998">
+        <roll>-0.31982</roll>
+        <pitch>-0.13334</pitch>
+        <yaw>-1.89547</yaw>
+    </timestamp>
+    <timestamp time="1440687312605014">
+        <roll>-0.319939</roll>
+        <pitch>-0.133002</pitch>
+        <yaw>-1.89595</yaw>
+    </timestamp>
+    <timestamp time="1440687312619024">
+        <roll>-0.320267</roll>
+        <pitch>-0.132495</pitch>
+        <yaw>-1.89627</yaw>
+    </timestamp>
+    <timestamp time="1440687312642041">
+        <roll>-0.320368</roll>
+        <pitch>-0.132425</pitch>
+        <yaw>-1.89628</yaw>
+    </timestamp>
+    <timestamp time="1440687312664054">
+        <roll>-0.320267</roll>
+        <pitch>-0.132495</pitch>
+        <yaw>-1.89627</yaw>
+    </timestamp>
+    <timestamp time="1440687312681065">
+        <roll>-0.320267</roll>
+        <pitch>-0.132495</pitch>
+        <yaw>-1.89627</yaw>
+    </timestamp>
+    <timestamp time="1440687312702078">
+        <roll>-0.320344</roll>
+        <pitch>-0.132594</pitch>
+        <yaw>-1.89626</yaw>
+    </timestamp>
+    <timestamp time="1440687312732098">
+        <roll>-0.319443</roll>
+        <pitch>-0.133111</pitch>
+        <yaw>-1.89654</yaw>
+    </timestamp>
+    <timestamp time="1440687312741105">
+        <roll>-0.318196</roll>
+        <pitch>-0.133586</pitch>
+        <yaw>-1.89696</yaw>
+    </timestamp>
+    <timestamp time="1440687312762120">
+        <roll>-0.317396</roll>
+        <pitch>-0.134161</pitch>
+        <yaw>-1.897</yaw>
+    </timestamp>
+    <timestamp time="1440687312784135">
+        <roll>-0.316883</roll>
+        <pitch>-0.134538</pitch>
+        <yaw>-1.89712</yaw>
+    </timestamp>
+    <timestamp time="1440687312807150">
+        <roll>-0.316559</roll>
+        <pitch>-0.134834</pitch>
+        <yaw>-1.89767</yaw>
+    </timestamp>
+    <timestamp time="1440687312822160">
+        <roll>-0.316474</roll>
+        <pitch>-0.13527</pitch>
+        <yaw>-1.89826</yaw>
+    </timestamp>
+    <timestamp time="1440687312844174">
+        <roll>-0.31599</roll>
+        <pitch>-0.135955</pitch>
+        <yaw>-1.89859</yaw>
+    </timestamp>
+    <timestamp time="1440687312867190">
+        <roll>-0.315477</roll>
+        <pitch>-0.136332</pitch>
+        <yaw>-1.89872</yaw>
+    </timestamp>
+    <timestamp time="1440687312882199">
+        <roll>-0.315136</roll>
+        <pitch>-0.136768</pitch>
+        <yaw>-1.89905</yaw>
+    </timestamp>
+    <timestamp time="1440687312904215">
+        <roll>-0.315034</roll>
+        <pitch>-0.136837</pitch>
+        <yaw>-1.89903</yaw>
+    </timestamp>
+    <timestamp time="1440687312927228">
+        <roll>-0.315034</roll>
+        <pitch>-0.136837</pitch>
+        <yaw>-1.89903</yaw>
+    </timestamp>
+    <timestamp time="1440687312942240">
+        <roll>-0.31547</roll>
+        <pitch>-0.136361</pitch>
+        <yaw>-1.89891</yaw>
+    </timestamp>
+    <timestamp time="1440687312964255">
+        <roll>-0.31574</roll>
+        <pitch>-0.136303</pitch>
+        <yaw>-1.89877</yaw>
+    </timestamp>
+    <timestamp time="1440687312987268">
+        <roll>-0.316312</roll>
+        <pitch>-0.136673</pitch>
+        <yaw>-1.89882</yaw>
+    </timestamp>
+    <timestamp time="1440687313002278">
+        <roll>-0.316312</roll>
+        <pitch>-0.136673</pitch>
+        <yaw>-1.89882</yaw>
+    </timestamp>
+    <timestamp time="1440687313024294">
+        <roll>-0.316414</roll>
+        <pitch>-0.136603</pitch>
+        <yaw>-1.89883</yaw>
+    </timestamp>
+    <timestamp time="1440687313047307">
+        <roll>-0.315931</roll>
+        <pitch>-0.136782</pitch>
+        <yaw>-1.89878</yaw>
+    </timestamp>
+    <timestamp time="1440687313062317">
+        <roll>-0.316032</roll>
+        <pitch>-0.136712</pitch>
+        <yaw>-1.89879</yaw>
+    </timestamp>
+    <timestamp time="1440687313087335">
+        <roll>-0.31667</roll>
+        <pitch>-0.136732</pitch>
+        <yaw>-1.89884</yaw>
+    </timestamp>
+    <timestamp time="1440687313107347">
+        <roll>-0.317364</roll>
+        <pitch>-0.136816</pitch>
+        <yaw>-1.89855</yaw>
+    </timestamp>
+    <timestamp time="1440687313122357">
+        <roll>-0.317364</roll>
+        <pitch>-0.136816</pitch>
+        <yaw>-1.89855</yaw>
+    </timestamp>
+    <timestamp time="1440687313144374">
+        <roll>-0.317769</roll>
+        <pitch>-0.136537</pitch>
+        <yaw>-1.89861</yaw>
+    </timestamp>
+    <timestamp time="1440687313167387">
+        <roll>-0.317769</roll>
+        <pitch>-0.136537</pitch>
+        <yaw>-1.89861</yaw>
+    </timestamp>
+    <timestamp time="1440687313181399">
+        <roll>-0.317733</roll>
+        <pitch>-0.136129</pitch>
+        <yaw>-1.89885</yaw>
+    </timestamp>
+    <timestamp time="1440687313207413">
+        <roll>-0.317733</roll>
+        <pitch>-0.136129</pitch>
+        <yaw>-1.89885</yaw>
+    </timestamp>
+</data>
