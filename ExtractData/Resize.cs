@@ -13,10 +13,11 @@ namespace ExtractData
     public partial class Resize : Form
     {
 
-        public int SizeOfX { get; set; }
-        public Resize()
+        public int SizeOfGraph { get; set; }
+        public Resize(string type)
         {
             InitializeComponent();
+            label1.Text = type + "'s  new Size : ";
         }
 
         private void ResizeValue_TextChanged(object sender, EventArgs e)
@@ -26,7 +27,7 @@ namespace ExtractData
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SizeOfX = Convert.ToInt32(ResizeValue.Text);
+            SizeOfGraph = Convert.ToInt32(ResizeValue.Text);
         }
     }
 }

@@ -129,11 +129,21 @@ namespace ExtractData
             ResizeAxis.Name = "Resize Axis";
             ResizeAxis.Text = "Resize Axis";
             ResizeAxis.Tag = ResizeAxis.Text;
-            ResizeAxis.Click += new EventHandler(MenuItemClickHandlerSettings);
 
+            ToolStripMenuItem ResizeAxisY = new ToolStripMenuItem("Resize Axis Y ");
+            ResizeAxisY.Name = "Resize Axis Y";
+            ResizeAxisY.Text = "Resize Axis Y";
+            ResizeAxisY.Tag = ResizeAxisY.Text;
+            ResizeAxisY.Click += new EventHandler(MenuItemClickHandlerSettings);
 
+            ToolStripMenuItem ResizeAxisX = new ToolStripMenuItem("Resize Axis X");
+            ResizeAxisX.Name = "Resize Axis X";
+            ResizeAxisX.Text = "Resize Axis X";
+            ResizeAxisX.Tag = ResizeAxisX.Text;
+            ResizeAxisX.Click += new EventHandler(MenuItemClickHandlerSettings);
 
-
+            ResizeAxis.DropDownItems.Add(ResizeAxisX);
+            ResizeAxis.DropDownItems.Add(ResizeAxisY);
             //OptionsItem.DropDownItems.Add(AddTrace);
             OptionsItem.DropDownItems.Add(DisplayTrace);
             OptionsItem.DropDownItems.Add(DisplayTraceFourier);
@@ -331,20 +341,38 @@ namespace ExtractData
         private void MenuItemClickHandlerSettings(object sender, EventArgs e)
         {
             int newX;
+            int newY;
             List<Data> temp;
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
             Console.WriteLine(clickedItem.Tag);
-            if(clickedItem.Tag.ToString() != "Resize Axis")
+            if(clickedItem.Tag.ToString() != "Resize Axis X" && clickedItem.Tag.ToString() != "Resize Axis Y")
                 clearPane();
             switch (clickedItem.Tag.ToString())
             {
-                case "Resize Axis":
-                    Resize resize = new Resize();
-                    DialogResult result = resize.ShowDialog();
-                    switch (result)
+                case "Resize Axis Y":
+                    Resize resizeY = new Resize("Y");
+                    DialogResult resultY = resizeY.ShowDialog();
+                    switch (resultY)
                     {
                         case DialogResult.OK:
-                            newX = resize.SizeOfX;
+                            newY = resizeY.SizeOfGraph;
+                            this.updateOutputLog("New Y : " + newY, 1);
+                            this.z1.GraphPane.YAxis.Max = newY;
+                            this.z1.AxisChange();
+                            this.z1.Invalidate();
+                            break;
+                        case DialogResult.Cancel:
+                        default:
+                            break;
+                    }
+                    break;
+                case "Resize Axis X":
+                    Resize resizeX = new Resize("X");
+                    DialogResult resultX = resizeX.ShowDialog();
+                    switch (resultX)
+                    {
+                        case DialogResult.OK:
+                            newX = resizeX.SizeOfGraph;
                             this.updateOutputLog("New X : " + newX, 1);
                             this.z1.GraphPane.XAxis.Max = newX;
                             this.z1.AxisChange();
