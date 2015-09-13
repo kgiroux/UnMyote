@@ -6,8 +6,7 @@ using System.Windows.Forms;
 using ZedGraph;
 using MathNet.Numerics.Transformations;
 
-namespace ExtractData
-{
+namespace ExtractData { 
     public partial class Graphic : Form
     {
         Acquisition acqData;
