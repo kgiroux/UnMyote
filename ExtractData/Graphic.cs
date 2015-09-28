@@ -195,39 +195,17 @@ namespace ExtractData {
             int compteur = 0;
             double[] x = null;
             double[] y = null;
-            if (fourier)
-            {
-                x = new double[temp.dataList.Count / 2];
-                y = new double[temp.dataList.Count / 2];
-            }
-            else
-            {
-                x = new double[temp.dataList.Count];
-                y = new double[temp.dataList.Count];
-            }
-
+            x = new double[temp.dataList.Count];
+            y = new double[temp.dataList.Count];
 
             z1.IsShowPointValues = true;
             z1.GraphPane.Title = Title;
             foreach (double data in temp.dataList)
             {
-                if (x != null && y != null && fourier)
-                {
-                    if (compteur % 2 == 0)
-                    {
-                        y[compteur / 2] = data;
-                    }
-                    else
-                    {
-                        x[compteur / 2] = (compteur - 1) * 20;
-                    }
-                }
-                else
-                {
-                    y[compteur] = data;
-                    x[compteur] = compteur * 20;
-                }
+                y[compteur] = data;
+                x[compteur] = compteur * 20;
                 compteur++;
+               
             }
             Console.WriteLine("Count list : " + z1.GraphPane.CurveList.Count);
             if (z1.GraphPane.CurveList.Count > 0)
@@ -246,42 +224,23 @@ namespace ExtractData {
         private void CreateGraph(Data temp, string Title, ZedGraphControl z1, Boolean fourier)
         {
             int compteur = 0;
+            int compteurX =0;
+            int compteurY = 0;
             double[] x = null;
             double[] y = null;
-            if (fourier)
-            {
-                 x = new double[temp.dataList.Count/2];
-                 y = new double[temp.dataList.Count/2];
-            }
-            else
-            {
-                x = new double[temp.dataList.Count];
-                y = new double[temp.dataList.Count];
-            }
+            x = new double[temp.dataList.Count];
+            y = new double[temp.dataList.Count];
              
 
             z1.IsShowPointValues = true;
             z1.GraphPane.Title = Title;
             foreach (double data in temp.dataList)
             {
-                if(x != null && y != null && fourier)
-                {
-                    if (compteur % 2 == 0)
-                    {
-                        y[compteur/2] = data;
-                    }
-                    else
-                    {
-                        x[compteur/2] = (compteur -1)* 20;
-                    }
-                }
-                else
-                {
-                    y[compteur] = data;
-                    x[compteur] = compteur * 20;
-                }
+                y[compteur] = data;
+                x[compteur] = compteur * 20;
                 compteur++;
             }
+
             Console.WriteLine("Count list : " + z1.GraphPane.CurveList.Count);
             if (z1.GraphPane.CurveList.Count > 0)
             {
