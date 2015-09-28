@@ -8,9 +8,6 @@ namespace ExtractData
     public class Acquisition
     {
 
-        //public string file { get; set; }
-        //public int nbData { get; set; }
-
         private Main launchForm;
         public Emg emgs { get; set; }
         public Gyro gyro { get; set; }
