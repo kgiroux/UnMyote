@@ -5,6 +5,7 @@ using System.Linq;
 using System.Windows.Forms;
 using ZedGraph;
 using MathNet.Numerics.Transformations;
+using MathNet.Numerics.Statistics;
 
 namespace ExtractData { 
     public partial class Graphic : Form
@@ -137,6 +138,12 @@ namespace ExtractData {
             ResizeAxisX.Tag = ResizeAxisX.Text;
             ResizeAxisX.Click += new EventHandler(MenuItemClickHandlerSettings);
 
+            ToolStripMenuItem CompareCurve = new ToolStripMenuItem("Compare Curve");
+            CompareCurve.Name = "Compare Curve";
+            CompareCurve.Text = "Compare Curve";
+            CompareCurve.Tag = CompareCurve.Text;
+            CompareCurve.Click += new EventHandler(MenuItemClickHandlerSettings);
+
             ResizeAxis.DropDownItems.Add(ResizeAxisX);
             ResizeAxis.DropDownItems.Add(ResizeAxisY);
             //OptionsItem.DropDownItems.Add(AddTrace);
@@ -144,6 +151,7 @@ namespace ExtractData {
             OptionsItem.DropDownItems.Add(DisplayTraceFourier);
             OptionsItem.DropDownItems.Add(CleanTrace);
             OptionsItem.DropDownItems.Add(ResizeAxis);
+            OptionsItem.DropDownItems.Add(CompareCurve);
 
             ToolStripMenuItem UnMyote = new ToolStripMenuItem("UnMyote");
             UnMyote.Name = "UnMyote";
@@ -255,8 +263,52 @@ namespace ExtractData {
             System.IO.Directory.CreateDirectory("./images");
             z1.GraphPane.Image.Save("./images/"+Title+".png");
         }
-        
-       
+
+        private void MultiCurve(Data temp1, Data temp2, string Title, ZedGraphControl z1, Boolean fourier)
+        {
+            int compteur = 0;
+            double[] x = null;
+            double[] y = null;
+            double[] x2 = null;
+            double[] y2 = null;
+
+            x = new double[temp1.dataList.Count];
+            y = new double[temp1.dataList.Count];
+            x2 = new double[temp2.dataList.Count];
+            y2 = new double[temp2.dataList.Count];
+
+            z1.IsShowPointValues = true;
+            z1.GraphPane.Title = Title;
+            foreach (double data in temp1.dataList)
+            {
+                y[compteur] = data;
+                x[compteur] = compteur * 20;
+                compteur++;
+            }
+            compteur = 0;
+            foreach (double data in temp2.dataList)
+            {
+                y2[compteur] = data;
+                x2[compteur] = compteur * 20;
+                compteur++;
+            }
+
+            Console.WriteLine("Count list : " + z1.GraphPane.CurveList.Count);
+            if (z1.GraphPane.CurveList.Count > 0)
+            {
+                z1.GraphPane.CurveList.Clear();
+            }
+
+            z1.Refresh();
+            
+            z1.GraphPane.AddCurve("Signal", x2, y2, Color.DarkRed, SymbolType.Plus);
+            z1.GraphPane.AddCurve("Signal", x, y, Color.Yellow, SymbolType.Circle);
+            z1.GraphPane.XAxis.Max = x.Length * 20;
+            z1.AxisChange();
+            z1.Invalidate();
+            System.IO.Directory.CreateDirectory("./images");
+            z1.GraphPane.Image.Save("./images/" + Title + ".png");
+        }
 
         /* Add All Trace */
         private void AddAllMeasure(List<Data> temp)
@@ -299,6 +351,7 @@ namespace ExtractData {
             List<Data> temp;
             ToolStripMenuItem clickedItem = (ToolStripMenuItem)sender;
             Console.WriteLine(clickedItem.Tag);
+            this.updateOutputLog(clickedItem.Tag.ToString(), 0);
             if(clickedItem.Tag.ToString() != "Resize Axis X" && clickedItem.Tag.ToString() != "Resize Axis Y")
                 clearPane();
             switch (clickedItem.Tag.ToString())
@@ -312,6 +365,7 @@ namespace ExtractData {
                             newY = resizeY.SizeOfGraph;
                             this.updateOutputLog("New Y : " + newY, 1);
                             this.z1.GraphPane.YAxis.Max = newY;
+                            this.z1.GraphPane.YAxis.Min = -newY;
                             this.z1.AxisChange();
                             this.z1.Invalidate();
                             break;
@@ -337,8 +391,13 @@ namespace ExtractData {
                             break;
                     }
                     break;
+                case "Compare Curve":
+                    double correlation = Correlation.Pearson(acqData.emgs.emg1.dataList, acqData.emgs.emg2.dataList);
+                    this.updateOutputLog("Value Correlation " + correlation, 1);
+                    initZedGraph(this.z1, "EMg1 & EMG 2");
+                    MultiCurve(acqData.emgs.emg1, acqData.emgs.emg2, "EMg1 & EMG 2",this.z1 ,false);
+                    break;
                 case "Display all Emg":
-                    
                     acqData.emgs.packData();
                     temp = acqData.emgs.listEMG;
                     AddAllMeasure(temp);
