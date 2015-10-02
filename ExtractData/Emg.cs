@@ -63,6 +63,37 @@ namespace ExtractData
             }
         }
 
+        public void addDataByText(string text, double data)
+        {
+            switch (text)
+            {
+                case "emg1":
+                    emg1.addData(data);
+                    break;
+                case "emg2":
+                    emg2.addData(data);
+                    break;
+                case "emg3":
+                    emg3.addData(data);
+                    break;
+                case "emg4":
+                    emg4.addData(data);
+                    break;
+                case "emg5":
+                    emg5.addData(data);
+                    break;
+                case "emg6":
+                    emg6.addData(data);
+                    break;
+                case "emg7":
+                    emg7.addData(data);
+                    break;
+                case "emg8":
+                    emg8.addData(data);
+                    break;
+            }
+        }
+
         public void packData()
         {
             if(listEMG.Count == 0)

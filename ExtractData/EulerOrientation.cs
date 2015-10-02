@@ -36,6 +36,23 @@ namespace ExtractData
             }
         }
 
+        public void addDataByText(string type, double data)
+        {
+            switch (type)
+            {
+                case "roll":
+                    roll.addData(data);
+                    break;
+                case "pitch":
+                    pitch.addData(data);
+                    break;
+                case "yaw":
+                    yaw.addData(data);
+                    break;
+            }
+        }
+
+
         public void packData()
         {
             if (listEulerOrientation.Count == 0)

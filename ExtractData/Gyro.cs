@@ -37,6 +37,22 @@ namespace ExtractData
             }
         }
 
+
+        public void addDataByText(string text, double data)
+        {
+            switch (text)
+            {
+                case "X":
+                    X.addData(data);
+                    break;
+                case "Y":
+                    Y.addData(data);
+                    break;
+                case "Z":
+                    Z.addData(data);
+                    break;
+            }
+        }
         public void packData()
         {
             if (listGyro.Count == 0)

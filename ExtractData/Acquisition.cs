@@ -72,7 +72,8 @@ namespace ExtractData
                 {
                     nbData = 4;
                 }
-                readFile(file, nbData);
+                ReadFileNew(file, nbData);
+
             }
 
             //emgs.emg1.printData();
@@ -87,7 +88,7 @@ namespace ExtractData
             xmlDoc.Load(file);
             try
             {
-
+                
                 foreach (XmlNode xmlNode in xmlDoc.DocumentElement)
                 {
                     int compteur = 0;
@@ -157,5 +158,99 @@ namespace ExtractData
             readFile.Start();
 
         }
+
+        private void readNew(string file, int nbData, string textToEvaluate)
+        {
+            XmlDocument xmlDoc = new XmlDocument();
+            Console.WriteLine("#################====>>> " + file);
+            this.updateOutputLog("Loading file : " + file, 0);
+            xmlDoc.Load(file);
+            try
+            {
+                XmlNodeList xmlNodetest = xmlDoc.GetElementsByTagName(textToEvaluate);
+                foreach (XmlNode xmlNode in xmlNodetest)
+                {
+                    if (textToEvaluate.Contains("emg"))
+                    {
+                        emgs.addDataByText(textToEvaluate, double.Parse(xmlNode.InnerXml.Replace(".", ",")));
+                        this.updateOutputLog(textToEvaluate + " XML CHILD : " + xmlNode.InnerText, 0);
+                    }
+                    else if (file.Contains("accelerometer"))
+                    {
+                        acce.addDataByText(textToEvaluate, double.Parse(xmlNode.InnerXml.Replace(".", ",")));
+                        this.updateOutputLog(textToEvaluate + " XML CHILD : " + xmlNode.InnerText, 0);
+                    }
+                    else if (file.Contains("gyrometer"))
+                    {
+                        gyro.addDataByText(textToEvaluate, double.Parse(xmlNode.InnerXml.Replace(".", ",")));
+                        this.updateOutputLog(textToEvaluate + " XML CHILD : " + xmlNode.InnerText, 0);
+                    }
+                    else if (file.Contains("Euler"))
+                    {
+                        eulorien.addDataByText(textToEvaluate, double.Parse(xmlNode.InnerXml.Replace(".", ",")));
+                        this.updateOutputLog(textToEvaluate + " XML CHILD : " + xmlNode.InnerText, 0);
+                    }
+                    else
+                    {
+                        orien.addDataByText(textToEvaluate, double.Parse(xmlNode.InnerXml.Replace(".", ",")));
+                        this.updateOutputLog(textToEvaluate + " XML CHILD : " + xmlNode.InnerText, 0);
+                    }
+                }
+            }
+            catch (FormatException format)
+            {
+                this.updateOutputLog("Erreur => Acquisition : format : " + format.Message, -1);
+                Console.WriteLine("Acquisition : format : " + format.Message);
+            }
+            catch (Exception ex)
+            {
+                this.updateOutputLog("Erreur => Acquisition : general : " + ex.Message, -1);
+                Console.WriteLine("Acquision : " + ex.Message);
+            }
+            this.launchForm.updateProgressBar();
+        }
+
+
+        private void ReadFileNew(string file, int nbData)
+        {
+           
+            if (file.Contains("emg"))
+            {
+                for(int i = 1; i<9; i++)
+                {
+                    String textToEvaluate = "emg" + i;
+                    Thread readFile = new Thread(() => readNew(file, nbData,textToEvaluate));
+                    readFile.Start();
+                }
+            }
+            else if (file.Contains("accelerometer") || file.Contains("gyro"))
+            {
+                String[] listData = { "X", "Y", "Z" };
+                foreach(String s in listData)
+                {
+                    Thread readFile = new Thread(() => readNew(file, nbData, s));
+                    readFile.Start();
+                }
+            }
+            else if (file.Contains("Euler"))
+            {
+                String[] listData = { "roll", "pitch", "yaw" };
+                foreach (String s in listData)
+                {
+                    Thread readFile = new Thread(() => readNew(file, nbData, s));
+                    readFile.Start();
+                }
+            }
+            else
+            {
+                String[] listData = { "X", "Y", "Z","W"};
+                foreach (String s in listData)
+                {
+                    Thread readFile = new Thread(() => readNew(file, nbData, s));
+                    readFile.Start();
+                }
+            }
+        }
+
     }
 }

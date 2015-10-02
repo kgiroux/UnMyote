@@ -25,8 +25,12 @@ namespace ExtractData
             DialogResult result = fbd.ShowDialog();
             string[] files = Directory.GetFiles(fbd.SelectedPath);
 
-            lenghtFileList = files.Length;
-            ReadingProgressBar.Maximum = files.Length;
+            //lenghtFileList = files.Length;
+           
+            int NBdata = 8 + 4 + 3 + 3 + 3;
+            lenghtFileList = NBdata;
+           //ReadingProgressBar.Maximum = files.Length +7;
+           ReadingProgressBar.Maximum = NBdata;
             ReadingProgressBar.Minimum = 0;
 
             Acquisition acq = new Acquisition(files, this);
