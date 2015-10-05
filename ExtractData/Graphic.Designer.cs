@@ -24,6 +24,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Graphic));
             this.Menu = new System.Windows.Forms.MenuStrip();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.ClientSize = new System.Drawing.Size(575, 327);
             this.Controls.Add(this.Menu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.Menu;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Resize));
             this.label1 = new System.Windows.Forms.Label();
             this.ResizeValue = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -81,6 +82,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ResizeValue);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Resize";
             this.Text = "Resize";
             this.ResumeLayout(false);

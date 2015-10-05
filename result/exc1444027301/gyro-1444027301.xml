@@ -1,0 +1,3172 @@
+<data>
+    <timestamp time="1444027305117579">
+        <X>1.125</X>
+        <Y>-0.4375</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027305157605">
+        <X>-0.875</X>
+        <Y>-0.625</Y>
+        <Z>0.625</Z>
+    </timestamp>
+    <timestamp time="1444027305158604">
+        <X>-3</X>
+        <Y>-0.5625</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027305170613">
+        <X>-3.0625</X>
+        <Y>-0.5</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027305192630">
+        <X>-1.1875</X>
+        <Y>-1</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027305208638">
+        <X>0.5625</X>
+        <Y>-0.9375</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027305230653">
+        <X>0.5</X>
+        <Y>-0.9375</Y>
+        <Z>0.5</Z>
+    </timestamp>
+    <timestamp time="1444027305253672">
+        <X>0</X>
+        <Y>-0.875</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027305268679">
+        <X>-0.0625</X>
+        <Y>-0.6875</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027305290692">
+        <X>-1.1875</X>
+        <Y>-0.6875</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027305313706">
+        <X>-2.1875</X>
+        <Y>-0.5</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027305328725">
+        <X>-2.5625</X>
+        <Y>-0.5</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027305350737">
+        <X>-1.625</X>
+        <Y>-0.5625</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027305373749">
+        <X>0.5625</X>
+        <Y>-0.9375</Y>
+        <Z>-0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027305387758">
+        <X>1.5625</X>
+        <Y>-1.125</Y>
+        <Z>-0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027305410772">
+        <X>1.875</X>
+        <Y>-1.1875</Y>
+        <Z>-0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027305433791">
+        <X>1.3125</X>
+        <Y>-1.375</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027305447801">
+        <X>0.3125</X>
+        <Y>-1.3125</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027305470813">
+        <X>-0.5625</X>
+        <Y>-0.8125</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027305493826">
+        <X>-1.5</X>
+        <Y>-0.5625</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027305507837">
+        <X>-0.5</X>
+        <Y>-0.625</Y>
+        <Z>-0.625</Z>
+    </timestamp>
+    <timestamp time="1444027305531851">
+        <X>1.5</X>
+        <Y>-0.5625</Y>
+        <Z>-0.9375</Z>
+    </timestamp>
+    <timestamp time="1444027305552865">
+        <X>1.1875</X>
+        <Y>-0.6875</Y>
+        <Z>-0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027305567876">
+        <X>-2</X>
+        <Y>-0.5</Y>
+        <Z>-0.625</Z>
+    </timestamp>
+    <timestamp time="1444027305590890">
+        <X>-5.125</X>
+        <Y>0</Y>
+        <Z>-0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027305614907">
+        <X>-6.875</X>
+        <Y>1.5625</Y>
+        <Z>-0.875</Z>
+    </timestamp>
+    <timestamp time="1444027305627921">
+        <X>-10</X>
+        <Y>3.1875</Y>
+        <Z>-1.75</Z>
+    </timestamp>
+    <timestamp time="1444027305650932">
+        <X>-18.875</X>
+        <Y>5.375</Y>
+        <Z>-3.625</Z>
+    </timestamp>
+    <timestamp time="1444027305673951">
+        <X>-30.875</X>
+        <Y>6.5625</Y>
+        <Z>-3.1875</Z>
+    </timestamp>
+    <timestamp time="1444027305695961">
+        <X>-32.75</X>
+        <Y>8.5</Y>
+        <Z>1.5625</Z>
+    </timestamp>
+    <timestamp time="1444027305710973">
+        <X>-26.25</X>
+        <Y>13.875</Y>
+        <Z>5.25</Z>
+    </timestamp>
+    <timestamp time="1444027305732986">
+        <X>0.1875</X>
+        <Y>11.75</Y>
+        <Z>4.625</Z>
+    </timestamp>
+    <timestamp time="1444027305756006">
+        <X>34.625</X>
+        <Y>19.375</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027305771011">
+        <X>48.875</X>
+        <Y>13.75</Y>
+        <Z>12.125</Z>
+    </timestamp>
+    <timestamp time="1444027305793031">
+        <X>22.5</X>
+        <Y>3.5625</Y>
+        <Z>26.9375</Z>
+    </timestamp>
+    <timestamp time="1444027305816041">
+        <X>-30.3125</X>
+        <Y>9.0625</Y>
+        <Z>49.3125</Z>
+    </timestamp>
+    <timestamp time="1444027305831051">
+        <X>-58.75</X>
+        <Y>13.125</Y>
+        <Z>61.75</Z>
+    </timestamp>
+    <timestamp time="1444027305853068">
+        <X>-56.9375</X>
+        <Y>21.125</Y>
+        <Z>72.5625</Z>
+    </timestamp>
+    <timestamp time="1444027305876136">
+        <X>-42.0625</X>
+        <Y>24.5625</Y>
+        <Z>81.75</Z>
+    </timestamp>
+    <timestamp time="1444027305892090">
+        <X>-45.75</X>
+        <Y>28.4375</Y>
+        <Z>87.5</Z>
+    </timestamp>
+    <timestamp time="1444027305913106">
+        <X>-52.1875</X>
+        <Y>33.75</Y>
+        <Z>90.9375</Z>
+    </timestamp>
+    <timestamp time="1444027305936121">
+        <X>-61.875</X>
+        <Y>40.875</Y>
+        <Z>87.125</Z>
+    </timestamp>
+    <timestamp time="1444027305951133">
+        <X>-62.75</X>
+        <Y>45.6875</Y>
+        <Z>81.8125</Z>
+    </timestamp>
+    <timestamp time="1444027305973147">
+        <X>-58.125</X>
+        <Y>46.375</Y>
+        <Z>76.9375</Z>
+    </timestamp>
+    <timestamp time="1444027305996161">
+        <X>-58.4375</X>
+        <Y>48.5625</Y>
+        <Z>73.0625</Z>
+    </timestamp>
+    <timestamp time="1444027306011175">
+        <X>-58.0625</X>
+        <Y>53.125</Y>
+        <Z>68.1875</Z>
+    </timestamp>
+    <timestamp time="1444027306033188">
+        <X>-53.25</X>
+        <Y>60.375</Y>
+        <Z>65</Z>
+    </timestamp>
+    <timestamp time="1444027306056200">
+        <X>-41</X>
+        <Y>62.5625</Y>
+        <Z>60.9375</Z>
+    </timestamp>
+    <timestamp time="1444027306095225">
+        <X>-30.875</X>
+        <Y>58.75</Y>
+        <Z>57</Z>
+    </timestamp>
+    <timestamp time="1444027306096226">
+        <X>-28.6875</X>
+        <Y>53.875</Y>
+        <Z>53.9375</Z>
+    </timestamp>
+    <timestamp time="1444027306125245">
+        <X>-27.3125</X>
+        <Y>52.5625</Y>
+        <Z>52.3125</Z>
+    </timestamp>
+    <timestamp time="1444027306139255">
+        <X>-25.3125</X>
+        <Y>49.1875</Y>
+        <Z>48.3125</Z>
+    </timestamp>
+    <timestamp time="1444027306162270">
+        <X>-18.375</X>
+        <Y>55.875</Y>
+        <Z>45.6875</Z>
+    </timestamp>
+    <timestamp time="1444027306183286">
+        <X>-3.1875</X>
+        <Y>53.875</Y>
+        <Z>46.3125</Z>
+    </timestamp>
+    <timestamp time="1444027306199296">
+        <X>5.4375</X>
+        <Y>33.1875</Y>
+        <Z>49.9375</Z>
+    </timestamp>
+    <timestamp time="1444027306222310">
+        <X>7.125</X>
+        <Y>47.9375</Y>
+        <Z>49.4375</Z>
+    </timestamp>
+    <timestamp time="1444027306243325">
+        <X>3.6875</X>
+        <Y>30.8125</Y>
+        <Z>50.25</Z>
+    </timestamp>
+    <timestamp time="1444027306259335">
+        <X>9.3125</X>
+        <Y>20.625</Y>
+        <Z>48.8125</Z>
+    </timestamp>
+    <timestamp time="1444027306282350">
+        <X>14.875</X>
+        <Y>18.1875</Y>
+        <Z>47.4375</Z>
+    </timestamp>
+    <timestamp time="1444027306303367">
+        <X>16.4375</X>
+        <Y>19.25</Y>
+        <Z>46</Z>
+    </timestamp>
+    <timestamp time="1444027306319457">
+        <X>17.875</X>
+        <Y>21.375</Y>
+        <Z>44.125</Z>
+    </timestamp>
+    <timestamp time="1444027306342389">
+        <X>16.3125</X>
+        <Y>21.5</Y>
+        <Z>41.5</Z>
+    </timestamp>
+    <timestamp time="1444027306363403">
+        <X>9.4375</X>
+        <Y>23.0625</Y>
+        <Z>38.5</Z>
+    </timestamp>
+    <timestamp time="1444027306379414">
+        <X>7.0625</X>
+        <Y>28.4375</Y>
+        <Z>32.3125</Z>
+    </timestamp>
+    <timestamp time="1444027306402431">
+        <X>9.0625</X>
+        <Y>28.4375</Y>
+        <Z>26</Z>
+    </timestamp>
+    <timestamp time="1444027306423446">
+        <X>2.5625</X>
+        <Y>31.5625</Y>
+        <Z>20.9375</Z>
+    </timestamp>
+    <timestamp time="1444027306439454">
+        <X>12.875</X>
+        <Y>35.25</Y>
+        <Z>14.875</Z>
+    </timestamp>
+    <timestamp time="1444027306462470">
+        <X>3</X>
+        <Y>32.125</Y>
+        <Z>13.625</Z>
+    </timestamp>
+    <timestamp time="1444027306483485">
+        <X>8.9375</X>
+        <Y>32.3125</Y>
+        <Z>10.5625</Z>
+    </timestamp>
+    <timestamp time="1444027306499494">
+        <X>3.875</X>
+        <Y>34.125</Y>
+        <Z>8.875</Z>
+    </timestamp>
+    <timestamp time="1444027306522509">
+        <X>2.875</X>
+        <Y>31.625</Y>
+        <Z>8.3125</Z>
+    </timestamp>
+    <timestamp time="1444027306544523">
+        <X>5.5625</X>
+        <Y>28.9375</Y>
+        <Z>6.6875</Z>
+    </timestamp>
+    <timestamp time="1444027306559533">
+        <X>4.5</X>
+        <Y>25.1875</Y>
+        <Z>6.3125</Z>
+    </timestamp>
+    <timestamp time="1444027306582548">
+        <X>3.5</X>
+        <Y>19.9375</Y>
+        <Z>5.4375</Z>
+    </timestamp>
+    <timestamp time="1444027306604564">
+        <X>3.875</X>
+        <Y>16.1875</Y>
+        <Z>5.0625</Z>
+    </timestamp>
+    <timestamp time="1444027306618573">
+        <X>3.8125</X>
+        <Y>13.4375</Y>
+        <Z>3.5</Z>
+    </timestamp>
+    <timestamp time="1444027306642588">
+        <X>3.0625</X>
+        <Y>9.5625</Y>
+        <Z>1.0625</Z>
+    </timestamp>
+    <timestamp time="1444027306664602">
+        <X>1.125</X>
+        <Y>5.5</Y>
+        <Z>-0.5</Z>
+    </timestamp>
+    <timestamp time="1444027306678613">
+        <X>-2.3125</X>
+        <Y>0.375</Y>
+        <Z>-2.0625</Z>
+    </timestamp>
+    <timestamp time="1444027306702630">
+        <X>-2.0625</X>
+        <Y>-4.0625</Y>
+        <Z>-5.0625</Z>
+    </timestamp>
+    <timestamp time="1444027306724642">
+        <X>-0.5</X>
+        <Y>-7.125</Y>
+        <Z>-7.6875</Z>
+    </timestamp>
+    <timestamp time="1444027306738652">
+        <X>-1.0625</X>
+        <Y>-11.0625</Y>
+        <Z>-8.6875</Z>
+    </timestamp>
+    <timestamp time="1444027306762668">
+        <X>-5.9375</X>
+        <Y>-13.75</Y>
+        <Z>-9.75</Z>
+    </timestamp>
+    <timestamp time="1444027306784683">
+        <X>-1.875</X>
+        <Y>-17.0625</Y>
+        <Z>-12</Z>
+    </timestamp>
+    <timestamp time="1444027306805699">
+        <X>-8.3125</X>
+        <Y>-20.9375</Y>
+        <Z>-13.8125</Z>
+    </timestamp>
+    <timestamp time="1444027306821709">
+        <X>0.125</X>
+        <Y>-20.25</Y>
+        <Z>-15.9375</Z>
+    </timestamp>
+    <timestamp time="1444027306844723">
+        <X>-1.6875</X>
+        <Y>-22.625</Y>
+        <Z>-15.1875</Z>
+    </timestamp>
+    <timestamp time="1444027306865738">
+        <X>2.125</X>
+        <Y>-23.0625</Y>
+        <Z>-16.4375</Z>
+    </timestamp>
+    <timestamp time="1444027306881749">
+        <X>-11.9375</X>
+        <Y>-26.3125</Y>
+        <Z>-14.75</Z>
+    </timestamp>
+    <timestamp time="1444027306904764">
+        <X>-3.1875</X>
+        <Y>-26.5625</Y>
+        <Z>-17.125</Z>
+    </timestamp>
+    <timestamp time="1444027306925778">
+        <X>-3.6875</X>
+        <Y>-25.3125</Y>
+        <Z>-18.625</Z>
+    </timestamp>
+    <timestamp time="1444027306941789">
+        <X>-12.625</X>
+        <Y>-27.75</Y>
+        <Z>-18.6875</Z>
+    </timestamp>
+    <timestamp time="1444027306964804">
+        <X>-3.8125</X>
+        <Y>-30.0625</Y>
+        <Z>-20.5</Z>
+    </timestamp>
+    <timestamp time="1444027306985818">
+        <X>-5.1875</X>
+        <Y>-31.5625</Y>
+        <Z>-22.25</Z>
+    </timestamp>
+    <timestamp time="1444027307001899">
+        <X>-10.0625</X>
+        <Y>-33.1875</Y>
+        <Z>-21.8125</Z>
+    </timestamp>
+    <timestamp time="1444027307024843">
+        <X>1.1875</X>
+        <Y>-33.5625</Y>
+        <Z>-25.5</Z>
+    </timestamp>
+    <timestamp time="1444027307046882">
+        <X>4.6875</X>
+        <Y>-32.875</Y>
+        <Z>-26.8125</Z>
+    </timestamp>
+    <timestamp time="1444027307086883">
+        <X>-4.0625</X>
+        <Y>-36.8125</Y>
+        <Z>-25</Z>
+    </timestamp>
+    <timestamp time="1444027307087884">
+        <X>-0.875</X>
+        <Y>-38.75</Y>
+        <Z>-26.1875</Z>
+    </timestamp>
+    <timestamp time="1444027307100893">
+        <X>-3.6875</X>
+        <Y>-37.0625</Y>
+        <Z>-27.625</Z>
+    </timestamp>
+    <timestamp time="1444027307114901">
+        <X>-6.75</X>
+        <Y>-35.0625</Y>
+        <Z>-29.4375</Z>
+    </timestamp>
+    <timestamp time="1444027307135926">
+        <X>1.625</X>
+        <Y>-46.6875</Y>
+        <Z>-33.0625</Z>
+    </timestamp>
+    <timestamp time="1444027307157930">
+        <X>4.75</X>
+        <Y>-38.375</Y>
+        <Z>-32.4375</Z>
+    </timestamp>
+    <timestamp time="1444027307174942">
+        <X>1.0625</X>
+        <Y>-39.375</Y>
+        <Z>-31.9375</Z>
+    </timestamp>
+    <timestamp time="1444027307195957">
+        <X>-4.75</X>
+        <Y>-38.75</Y>
+        <Z>-32.75</Z>
+    </timestamp>
+    <timestamp time="1444027307217976">
+        <X>-6</X>
+        <Y>-38.625</Y>
+        <Z>-34.9375</Z>
+    </timestamp>
+    <timestamp time="1444027307234981">
+        <X>-4.0625</X>
+        <Y>-37.6875</Y>
+        <Z>-35.5625</Z>
+    </timestamp>
+    <timestamp time="1444027307256001">
+        <X>6.8125</X>
+        <Y>-37</Y>
+        <Z>-35.625</Z>
+    </timestamp>
+    <timestamp time="1444027307278011">
+        <X>-1.6875</X>
+        <Y>-42</Y>
+        <Z>-33</Z>
+    </timestamp>
+    <timestamp time="1444027307295023">
+        <X>1.875</X>
+        <Y>-41.9375</Y>
+        <Z>-34.3125</Z>
+    </timestamp>
+    <timestamp time="1444027307317042">
+        <X>-8.375</X>
+        <Y>-42.5625</Y>
+        <Z>-34.9375</Z>
+    </timestamp>
+    <timestamp time="1444027307338052">
+        <X>-1.375</X>
+        <Y>-44.25</Y>
+        <Z>-36.5625</Z>
+    </timestamp>
+    <timestamp time="1444027307354061">
+        <X>9.875</X>
+        <Y>-43.75</Y>
+        <Z>-35.1875</Z>
+    </timestamp>
+    <timestamp time="1444027307377076">
+        <X>5.5625</X>
+        <Y>-45.875</Y>
+        <Z>-33.6875</Z>
+    </timestamp>
+    <timestamp time="1444027307398090">
+        <X>7.375</X>
+        <Y>-47.25</Y>
+        <Z>-34.1875</Z>
+    </timestamp>
+    <timestamp time="1444027307414102">
+        <X>3.375</X>
+        <Y>-45.4375</Y>
+        <Z>-35.5625</Z>
+    </timestamp>
+    <timestamp time="1444027307437118">
+        <X>-1.75</X>
+        <Y>-46.0625</Y>
+        <Z>-36.3125</Z>
+    </timestamp>
+    <timestamp time="1444027307458130">
+        <X>12</X>
+        <Y>-45.3125</Y>
+        <Z>-37</Z>
+    </timestamp>
+    <timestamp time="1444027307474143">
+        <X>9.5</X>
+        <Y>-43.25</Y>
+        <Z>-34.75</Z>
+    </timestamp>
+    <timestamp time="1444027307497157">
+        <X>4.4375</X>
+        <Y>-44.8125</Y>
+        <Z>-34.75</Z>
+    </timestamp>
+    <timestamp time="1444027307518173">
+        <X>-0.3125</X>
+        <Y>-43.9375</Y>
+        <Z>-35.1875</Z>
+    </timestamp>
+    <timestamp time="1444027307542185">
+        <X>-3.6875</X>
+        <Y>-43.4375</Y>
+        <Z>-36.5</Z>
+    </timestamp>
+    <timestamp time="1444027307565201">
+        <X>1</X>
+        <Y>-42.0625</Y>
+        <Z>-36.8125</Z>
+    </timestamp>
+    <timestamp time="1444027307579212">
+        <X>12.5625</X>
+        <Y>-40.9375</Y>
+        <Z>-36.4375</Z>
+    </timestamp>
+    <timestamp time="1444027307602228">
+        <X>15.75</X>
+        <Y>-40.0625</Y>
+        <Z>-34.6875</Z>
+    </timestamp>
+    <timestamp time="1444027307639254">
+        <X>7.625</X>
+        <Y>-38.8125</Y>
+        <Z>-33.1875</Z>
+    </timestamp>
+    <timestamp time="1444027307642252">
+        <X>0.25</X>
+        <Y>-38.5625</Y>
+        <Z>-33.8125</Z>
+    </timestamp>
+    <timestamp time="1444027307662266">
+        <X>-0.8125</X>
+        <Y>-38.25</Y>
+        <Z>-35.25</Z>
+    </timestamp>
+    <timestamp time="1444027307684281">
+        <X>2.8125</X>
+        <Y>-38.75</Y>
+        <Z>-35.0625</Z>
+    </timestamp>
+    <timestamp time="1444027307699292">
+        <X>5.0625</X>
+        <Y>-39.5</Y>
+        <Z>-34.0625</Z>
+    </timestamp>
+    <timestamp time="1444027307722305">
+        <X>4.3125</X>
+        <Y>-38.75</Y>
+        <Z>-34.1875</Z>
+    </timestamp>
+    <timestamp time="1444027307744319">
+        <X>3.0625</X>
+        <Y>-37.6875</Y>
+        <Z>-35.9375</Z>
+    </timestamp>
+    <timestamp time="1444027307766334">
+        <X>5.1875</X>
+        <Y>-35.3125</Y>
+        <Z>-37.4375</Z>
+    </timestamp>
+    <timestamp time="1444027307782345">
+        <X>9.5625</X>
+        <Y>-34.375</Y>
+        <Z>-37.5625</Z>
+    </timestamp>
+    <timestamp time="1444027307804359">
+        <X>11.3125</X>
+        <Y>-34.8125</Y>
+        <Z>-36.25</Z>
+    </timestamp>
+    <timestamp time="1444027307825379">
+        <X>8.625</X>
+        <Y>-34.0625</Y>
+        <Z>-35.875</Z>
+    </timestamp>
+    <timestamp time="1444027307842384">
+        <X>3.6875</X>
+        <Y>-32.1875</Y>
+        <Z>-36.625</Z>
+    </timestamp>
+    <timestamp time="1444027307864399">
+        <X>1.9375</X>
+        <Y>-30.75</Y>
+        <Z>-36.75</Z>
+    </timestamp>
+    <timestamp time="1444027307885414">
+        <X>2.3125</X>
+        <Y>-30.0625</Y>
+        <Z>-36.25</Z>
+    </timestamp>
+    <timestamp time="1444027307902425">
+        <X>5.0625</X>
+        <Y>-30.1875</Y>
+        <Z>-35.3125</Z>
+    </timestamp>
+    <timestamp time="1444027307924454">
+        <X>7.25</X>
+        <Y>-30.375</Y>
+        <Z>-35</Z>
+    </timestamp>
+    <timestamp time="1444027307945454">
+        <X>7.5</X>
+        <Y>-30.375</Y>
+        <Z>-35.5625</Z>
+    </timestamp>
+    <timestamp time="1444027307962464">
+        <X>7.75</X>
+        <Y>-31.75</Y>
+        <Z>-37.125</Z>
+    </timestamp>
+    <timestamp time="1444027307985480">
+        <X>8.375</X>
+        <Y>-32.6875</Y>
+        <Z>-36.8125</Z>
+    </timestamp>
+    <timestamp time="1444027308005494">
+        <X>11.9375</X>
+        <Y>-32.875</Y>
+        <Z>-35.5625</Z>
+    </timestamp>
+    <timestamp time="1444027308022505">
+        <X>16.9375</X>
+        <Y>-33</Y>
+        <Z>-35.8125</Z>
+    </timestamp>
+    <timestamp time="1444027308044518">
+        <X>21.8125</X>
+        <Y>-33.75</Y>
+        <Z>-37.25</Z>
+    </timestamp>
+    <timestamp time="1444027308065534">
+        <X>22.1875</X>
+        <Y>-33.9375</Y>
+        <Z>-39.25</Z>
+    </timestamp>
+    <timestamp time="1444027308082544">
+        <X>21.5</X>
+        <Y>-34</Y>
+        <Z>-41.125</Z>
+    </timestamp>
+    <timestamp time="1444027308104560">
+        <X>18.1875</X>
+        <Y>-32.4375</Y>
+        <Z>-41.25</Z>
+    </timestamp>
+    <timestamp time="1444027308125578">
+        <X>19.3125</X>
+        <Y>-30.5</Y>
+        <Z>-41.5625</Z>
+    </timestamp>
+    <timestamp time="1444027308142587">
+        <X>21.6875</X>
+        <Y>-30.3125</Y>
+        <Z>-41.125</Z>
+    </timestamp>
+    <timestamp time="1444027308164600">
+        <X>24.1875</X>
+        <Y>-30.375</Y>
+        <Z>-40.0625</Z>
+    </timestamp>
+    <timestamp time="1444027308193618">
+        <X>24.5625</X>
+        <Y>-30.1875</Y>
+        <Z>-39.625</Z>
+    </timestamp>
+    <timestamp time="1444027308202624">
+        <X>22.9375</X>
+        <Y>-29.25</Y>
+        <Z>-38.8125</Z>
+    </timestamp>
+    <timestamp time="1444027308224639">
+        <X>17.375</X>
+        <Y>-25.6875</Y>
+        <Z>-39.1875</Z>
+    </timestamp>
+    <timestamp time="1444027308245658">
+        <X>13.5</X>
+        <Y>-24</Y>
+        <Z>-40.4375</Z>
+    </timestamp>
+    <timestamp time="1444027308262663">
+        <X>15.125</X>
+        <Y>-23.0625</Y>
+        <Z>-40.8125</Z>
+    </timestamp>
+    <timestamp time="1444027308284678">
+        <X>15.625</X>
+        <Y>-22.6875</Y>
+        <Z>-39.875</Z>
+    </timestamp>
+    <timestamp time="1444027308305694">
+        <X>19.25</X>
+        <Y>-24.25</Y>
+        <Z>-38.0625</Z>
+    </timestamp>
+    <timestamp time="1444027308321708">
+        <X>14.6875</X>
+        <Y>-24.6875</Y>
+        <Z>-38.4375</Z>
+    </timestamp>
+    <timestamp time="1444027308344718">
+        <X>6.875</X>
+        <Y>-26.3125</Y>
+        <Z>-41.875</Z>
+    </timestamp>
+    <timestamp time="1444027308365731">
+        <X>2.5</X>
+        <Y>-26.8125</Y>
+        <Z>-46.6875</Z>
+    </timestamp>
+    <timestamp time="1444027308381745">
+        <X>2.9375</X>
+        <Y>-26.125</Y>
+        <Z>-48.875</Z>
+    </timestamp>
+    <timestamp time="1444027308404758">
+        <X>9</X>
+        <Y>-24.9375</Y>
+        <Z>-48.625</Z>
+    </timestamp>
+    <timestamp time="1444027308426780">
+        <X>18.4375</X>
+        <Y>-23.9375</Y>
+        <Z>-47.75</Z>
+    </timestamp>
+    <timestamp time="1444027308441783">
+        <X>26.875</X>
+        <Y>-22.875</Y>
+        <Z>-46</Z>
+    </timestamp>
+    <timestamp time="1444027308464797">
+        <X>30.125</X>
+        <Y>-22.3125</Y>
+        <Z>-45.1875</Z>
+    </timestamp>
+    <timestamp time="1444027308487814">
+        <X>28.5</X>
+        <Y>-22.75</Y>
+        <Z>-44.1875</Z>
+    </timestamp>
+    <timestamp time="1444027308501822">
+        <X>26.875</X>
+        <Y>-22.0625</Y>
+        <Z>-42.625</Z>
+    </timestamp>
+    <timestamp time="1444027308524838">
+        <X>26.375</X>
+        <Y>-19.5625</Y>
+        <Z>-40.375</Z>
+    </timestamp>
+    <timestamp time="1444027308554858">
+        <X>24.1875</X>
+        <Y>-18.5625</Y>
+        <Z>-37.25</Z>
+    </timestamp>
+    <timestamp time="1444027308561864">
+        <X>20.625</X>
+        <Y>-14.9375</Y>
+        <Z>-34.1875</Z>
+    </timestamp>
+    <timestamp time="1444027308584877">
+        <X>17.25</X>
+        <Y>-12</Y>
+        <Z>-32.25</Z>
+    </timestamp>
+    <timestamp time="1444027308606920">
+        <X>14.3125</X>
+        <Y>-9.5</Y>
+        <Z>-31.3125</Z>
+    </timestamp>
+    <timestamp time="1444027308621902">
+        <X>12.9375</X>
+        <Y>-6.0625</Y>
+        <Z>-29.25</Z>
+    </timestamp>
+    <timestamp time="1444027308644919">
+        <X>7.1875</X>
+        <Y>-2.5625</Y>
+        <Z>-25.75</Z>
+    </timestamp>
+    <timestamp time="1444027308666932">
+        <X>3.75</X>
+        <Y>-0.0625</Y>
+        <Z>-22</Z>
+    </timestamp>
+    <timestamp time="1444027308687949">
+        <X>7.5</X>
+        <Y>0.375</Y>
+        <Z>-18.875</Z>
+    </timestamp>
+    <timestamp time="1444027308704957">
+        <X>13.1875</X>
+        <Y>0.625</Y>
+        <Z>-16.3125</Z>
+    </timestamp>
+    <timestamp time="1444027308726972">
+        <X>16.75</X>
+        <Y>-0.5625</Y>
+        <Z>-14.125</Z>
+    </timestamp>
+    <timestamp time="1444027308748056">
+        <X>19.6875</X>
+        <Y>-1.875</Y>
+        <Z>-15.3125</Z>
+    </timestamp>
+    <timestamp time="1444027308764996">
+        <X>19.5625</X>
+        <Y>-2.5</Y>
+        <Z>-16.6875</Z>
+    </timestamp>
+    <timestamp time="1444027308787011">
+        <X>15.625</X>
+        <Y>-4.4375</Y>
+        <Z>-19.0625</Z>
+    </timestamp>
+    <timestamp time="1444027308808027">
+        <X>10.4375</X>
+        <Y>-5.25</Y>
+        <Z>-20</Z>
+    </timestamp>
+    <timestamp time="1444027308825037">
+        <X>11.125</X>
+        <Y>-6.375</Y>
+        <Z>-19.625</Z>
+    </timestamp>
+    <timestamp time="1444027308847050">
+        <X>15.875</X>
+        <Y>-4.5</Y>
+        <Z>-18.6875</Z>
+    </timestamp>
+    <timestamp time="1444027308868068">
+        <X>17.75</X>
+        <Y>-10.5</Y>
+        <Z>-19.75</Z>
+    </timestamp>
+    <timestamp time="1444027308885076">
+        <X>15.4375</X>
+        <Y>-8.375</Y>
+        <Z>-17.4375</Z>
+    </timestamp>
+    <timestamp time="1444027308907091">
+        <X>8.6875</X>
+        <Y>-5.1875</Y>
+        <Z>-13.375</Z>
+    </timestamp>
+    <timestamp time="1444027308928111">
+        <X>7.8125</X>
+        <Y>-6.375</Y>
+        <Z>-7.625</Z>
+    </timestamp>
+    <timestamp time="1444027308945117">
+        <X>6.4375</X>
+        <Y>-7.1875</Y>
+        <Z>-6.5</Z>
+    </timestamp>
+    <timestamp time="1444027308967130">
+        <X>3.375</X>
+        <Y>-4.5</Y>
+        <Z>-6.75</Z>
+    </timestamp>
+    <timestamp time="1444027308988146">
+        <X>-3.0625</X>
+        <Y>0.0625</Y>
+        <Z>-7.75</Z>
+    </timestamp>
+    <timestamp time="1444027309005158">
+        <X>-16.5625</X>
+        <Y>1.375</Y>
+        <Z>-8.0625</Z>
+    </timestamp>
+    <timestamp time="1444027309027171">
+        <X>-30.875</X>
+        <Y>2.6875</Y>
+        <Z>-8.8125</Z>
+    </timestamp>
+    <timestamp time="1444027309048190">
+        <X>-38.375</X>
+        <Y>3.6875</Y>
+        <Z>-8.4375</Z>
+    </timestamp>
+    <timestamp time="1444027309064196">
+        <X>-36.1875</X>
+        <Y>3.6875</Y>
+        <Z>-7.8125</Z>
+    </timestamp>
+    <timestamp time="1444027309087212">
+        <X>-26.5625</X>
+        <Y>0.0625</Y>
+        <Z>-7.8125</Z>
+    </timestamp>
+    <timestamp time="1444027309108226">
+        <X>-14.8125</X>
+        <Y>0.0625</Y>
+        <Z>-6.25</Z>
+    </timestamp>
+    <timestamp time="1444027309124239">
+        <X>-7.6875</X>
+        <Y>0.625</Y>
+        <Z>-5.3125</Z>
+    </timestamp>
+    <timestamp time="1444027309147251">
+        <X>-15.5</X>
+        <Y>2.3125</Y>
+        <Z>-3.5625</Z>
+    </timestamp>
+    <timestamp time="1444027309168266">
+        <X>-29.5</X>
+        <Y>5.3125</Y>
+        <Z>-4.5625</Z>
+    </timestamp>
+    <timestamp time="1444027309184275">
+        <X>-38.5625</X>
+        <Y>7.25</Y>
+        <Z>-4.6875</Z>
+    </timestamp>
+    <timestamp time="1444027309207292">
+        <X>-41.625</X>
+        <Y>8.75</Y>
+        <Z>-4.125</Z>
+    </timestamp>
+    <timestamp time="1444027309228306">
+        <X>-34.875</X>
+        <Y>6.75</Y>
+        <Z>-4.8125</Z>
+    </timestamp>
+    <timestamp time="1444027309244314">
+        <X>-28.0625</X>
+        <Y>4.125</Y>
+        <Z>-4.5625</Z>
+    </timestamp>
+    <timestamp time="1444027309267331">
+        <X>-26.375</X>
+        <Y>4</Y>
+        <Z>-2.625</Z>
+    </timestamp>
+    <timestamp time="1444027309288346">
+        <X>-22.0625</X>
+        <Y>3.9375</Y>
+        <Z>-1</Z>
+    </timestamp>
+    <timestamp time="1444027309304355">
+        <X>-14.4375</X>
+        <Y>2.5</Y>
+        <Z>-0.8125</Z>
+    </timestamp>
+    <timestamp time="1444027309327370">
+        <X>-5.1875</X>
+        <Y>0.0625</Y>
+        <Z>-1.4375</Z>
+    </timestamp>
+    <timestamp time="1444027309348385">
+        <X>2.375</X>
+        <Y>-0.5</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027309364395">
+        <X>7.5625</X>
+        <Y>-0.9375</Y>
+        <Z>1.6875</Z>
+    </timestamp>
+    <timestamp time="1444027309387411">
+        <X>11</X>
+        <Y>-1.25</Y>
+        <Z>2.875</Z>
+    </timestamp>
+    <timestamp time="1444027309409425">
+        <X>9.25</X>
+        <Y>-0.125</Y>
+        <Z>3.9375</Z>
+    </timestamp>
+    <timestamp time="1444027309424434">
+        <X>3</X>
+        <Y>0.1875</Y>
+        <Z>4.3125</Z>
+    </timestamp>
+    <timestamp time="1444027309447451">
+        <X>-1.0625</X>
+        <Y>0.3125</Y>
+        <Z>3.75</Z>
+    </timestamp>
+    <timestamp time="1444027309477470">
+        <X>-1.5</X>
+        <Y>0</Y>
+        <Z>2.5</Z>
+    </timestamp>
+    <timestamp time="1444027309484476">
+        <X>1.0625</X>
+        <Y>0.0625</Y>
+        <Z>1.9375</Z>
+    </timestamp>
+    <timestamp time="1444027309507489">
+        <X>1.9375</X>
+        <Y>0.125</Y>
+        <Z>1.4375</Z>
+    </timestamp>
+    <timestamp time="1444027309529504">
+        <X>0.25</X>
+        <Y>0.75</Y>
+        <Z>1.5</Z>
+    </timestamp>
+    <timestamp time="1444027309543515">
+        <X>-0.625</X>
+        <Y>0.875</Y>
+        <Z>1.75</Z>
+    </timestamp>
+    <timestamp time="1444027309567529">
+        <X>0.25</X>
+        <Y>0.375</Y>
+        <Z>1.75</Z>
+    </timestamp>
+    <timestamp time="1444027309590545">
+        <X>0.8125</X>
+        <Y>-0.4375</Y>
+        <Z>1.5</Z>
+    </timestamp>
+    <timestamp time="1444027309603555">
+        <X>1.8125</X>
+        <Y>-0.75</Y>
+        <Z>1.125</Z>
+    </timestamp>
+    <timestamp time="1444027309627571">
+        <X>1.1875</X>
+        <Y>-0.6875</Y>
+        <Z>1.1875</Z>
+    </timestamp>
+    <timestamp time="1444027309649584">
+        <X>1.25</X>
+        <Y>-0.5625</Y>
+        <Z>1.0625</Z>
+    </timestamp>
+    <timestamp time="1444027309663594">
+        <X>0.8125</X>
+        <Y>-0.875</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027309686611">
+        <X>-0.125</X>
+        <Y>-0.5625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027309709624">
+        <X>-0.625</X>
+        <Y>-0.0625</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027309723632">
+        <X>-0.75</X>
+        <Y>-0.25</Y>
+        <Z>0.8125</Z>
+    </timestamp>
+    <timestamp time="1444027309747649">
+        <X>0.5</X>
+        <Y>-0.375</Y>
+        <Z>0.875</Z>
+    </timestamp>
+    <timestamp time="1444027309769664">
+        <X>1.125</X>
+        <Y>-0.5625</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027309783675">
+        <X>0.6875</X>
+        <Y>-0.875</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027309806689">
+        <X>-0.8125</X>
+        <Y>-0.25</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027309829702">
+        <X>-0.8125</X>
+        <Y>-0.0625</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027309843712">
+        <X>0.625</X>
+        <Y>-0.5</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027309866728">
+        <X>2</X>
+        <Y>-1.0625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027309889744">
+        <X>2.4375</X>
+        <Y>-1.3125</Y>
+        <Z>0.625</Z>
+    </timestamp>
+    <timestamp time="1444027309910757">
+        <X>2.375</X>
+        <Y>-1.375</Y>
+        <Z>0.9375</Z>
+    </timestamp>
+    <timestamp time="1444027309926767">
+        <X>1.75</X>
+        <Y>-0.75</Y>
+        <Z>1.25</Z>
+    </timestamp>
+    <timestamp time="1444027309949783">
+        <X>1.75</X>
+        <Y>-0.8125</Y>
+        <Z>0.9375</Z>
+    </timestamp>
+    <timestamp time="1444027309970797">
+        <X>2.25</X>
+        <Y>-1</Y>
+        <Z>0.75</Z>
+    </timestamp>
+    <timestamp time="1444027309986808">
+        <X>1.5625</X>
+        <Y>-0.6875</Y>
+        <Z>0.9375</Z>
+    </timestamp>
+    <timestamp time="1444027310009823">
+        <X>1.375</X>
+        <Y>-0.5625</Y>
+        <Z>0.9375</Z>
+    </timestamp>
+    <timestamp time="1444027310030838">
+        <X>1.125</X>
+        <Y>-0.0625</Y>
+        <Z>0.875</Z>
+    </timestamp>
+    <timestamp time="1444027310046847">
+        <X>0.6875</X>
+        <Y>-0.625</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027310069863">
+        <X>0.875</X>
+        <Y>-1</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027310090877">
+        <X>1.5</X>
+        <Y>-0.875</Y>
+        <Z>0.875</Z>
+    </timestamp>
+    <timestamp time="1444027310106887">
+        <X>3.5</X>
+        <Y>-0.625</Y>
+        <Z>1.5625</Z>
+    </timestamp>
+    <timestamp time="1444027310129903">
+        <X>5.0625</X>
+        <Y>-0.8125</Y>
+        <Z>1.625</Z>
+    </timestamp>
+    <timestamp time="1444027310150922">
+        <X>4.375</X>
+        <Y>-0.875</Y>
+        <Z>1.25</Z>
+    </timestamp>
+    <timestamp time="1444027310166926">
+        <X>1.1875</X>
+        <Y>-0.4375</Y>
+        <Z>1</Z>
+    </timestamp>
+    <timestamp time="1444027310189942">
+        <X>-0.625</X>
+        <Y>0.3125</Y>
+        <Z>0.875</Z>
+    </timestamp>
+    <timestamp time="1444027310210959">
+        <X>-0.375</X>
+        <Y>0.3125</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027310226967">
+        <X>-0.1875</X>
+        <Y>0.125</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027310249982">
+        <X>0.125</X>
+        <Y>-0.25</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027310270997">
+        <X>0.9375</X>
+        <Y>-0.25</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027310287007">
+        <X>1.8125</X>
+        <Y>-0.625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027310310023">
+        <X>2.6875</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027310332036">
+        <X>2.8125</X>
+        <Y>-0.4375</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027310347047">
+        <X>0.375</X>
+        <Y>-0.125</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027310370062">
+        <X>-2.125</X>
+        <Y>0.0625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027310392076">
+        <X>-1.875</X>
+        <Y>0.0625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027310407086">
+        <X>-1.25</X>
+        <Y>-0.25</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027310430128">
+        <X>-0.625</X>
+        <Y>-0.5625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027310452118">
+        <X>-0.3125</X>
+        <Y>-0.5</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027310466174">
+        <X>-0.625</X>
+        <Y>-0.375</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027310490142">
+        <X>0.125</X>
+        <Y>-0.25</Y>
+        <Z>0.6875</Z>
+    </timestamp>
+    <timestamp time="1444027310512156">
+        <X>0.9375</X>
+        <Y>-0.5</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027310526173">
+        <X>0.25</X>
+        <Y>-0.6875</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027310549180">
+        <X>-0.625</X>
+        <Y>-0.4375</Y>
+        <Z>0.625</Z>
+    </timestamp>
+    <timestamp time="1444027310572196">
+        <X>-1.5</X>
+        <Y>-0.3125</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027310586205">
+        <X>-1.375</X>
+        <Y>-0.4375</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027310609220">
+        <X>0.0625</X>
+        <Y>-0.625</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027310632237">
+        <X>1.1875</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027310646245">
+        <X>2.5</X>
+        <Y>-0.625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027310669260">
+        <X>0.8125</X>
+        <Y>-0.875</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027310692277">
+        <X>-1.1875</X>
+        <Y>-0.5625</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027310706285">
+        <X>-0.6875</X>
+        <Y>-0.25</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027310729302">
+        <X>0.5625</X>
+        <Y>-0.5625</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027310752315">
+        <X>1.1875</X>
+        <Y>-0.75</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027310766324">
+        <X>0.375</X>
+        <Y>-0.625</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027310789340">
+        <X>-0.75</X>
+        <Y>-0.125</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027310812356">
+        <X>-1.5</X>
+        <Y>-0.0625</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027310833375">
+        <X>-0.75</X>
+        <Y>-0.25</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027310849381">
+        <X>-0.375</X>
+        <Y>-0.25</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027310872396">
+        <X>-0.0625</X>
+        <Y>-0.3125</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027310893410">
+        <X>0.375</X>
+        <Y>-0.625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027310909420">
+        <X>1.4375</X>
+        <Y>-0.625</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027310939441">
+        <X>-0.1875</X>
+        <Y>-0.4375</Y>
+        <Z>0.5</Z>
+    </timestamp>
+    <timestamp time="1444027310953449">
+        <X>-0.6875</X>
+        <Y>-0.375</Y>
+        <Z>0.5</Z>
+    </timestamp>
+    <timestamp time="1444027310969459">
+        <X>-0.125</X>
+        <Y>-0.75</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027310992475">
+        <X>0.0625</X>
+        <Y>-0.3125</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027311013492">
+        <X>0.0625</X>
+        <Y>-0.3125</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027311029499">
+        <X>-0.375</X>
+        <Y>-0.125</Y>
+        <Z>0.625</Z>
+    </timestamp>
+    <timestamp time="1444027311052516">
+        <X>1.0625</X>
+        <Y>-0.5625</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027311073536">
+        <X>1.125</X>
+        <Y>-0.1875</Y>
+        <Z>1.3125</Z>
+    </timestamp>
+    <timestamp time="1444027311089541">
+        <X>0.125</X>
+        <Y>-0.125</Y>
+        <Z>1.5625</Z>
+    </timestamp>
+    <timestamp time="1444027311118562">
+        <X>0</X>
+        <Y>-0.5625</Y>
+        <Z>0.8125</Z>
+    </timestamp>
+    <timestamp time="1444027311133574">
+        <X>-0.5</X>
+        <Y>-0.3125</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027311149581">
+        <X>-0.875</X>
+        <Y>-0.125</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027311171593">
+        <X>-1.0625</X>
+        <Y>0</Y>
+        <Z>0.5</Z>
+    </timestamp>
+    <timestamp time="1444027311193617">
+        <X>0.5625</X>
+        <Y>-0.3125</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027311209619">
+        <X>1.0625</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027311231636">
+        <X>0.4375</X>
+        <Y>-0.5625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311253648">
+        <X>0.25</X>
+        <Y>-0.5625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311268658">
+        <X>0.0625</X>
+        <Y>-0.4375</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027311291679">
+        <X>0.5</X>
+        <Y>-0.4375</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027311321697">
+        <X>0.4375</X>
+        <Y>-0.5625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311329701">
+        <X>0.3125</X>
+        <Y>-0.5625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311351713">
+        <X>-0.5625</X>
+        <Y>-0.25</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311374728">
+        <X>-1.375</X>
+        <Y>-0.4375</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311389738">
+        <X>-1.0625</X>
+        <Y>-0.1875</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311411837">
+        <X>0.4375</X>
+        <Y>-0.5625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311434769">
+        <X>1.125</X>
+        <Y>-0.625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027311448777">
+        <X>1.5</X>
+        <Y>-0.5625</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027311471793">
+        <X>0.5</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027311494810">
+        <X>-0.25</X>
+        <Y>-0.5625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311508817">
+        <X>-0.625</X>
+        <Y>-0.5625</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027311531873">
+        <X>-0.75</X>
+        <Y>-0.4375</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311554848">
+        <X>-0.875</X>
+        <Y>-0.375</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027311568857">
+        <X>0.0625</X>
+        <Y>-0.4375</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311591872">
+        <X>0.9375</X>
+        <Y>-0.5625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311614888">
+        <X>0.8125</X>
+        <Y>-0.5625</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027311628897">
+        <X>0.5</X>
+        <Y>-0.5625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311651927">
+        <X>-0.1875</X>
+        <Y>-0.5</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311674929">
+        <X>0.25</X>
+        <Y>-0.4375</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027311688937">
+        <X>0.8125</X>
+        <Y>-0.5625</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027311711952">
+        <X>1.375</X>
+        <Y>-0.6875</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027311734969">
+        <X>2.6875</X>
+        <Y>-0.6875</Y>
+        <Z>0.625</Z>
+    </timestamp>
+    <timestamp time="1444027311748977">
+        <X>2.5</X>
+        <Y>-0.75</Y>
+        <Z>0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027311771992">
+        <X>2</X>
+        <Y>-0.625</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027311795011">
+        <X>1.1875</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027311816022">
+        <X>1.3125</X>
+        <Y>-0.5625</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311832032">
+        <X>1.625</X>
+        <Y>-0.5</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311862052">
+        <X>1.5</X>
+        <Y>-0.5625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311876141">
+        <X>0.375</X>
+        <Y>-0.6875</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311892071">
+        <X>-0.75</X>
+        <Y>-0.4375</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027311915088">
+        <X>0.3125</X>
+        <Y>-0.5</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027311936104">
+        <X>1</X>
+        <Y>-0.5625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027311952112">
+        <X>1.0625</X>
+        <Y>-0.6875</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027311974132">
+        <X>0.3125</X>
+        <Y>-0.5</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027311996142">
+        <X>-0.3125</X>
+        <Y>-0.4375</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027312012151">
+        <X>-0.5625</X>
+        <Y>-0.375</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312034166">
+        <X>0</X>
+        <Y>-0.5625</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312055180">
+        <X>1.0625</X>
+        <Y>-0.625</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312072191">
+        <X>1.6875</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027312094206">
+        <X>1.75</X>
+        <Y>-0.625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027312115226">
+        <X>1.625</X>
+        <Y>-0.9375</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027312132232">
+        <X>2.125</X>
+        <Y>-1.0625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027312154313">
+        <X>2.9375</X>
+        <Y>-1.25</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312175263">
+        <X>3.4375</X>
+        <Y>-1.0625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027312192272">
+        <X>2.0625</X>
+        <Y>-0.875</Y>
+        <Z>-0.375</Z>
+    </timestamp>
+    <timestamp time="1444027312214358">
+        <X>0.375</X>
+        <Y>-0.5625</Y>
+        <Z>-0.5</Z>
+    </timestamp>
+    <timestamp time="1444027312237300">
+        <X>-1.4375</X>
+        <Y>-0.375</Y>
+        <Z>-0.75</Z>
+    </timestamp>
+    <timestamp time="1444027312252311">
+        <X>-2.375</X>
+        <Y>-0.25</Y>
+        <Z>-0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027312274325">
+        <X>-1.5</X>
+        <Y>-0.375</Y>
+        <Z>-0.5</Z>
+    </timestamp>
+    <timestamp time="1444027312297340">
+        <X>-1.375</X>
+        <Y>-0.375</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027312312352">
+        <X>-0.6875</X>
+        <Y>-0.1875</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027312334372">
+        <X>-0.75</X>
+        <Y>-0.125</Y>
+        <Z>-0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027312357382">
+        <X>-0.4375</X>
+        <Y>-0.1875</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027312371392">
+        <X>-0.3125</X>
+        <Y>-0.375</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312394405">
+        <X>-0.875</X>
+        <Y>-0.5</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027312417422">
+        <X>-1.8125</X>
+        <Y>-0.375</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027312431430">
+        <X>-1.4375</X>
+        <Y>-0.25</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027312454445">
+        <X>-0.25</X>
+        <Y>-0.1875</Y>
+        <Z>-0.5</Z>
+    </timestamp>
+    <timestamp time="1444027312477460">
+        <X>1.125</X>
+        <Y>-0.1875</Y>
+        <Z>-0.5</Z>
+    </timestamp>
+    <timestamp time="1444027312491470">
+        <X>1.25</X>
+        <Y>-0.375</Y>
+        <Z>-1.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312514485">
+        <X>-1.125</X>
+        <Y>-0.25</Y>
+        <Z>-0.875</Z>
+    </timestamp>
+    <timestamp time="1444027312537500">
+        <X>-2.4375</X>
+        <Y>-0.1875</Y>
+        <Z>-0.625</Z>
+    </timestamp>
+    <timestamp time="1444027312551511">
+        <X>-2.0625</X>
+        <Y>-0.3125</Y>
+        <Z>-0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027312574524">
+        <X>-0.4375</X>
+        <Y>-0.375</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312597539">
+        <X>0.5</X>
+        <Y>-0.4375</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312611549">
+        <X>0.0625</X>
+        <Y>-0.3125</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027312634564">
+        <X>-0.9375</X>
+        <Y>-0.125</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027312656585">
+        <X>-1.5625</X>
+        <Y>-0.1875</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312671589">
+        <X>-1.375</X>
+        <Y>-0.1875</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027312694605">
+        <X>-0.5625</X>
+        <Y>-0.3125</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027312716620">
+        <X>0.5</X>
+        <Y>-0.5</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027312738633">
+        <X>1.125</X>
+        <Y>-0.5625</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027312754646">
+        <X>1.3125</X>
+        <Y>-0.5625</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027312776659">
+        <X>0.375</X>
+        <Y>-0.5</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027312798673">
+        <X>-0.375</X>
+        <Y>-0.625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027312814684">
+        <X>-1</X>
+        <Y>-0.3125</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027312836705">
+        <X>-0.625</X>
+        <Y>-0.3125</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027312857719">
+        <X>-0.8125</X>
+        <Y>-0.4375</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027312880730">
+        <X>-1.0625</X>
+        <Y>-0.4375</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027312896740">
+        <X>-1.625</X>
+        <Y>-0.1875</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027312917754">
+        <X>-0.8125</X>
+        <Y>-0.25</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027312934763">
+        <X>0.0625</X>
+        <Y>-0.5625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027312956798">
+        <X>0.5</X>
+        <Y>-0.75</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027312977794">
+        <X>0.5625</X>
+        <Y>-0.5625</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027312994805">
+        <X>0.1875</X>
+        <Y>-0.5</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027313016818">
+        <X>0.125</X>
+        <Y>-0.5</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313037833">
+        <X>-0.0625</X>
+        <Y>-0.375</Y>
+        <Z>-0.5</Z>
+    </timestamp>
+    <timestamp time="1444027313054844">
+        <X>-0.75</X>
+        <Y>-0.4375</Y>
+        <Z>-0.625</Z>
+    </timestamp>
+    <timestamp time="1444027313076858">
+        <X>-1.5</X>
+        <Y>-0.5625</Y>
+        <Z>-0.625</Z>
+    </timestamp>
+    <timestamp time="1444027313105879">
+        <X>-2.5</X>
+        <Y>-0.625</Y>
+        <Z>-0.5625</Z>
+    </timestamp>
+    <timestamp time="1444027313114884">
+        <X>-2.3125</X>
+        <Y>-0.5625</Y>
+        <Z>-0.6875</Z>
+    </timestamp>
+    <timestamp time="1444027313136899">
+        <X>-1.125</X>
+        <Y>-0.375</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313159914">
+        <X>0.5625</X>
+        <Y>-0.625</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313174924">
+        <X>-0.0625</X>
+        <Y>-0.5625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027313196938">
+        <X>-0.9375</X>
+        <Y>-0.5625</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027313219952">
+        <X>-1.25</X>
+        <Y>-0.5625</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313234965">
+        <X>-0.75</X>
+        <Y>-0.5625</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027313256979">
+        <X>-0.8125</X>
+        <Y>-0.5625</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313279992">
+        <X>-0.625</X>
+        <Y>-0.5625</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313295003">
+        <X>-0.4375</X>
+        <Y>-0.5625</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313317018">
+        <X>-0.3125</X>
+        <Y>-0.8125</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313340034">
+        <X>-0.25</X>
+        <Y>-0.875</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027313354042">
+        <X>-0.375</X>
+        <Y>-0.5625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027313377057">
+        <X>-0.25</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027313399073">
+        <X>0.0625</X>
+        <Y>-0.5</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027313414083">
+        <X>1.125</X>
+        <Y>-0.4375</Y>
+        <Z>-0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027313437097">
+        <X>0.5625</X>
+        <Y>-0.375</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027313459112">
+        <X>-0.125</X>
+        <Y>-0.4375</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313474122">
+        <X>-0.6875</X>
+        <Y>-0.5625</Y>
+        <Z>-0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027313497137">
+        <X>-0.4375</X>
+        <Y>-0.5625</Y>
+        <Z>-1.125</Z>
+    </timestamp>
+    <timestamp time="1444027313519152">
+        <X>-0.1875</X>
+        <Y>-0.5625</Y>
+        <Z>-1.125</Z>
+    </timestamp>
+    <timestamp time="1444027313534162">
+        <X>0.9375</X>
+        <Y>-0.625</Y>
+        <Z>-1.125</Z>
+    </timestamp>
+    <timestamp time="1444027313557176">
+        <X>0.125</X>
+        <Y>-0.625</Y>
+        <Z>-0.9375</Z>
+    </timestamp>
+    <timestamp time="1444027313579191">
+        <X>-0.4375</X>
+        <Y>-0.6875</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027313594201">
+        <X>-0.5625</X>
+        <Y>-0.5625</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313617217">
+        <X>-0.6875</X>
+        <Y>-0.5</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027313639235">
+        <X>0.25</X>
+        <Y>-0.1875</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027313660248">
+        <X>0.5625</X>
+        <Y>-0.1875</Y>
+        <Z>0.5</Z>
+    </timestamp>
+    <timestamp time="1444027313677259">
+        <X>-0.0625</X>
+        <Y>-0.1875</Y>
+        <Z>0.625</Z>
+    </timestamp>
+    <timestamp time="1444027313699272">
+        <X>-0.9375</X>
+        <Y>-0.3125</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313720287">
+        <X>-1.375</X>
+        <Y>-0.25</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027313737296">
+        <X>-0.375</X>
+        <Y>-0.375</Y>
+        <Z>0.625</Z>
+    </timestamp>
+    <timestamp time="1444027313759310">
+        <X>0.8125</X>
+        <Y>-0.375</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027313780324">
+        <X>1.125</X>
+        <Y>-0.5625</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027313804341">
+        <X>-0.125</X>
+        <Y>-0.4375</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027313820353">
+        <X>-1.3125</X>
+        <Y>-0.5625</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027313840368">
+        <X>-0.9375</X>
+        <Y>-0.5</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313857377">
+        <X>-0.1875</X>
+        <Y>-0.4375</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027313879390">
+        <X>0.375</X>
+        <Y>-0.5625</Y>
+        <Z>-0.25</Z>
+    </timestamp>
+    <timestamp time="1444027313900406">
+        <X>0.375</X>
+        <Y>-0.4375</Y>
+        <Z>0</Z>
+    </timestamp>
+    <timestamp time="1444027313917415">
+        <X>0.75</X>
+        <Y>-0.5625</Y>
+        <Z>0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027313939431">
+        <X>0.6875</X>
+        <Y>-0.6875</Y>
+        <Z>0.375</Z>
+    </timestamp>
+    <timestamp time="1444027313960444">
+        <X>0.1875</X>
+        <Y>-0.5625</Y>
+        <Z>0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027313977456">
+        <X>0.5625</X>
+        <Y>-0.5625</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027313999471">
+        <X>-0.375</X>
+        <Y>-0.4375</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027314020487">
+        <X>-0.75</X>
+        <Y>-0.3125</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027314037498">
+        <X>-0.9375</X>
+        <Y>-0.4375</Y>
+        <Z>-0.125</Z>
+    </timestamp>
+    <timestamp time="1444027314059512">
+        <X>-1.6875</X>
+        <Y>-0.5</Y>
+        <Z>0.0625</Z>
+    </timestamp>
+    <timestamp time="1444027314081530">
+        <X>-1.1875</X>
+        <Y>-0.5625</Y>
+        <Z>0.25</Z>
+    </timestamp>
+    <timestamp time="1444027314096534">
+        <X>0</X>
+        <Y>-0.5625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027314119550">
+        <X>0.875</X>
+        <Y>-0.4375</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027314141564">
+        <X>1</X>
+        <Y>-0.625</Y>
+        <Z>0.4375</Z>
+    </timestamp>
+    <timestamp time="1444027314156577">
+        <X>-0.5625</X>
+        <Y>-1.625</Y>
+        <Z>0.125</Z>
+    </timestamp>
+    <timestamp time="1444027314179591">
+        <X>-3.0625</X>
+        <Y>-1.3125</Y>
+        <Z>-0.1875</Z>
+    </timestamp>
+    <timestamp time="1444027314201604">
+        <X>-6.1875</X>
+        <Y>-0.5</Y>
+        <Z>-0.3125</Z>
+    </timestamp>
+    <timestamp time="1444027314216616">
+        <X>-6.875</X>
+        <Y>0.25</Y>
+        <Z>-0.625</Z>
+    </timestamp>
+    <timestamp time="1444027314239631">
+        <X>-7.6875</X>
+        <Y>2.25</Y>
+        <Z>-1.8125</Z>
+    </timestamp>
+    <timestamp time="1444027314261646">
+        <X>-11.0625</X>
+        <Y>3.375</Y>
+        <Z>-2.8125</Z>
+    </timestamp>
+    <timestamp time="1444027314276655">
+        <X>-11.75</X>
+        <Y>4.5</Y>
+        <Z>-3.25</Z>
+    </timestamp>
+    <timestamp time="1444027314299669">
+        <X>-6.6875</X>
+        <Y>2.75</Y>
+        <Z>-2.8125</Z>
+    </timestamp>
+    <timestamp time="1444027314321683">
+        <X>1.125</X>
+        <Y>0.125</Y>
+        <Z>-2.125</Z>
+    </timestamp>
+    <timestamp time="1444027314336705">
+        <X>6.5625</X>
+        <Y>-2.875</Y>
+        <Z>-2.8125</Z>
+    </timestamp>
+    <timestamp time="1444027314359710">
+        <X>13.25</X>
+        <Y>-2.875</Y>
+        <Z>-4.375</Z>
+    </timestamp>
+    <timestamp time="1444027314381782">
+        <X>13.3125</X>
+        <Y>-1.625</Y>
+        <Z>-3.4375</Z>
+    </timestamp>
+    <timestamp time="1444027314396734">
+        <X>10.375</X>
+        <Y>-3.9375</Y>
+        <Z>-1.25</Z>
+    </timestamp>
+    <timestamp time="1444027314419748">
+        <X>17.4375</X>
+        <Y>-2.25</Y>
+        <Z>3.125</Z>
+    </timestamp>
+    <timestamp time="1444027314441763">
+        <X>23.375</X>
+        <Y>-0.9375</Y>
+        <Z>7.6875</Z>
+    </timestamp>
+    <timestamp time="1444027314464778">
+        <X>22.875</X>
+        <Y>2.0625</Y>
+        <Z>11.4375</Z>
+    </timestamp>
+    <timestamp time="1444027314479789">
+        <X>18.9375</X>
+        <Y>4.5625</Y>
+        <Z>16.4375</Z>
+    </timestamp>
+    <timestamp time="1444027314501803">
+        <X>26.0625</X>
+        <Y>7.375</Y>
+        <Z>22.6875</Z>
+    </timestamp>
+    <timestamp time="1444027314522819">
+        <X>10.1875</X>
+        <Y>9.6875</Y>
+        <Z>31.0625</Z>
+    </timestamp>
+    <timestamp time="1444027314539829">
+        <X>4.6875</X>
+        <Y>10.125</Y>
+        <Z>34.1875</Z>
+    </timestamp>
+    <timestamp time="1444027314561843">
+        <X>8.5625</X>
+        <Y>11.375</Y>
+        <Z>35.25</Z>
+    </timestamp>
+    <timestamp time="1444027314582859">
+        <X>8.0625</X>
+        <Y>13.9375</Y>
+        <Z>39.9375</Z>
+    </timestamp>
+    <timestamp time="1444027314599868">
+        <X>2.5625</X>
+        <Y>17.625</Y>
+        <Z>44.5625</Z>
+    </timestamp>
+    <timestamp time="1444027314621891">
+        <X>-3.4375</X>
+        <Y>19.125</Y>
+        <Z>48.3125</Z>
+    </timestamp>
+    <timestamp time="1444027314642899">
+        <X>-8.0625</X>
+        <Y>22.1875</Y>
+        <Z>49.1875</Z>
+    </timestamp>
+    <timestamp time="1444027314659909">
+        <X>-14.6875</X>
+        <Y>25.375</Y>
+        <Z>50.4375</Z>
+    </timestamp>
+    <timestamp time="1444027314681922">
+        <X>-20.625</X>
+        <Y>27.9375</Y>
+        <Z>52.125</Z>
+    </timestamp>
+    <timestamp time="1444027314702943">
+        <X>-26.0625</X>
+        <Y>29.125</Y>
+        <Z>54.375</Z>
+    </timestamp>
+    <timestamp time="1444027314726953">
+        <X>-32.9375</X>
+        <Y>32</Y>
+        <Z>54.25</Z>
+    </timestamp>
+    <timestamp time="1444027314741963">
+        <X>-38.5625</X>
+        <Y>35.625</Y>
+        <Z>53.5</Z>
+    </timestamp>
+    <timestamp time="1444027314762977">
+        <X>-37.4375</X>
+        <Y>38.375</Y>
+        <Z>52.8125</Z>
+    </timestamp>
+    <timestamp time="1444027314778987">
+        <X>-37.75</X>
+        <Y>39.8125</Y>
+        <Z>52.3125</Z>
+    </timestamp>
+    <timestamp time="1444027314802002">
+        <X>-39.0625</X>
+        <Y>39.625</Y>
+        <Z>52.25</Z>
+    </timestamp>
+    <timestamp time="1444027314823018">
+        <X>-43.125</X>
+        <Y>41.125</Y>
+        <Z>51.8125</Z>
+    </timestamp>
+    <timestamp time="1444027314839033">
+        <X>-42.375</X>
+        <Y>42.5</Y>
+        <Z>51.4375</Z>
+    </timestamp>
+    <timestamp time="1444027314862042">
+        <X>-38</X>
+        <Y>41.75</Y>
+        <Z>51.6875</Z>
+    </timestamp>
+    <timestamp time="1444027314883060">
+        <X>-32.4375</X>
+        <Y>38.6875</Y>
+        <Z>52.75</Z>
+    </timestamp>
+    <timestamp time="1444027314899068">
+        <X>-25.4375</X>
+        <Y>35.6875</Y>
+        <Z>54</Z>
+    </timestamp>
+    <timestamp time="1444027314922083">
+        <X>-21.9375</X>
+        <Y>35.5</Y>
+        <Z>54.1875</Z>
+    </timestamp>
+    <timestamp time="1444027314943099">
+        <X>-17.875</X>
+        <Y>38.5</Y>
+        <Z>53.6875</Z>
+    </timestamp>
+    <timestamp time="1444027314959108">
+        <X>-17.5625</X>
+        <Y>39.4375</Y>
+        <Z>53.625</Z>
+    </timestamp>
+    <timestamp time="1444027314982123">
+        <X>-17.125</X>
+        <Y>38.125</Y>
+        <Z>53.5625</Z>
+    </timestamp>
+    <timestamp time="1444027315003140">
+        <X>-14.875</X>
+        <Y>37.125</Y>
+        <Z>53.125</Z>
+    </timestamp>
+    <timestamp time="1444027315019148">
+        <X>-15.625</X>
+        <Y>38.1875</Y>
+        <Z>51.4375</Z>
+    </timestamp>
+    <timestamp time="1444027315042162">
+        <X>-15.9375</X>
+        <Y>39.75</Y>
+        <Z>49.8125</Z>
+    </timestamp>
+    <timestamp time="1444027315064176">
+        <X>-14.5</X>
+        <Y>39.9375</Y>
+        <Z>48.0625</Z>
+    </timestamp>
+    <timestamp time="1444027315079188">
+        <X>-13.8125</X>
+        <Y>38.0625</Y>
+        <Z>46.9375</Z>
+    </timestamp>
+    <timestamp time="1444027315102202">
+        <X>-14.625</X>
+        <Y>36.875</Y>
+        <Z>45.125</Z>
+    </timestamp>
+    <timestamp time="1444027315124245">
+        <X>-17.0625</X>
+        <Y>37.9375</Y>
+        <Z>42.6875</Z>
+    </timestamp>
+    <timestamp time="1444027315139228">
+        <X>-16.9375</X>
+        <Y>37.875</Y>
+        <Z>40.5625</Z>
+    </timestamp>
+    <timestamp time="1444027315162241">
+        <X>-13.8125</X>
+        <Y>36.9375</Y>
+        <Z>40.0625</Z>
+    </timestamp>
+    <timestamp time="1444027315184256">
+        <X>-10.75</X>
+        <Y>35.75</Y>
+        <Z>38.875</Z>
+    </timestamp>
+    <timestamp time="1444027315205272">
+        <X>-8.5</X>
+        <Y>35.25</Y>
+        <Z>37</Z>
+    </timestamp>
+    <timestamp time="1444027315222282">
+        <X>-9.0625</X>
+        <Y>35.9375</Y>
+        <Z>35.5625</Z>
+    </timestamp>
+    <timestamp time="1444027315244297">
+        <X>-8.125</X>
+        <Y>35.125</Y>
+        <Z>34.5</Z>
+    </timestamp>
+    <timestamp time="1444027315258306">
+        <X>-7.4375</X>
+        <Y>34.5625</Y>
+        <Z>32.625</Z>
+    </timestamp>
+    <timestamp time="1444027315282321">
+        <X>-7.625</X>
+        <Y>33.375</Y>
+        <Z>31.25</Z>
+    </timestamp>
+    <timestamp time="1444027315310340">
+        <X>-8.875</X>
+        <Y>33.25</Y>
+        <Z>30.0625</Z>
+    </timestamp>
+    <timestamp time="1444027315325353">
+        <X>-9.0625</X>
+        <Y>33.0625</Y>
+        <Z>29.375</Z>
+    </timestamp>
+    <timestamp time="1444027315342361">
+        <X>-7.25</X>
+        <Y>33.3125</Y>
+        <Z>28</Z>
+    </timestamp>
+    <timestamp time="1444027315364376">
+        <X>-5.5625</X>
+        <Y>32.875</Y>
+        <Z>26.375</Z>
+    </timestamp>
+    <timestamp time="1444027315385390">
+        <X>-3.25</X>
+        <Y>32.25</Y>
+        <Z>25.6875</Z>
+    </timestamp>
+    <timestamp time="1444027315402403">
+        <X>-2.75</X>
+        <Y>32.4375</Y>
+        <Z>24.625</Z>
+    </timestamp>
+    <timestamp time="1444027315424416">
+        <X>-2.6875</X>
+        <Y>32.125</Y>
+        <Z>24</Z>
+    </timestamp>
+    <timestamp time="1444027315445435">
+        <X>-3.3125</X>
+        <Y>30.6875</Y>
+        <Z>23.8125</Z>
+    </timestamp>
+    <timestamp time="1444027315462445">
+        <X>-5.4375</X>
+        <Y>29.6875</Y>
+        <Z>23.4375</Z>
+    </timestamp>
+    <timestamp time="1444027315484457">
+        <X>-7.5625</X>
+        <Y>29.125</Y>
+        <Z>22.6875</Z>
+    </timestamp>
+    <timestamp time="1444027315505475">
+        <X>-8.1875</X>
+        <Y>30.6875</Y>
+        <Z>21.5</Z>
+    </timestamp>
+    <timestamp time="1444027315521486">
+        <X>-5.9375</X>
+        <Y>32</Y>
+        <Z>20.1875</Z>
+    </timestamp>
+    <timestamp time="1444027315544496">
+        <X>-3.875</X>
+        <Y>31.75</Y>
+        <Z>19.25</Z>
+    </timestamp>
+    <timestamp time="1444027315565509">
+        <X>-3.1875</X>
+        <Y>31.4375</Y>
+        <Z>18.625</Z>
+    </timestamp>
+    <timestamp time="1444027315581520">
+        <X>-4.125</X>
+        <Y>30.5</Y>
+        <Z>17.75</Z>
+    </timestamp>
+    <timestamp time="1444027315604535">
+        <X>-4.0625</X>
+        <Y>29.4375</Y>
+        <Z>16.9375</Z>
+    </timestamp>
+    <timestamp time="1444027315609540">
+        <X>-2.5</X>
+        <Y>28.5</Y>
+        <Z>17</Z>
+    </timestamp>
+    <timestamp time="1444027315641560">
+        <X>-1.875</X>
+        <Y>27</Y>
+        <Z>17.4375</Z>
+    </timestamp>
+    <timestamp time="1444027315664575">
+        <X>-1.6875</X>
+        <Y>24.75</Y>
+        <Z>17.8125</Z>
+    </timestamp>
+    <timestamp time="1444027315685590">
+        <X>-1.5</X>
+        <Y>23.5625</Y>
+        <Z>18.0625</Z>
+    </timestamp>
+    <timestamp time="1444027315692595">
+        <X>-2.4375</X>
+        <Y>23.8125</Y>
+        <Z>18.0625</Z>
+    </timestamp>
+    <timestamp time="1444027315707605">
+        <X>-0.8125</X>
+        <Y>24.0625</Y>
+        <Z>18.1875</Z>
+    </timestamp>
+    <timestamp time="1444027315729619">
+        <X>1.75</X>
+        <Y>24.625</Y>
+        <Z>17.625</Z>
+    </timestamp>
+    <timestamp time="1444027315752635">
+        <X>2.375</X>
+        <Y>24.0625</Y>
+        <Z>16.25</Z>
+    </timestamp>
+    <timestamp time="1444027315767643">
+        <X>0.375</X>
+        <Y>23.6875</Y>
+        <Z>14.5</Z>
+    </timestamp>
+    <timestamp time="1444027315791661">
+        <X>-2.1875</X>
+        <Y>22.375</Y>
+        <Z>13.25</Z>
+    </timestamp>
+    <timestamp time="1444027315812676">
+        <X>-5.25</X>
+        <Y>20.875</Y>
+        <Z>11.75</Z>
+    </timestamp>
+    <timestamp time="1444027315827683">
+        <X>-5.3125</X>
+        <Y>19.125</Y>
+        <Z>10.4375</Z>
+    </timestamp>
+    <timestamp time="1444027315849701">
+        <X>-3.8125</X>
+        <Y>16.125</Y>
+        <Z>8.8125</Z>
+    </timestamp>
+    <timestamp time="1444027315872719">
+        <X>-4.6875</X>
+        <Y>13.25</Y>
+        <Z>6.875</Z>
+    </timestamp>
+    <timestamp time="1444027315888723">
+        <X>-6.3125</X>
+        <Y>10.6875</Y>
+        <Z>4.125</Z>
+    </timestamp>
+    <timestamp time="1444027315909738">
+        <X>-4.0625</X>
+        <Y>6.5</Y>
+        <Z>0.75</Z>
+    </timestamp>
+    <timestamp time="1444027315932753">
+        <X>-1.875</X>
+        <Y>1.875</Y>
+        <Z>-2.8125</Z>
+    </timestamp>
+    <timestamp time="1444027315947763">
+        <X>1.0625</X>
+        <Y>-2.875</Y>
+        <Z>-6.3125</Z>
+    </timestamp>
+    <timestamp time="1444027315969779">
+        <X>6.3125</X>
+        <Y>-7.25</Y>
+        <Z>-9.125</Z>
+    </timestamp>
+    <timestamp time="1444027315992799">
+        <X>7.6875</X>
+        <Y>-8.375</Y>
+        <Z>-10.25</Z>
+    </timestamp>
+    <timestamp time="1444027316008813">
+        <X>8.9375</X>
+        <Y>-11.0625</Y>
+        <Z>-10.25</Z>
+    </timestamp>
+    <timestamp time="1444027316029820">
+        <X>8.0625</X>
+        <Y>-11.25</Y>
+        <Z>-7.875</Z>
+    </timestamp>
+    <timestamp time="1444027316052835">
+        <X>1.8125</X>
+        <Y>-10.8125</Y>
+        <Z>-5.875</Z>
+    </timestamp>
+    <timestamp time="1444027316067842">
+        <X>-0.1875</X>
+        <Y>-12.375</Y>
+        <Z>-4.3125</Z>
+    </timestamp>
+    <timestamp time="1444027316089859">
+        <X>-2.3125</X>
+        <Y>-12.6875</Y>
+        <Z>-1.8125</Z>
+    </timestamp>
+    <timestamp time="1444027316112879">
+        <X>-6.375</X>
+        <Y>-11.75</Y>
+        <Z>1.4375</Z>
+    </timestamp>
+    <timestamp time="1444027316127930">
+        <X>-2.125</X>
+        <Y>-13.5</Y>
+        <Z>5.8125</Z>
+    </timestamp>
+    <timestamp time="1444027316157904">
+        <X>-4.1875</X>
+        <Y>-12.8125</Y>
+        <Z>8.4375</Z>
+    </timestamp>
+    <timestamp time="1444027316172965">
+        <X>2</X>
+        <Y>-12.25</Y>
+        <Z>9.125</Z>
+    </timestamp>
+    <timestamp time="1444027316186923">
+        <X>7.125</X>
+        <Y>-12.6875</Y>
+        <Z>12.8125</Z>
+    </timestamp>
+    <timestamp time="1444027316209938">
+        <X>1.125</X>
+        <Y>-13.0625</Y>
+        <Z>15.75</Z>
+    </timestamp>
+    <timestamp time="1444027316234953">
+        <X>-1.3125</X>
+        <Y>-12.0625</Y>
+        <Z>16.0625</Z>
+    </timestamp>
+    <timestamp time="1444027316248963">
+        <X>0.25</X>
+        <Y>-10.9375</Y>
+        <Z>15.625</Z>
+    </timestamp>
+    <timestamp time="1444027316269978">
+        <X>-0.75</X>
+        <Y>-11.0625</Y>
+        <Z>16.5</Z>
+    </timestamp>
+    <timestamp time="1444027316291997">
+        <X>-1.5</X>
+        <Y>-10.5</Y>
+        <Z>17.25</Z>
+    </timestamp>
+    <timestamp time="1444027316315012">
+        <X>-2.6875</X>
+        <Y>-6.125</Y>
+        <Z>15.5625</Z>
+    </timestamp>
+    <timestamp time="1444027316330016">
+        <X>1</X>
+        <Y>-6.4375</Y>
+        <Z>15.3125</Z>
+    </timestamp>
+    <timestamp time="1444027316352031">
+        <X>-0.25</X>
+        <Y>-10.8125</Y>
+        <Z>18.5</Z>
+    </timestamp>
+    <timestamp time="1444027316375046">
+        <X>-2.8125</X>
+        <Y>-13.75</Y>
+        <Z>20.875</Z>
+    </timestamp>
+    <timestamp time="1444027316390057">
+        <X>-2.625</X>
+        <Y>-13.4375</Y>
+        <Z>19.4375</Z>
+    </timestamp>
+    <timestamp time="1444027316412074">
+        <X>3.0625</X>
+        <Y>-10.9375</Y>
+        <Z>19</Z>
+    </timestamp>
+    <timestamp time="1444027316435088">
+        <X>6.5625</X>
+        <Y>-9.9375</Y>
+        <Z>19.0625</Z>
+    </timestamp>
+    <timestamp time="1444027316450098">
+        <X>7.75</X>
+        <Y>-9.5</Y>
+        <Z>17.9375</Z>
+    </timestamp>
+    <timestamp time="1444027316472114">
+        <X>5.375</X>
+        <Y>-8.875</Y>
+        <Z>16.5</Z>
+    </timestamp>
+    <timestamp time="1444027316495127">
+        <X>0.6875</X>
+        <Y>-7.625</Y>
+        <Z>14.25</Z>
+    </timestamp>
+    <timestamp time="1444027316510138">
+        <X>-0.5625</X>
+        <Y>-8.1875</Y>
+        <Z>11.9375</Z>
+    </timestamp>
+    <timestamp time="1444027316532151">
+        <X>-0.375</X>
+        <Y>-7.3125</Y>
+        <Z>9.6875</Z>
+    </timestamp>
+    <timestamp time="1444027316550163">
+        <X>-3.875</X>
+        <Y>-2.0625</Y>
+        <Z>3</Z>
+    </timestamp>
+    <timestamp time="1444027316570177">
+        <X>-1.4375</X>
+        <Y>2</Y>
+        <Z>-4.625</Z>
+    </timestamp>
+    <timestamp time="1444027316592194">
+        <X>3.625</X>
+        <Y>3.1875</Y>
+        <Z>-9.9375</Z>
+    </timestamp>
+    <timestamp time="1444027316609202">
+        <X>5.625</X>
+        <Y>5.625</Y>
+        <Z>-12.6875</Z>
+    </timestamp>
+    <timestamp time="1444027316630217">
+        <X>4.125</X>
+        <Y>7.375</Y>
+        <Z>-15.25</Z>
+    </timestamp>
+    <timestamp time="1444027316652231">
+        <X>-0.75</X>
+        <Y>15.9375</Y>
+        <Z>-19.875</Z>
+    </timestamp>
+    <timestamp time="1444027316675246">
+        <X>3.6875</X>
+        <Y>19.3125</Y>
+        <Z>-24.75</Z>
+    </timestamp>
+    <timestamp time="1444027316690255">
+        <X>10.625</X>
+        <Y>17.6875</Y>
+        <Z>-28.375</Z>
+    </timestamp>
+    <timestamp time="1444027316712271">
+        <X>3.75</X>
+        <Y>19.25</Y>
+        <Z>-28.6875</Z>
+    </timestamp>
+    <timestamp time="1444027316735286">
+        <X>-3.0625</X>
+        <Y>18.375</Y>
+        <Z>-34</Z>
+    </timestamp>
+    <timestamp time="1444027316750295">
+        <X>5.125</X>
+        <Y>18</Y>
+        <Z>-36.625</Z>
+    </timestamp>
+    <timestamp time="1444027316772310">
+        <X>11.625</X>
+        <Y>12.1875</Y>
+        <Z>-33.5</Z>
+    </timestamp>
+    <timestamp time="1444027316795328">
+        <X>5.5625</X>
+        <Y>7.25</Y>
+        <Z>-26.25</Z>
+    </timestamp>
+    <timestamp time="1444027316810393">
+        <X>3.5</X>
+        <Y>6</Y>
+        <Z>-19.375</Z>
+    </timestamp>
+    <timestamp time="1444027316832353">
+        <X>-7.25</X>
+        <Y>13.0625</Y>
+        <Z>-22.8125</Z>
+    </timestamp>
+    <timestamp time="1444027316854366">
+        <X>11.5</X>
+        <Y>18.625</Y>
+        <Z>-29.125</Z>
+    </timestamp>
+    <timestamp time="1444027316871377">
+        <X>29.375</X>
+        <Y>12.0625</Y>
+        <Z>-25.1875</Z>
+    </timestamp>
+    <timestamp time="1444027316892396">
+        <X>21.75</X>
+        <Y>2.4375</Y>
+        <Z>-18.5</Z>
+    </timestamp>
+    <timestamp time="1444027316914411">
+        <X>-6.1875</X>
+        <Y>7.875</Y>
+        <Z>-17.5</Z>
+    </timestamp>
+    <timestamp time="1444027316929415">
+        <X>-8.4375</X>
+        <Y>16.125</Y>
+        <Z>-22.625</Z>
+    </timestamp>
+    <timestamp time="1444027316952431">
+        <X>5.9375</X>
+        <Y>13.3125</Y>
+        <Z>-19.4375</Z>
+    </timestamp>
+    <timestamp time="1444027316974443">
+        <X>8.5</X>
+        <Y>7.25</Y>
+        <Z>-13.5625</Z>
+    </timestamp>
+    <timestamp time="1444027316990461">
+        <X>-1.5</X>
+        <Y>5.1875</Y>
+        <Z>-10.125</Z>
+    </timestamp>
+    <timestamp time="1444027317012475">
+        <X>-5.75</X>
+        <Y>11.1875</Y>
+        <Z>-10.0625</Z>
+    </timestamp>
+    <timestamp time="1444027317034484">
+        <X>-0.125</X>
+        <Y>8.125</Y>
+        <Z>-6.9375</Z>
+    </timestamp>
+    <timestamp time="1444027317049496">
+        <X>3.9375</X>
+        <Y>2.5</Y>
+        <Z>-1.25</Z>
+    </timestamp>
+    <timestamp time="1444027317072512">
+        <X>-0.5625</X>
+        <Y>-0.375</Y>
+        <Z>2.75</Z>
+    </timestamp>
+    <timestamp time="1444027317094527">
+        <X>-5.0625</X>
+        <Y>0.0625</Y>
+        <Z>4.625</Z>
+    </timestamp>
+    <timestamp time="1444027317109535">
+        <X>-0.9375</X>
+        <Y>0.1875</Y>
+        <Z>5.25</Z>
+    </timestamp>
+    <timestamp time="1444027317132552">
+        <X>2.75</X>
+        <Y>-3.375</Y>
+        <Z>8.125</Z>
+    </timestamp>
+    <timestamp time="1444027317157566">
+        <X>-0.875</X>
+        <Y>-7.4375</Y>
+        <Z>12.5625</Z>
+    </timestamp>
+    <timestamp time="1444027317169574">
+        <X>-6.625</X>
+        <Y>-11</Y>
+        <Z>16.75</Z>
+    </timestamp>
+    <timestamp time="1444027317192591">
+        <X>-10.25</X>
+        <Y>-11.5</Y>
+        <Z>20</Z>
+    </timestamp>
+    <timestamp time="1444027317214604">
+        <X>-5</X>
+        <Y>-13.3125</Y>
+        <Z>21.9375</Z>
+    </timestamp>
+    <timestamp time="1444027317229615">
+        <X>1.25</X>
+        <Y>-17.25</Y>
+        <Z>25.6875</Z>
+    </timestamp>
+    <timestamp time="1444027317252635">
+        <X>-1.125</X>
+        <Y>-21</Y>
+        <Z>30.25</Z>
+    </timestamp>
+    <timestamp time="1444027317274643">
+        <X>-7.375</X>
+        <Y>-23.4375</Y>
+        <Z>33.5</Z>
+    </timestamp>
+    <timestamp time="1444027317289655">
+        <X>-9.3125</X>
+        <Y>-25.125</Y>
+        <Z>35.4375</Z>
+    </timestamp>
+    <timestamp time="1444027317312672">
+        <X>-4.3125</X>
+        <Y>-27.0625</Y>
+        <Z>37.1875</Z>
+    </timestamp>
+    <timestamp time="1444027317334683">
+        <X>-0.0625</X>
+        <Y>-29.8125</Y>
+        <Z>39.625</Z>
+    </timestamp>
+    <timestamp time="1444027317351695">
+        <X>0.875</X>
+        <Y>-31.375</Y>
+        <Z>42.5</Z>
+    </timestamp>
+    <timestamp time="1444027317372708">
+        <X>1</X>
+        <Y>-30</Y>
+        <Z>43.5</Z>
+    </timestamp>
+    <timestamp time="1444027317394727">
+        <X>1.125</X>
+        <Y>-26.0625</Y>
+        <Z>42.4375</Z>
+    </timestamp>
+    <timestamp time="1444027317411734">
+        <X>5.1875</X>
+        <Y>-24.6875</Y>
+        <Z>41.0625</Z>
+    </timestamp>
+    <timestamp time="1444027317432748">
+        <X>5.125</X>
+        <Y>-24.875</Y>
+        <Z>41.375</Z>
+    </timestamp>
+    <timestamp time="1444027317454762">
+        <X>0.4375</X>
+        <Y>-24.9375</Y>
+        <Z>42.3125</Z>
+    </timestamp>
+    <timestamp time="1444027317470774">
+        <X>-3.4375</X>
+        <Y>-25.3125</Y>
+        <Z>42.4375</Z>
+    </timestamp>
+    <timestamp time="1444027317492788">
+        <X>-4.375</X>
+        <Y>-24.875</Y>
+        <Z>42.5625</Z>
+    </timestamp>
+    <timestamp time="1444027317514802">
+        <X>-2</X>
+        <Y>-25.0625</Y>
+        <Z>43.5</Z>
+    </timestamp>
+    <timestamp time="1444027317531814">
+        <X>2</X>
+        <Y>-27.4375</Y>
+        <Z>44.75</Z>
+    </timestamp>
+    <timestamp time="1444027317551827">
+        <X>4.25</X>
+        <Y>-30.125</Y>
+        <Z>46.8125</Z>
+    </timestamp>
+    <timestamp time="1444027317574846">
+        <X>4.125</X>
+        <Y>-31.9375</Y>
+        <Z>47.8125</Z>
+    </timestamp>
+    <timestamp time="1444027317590854">
+        <X>1.75</X>
+        <Y>-33</Y>
+        <Z>48.375</Z>
+    </timestamp>
+    <timestamp time="1444027317611869">
+        <X>2.75</X>
+        <Y>-33.5</Y>
+        <Z>48.125</Z>
+    </timestamp>
+    <timestamp time="1444027317634884">
+        <X>5.375</X>
+        <Y>-35.4375</Y>
+        <Z>47.75</Z>
+    </timestamp>
+    <timestamp time="1444027317650899">
+        <X>8</X>
+        <Y>-38.5</Y>
+        <Z>47.75</Z>
+    </timestamp>
+    <timestamp time="1444027317671907">
+        <X>6.9375</X>
+        <Y>-39.75</Y>
+        <Z>47.1875</Z>
+    </timestamp>
+    <timestamp time="1444027317702928">
+        <X>6.4375</X>
+        <Y>-40.4375</Y>
+        <Z>44.1875</Z>
+    </timestamp>
+    <timestamp time="1444027317716938">
+        <X>9.9375</X>
+        <Y>-41.4375</Y>
+        <Z>41.375</Z>
+    </timestamp>
+    <timestamp time="1444027317731952">
+        <X>13.375</X>
+        <Y>-43.6875</Y>
+        <Z>40.4375</Z>
+    </timestamp>
+    <timestamp time="1444027317754963">
+        <X>15.25</X>
+        <Y>-47.125</Y>
+        <Z>41.375</Z>
+    </timestamp>
+    <timestamp time="1444027317776977">
+        <X>13.9375</X>
+        <Y>-49.75</Y>
+        <Z>42.5</Z>
+    </timestamp>
+    <timestamp time="1444027317791988">
+        <X>11.75</X>
+        <Y>-53.375</Y>
+        <Z>43.8125</Z>
+    </timestamp>
+</data>

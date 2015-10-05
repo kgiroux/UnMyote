@@ -112,32 +112,34 @@ public:
 
 		std::cout << "rotation x :" << x << std::endl;
 		std::cout << "rotation y :" << y << std::endl;
-
 		std::cout << "rotation z :" << z << std::endl;
 		std::cout << "rotation w :" << w << std::endl;
 
-		if (previous_x < x) {
+		if (previous_x < (x)) {
+			std::cout << "left" << std::endl;
+			}
+		else {
+			std::cout << "right" << std::endl;
+		}
+
+		previous_x = x;
+
+
+		if (previous_y < (y) ){
+				
+		}
+		else {
+
+		}
+
+		if (previous_z < (z)) {
 
 		}
 		else {
 
 		}
 
-		if (previous_y < y) {
-
-		}
-		else {
-
-		}
-
-		if (previous_z < z) {
-
-		}
-		else {
-
-		}
-
-		if (previous_w < w) {
+		if (previous_w < (w)) {
 
 		}
 		else {
@@ -401,15 +403,17 @@ int main(int argc, char** argv)
 		hub.addListener(&collector);
 		int compteur = 0;
 		// Finally we enter our main loop.
-		while (compteur != 5000) {
+		while (compteur != 10000) {
 			// In each iteration of our main loop, we run the Myo event loop for a set number of milliseconds.
 			// In this case, we wish to update our display 50 times a second, so we run for 1000/20 milliseconds.
 			hub.run(1);
 			//collector.onEmgData();
 			compteur++;
-			std::cout <<"compteur : "<< compteur << std::endl;
+			//std::cout <<"compteur : "<< compteur << std::endl;
 		}
 		collector.end();
+
+		system("pause");
 		// If a standard exception occurred, we print out its message and exit.
 	}
 	catch (const std::exception& e) {
