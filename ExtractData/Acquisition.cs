@@ -180,7 +180,7 @@ namespace ExtractData
                         acce.addDataByText(textToEvaluate, double.Parse(xmlNode.InnerXml.Replace(".", ",")));
                         this.updateOutputLog(textToEvaluate + " XML CHILD : " + xmlNode.InnerText, 0);
                     }
-                    else if (file.Contains("gyrometer"))
+                    else if (file.Contains("gyro"))
                     {
                         gyro.addDataByText(textToEvaluate, double.Parse(xmlNode.InnerXml.Replace(".", ",")));
                         this.updateOutputLog(textToEvaluate + " XML CHILD : " + xmlNode.InnerText, 0);
