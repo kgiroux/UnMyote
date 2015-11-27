@@ -1,0 +1,3 @@
+To DO:
+------
+Pression sur une touche espace -> Petit programme d'acquisition pendant 10s puis arrêt.
