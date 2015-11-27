@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnMyote", "emg-data-sample-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractData", "ExtractData\ExtractData.csproj", "{1E05DB76-6798-4598-B145-0F057523148F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projet2", "..\EsigInvaderV3\Projet2\Projet2.vcxproj", "{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,16 @@ Global
 		{1E05DB76-6798-4598-B145-0F057523148F}.Release|x64.Build.0 = Release|Any CPU
 		{1E05DB76-6798-4598-B145-0F057523148F}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E05DB76-6798-4598-B145-0F057523148F}.Release|x86.Build.0 = Release|Any CPU
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|x64.ActiveCfg = Debug|x64
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|x64.Build.0 = Debug|x64
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|x86.Build.0 = Debug|Win32
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|Any CPU.ActiveCfg = Release|Win32
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|x64.ActiveCfg = Release|x64
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|x64.Build.0 = Release|x64
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|x86.ActiveCfg = Release|Win32
+		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

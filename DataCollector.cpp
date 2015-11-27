@@ -120,7 +120,17 @@ void DataCollector::checkOrientation(float x, float y, float z, float w) {
 	}
 }
 
-	
+size_t DataCollector ::identifyMyo(myo::Myo* myo) {
+	// Walk through the list of Myo devices that we've seen pairing events for.
+	for (size_t i = 0; i < knownMyos.size(); ++i) {
+		// If two Myo pointers compare equal, they refer to the same Myo device.
+		if (knownMyos[i] == myo) {
+			return i + 1;
+		}
+	}
+
+	return 0;
+}
 
 
 // onOrientationData is called whenever new orientation data is provided
@@ -133,8 +143,9 @@ void DataCollector::onOrientationData(myo::Myo *myo, uint64_t timestamp, const m
 	sstring.clear();
 	sstring << timestamp;
 	timestampElem->SetAttribute("time", sstring.str().c_str());
-		
-
+	
+	std::cout << "MYO : " << identifyMyo(myo) << std::endl;
+	std::cout << "TIMESTAMP : " << timestamp << std::endl;
 	checkOrientation(rotation.x(), rotation.y(), rotation.z(), rotation.w());
 
 
@@ -272,7 +283,12 @@ void DataCollector::printVectorGyro(uint64_t timestamp, const myo::Vector3< floa
 	datatoStoreGYRO->InsertEndChild(timestampElem);
 
 }
-
+void DataCollector::onPair(myo::Myo* myo, uint64_t timestamp, myo::FirmwareVersion firmwareVersion)
+{
+	knownMyos.push_back(myo);
+	// Now that we've added it to our list, get our short ID for it and print it out.
+	std::cout << "Paired with " << identifyMyo(myo) << "." << std::endl;
+}
 void DataCollector::printVectorAcce(uint64_t timestamp, const myo::Vector3< float > &vector) {
 	XMLElement * timestampElem = doc.NewElement("timestamp");
 	std::stringstream sstring;

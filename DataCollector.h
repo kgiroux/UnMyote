@@ -30,6 +30,8 @@ public:
 	void printVector(std::ofstream &file, uint64_t timestamp, const myo::Vector3< float > &vector);
 	void printVectorGyro(uint64_t timestamp, const myo::Vector3< float > &vector);
 	void printVectorAcce(uint64_t timestamp, const myo::Vector3< float > &vector);
+	size_t identifyMyo(myo::Myo* myo);
+	void onPair(myo::Myo* myo, uint64_t timestamp, myo::FirmwareVersion firmwareVersion);
 	void end();
 
 private:
@@ -55,5 +57,6 @@ private:
 	int previous_y;
 	int previous_z;
 	int previous_w;
+	std::vector<myo::Myo*> knownMyos;
 
 };
