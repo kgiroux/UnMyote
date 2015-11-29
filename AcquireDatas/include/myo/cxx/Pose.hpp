@@ -4,7 +4,6 @@
 
 #include <iosfwd>
 #include <string>
-
 #include <myo/libmyo.h>
 
 namespace myo {

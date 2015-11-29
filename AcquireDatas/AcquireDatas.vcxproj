@@ -89,6 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -99,11 +100,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies />
+      <AdditionalDependencies>./lib/myo64.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -134,16 +136,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\LaunchForm.cpp" />
+    <ClCompile Include="src\AcquireForm.cpp" />
+    <ClCompile Include="src\DataCollector.cpp" />
     <ClCompile Include="src\tinyxml2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\AcquireForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="include\LaunchForm.h" />
+    <ClInclude Include="include\DataCollector.h" />
     <ClInclude Include="include\myo\myo.hpp" />
     <ClInclude Include="include\tinyxml2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AcquireForm.resx">
+      <DependentUpon>include\AcquireForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="include\AcquireForm.resx">
+      <DependentUpon>include\AcquireForm.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

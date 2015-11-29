@@ -1,6 +1,9 @@
 #pragma once
+#include <iostream>
+#include "DataCollector.h";
 
-namespace AcquireDatas {
+namespace AcquireDatas 
+{
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -9,59 +12,48 @@ namespace AcquireDatas {
 	using namespace System::Data;
 	using namespace System::Drawing;
 
-	/// <summary>
-	/// Description résumée de AcquireForm
-	/// </summary>
 	public ref class AcquireForm : public System::Windows::Forms::Form
 	{
-	public:
-		AcquireForm(void)
-		{
-			InitializeComponent();
-			//
-			//TODO: ajoutez ici le code du constructeur
-			//
-		}
+		/* Attributs */
+		private:
+			bool acqLaunched = false;
 
-	protected:
-		/// <summary>
-		/// Nettoyage des ressources utilisées.
-		/// </summary>
-		~AcquireForm()
-		{
-			if (components)
-			{
-				delete components;
-			}
-		}
+		private: System::Windows::Forms::TabPage^  tabConfig;
+		private: System::Windows::Forms::Label^  labelFile;
+		private: System::Windows::Forms::TextBox^  textFilename;
 
-	protected:
 
-	private:
-		/// <summary>
-		/// Variable nécessaire au concepteur.
-		/// </summary>
-		System::ComponentModel::Container ^components;
+		private: System::Windows::Forms::TabControl^  tabControl1;
+		private: System::Windows::Forms::Button^  butLaunchStop;
 
-#pragma region Windows Form Designer generated code
-		/// <summary>
-		/// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
-		/// le contenu de cette méthode avec l'éditeur de code.
-		/// </summary>
-		void InitializeComponent(void)
-		{
-			this->SuspendLayout();
-			// 
-			// AcquireForm
-			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
-			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(455, 446);
-			this->Name = L"AcquireForm";
-			this->Text = L"AcquireForm";
-			this->ResumeLayout(false);
+		private: System::Windows::Forms::GroupBox^  groupDatas;
+		private: System::Windows::Forms::CheckBox^  checkEOrt;
+		private: System::Windows::Forms::CheckBox^  checkGyro;
+		private: System::Windows::Forms::CheckBox^  checkOrt;
+		private: System::Windows::Forms::CheckBox^  checkAccel;
+		private: System::Windows::Forms::CheckBox^  checkEmg;
+		private: System::Windows::Forms::RadioButton^  dualBracelet;
+	#pragma region Windows Form Designer generated code
+			/* Attributes */
+			private: 
 
-		}
-#pragma endregion
+
+
+
+				System::ComponentModel::Container ^components;
+
+			/* Methodes */
+			public:
+				AcquireForm(void);
+
+			protected:
+				~AcquireForm();
+				void InitializeComponent(void);
+
+			private: System::Void butLaunchStop_Click(System::Object^  sender, System::EventArgs^  e);
+			#pragma endregion
+
+		private: 
+			void launchAcquisition(); //Function to launch datas acquisition
 	};
 }
