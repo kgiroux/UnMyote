@@ -1,0 +1,9 @@
+To DO:
+------
+Pression sur une touche espace -> Petit programme d'acquisition pendant 10s puis arrêt.
+
+- Textbox -> nom du fichier à save
+- Bouton -> Lancer l'acquisition - Arrêt
+- Mode dual bracelet
+- Radiobutons pour les truc à récupérer (emg,accelero, orientation, gyro, orientation Euler)
+

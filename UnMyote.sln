@@ -7,7 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnMyote", "emg-data-sample-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractData", "ExtractData\ExtractData.csproj", "{1E05DB76-6798-4598-B145-0F057523148F}"
 EndProject
+<<<<<<< HEAD
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcquireDatas", "AcquireDatas\AcquireDatas.vcxproj", "{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}"
+=======
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projet2", "..\EsigInvaderV3\Projet2\Projet2.vcxproj", "{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}"
+>>>>>>> 16637a20d01effa53fb3a0c9de9babaf5edec239
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +46,18 @@ Global
 		{1E05DB76-6798-4598-B145-0F057523148F}.Release|x64.Build.0 = Release|Any CPU
 		{1E05DB76-6798-4598-B145-0F057523148F}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E05DB76-6798-4598-B145-0F057523148F}.Release|x86.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Debug|x64.ActiveCfg = Debug|x64
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Debug|x64.Build.0 = Debug|x64
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Debug|x86.ActiveCfg = Debug|Win32
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Debug|x86.Build.0 = Debug|Win32
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Release|x64.ActiveCfg = Release|x64
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Release|x64.Build.0 = Release|x64
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Release|x86.ActiveCfg = Release|Win32
+		{237FC66A-A2AB-4E2D-8231-C31BC6F1538D}.Release|x86.Build.0 = Release|Win32
+=======
 		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|x64.ActiveCfg = Debug|x64
 		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Debug|x64.Build.0 = Debug|x64
@@ -52,6 +68,7 @@ Global
 		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|x64.Build.0 = Release|x64
 		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|x86.ActiveCfg = Release|Win32
 		{CCCE26DA-39AF-46E2-B07F-A146F3D0FF62}.Release|x86.Build.0 = Release|Win32
+>>>>>>> 16637a20d01effa53fb3a0c9de9babaf5edec239
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
