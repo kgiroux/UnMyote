@@ -137,16 +137,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\AcquireForm.cpp" />
+    <ClCompile Include="src\Acquisition.cpp" />
+    <ClCompile Include="src\Armband.cpp" />
     <ClCompile Include="src\DataCollector.cpp" />
     <ClCompile Include="src\tinyxml2.cpp" />
+    <ClCompile Include="src\XmlStorage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\AcquireForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="include\Acquisition.h" />
+    <ClInclude Include="include\Armband.h" />
     <ClInclude Include="include\DataCollector.h" />
     <ClInclude Include="include\myo\myo.hpp" />
     <ClInclude Include="include\tinyxml2.h" />
+    <ClInclude Include="include\XmlStorage.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AcquireForm.resx">

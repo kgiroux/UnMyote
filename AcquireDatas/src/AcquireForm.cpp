@@ -7,6 +7,7 @@ using namespace AcquireDatas;
 AcquireForm::AcquireForm(void)
 {
 	InitializeComponent();
+
 }
 AcquireForm::~AcquireForm()
 {
@@ -181,19 +182,21 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 {
 	//Process or stop data's acquisition
 	System::Windows::Forms::Button^ button = (System::Windows::Forms::Button^)sender;
-
+	DataCollector * collector;
 	if (button->Text->Equals("Launch"))
 	{
 		//Launch acquisition
 		std::cout << "Acquisition launched!" << std::endl;
 		this->acqLaunched = true;
 		this->butLaunchStop->Text = "Stop";
-		launchAcquisition();
+		launchAcquisition(collector);
 	}
 	else
 	{
 		//Stop acquisition
 		std::cout << "Acquisition stopped!" << std::endl;
+		collector->end();
+		delete collector;
 		this->butLaunchStop->Text = "Launch";
 		this->acqLaunched = false;
 	}
@@ -211,7 +214,7 @@ void main()
 }
 
 /* Data acquisition */
-void AcquireForm::launchAcquisition()
+void AcquireForm::launchAcquisition(DataCollector * collector)
 {
 	//Identificate datas for the current mesurement
 	bool emg, accel, gyro, orient, eulerOrient, dualMode = false;
@@ -230,7 +233,7 @@ void AcquireForm::launchAcquisition()
 	{
 		// First, we create a Hub with our application identifier. Be sure not to use the com.example namespace when
 		// publishing your application. The Hub provides access to one or more Myos.
-		myo::Hub hub("com.undercoveryeti.myo-data-capture");
+		myo::Hub hub("com.unmyote.myo-data-capture");
 		std::cout << "Attempting to find a Myo..." << std::endl;
 
 		// Next, we attempt to find a Myo to use. If a Myo is already paired in Myo Connect, this will return that Myo
@@ -249,10 +252,10 @@ void AcquireForm::launchAcquisition()
 		myo->setStreamEmg(myo::Myo::streamEmgEnabled);
 
 		// Next we construct an instance of our DeviceListener, so that we can register it with the Hub.
-		DataCollector collector(filename,emg,accel,gyro,orient,eulerOrient,dualMode);
+		collector = new DataCollector(filename,emg,accel,gyro,orient,eulerOrient,dualMode);
 		// Hub::addListener() takes the address of any object whose class inherits from DeviceListener, and will cause
 		// Hub::run() to send events to all registered device listeners.
-		hub.addListener(&collector);
+		hub.addListener(collector);
 
 		// Finally we enter our main loop.
 		while (acqLaunched)
@@ -262,8 +265,6 @@ void AcquireForm::launchAcquisition()
 			hub.run(1);
 			//collector.onEmgData();
 		}
-		collector.end();
-
 		system("pause");
 		// If a standard exception occurred, we print out its message and exit.
 	}

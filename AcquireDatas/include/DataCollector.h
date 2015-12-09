@@ -9,9 +9,11 @@
 #include <string>
 #include <fstream>
 #include <time.h>
-#include "tinyxml2.h"
 #include <direct.h>
 #include "myo/myo.hpp"
+#include "tinyxml2.h"
+#include "Acquisition.h"
+#include "XmlStorage.h"
 
 using namespace tinyxml2;
 
@@ -32,9 +34,25 @@ class DataCollector : public myo::DeviceListener
 		void printVectorAcce(uint64_t timestamp, const myo::Vector3< float > &vector);
 		size_t identifyMyo(myo::Myo* myo);
 		void onPair(myo::Myo* myo, uint64_t timestamp, myo::FirmwareVersion firmwareVersion);
+		void onArmSync(myo::Myo * 	myo, uint64_t 	timestamp, myo::Arm 	arm, myo::XDirection 	xDirection, float 	rotation, myo::WarmupState 	warmupState);
 		void end();
 
+		bool isMesureAccel() const;
+		void setMesureAccel(bool mesureAccel);
+		bool isMesureElorient() const;
+		void setMesureElorient(bool mesureElorient);
+		bool isMesureEmg() const;
+		void setMesureEmg(bool mesureEmg);
+		bool isMesureGyro() const;
+		void setMesureGyro(bool mesureGyro);
+		bool isMesureOrient() const;
+		void setMesureOrient(bool mesureOrient);
+		const std::string& getName() const;
+		void setName(const std::string& name);
+
+
 	private:
+		Acquisition acq;
 		XMLDocument doc;
 		XMLElement * datatoStoreGYRO;
 		XMLElement * datatoStoreACCE;
@@ -65,4 +83,5 @@ class DataCollector : public myo::DeviceListener
 		bool mesureORIENT;
 		bool mesureELORIENT;
 		bool mesureACCEL;
+		std::string name;
 };

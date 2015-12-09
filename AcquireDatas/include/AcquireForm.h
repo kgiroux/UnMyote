@@ -37,7 +37,7 @@ namespace AcquireDatas
 			/* Attributes */
 			private: 
 
-
+				
 
 
 				System::ComponentModel::Container ^components;
@@ -54,6 +54,6 @@ namespace AcquireDatas
 			#pragma endregion
 
 		private: 
-			void launchAcquisition(); //Function to launch datas acquisition
+			void launchAcquisition(DataCollector * collector); //Function to launch datas acquisition
 	};
 }

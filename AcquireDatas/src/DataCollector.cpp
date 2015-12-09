@@ -6,11 +6,11 @@
 #include "..\include\DataCollector.h"
 DataCollector::DataCollector(std::string name, bool emg, bool accel, bool gyro, bool orient, bool eulerOrient, bool dualMode)
 {
-	bool mesureEMG = emg;
-	bool mesureGYRO = gyro;
-	bool mesureORIENT = orient;
-	bool mesureELORIENT = eulerOrient;
-	bool mesureACCEL = accel;
+	mesureEMG = emg;
+	mesureGYRO = gyro;
+	mesureORIENT = orient;
+	mesureELORIENT = eulerOrient;
+	mesureACCEL = accel;
 	openFiles(name);
 }
 
@@ -27,17 +27,13 @@ void DataCollector:: openFiles(std::string name)
 	initFileName();
 
 	// Define file name
-	emgFileString << pathToFolder << "/" << "emg-" << timestamp << ".xml";
-	gyroFileString << pathToFolder << "/" << "gyro-" << timestamp << ".xml";
-	accelerometerFileString << pathToFolder << "/" << "accelerometer-" << timestamp << ".xml";
-	orientationFileString << pathToFolder << "/" << "orientation-" << timestamp << ".xml";
-	orientationEulerFileString << pathToFolder << "/" << "orientationEuler-" << timestamp << ".xml";
+	emgFileString << pathToFolder << "/" <<"FileResult"<< timestamp << ".xml";
 
 }
 
 void DataCollector::initFileName()
 {
-	datatoStoreEMG = doc.NewElement("data");
+	datatoStoreEMG = doc.NewElement("emgs");
 	datatoStoreGYRO = doc.NewElement("data");
 	datatoStoreACCE = doc.NewElement("data");
 	datatoStoreORIEN = doc.NewElement("data");
@@ -59,65 +55,15 @@ void DataCollector::onEmgData(myo::Myo* myo, uint64_t timestamp, const int8_t* e
 {
 	if (mesureEMG)
 	{
-		XMLElement * timestampElem = doc.NewElement("timestamp");
-		std::stringstream sstimestamp;
-		sstimestamp << timestamp;
-
-		timestampElem->SetAttribute("time", sstimestamp.str().c_str());
-
-		//emgFile << timestamp;
+		//acq.getArmbandByID()
+		size_t id = identifyMyo(myo);
 		for (size_t i = 0; i < 8; i++) {
-			std::stringstream ss;
-			ss << i;
-			std::string nameElement = "emg" + ss.str();
-			XMLElement * emgData = doc.NewElement(nameElement.c_str());
-			std::stringstream ssdata;
-			ssdata << static_cast<int>(emg[i]);
-			emgData->SetText(ssdata.str().c_str());
-			timestampElem->InsertEndChild(emgData);
+			acq.getArmbandByID(id)->setValueByIndexEmg(i, emg[i]);
 		}
-
-		datatoStoreEMG->InsertEndChild(timestampElem);
 	}
-	//emgFile << std::endl;
 }
 void DataCollector::checkOrientation(float x, float y, float z, float w) 
 {
-	std::cout << "rotation x :" << x << std::endl;
-	std::cout << "rotation y :" << y << std::endl;
-	std::cout << "rotation z :" << z << std::endl;
-	std::cout << "rotation w :" << w << std::endl;
-
-	if (previous_x < (x)) {
-		std::cout << "left" << std::endl;
-		}
-	else {
-		std::cout << "right" << std::endl;
-	}
-
-	previous_x = x;
-
-
-	if (previous_y < (y) ){
-				
-	}
-	else {
-
-	}
-
-	if (previous_z < (z)) {
-
-	}
-	else {
-
-	}
-
-	if (previous_w < (w)) {
-
-	}
-	else {
-
-	}
 }
 
 size_t DataCollector ::identifyMyo(myo::Myo* myo) {
@@ -137,97 +83,64 @@ size_t DataCollector ::identifyMyo(myo::Myo* myo) {
 // Be warned: This will not make any distiction between data from other Myo armbands
 void DataCollector::onOrientationData(myo::Myo *myo, uint64_t timestamp, const myo::Quaternion< float > &rotation) 
 {
+	
 	if (mesureORIENT)
 	{
-		XMLElement * timestampElem = doc.NewElement("timestamp");
-		std::stringstream sstring;
-		sstring.str("");
-		sstring.clear();
-		sstring << timestamp;
-		timestampElem->SetAttribute("time", sstring.str().c_str());
+		size_t id = identifyMyo(myo);
+		acq.getArmbandByID(id)->setValueByIndexOrien(1, rotation.x());
+		acq.getArmbandByID(id)->setValueByIndexOrien(2, rotation.y());
+		acq.getArmbandByID(id)->setValueByIndexOrien(3, rotation.z());
+		acq.getArmbandByID(id)->setValueByIndexOrien(4, rotation.w());
+	}
 
-		std::cout << "MYO : " << identifyMyo(myo) << std::endl;
-		std::cout << "TIMESTAMP : " << timestamp << std::endl;
-		checkOrientation(rotation.x(), rotation.y(), rotation.z(), rotation.w());
+	using std::atan2;
+	using std::asin;
+	using std::sqrt;
+	using std::max;
+	using std::min;
 
+	if (mesureELORIENT)
+	{
+		// Calculate Euler angles (roll, pitch, and yaw) from the unit quaternion.
+		float roll = atan2(2.0f * (rotation.w() * rotation.x() + rotation.y() * rotation.z()),
+			1.0f - 2.0f * (rotation.x() * rotation.x() + rotation.y() * rotation.y()));
+		float pitch = asin(max(-1.0f, min(1.0f, 2.0f * (rotation.w() * rotation.y() - rotation.z() * rotation.x()))));
+		float yaw = atan2(2.0f * (rotation.w() * rotation.z() + rotation.x() * rotation.y()),
+			1.0f - 2.0f * (rotation.y() * rotation.y() + rotation.z() * rotation.z()));
 
-		XMLElement * xElem = doc.NewElement("X");
-		sstring.str("");
-		sstring.clear();
-		sstring << rotation.x();
-		xElem->SetText(sstring.str().c_str());
-		XMLElement * yElem = doc.NewElement("Y");
-		sstring.str("");
-		sstring.clear();
-		sstring << rotation.y();
-		yElem->SetText(sstring.str().c_str());
-		XMLElement * zElem = doc.NewElement("Z");
-		sstring.str("");
-		sstring.clear();
-		sstring << rotation.z();
-		zElem->SetText(sstring.str().c_str());
-		XMLElement * wElem = doc.NewElement("W");
-		sstring.str("");
-		sstring.clear();
-		sstring << rotation.w();
-		wElem->SetText(sstring.str().c_str());
-
-		timestampElem->InsertEndChild(xElem);
-		timestampElem->InsertEndChild(yElem);
-		timestampElem->InsertEndChild(zElem);
-		timestampElem->InsertEndChild(wElem);
-
-		datatoStoreORIEN->InsertEndChild(timestampElem);
-
-		using std::atan2;
-		using std::asin;
-		using std::sqrt;
-		using std::max;
-		using std::min;
-
-		if (mesureELORIENT)
-		{
-			// Calculate Euler angles (roll, pitch, and yaw) from the unit quaternion.
-			float roll = atan2(2.0f * (rotation.w() * rotation.x() + rotation.y() * rotation.z()),
-				1.0f - 2.0f * (rotation.x() * rotation.x() + rotation.y() * rotation.y()));
-			float pitch = asin(max(-1.0f, min(1.0f, 2.0f * (rotation.w() * rotation.y() - rotation.z() * rotation.x()))));
-			float yaw = atan2(2.0f * (rotation.w() * rotation.z() + rotation.x() * rotation.y()),
-				1.0f - 2.0f * (rotation.y() * rotation.y() + rotation.z() * rotation.z()));
-
-
-			sstring.clear();
-
-
-			XMLElement * timestampElemEuler = doc.NewElement("timestamp");
-			sstring.str("");
-			sstring.clear();
-			sstring << timestamp;
-			timestampElemEuler->SetAttribute("time", sstring.str().c_str());
-
-			XMLElement * rollElem = doc.NewElement("roll");
-			sstring.str("");
-			sstring.clear();
-			sstring << roll;
-			rollElem->SetText(sstring.str().c_str());
-			XMLElement * pitchElem = doc.NewElement("pitch");
-			sstring.str("");
-			sstring.clear();
-			sstring << pitch;
-			pitchElem->SetText(sstring.str().c_str());
-			XMLElement * yawElem = doc.NewElement("yaw");
-			sstring.str("");
-			sstring.clear();
-			sstring << yaw;
-			yawElem->SetText(sstring.str().c_str());
-
-			timestampElemEuler->InsertEndChild(rollElem);
-			timestampElemEuler->InsertEndChild(pitchElem);
-			timestampElemEuler->InsertEndChild(yawElem);
-
-			datatoStoreORIENEULER->InsertEndChild(timestampElemEuler);
-		}
+		size_t id = identifyMyo(myo);
+		acq.getArmbandByID(id)->setValueByIndexOrienEuler(1, roll);
+		acq.getArmbandByID(id)->setValueByIndexOrienEuler(2, pitch);
+		acq.getArmbandByID(id)->setValueByIndexOrienEuler(3, yaw);
 	}
 }
+
+void DataCollector::onArmSync(myo::Myo * 	myo, uint64_t 	timestamp, myo::Arm 	arm, myo::XDirection 	xDirection,float 	rotation, myo::WarmupState 	warmupState) {
+	while (warmupState != myo::warmupStateWarm) {
+		if (arm == myo::armLeft) {
+			std::cout << "Left" << std::endl;
+			acq.setIDLeft(identifyMyo(myo));
+			//myo->notifyUserAction();
+		}
+		else {
+
+			std::cout << "Right" << std::endl;
+			acq.setIDRight(identifyMyo(myo));
+			//myo->notifyUserAction();
+		}
+	}
+	if (arm == myo::armLeft) {
+		std::cout << "Left" << std::endl;
+		acq.setIDLeft(identifyMyo(myo));
+	}
+	else {
+
+		std::cout << "Right" << std::endl;
+		acq.setIDRight(identifyMyo(myo));
+	}
+
+}
+
 
 // onAccelerometerData is called whenever new acceleromenter data is provided
 // Be warned: This will not make any distiction between data from other Myo armbands
@@ -235,8 +148,10 @@ void DataCollector::onAccelerometerData(myo::Myo *myo, uint64_t timestamp, const
 {
 	if (mesureACCEL)
 	{
-		printVectorAcce(timestamp, accel);
-		//printVector(accelerometerFile, timestamp, accel);
+		size_t id = identifyMyo(myo);
+		acq.getArmbandByID(id)->setValueByIndexAcce(1, accel.x());
+		acq.getArmbandByID(id)->setValueByIndexAcce(2, accel.y());
+		acq.getArmbandByID(id)->setValueByIndexAcce(3, accel.z());
 	}
 }
 
@@ -246,15 +161,16 @@ void DataCollector::onGyroscopeData(myo::Myo *myo, uint64_t timestamp, const myo
 {
 	if (mesureGYRO)
 	{
-		printVectorGyro(timestamp, gyro);
-		//printVector(gyroFile, timestamp, gyro);
+		size_t id = identifyMyo(myo);
+		acq.getArmbandByID(id)->setValueByIndexGyro(1, gyro.x());
+		acq.getArmbandByID(id)->setValueByIndexGyro(2, gyro.y());
+		acq.getArmbandByID(id)->setValueByIndexGyro(3, gyro.z());
 	}
 }
 
 void DataCollector::onConnect(myo::Myo *myo, uint64_t timestamp, myo::FirmwareVersion firmwareVersion) {
 	//Reneable streaming
 	myo->setStreamEmg(myo::Myo::streamEmgEnabled);
-	//openFiles();
 }
 
 // Helper to print out accelerometer and gyroscope vectors
@@ -267,31 +183,6 @@ void DataCollector::printVector(std::ofstream &file, uint64_t timestamp, const m
 }
 
 void DataCollector::printVectorGyro(uint64_t timestamp, const myo::Vector3< float > &vector) {
-	XMLElement * timestampElem = doc.NewElement("timestamp");
-	std::stringstream sstring;
-	sstring << timestamp;
-	timestampElem->SetAttribute("time", sstring.str().c_str());
-	XMLElement * xElem = doc.NewElement("X");
-	sstring.str("");
-	sstring.clear();
-	sstring << vector.x();
-	xElem->SetText(sstring.str().c_str());
-	XMLElement * yElem = doc.NewElement("Y");
-	sstring.str("");
-	sstring.clear();
-	sstring << vector.y();
-	yElem->SetText(sstring.str().c_str());
-	XMLElement * zElem = doc.NewElement("Z");
-	sstring.str("");
-	sstring.clear();
-	sstring << vector.z();
-	zElem->SetText(sstring.str().c_str());
-
-	timestampElem->InsertEndChild(xElem);
-	timestampElem->InsertEndChild(yElem);
-	timestampElem->InsertEndChild(zElem);
-
-	datatoStoreGYRO->InsertEndChild(timestampElem);
 
 }
 void DataCollector::onPair(myo::Myo* myo, uint64_t timestamp, myo::FirmwareVersion firmwareVersion)
@@ -299,75 +190,62 @@ void DataCollector::onPair(myo::Myo* myo, uint64_t timestamp, myo::FirmwareVersi
 	knownMyos.push_back(myo);
 	// Now that we've added it to our list, get our short ID for it and print it out.
 	std::cout << "Paired with " << identifyMyo(myo) << "." << std::endl;
+	
 }
 void DataCollector::printVectorAcce(uint64_t timestamp, const myo::Vector3< float > &vector) {
-	XMLElement * timestampElem = doc.NewElement("timestamp");
-	std::stringstream sstring;
-	sstring << timestamp;
-	timestampElem->SetAttribute("time", sstring.str().c_str());
-	XMLElement * xElem = doc.NewElement("X");
-	sstring.str("");
-	sstring.clear();
-	sstring << vector.x();
-	xElem->SetText(sstring.str().c_str());
-	XMLElement * yElem = doc.NewElement("Y");
-	sstring.str("");
-	sstring.clear();
-	sstring << vector.y();
-	yElem->SetText(sstring.str().c_str());
-	XMLElement * zElem = doc.NewElement("Z");
-	sstring.str("");
-	sstring.clear();
-	sstring << vector.z();
-	zElem->SetText(sstring.str().c_str());
-
-	timestampElem->InsertEndChild(xElem);
-	timestampElem->InsertEndChild(yElem);
-	timestampElem->InsertEndChild(zElem);
-
-	datatoStoreACCE->InsertEndChild(timestampElem);
 
 }
 
 void DataCollector::end()
 {
-	if (mesureEMG)
-	{
-		doc.InsertFirstChild(datatoStoreEMG);
-		doc.SaveFile(emgFileString.str().c_str());
-		datatoStoreEMG->DeleteChildren();
-		doc.DeleteChildren();
-	}
+	XmlStorage xmlStorage(name, acq);
+}
 
-	if (mesureACCEL)
-	{
-		doc.InsertFirstChild(datatoStoreACCE);
-		doc.SaveFile(accelerometerFileString.str().c_str());
-		datatoStoreACCE->DeleteChildren();
-		doc.DeleteChildren();
-	}
 
-	if (mesureGYRO)
-	{
-		doc.InsertFirstChild(datatoStoreGYRO);
-		doc.SaveFile(gyroFileString.str().c_str());
-		datatoStoreGYRO->DeleteChildren();
-		doc.DeleteChildren();
-	}
+bool DataCollector::isMesureAccel() const {
+	return mesureACCEL;
+}
 
-	if (mesureORIENT)
-	{
-		doc.InsertFirstChild(datatoStoreORIEN);
-		doc.SaveFile(orientationFileString.str().c_str());
-		datatoStoreORIEN->DeleteChildren();
-		doc.DeleteChildren();
-	}
+void DataCollector::setMesureAccel(bool mesureAccel) {
+	mesureACCEL = mesureAccel;
+}
 
-	if (mesureELORIENT)
-	{
-		doc.InsertFirstChild(datatoStoreORIENEULER);
-		doc.SaveFile(orientationEulerFileString.str().c_str());
-		datatoStoreORIENEULER->DeleteChildren();
-		doc.DeleteChildren();
-	}
+bool DataCollector::isMesureElorient() const {
+	return mesureELORIENT;
+}
+
+void DataCollector::setMesureElorient(bool mesureElorient) {
+	mesureELORIENT = mesureElorient;
+}
+
+bool DataCollector::isMesureEmg() const {
+	return mesureEMG;
+}
+
+void DataCollector::setMesureEmg(bool mesureEmg) {
+	mesureEMG = mesureEmg;
+}
+
+bool DataCollector::isMesureGyro() const {
+	return mesureGYRO;
+}
+
+void DataCollector::setMesureGyro(bool mesureGyro) {
+	mesureGYRO = mesureGyro;
+}
+
+bool DataCollector::isMesureOrient() const {
+	return mesureORIENT;
+}
+
+void DataCollector::setMesureOrient(bool mesureOrient) {
+	mesureORIENT = mesureOrient;
+}
+
+const std::string& DataCollector::getName() const {
+	return name;
+}
+
+void DataCollector::setName(const std::string& name) {
+	this->name = name;
 }
