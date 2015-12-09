@@ -7,7 +7,7 @@ using namespace AcquireDatas;
 AcquireForm::AcquireForm(void)
 {
 	InitializeComponent();
-
+	initCapture();
 }
 AcquireForm::~AcquireForm()
 {
@@ -189,7 +189,12 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 		std::cout << "Acquisition launched!" << std::endl;
 		this->acqLaunched = true;
 		this->butLaunchStop->Text = "Stop";
-		launchAcquisition(collector);
+		collector->setMesureAccel(this->checkAccel->Checked);
+		collector->setMesureEmg(this->checkEmg->Checked);
+		collector->setMesureGyro(this->checkGyro->Checked);
+		collector->setMesureOrient(this->checkOrt->Checked);
+		collector->setMesureElorient(this->checkEOrt->Checked);
+		collector->setDualMode(this->dualBracelet->Checked);
 	}
 	else
 	{
@@ -213,13 +218,51 @@ void main()
 	Application::Run(%form);
 }
 
+void AcquireForm::initCapture() {
+	try {
+		this->hub = new myo::Hub("com.unmyote.myo-data-capture");
+		std::cout << "Attempting to find a Myo..." << std::endl;
+		this->myo = hub->waitForMyo(10000);
+		// If waitForMyo() returned a null pointer, we failed to find a Myo, so exit with an error message.
+		if (!myo) {
+			throw std::runtime_error("Unable to find a Myo!");
+		}
+		// We've found a Myo.
+		std::cout << "Connected to a Myo armband! \nLogging to the file system. \nCheck your home folder or the folder this application lives in.\n" << std::endl << std::endl;
+		// Next we enable EMG streaming on the found Myo.
+		myo->setStreamEmg(myo::Myo::streamEmgEnabled);
+		// Next we construct an instance of our DeviceListener, so that we can register it with the Hub.
+		collector = new DataCollector();
+
+		hub->addListener(collector);
+	}
+	catch(const std::exception& e){
+		std::cerr << "Error: " << e.what() << std::endl;
+		std::cerr << "Press enter to continue.";
+		std::cin.ignore();
+		this->butLaunchStop->Text = "Launch";
+		this->acqLaunched = false;
+	}
+	
+
+}
+
+void AcquireForm::run() {
+	while (run) {
+
+	}
+	hub->run(1000 / 20);
+	hub->run
+}
+
+
 /* Data acquisition */
 void AcquireForm::launchAcquisition(DataCollector * collector)
 {
 	//Identificate datas for the current mesurement
 	bool emg, accel, gyro, orient, eulerOrient, dualMode = false;
 	std::string filename = "exc";
-	emg = this->checkEmg->Checked;
+	emg = 
 	accel = this->checkAccel->Checked;
 	gyro = this->checkGyro->Checked;
 	orient = this->checkOrt->Checked;
@@ -233,8 +276,8 @@ void AcquireForm::launchAcquisition(DataCollector * collector)
 	{
 		// First, we create a Hub with our application identifier. Be sure not to use the com.example namespace when
 		// publishing your application. The Hub provides access to one or more Myos.
-		myo::Hub hub("com.unmyote.myo-data-capture");
-		std::cout << "Attempting to find a Myo..." << std::endl;
+		myo::Hub hub();
+		
 
 		// Next, we attempt to find a Myo to use. If a Myo is already paired in Myo Connect, this will return that Myo
 		// immediately.
@@ -242,27 +285,22 @@ void AcquireForm::launchAcquisition(DataCollector * collector)
 		// if that fails, the function will return a null pointer.
 		myo::Myo* myo = hub.waitForMyo(10000);
 
-		// If waitForMyo() returned a null pointer, we failed to find a Myo, so exit with an error message.
-		if (!myo) { throw std::runtime_error("Unable to find a Myo!");}
+		
 
-		// We've found a Myo.
-		std::cout << "Connected to a Myo armband! \nLogging to the file system. \nCheck your home folder or the folder this application lives in.\n" << std::endl << std::endl;
-
-		// Next we enable EMG streaming on the found Myo.
-		myo->setStreamEmg(myo::Myo::streamEmgEnabled);
-
-		// Next we construct an instance of our DeviceListener, so that we can register it with the Hub.
-		collector = new DataCollector(filename,emg,accel,gyro,orient,eulerOrient,dualMode);
+		
+		
+		
+		
 		// Hub::addListener() takes the address of any object whose class inherits from DeviceListener, and will cause
 		// Hub::run() to send events to all registered device listeners.
-		hub.addListener(collector);
+		
 
 		// Finally we enter our main loop.
 		while (acqLaunched)
 		{
 			// In each iteration of our main loop, we run the Myo event loop for a set number of milliseconds.
 			// In this case, we wish to update our display 50 times a second, so we run for 1000/20 milliseconds.
-			hub.run(1);
+			hub.run(1000/20);
 			//collector.onEmgData();
 		}
 		system("pause");

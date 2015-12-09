@@ -20,7 +20,7 @@ using namespace tinyxml2;
 class DataCollector : public myo::DeviceListener
 {
 	public:
-		DataCollector(std::string name, bool emg, bool accel, bool gyro, bool orient, bool eulerOrient, bool dualMode);
+		DataCollector();
 		void checkOrientation(float x, float y, float z, float w);
 		void onEmgData(myo::Myo* myo, uint64_t timestamp, const int8_t* emg);
 		void initFileName();
@@ -47,6 +47,8 @@ class DataCollector : public myo::DeviceListener
 		void setMesureGyro(bool mesureGyro);
 		bool isMesureOrient() const;
 		void setMesureOrient(bool mesureOrient);
+		bool isDualMode()const;
+		void setDualMode(bool dual);
 		const std::string& getName() const;
 		void setName(const std::string& name);
 
@@ -83,5 +85,6 @@ class DataCollector : public myo::DeviceListener
 		bool mesureORIENT;
 		bool mesureELORIENT;
 		bool mesureACCEL;
+		bool dualMode;
 		std::string name;
 };
