@@ -50,7 +50,7 @@ void TaskAcquisition::launchAcquisition()
 		{
 			// In each iteration of our main loop, we run the Myo event loop for a set number of milliseconds.
 			// In this case, we wish to update our display 50 times a second, so we run for 1000/20 milliseconds.
-			hub->run(1000 / 20);
+			hub->runOnce(1000);
 			//collector.onEmgData();
 		}
 		//system("pause");

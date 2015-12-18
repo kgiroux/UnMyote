@@ -48,6 +48,7 @@ void DataCollector::checkOrientation(float x, float y, float z, float w)
 
 size_t DataCollector ::identifyMyo(myo::Myo* myo) {
 	// Walk through the list of Myo devices that we've seen pairing events for.
+	//std::cout << "Number of myo bracelet : " << knownMyos.size() << std::endl;
 	for (size_t i = 0; i < knownMyos.size(); ++i) {
 		// If two Myo pointers compare equal, they refer to the same Myo device.
 		if (knownMyos[i] == myo) {
@@ -105,18 +106,18 @@ void DataCollector::onArmSync(myo::Myo * 	myo, uint64_t 	timestamp, myo::Arm 	ar
 		}
 		else {
 
-			std::cout << "Right" << std::endl;
+			//std::cout << "Right" << std::endl;
 			acq.setIDRight(identifyMyo(myo));
 			//myo->notifyUserAction();
 		}
 	}
 	if (arm == myo::armLeft) {
-		std::cout << "Left" << std::endl;
+		//std::cout << "Left" << std::endl;
 		acq.setIDLeft(identifyMyo(myo));
 	}
 	else {
 
-		std::cout << "Right" << std::endl;
+		//std::cout << "Right" << std::endl;
 		acq.setIDRight(identifyMyo(myo));
 	}
 
