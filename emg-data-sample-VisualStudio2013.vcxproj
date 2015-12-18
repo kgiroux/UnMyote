@@ -166,6 +166,7 @@
     <ClCompile Include="DataCollector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AcquireDatas\include\XmlStorage.h" />
     <ClInclude Include="DataCollector.h" />
     <ClInclude Include="include\tinyxml2.h" />
   </ItemGroup>

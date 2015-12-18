@@ -47,7 +47,7 @@ class DataCollector : public myo::DeviceListener
 		void setMesureGyro(bool mesureGyro);
 		bool isMesureOrient() const;
 		void setMesureOrient(bool mesureOrient);
-		bool isDualMode()const;
+		bool isDualMode() const;
 		void setDualMode(bool dual);
 		const std::string& getName() const;
 		void setName(const std::string& name);
@@ -86,5 +86,6 @@ class DataCollector : public myo::DeviceListener
 		bool mesureELORIENT;
 		bool mesureACCEL;
 		bool dualMode;
+		bool run;
 		std::string name;
 };

@@ -1,11 +1,10 @@
 #pragma once
 #include <iostream>
-#include <thread>
 #include "DataCollector.h";
+#include "TaskAcquisition.h"
 
-namespace AcquireDatas 
+namespace AcquireDatas
 {
-
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -17,10 +16,7 @@ namespace AcquireDatas
 	{
 		/* Attributs */
 		private:
-			bool acqLaunched = false;
 			DataCollector * collector;
-			myo::Myo * myo;
-			myo::Hub * hub;
 
 		private: System::Windows::Forms::TabPage^  tabConfig;
 		private: System::Windows::Forms::Label^  labelFile;
@@ -56,10 +52,5 @@ namespace AcquireDatas
 
 			private: System::Void butLaunchStop_Click(System::Object^  sender, System::EventArgs^  e);
 			#pragma endregion
-
-		private: 
-			void launchAcquisition(DataCollector * collector); //Function to launch datas acquisition
-			void initCapture();
-			void run();
 	};
 }

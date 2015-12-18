@@ -33,6 +33,9 @@
     <ClCompile Include="src\XmlStorage.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="src\TaskAcquisition.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\myo\myo.hpp">
@@ -56,12 +59,15 @@
     <ClInclude Include="include\XmlStorage.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="include\TaskAcquisition.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AcquireForm.resx">
+    <EmbeddedResource Include="AcquireDatas.resx">
       <Filter>Fichiers de ressources</Filter>
     </EmbeddedResource>
-    <EmbeddedResource Include="include\AcquireForm.resx">
+    <EmbeddedResource Include="include\AcquireDatas.resx">
       <Filter>Fichiers de ressources</Filter>
     </EmbeddedResource>
   </ItemGroup>

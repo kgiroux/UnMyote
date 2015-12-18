@@ -254,7 +254,7 @@ void DataCollector::setName(const std::string& name) {
 	this->name = name;
 }
 
-const bool & DataCollector::isDualMode() const {
+bool DataCollector::isDualMode() const{
 	return dualMode;
 }
 

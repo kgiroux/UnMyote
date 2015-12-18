@@ -1,13 +1,15 @@
 #include "..\include\AcquireForm.h"
 using namespace System;
 using namespace System::Windows::Forms;
+using namespace System::Threading;
 using namespace AcquireDatas;
 
 #pragma region Windows control methodes
 AcquireForm::AcquireForm(void)
 {
 	InitializeComponent();
-	initCapture();
+	//this->task = new TaskAcquisition();
+	//task->initCapture(collector);
 }
 AcquireForm::~AcquireForm()
 {
@@ -187,7 +189,6 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 	{
 		//Launch acquisition
 		std::cout << "Acquisition launched!" << std::endl;
-		this->acqLaunched = true;
 		this->butLaunchStop->Text = "Stop";
 		collector->setMesureAccel(this->checkAccel->Checked);
 		collector->setMesureEmg(this->checkEmg->Checked);
@@ -195,15 +196,23 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 		collector->setMesureOrient(this->checkOrt->Checked);
 		collector->setMesureElorient(this->checkEOrt->Checked);
 		collector->setDualMode(this->dualBracelet->Checked);
+		//this->task->toogleAcquisition(true);
+		//this->task->run(collector);
+
+		TaskAcquisition^ tsk = gcnew TaskAcquisition;
+		tsk->collector = collector;
+		ThreadStart^ taskThread = gcnew ThreadStart(tsk,&TaskAcquisition::launchAcquisition);
+		Thread^ t = gcnew Thread(taskThread);
+		t->Name = "thread1";
+		t->Start();
 	}
 	else
 	{
 		//Stop acquisition
+		//this->task->toogleAcquisition(false);
 		std::cout << "Acquisition stopped!" << std::endl;
 		collector->end();
-		delete collector;
 		this->butLaunchStop->Text = "Launch";
-		this->acqLaunched = false;
 	}
 }
 #pragma endregion
@@ -216,103 +225,5 @@ void main()
 
 	AcquireDatas::AcquireForm form;
 	Application::Run(%form);
-}
-
-void AcquireForm::initCapture() {
-	try {
-		this->hub = new myo::Hub("com.unmyote.myo-data-capture");
-		std::cout << "Attempting to find a Myo..." << std::endl;
-		this->myo = hub->waitForMyo(10000);
-		// If waitForMyo() returned a null pointer, we failed to find a Myo, so exit with an error message.
-		if (!myo) {
-			throw std::runtime_error("Unable to find a Myo!");
-		}
-		// We've found a Myo.
-		std::cout << "Connected to a Myo armband! \nLogging to the file system. \nCheck your home folder or the folder this application lives in.\n" << std::endl << std::endl;
-		// Next we enable EMG streaming on the found Myo.
-		myo->setStreamEmg(myo::Myo::streamEmgEnabled);
-		// Next we construct an instance of our DeviceListener, so that we can register it with the Hub.
-		collector = new DataCollector();
-
-		hub->addListener(collector);
-	}
-	catch(const std::exception& e){
-		std::cerr << "Error: " << e.what() << std::endl;
-		std::cerr << "Press enter to continue.";
-		std::cin.ignore();
-		this->butLaunchStop->Text = "Launch";
-		this->acqLaunched = false;
-	}
-	
-
-}
-
-void AcquireForm::run() {
-	while (run) {
-
-	}
-	hub->run(1000 / 20);
-	hub->run
-}
-
-
-/* Data acquisition */
-void AcquireForm::launchAcquisition(DataCollector * collector)
-{
-	//Identificate datas for the current mesurement
-	bool emg, accel, gyro, orient, eulerOrient, dualMode = false;
-	std::string filename = "exc";
-	emg = 
-	accel = this->checkAccel->Checked;
-	gyro = this->checkGyro->Checked;
-	orient = this->checkOrt->Checked;
-	eulerOrient = this->checkEOrt->Checked;
-	dualMode = this->dualBracelet->Checked;
-	//filename = this->textFilename->Text;
-	std::cout << "Mesure emg-" << emg << ",gyro-" << gyro << ",accelerometer-" << accel << ",orientation-" << orient << ",Euler orientation-" << eulerOrient << std::endl;
-
-	// We catch any exceptions that might occur below -- see the catch statement for more details.
-	try 
-	{
-		// First, we create a Hub with our application identifier. Be sure not to use the com.example namespace when
-		// publishing your application. The Hub provides access to one or more Myos.
-		myo::Hub hub();
-		
-
-		// Next, we attempt to find a Myo to use. If a Myo is already paired in Myo Connect, this will return that Myo
-		// immediately.
-		// waitForMyo() takes a timeout value in milliseconds. In this case we will try to find a Myo for 10 seconds, and
-		// if that fails, the function will return a null pointer.
-		myo::Myo* myo = hub.waitForMyo(10000);
-
-		
-
-		
-		
-		
-		
-		// Hub::addListener() takes the address of any object whose class inherits from DeviceListener, and will cause
-		// Hub::run() to send events to all registered device listeners.
-		
-
-		// Finally we enter our main loop.
-		while (acqLaunched)
-		{
-			// In each iteration of our main loop, we run the Myo event loop for a set number of milliseconds.
-			// In this case, we wish to update our display 50 times a second, so we run for 1000/20 milliseconds.
-			hub.run(1000/20);
-			//collector.onEmgData();
-		}
-		system("pause");
-		// If a standard exception occurred, we print out its message and exit.
-	}
-	catch (const std::exception& e) 
-	{
-		std::cerr << "Error: " << e.what() << std::endl;
-		std::cerr << "Press enter to continue.";
-		std::cin.ignore();
-		this->butLaunchStop->Text = "Launch";
-		this->acqLaunched = false;
-	}
 }
 
