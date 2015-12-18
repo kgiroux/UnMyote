@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 #include <sstream>
+#include <iostream>
 #include "Acquisition.h"
 #include "tinyxml2.h"
 

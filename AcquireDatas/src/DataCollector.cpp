@@ -6,8 +6,11 @@
 #include "..\include\DataCollector.h"
 DataCollector::DataCollector()
 {
-}
 
+}
+DataCollector::~DataCollector() {
+	knownMyos.clear();
+}
 
 void DataCollector:: openFiles(std::string name)
 {
@@ -19,31 +22,11 @@ void DataCollector:: openFiles(std::string name)
 	_mkdir(pathToFolder.c_str());
 
 	// Init XML Element and reset Name file
-	//initFileName();
 
 	// Define file name
-	emgFileString << pathToFolder << "/" << name << ".xml";
 	this->name = pathToFolder  + name + ".xml";
 }
 
-void DataCollector::initFileName()
-{
-	datatoStoreEMG = doc.NewElement("emgs");
-	datatoStoreGYRO = doc.NewElement("data");
-	datatoStoreACCE = doc.NewElement("data");
-	datatoStoreORIEN = doc.NewElement("data");
-	datatoStoreORIENEULER = doc.NewElement("data");
-	emgFileString.str("");
-	emgFileString.clear();
-	gyroFileString.str("");
-	gyroFileString.clear();
-	accelerometerFileString.str("");
-	accelerometerFileString.clear();
-	orientationEulerFileString.str("");
-	orientationEulerFileString.clear();
-	orientationFileString.str("");
-	orientationFileString.clear();
-}
 
 // onEmgData() is called whenever a paired Myo has provided new EMG data, and EMG streaming is enabled.
 void DataCollector::onEmgData(myo::Myo* myo, uint64_t timestamp, const int8_t* emg)

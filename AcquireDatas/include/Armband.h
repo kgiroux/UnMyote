@@ -6,6 +6,7 @@ class Armband
 {
 public:
 	Armband();
+	~Armband();
 	std::vector<double> getAcceX() const;
 	void setAcceX(std::vector<double> acceX);
 	std::vector<double> getAcceY() const;

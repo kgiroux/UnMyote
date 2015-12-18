@@ -53,7 +53,7 @@ void TaskAcquisition::launchAcquisition()
 			hub->run(1000 / 20);
 			//collector.onEmgData();
 		}
-		system("pause");
+		//system("pause");
 		// If a standard exception occurred, we print out its message and exit.
 		std::cout << "End of the acquisition" << std::endl;
 	}

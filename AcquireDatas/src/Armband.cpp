@@ -6,6 +6,36 @@ Armband::Armband()
 {
 
 }
+
+Armband::~Armband() {
+	EMG1.clear();
+	EMG2.clear();
+	EMG3.clear();
+	EMG4.clear();
+	EMG5.clear();
+	EMG6.clear();
+	EMG7.clear();
+	EMG8.clear();
+
+	GyroX.clear();
+	GyroY.clear();
+	GyroZ.clear();
+
+	AcceX.clear();
+	AcceX.clear();
+	AcceX.clear();
+
+	OrienX.clear();
+	OrienW.clear();
+	OrienY.clear();
+	OrienZ.clear();
+
+	OrienEulerP.clear();
+	OrienEulerR.clear();
+	OrienEulerY.clear();
+
+}
+
 void Armband::setValueByIndexEmg(int a, double result) {
 	switch (a) {
 		case 1 : 

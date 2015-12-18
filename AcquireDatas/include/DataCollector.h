@@ -21,9 +21,9 @@ class DataCollector : public myo::DeviceListener
 {
 	public:
 		DataCollector();
+		~DataCollector();
 		void checkOrientation(float x, float y, float z, float w);
 		void onEmgData(myo::Myo* myo, uint64_t timestamp, const int8_t* emg);
-		void initFileName();
 		void openFiles(std::string name);
 		void onOrientationData(myo::Myo *myo, uint64_t timestamp, const myo::Quaternion< float > &rotation);
 		void onAccelerometerData(myo::Myo *myo, uint64_t timestamp, const myo::Vector3< float > &accel);
@@ -55,28 +55,6 @@ class DataCollector : public myo::DeviceListener
 
 	private:
 		Acquisition acq;
-		tinyxml2::XMLDocument doc;
-		XMLElement * datatoStoreGYRO;
-		XMLElement * datatoStoreACCE;
-		XMLElement * datatoStoreORIEN;
-		XMLElement * datatoStoreORIENEULER;
-		XMLElement * datatoStoreEMG;
-		std::ostringstream emgFileString;
-		std::ostringstream gyroFileString;
-		std::ostringstream accelerometerFileString;
-		std::ostringstream orientationFileString;
-		std::ostringstream orientationEulerFileString;
-
-		// The files we are logging to
-		std::ofstream emgFile;
-		std::ofstream gyroFile;
-		std::ofstream orientationFile;
-		std::ofstream orientationEulerFile;
-		std::ofstream accelerometerFile;
-		int previous_x;
-		int previous_y;
-		int previous_z;
-		int previous_w;
 		std::vector<myo::Myo*> knownMyos;
 
 		//Mesurement control

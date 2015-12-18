@@ -36,6 +36,8 @@ XmlStorage::XmlStorage(std::string name, Acquisition acq)
 			for (it = emgData.begin(); it != emgData.end(); it++) {
 				XMLElement * data = doc.NewElement("data");
 				std::stringstream ssdata;
+				//cout <<"Value : "<<(*it) << endl;
+
 				data->SetText((*it));
 				emg->InsertEndChild(data);
 			}
@@ -106,10 +108,11 @@ XmlStorage::XmlStorage(std::string name, Acquisition acq)
 			euler->InsertEndChild(elmt);
 		}
 		armhand->InsertEndChild(euler);
+		armhandsRoot->InsertEndChild(armhand);
 	}
-	armhandsRoot->InsertEndChild(armhand);
+	
 	rootNode->InsertEndChild(armhandsRoot);
-	doc.InsertFirstChild(rootNode);
+	doc.InsertFirstChild(rootNode);	
 	doc.SaveFile(name.c_str());
 }
 

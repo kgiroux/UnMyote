@@ -231,7 +231,6 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 
 		//Reset variable
 		delete task;
-		delete collector;
 	}
 }
 #pragma endregion
