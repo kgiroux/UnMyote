@@ -14,16 +14,16 @@ void DataCollector:: openFiles(std::string name)
 	time_t timestamp = std::time(0);
 	//create result folder
 	_mkdir("./result");
-	std::string pathToFolder = "./result/" + name;
+	std::string pathToFolder = "./result/";
 	// create excution folder in result
 	_mkdir(pathToFolder.c_str());
 
 	// Init XML Element and reset Name file
-	initFileName();
+	//initFileName();
 
 	// Define file name
-	emgFileString << pathToFolder << "/" <<"FileResult"<< timestamp << ".xml";
-
+	emgFileString << pathToFolder << "/" << name << ".xml";
+	this->name = pathToFolder  + name + ".xml";
 }
 
 void DataCollector::initFileName()

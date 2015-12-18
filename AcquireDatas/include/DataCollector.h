@@ -55,7 +55,7 @@ class DataCollector : public myo::DeviceListener
 
 	private:
 		Acquisition acq;
-		XMLDocument doc;
+		tinyxml2::XMLDocument doc;
 		XMLElement * datatoStoreGYRO;
 		XMLElement * datatoStoreACCE;
 		XMLElement * datatoStoreORIEN;

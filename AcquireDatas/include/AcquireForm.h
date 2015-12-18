@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
-#include "DataCollector.h";
+#include <string>
+#include <msclr\marshal_cppstd.h>
+#include "DataCollector.h"
 #include "TaskAcquisition.h"
 
 namespace AcquireDatas
@@ -17,6 +19,7 @@ namespace AcquireDatas
 		/* Attributs */
 		private:
 			DataCollector * collector;
+			TaskAcquisition^ task;
 
 		private: System::Windows::Forms::TabPage^  tabConfig;
 		private: System::Windows::Forms::Label^  labelFile;
@@ -36,10 +39,6 @@ namespace AcquireDatas
 	#pragma region Windows Form Designer generated code
 			/* Attributes */
 			private: 
-
-				
-
-
 				System::ComponentModel::Container ^components;
 
 			/* Methodes */

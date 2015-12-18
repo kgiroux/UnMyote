@@ -8,12 +8,10 @@ ref class TaskAcquisition
 		myo::Myo * myo;
 		myo::Hub * hub;
 		bool acqLaunched = false;
+		DataCollector* collector;
 		
 	public:
-		DataCollector * collector;
 		void toogleAcquisition(bool value);
-		//void run(DataCollector * collector);
 		void initCapture(DataCollector* collector);
-		void launchAcquisition(DataCollector * collector); //Function to launch datas acquisition
 		void launchAcquisition(); //Function to launch datas acquisition
 };

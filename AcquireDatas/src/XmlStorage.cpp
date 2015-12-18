@@ -5,7 +5,7 @@ using namespace std;
 
 XmlStorage::XmlStorage(std::string name, Acquisition acq)
 {
-	XMLDocument doc;
+	tinyxml2::XMLDocument doc;
 	XMLNode * rootNode = doc.NewElement("acquisition");
 	string ListValue[3] = { "X","Y","Z" };
 	string ListValueOrien[4] = { "X","Y","Z","W" };
@@ -20,9 +20,10 @@ XmlStorage::XmlStorage(std::string name, Acquisition acq)
 	durationElmt->SetText("Not defined Yet");
 	rootNode->InsertEndChild(durationElmt);
 	XMLNode * armhandsRoot = doc.NewElement("Armhands");
+	XMLElement * armhand;
 	// Creation of the armhand for the right side;
 	for (int j = 0; j < 2; j++) {
-		XMLElement * armhand = doc.NewElement("armhand");
+		armhand = doc.NewElement("armhand");
 		armhand->SetAttribute("id", ListSide[j].c_str());
 
 		// Create Emgs 
@@ -84,7 +85,7 @@ XmlStorage::XmlStorage(std::string name, Acquisition acq)
 				XMLElement * data = doc.NewElement("data");
 				std::stringstream ssdata;
 				data->SetText((*it));
-				orien->InsertEndChild(data);
+				elmt->InsertEndChild(data);
 			}
 			orien->InsertEndChild(elmt);
 		}
@@ -100,12 +101,13 @@ XmlStorage::XmlStorage(std::string name, Acquisition acq)
 				XMLElement * data = doc.NewElement("data");
 				std::stringstream ssdata;
 				data->SetText((*it));
-				orien->InsertEndChild(data);
+				elmt->InsertEndChild(data);
 			}
 			euler->InsertEndChild(elmt);
 		}
 		armhand->InsertEndChild(euler);
 	}
+	armhandsRoot->InsertEndChild(armhand);
 	rootNode->InsertEndChild(armhandsRoot);
 	doc.InsertFirstChild(rootNode);
 	doc.SaveFile(name.c_str());

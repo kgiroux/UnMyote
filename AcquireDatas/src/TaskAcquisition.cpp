@@ -6,6 +6,7 @@ using namespace System::Threading;
 void TaskAcquisition::initCapture(DataCollector* collector) {
 	try 
 	{
+		this->collector = collector;
 		this->hub = new myo::Hub("com.unmyote.myo-data-capture");
 		std::cout << "Attempting to find a Myo..." << std::endl;
 		this->myo = hub->waitForMyo(10000);
@@ -19,7 +20,7 @@ void TaskAcquisition::initCapture(DataCollector* collector) {
 		myo->setStreamEmg(myo::Myo::streamEmgEnabled);
 		// Next we construct an instance of our DeviceListener, so that we can register it with the Hub.
 
-		hub->addListener(collector);
+		hub->addListener(this->collector);
 	}
 	catch (const std::exception& e) {
 		std::cerr << "Error: " << e.what() << std::endl;
@@ -33,18 +34,13 @@ void TaskAcquisition::toogleAcquisition(bool value)
 	this->acqLaunched = value;
 }
 
-/*void run(DataCollector * collector)
-{
-	Thread^ t = gcnew Thread(gcnew ThreadStart(&TaskAcquisition::launchAcquisition));
-	t->Name = "thread1";
-	t->Start();
-}*/
-
 /* Data acquisition */
-void TaskAcquisition::launchAcquisition(DataCollector * collector)
+void TaskAcquisition::launchAcquisition()
 {
 	//Identificate datas for the current mesurement
-	/*std::cout << "Mesure emg-" << collector->isMesureEmg() << ",gyro-" << collector->isMesureGyro() << ",accelerometer-" << collector->isMesureAccel << ",orientation-" << collector->isMesureOrient << ",Euler orientation-" << collector->isMesureElorient << std::endl;
+	std::cout << "Datacollection stated" << std::endl;
+	std::cout << "Filename-" << collector->getName() << std::endl;
+	std::cout << "Mesure emg-" << collector->isMesureEmg() << ",gyro-" << collector->isMesureGyro() << ",accelerometer-" << collector->isMesureAccel() << ",orientation-" << collector->isMesureOrient() << ",Euler orientation-" << collector->isMesureElorient() << std::endl;
 
 	// We catch any exceptions that might occur below -- see the catch statement for more details.
 	try
@@ -59,6 +55,7 @@ void TaskAcquisition::launchAcquisition(DataCollector * collector)
 		}
 		system("pause");
 		// If a standard exception occurred, we print out its message and exit.
+		std::cout << "End of the acquisition" << std::endl;
 	}
 	catch (const std::exception& e)
 	{
@@ -66,12 +63,12 @@ void TaskAcquisition::launchAcquisition(DataCollector * collector)
 		std::cerr << "Press enter to continue.";
 		std::cin.ignore();
 		this->acqLaunched = false;
-	}*/
+	}
 }
 /* Data acquisition */
-void TaskAcquisition::launchAcquisition()
+/*void TaskAcquisition::launchAcquisition()
 {
 	//Identificate datas for the current mesurement
 	std::cout << "Print start" << std::endl;
 	std::cout << collector->isDualMode() << std::endl;
-}
+}*/

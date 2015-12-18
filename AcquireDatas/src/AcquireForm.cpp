@@ -80,6 +80,8 @@ void AcquireForm::InitializeComponent(void)
 	// checkEOrt
 	// 
 	this->checkEOrt->AutoSize = true;
+	this->checkEOrt->Checked = true;
+	this->checkEOrt->CheckState = System::Windows::Forms::CheckState::Checked;
 	this->checkEOrt->Location = System::Drawing::Point(6, 111);
 	this->checkEOrt->Name = L"checkEOrt";
 	this->checkEOrt->Size = System::Drawing::Size(104, 17);
@@ -90,6 +92,8 @@ void AcquireForm::InitializeComponent(void)
 	// checkGyro
 	// 
 	this->checkGyro->AutoSize = true;
+	this->checkGyro->Checked = true;
+	this->checkGyro->CheckState = System::Windows::Forms::CheckState::Checked;
 	this->checkGyro->Location = System::Drawing::Point(6, 88);
 	this->checkGyro->Name = L"checkGyro";
 	this->checkGyro->Size = System::Drawing::Size(77, 17);
@@ -100,6 +104,8 @@ void AcquireForm::InitializeComponent(void)
 	// checkOrt
 	// 
 	this->checkOrt->AutoSize = true;
+	this->checkOrt->Checked = true;
+	this->checkOrt->CheckState = System::Windows::Forms::CheckState::Checked;
 	this->checkOrt->Location = System::Drawing::Point(6, 65);
 	this->checkOrt->Name = L"checkOrt";
 	this->checkOrt->Size = System::Drawing::Size(77, 17);
@@ -110,6 +116,8 @@ void AcquireForm::InitializeComponent(void)
 	// checkAccel
 	// 
 	this->checkAccel->AutoSize = true;
+	this->checkAccel->Checked = true;
+	this->checkAccel->CheckState = System::Windows::Forms::CheckState::Checked;
 	this->checkAccel->Location = System::Drawing::Point(6, 42);
 	this->checkAccel->Name = L"checkAccel";
 	this->checkAccel->Size = System::Drawing::Size(94, 17);
@@ -120,6 +128,8 @@ void AcquireForm::InitializeComponent(void)
 	// checkEmg
 	// 
 	this->checkEmg->AutoSize = true;
+	this->checkEmg->Checked = true;
+	this->checkEmg->CheckState = System::Windows::Forms::CheckState::Checked;
 	this->checkEmg->Location = System::Drawing::Point(6, 19);
 	this->checkEmg->Name = L"checkEmg";
 	this->checkEmg->Size = System::Drawing::Size(47, 17);
@@ -184,10 +194,12 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 {
 	//Process or stop data's acquisition
 	System::Windows::Forms::Button^ button = (System::Windows::Forms::Button^)sender;
-	DataCollector * collector;
+	std::string filename = msclr::interop::marshal_as<std::string>(textFilename->Text);
+
 	if (button->Text->Equals("Launch"))
 	{
 		//Launch acquisition
+		this->collector = new DataCollector();
 		std::cout << "Acquisition launched!" << std::endl;
 		this->butLaunchStop->Text = "Stop";
 		collector->setMesureAccel(this->checkAccel->Checked);
@@ -196,23 +208,30 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 		collector->setMesureOrient(this->checkOrt->Checked);
 		collector->setMesureElorient(this->checkEOrt->Checked);
 		collector->setDualMode(this->dualBracelet->Checked);
-		//this->task->toogleAcquisition(true);
-		//this->task->run(collector);
+		if (strcmp(filename.c_str(),"") == 0)
+			filename = "acq-test-toto";
+		collector->setName(filename);
 
-		TaskAcquisition^ tsk = gcnew TaskAcquisition;
-		tsk->collector = collector;
-		ThreadStart^ taskThread = gcnew ThreadStart(tsk,&TaskAcquisition::launchAcquisition);
+		//Launch acquisition Threading
+		this->task = gcnew TaskAcquisition;
+		this->task->initCapture(collector);
+		this->task->toogleAcquisition(true);
+		ThreadStart^ taskThread = gcnew ThreadStart(task,&TaskAcquisition::launchAcquisition);
 		Thread^ t = gcnew Thread(taskThread);
-		t->Name = "thread1";
+		t->Name = "acquisitionThread";
 		t->Start();
 	}
 	else
 	{
 		//Stop acquisition
-		//this->task->toogleAcquisition(false);
+		this->task->toogleAcquisition(false);
 		std::cout << "Acquisition stopped!" << std::endl;
 		collector->end();
 		this->butLaunchStop->Text = "Launch";
+
+		//Reset variable
+		delete task;
+		delete collector;
 	}
 }
 #pragma endregion
