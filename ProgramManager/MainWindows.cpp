@@ -4,8 +4,6 @@ using namespace System::Windows::Forms;
 using namespace System::Threading;
 using namespace ProgramManager;
 
-
-
 #pragma region Windows control methodes
 void MainWindows::InitializeComponent(void)
 {
@@ -116,10 +114,38 @@ void MainWindows::InitializeComponent(void)
 
 }
 
+void startApplication(LPCTSTR lpApplicationName)
+{
+	//Starting informations
+	STARTUPINFO si;
+	PROCESS_INFORMATION pi;
+
+	// set the size of the structures
+	ZeroMemory(&si, sizeof(si));
+	si.cb = sizeof(si);
+	ZeroMemory(&pi, sizeof(pi));
+
+	// start the program up
+	CreateProcess(lpApplicationName,   // the application path
+		NULL,			// Launch args
+		NULL,           // Process handle not inheritable
+		NULL,           // Thread handle not inheritable
+		FALSE,          // Set handle inheritance to FALSE
+		0,              // No creation flags
+		NULL,           // Use parent's environment block
+		NULL,           // Use parent's starting directory 
+		&si,            // Pointer to STARTUPINFO structure
+		&pi);          // Pointer to PROCESS_INFORMATION structure
+
+	// Close process and thread handles. 
+	CloseHandle(pi.hProcess);
+	CloseHandle(pi.hThread);
+}
+
 System::Void MainWindows::Start_Click(System::Object^  sender, System::EventArgs^  e) {
 	if (radioButton1->Checked) {
-		MessageBox::Show("Acquisition");
-
+		//MessageBox::Show("Acquisition");
+		startApplication(L"AcquireDatas.exe");
 	}
 	else if (radioButton2->Checked) {
 

@@ -26,6 +26,7 @@ void TaskAcquisition::initCapture(DataCollector* collector) {
 		std::cerr << "Error: " << e.what() << std::endl;
 		std::cerr << "Press enter to continue.";
 		std::cin.ignore();
+		this->acqLaunched = false;
 	}
 }
 
