@@ -2,5 +2,6 @@ To DO:
 ------
 
 - Mode dual bracelet
-- Format du nom de ficher: acq_YYYY_MM_DD_hh_mm.xml
+- Format du nom de ficher: acq_YYYY_MM_DD_hh_mm.xml DONE
+- Popup synchro bracelet
 

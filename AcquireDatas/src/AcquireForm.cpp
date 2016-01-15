@@ -208,8 +208,15 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 		collector->setMesureOrient(this->checkOrt->Checked);
 		collector->setMesureElorient(this->checkEOrt->Checked);
 		collector->setDualMode(this->dualBracelet->Checked);
-		if (strcmp(filename.c_str(),"") == 0)
-			filename = "acq-test-toto";
+		if (strcmp(filename.c_str(), "") == 0)
+		{
+			std::time_t now = std::time(0);
+			std::tm * ptm = std::localtime(&now);
+			char strTime[32];
+			std::strftime(strTime, 32, "%a_%d_%m_%Y-%H_%M_%S", ptm);
+			filename = strTime;
+			filename = "acq-" + filename;
+		}
 		collector->setName(filename);
 
 		//Launch acquisition Threading
