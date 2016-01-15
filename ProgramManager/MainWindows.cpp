@@ -114,7 +114,7 @@ void MainWindows::InitializeComponent(void)
 
 }
 
-void startApplication(LPCTSTR lpApplicationName)
+void startApplication(WCHAR appliName[MAX_PATH])
 {
 	//Starting informations
 	STARTUPINFO si;
@@ -124,6 +124,13 @@ void startApplication(LPCTSTR lpApplicationName)
 	ZeroMemory(&si, sizeof(si));
 	si.cb = sizeof(si);
 	ZeroMemory(&pi, sizeof(pi));
+
+	//Get current pathfolder
+	WCHAR pathw[MAX_PATH];
+	GetModuleFileNameW(GetModuleHandleW(NULL), pathw, MAX_PATH);
+	int pathSize = wcslen(pathw) - wcslen(wcsrchr(pathw, L'\\/'));
+	pathw[pathSize+1] = '\0';
+	LPCTSTR lpApplicationName = wcscat(pathw,appliName);
 
 	// start the program up
 	CreateProcess(lpApplicationName,   // the application path
