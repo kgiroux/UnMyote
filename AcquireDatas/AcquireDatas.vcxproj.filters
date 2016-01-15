@@ -38,28 +38,28 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\myo\myo.hpp">
+    <ClInclude Include=".\include\myo\myo.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\tinyxml2.h">
+    <ClInclude Include=".\include\tinyxml2.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\AcquireForm.h">
+    <ClInclude Include=".\include\AcquireForm.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\DataCollector.h">
+    <ClInclude Include=".\include\DataCollector.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Acquisition.h">
+    <ClInclude Include=".\include\Acquisition.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\Armband.h">
+    <ClInclude Include=".\include\Armband.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\XmlStorage.h">
+    <ClInclude Include=".\include\XmlStorage.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="include\TaskAcquisition.h">
+    <ClInclude Include=".\include\TaskAcquisition.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
@@ -67,7 +67,7 @@
     <EmbeddedResource Include="AcquireDatas.resx">
       <Filter>Fichiers de ressources</Filter>
     </EmbeddedResource>
-    <EmbeddedResource Include="include\AcquireDatas.resx">
+    <EmbeddedResource Include="include\AcquireForm.resx">
       <Filter>Fichiers de ressources</Filter>
     </EmbeddedResource>
   </ItemGroup>

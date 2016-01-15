@@ -8,8 +8,6 @@ using namespace AcquireDatas;
 AcquireForm::AcquireForm(void)
 {
 	InitializeComponent();
-	//this->task = new TaskAcquisition();
-	//task->initCapture(collector);
 }
 AcquireForm::~AcquireForm()
 {

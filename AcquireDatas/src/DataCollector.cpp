@@ -37,7 +37,7 @@ void DataCollector::onEmgData(myo::Myo* myo, uint64_t timestamp, const int8_t* e
 			//acq.getArmbandByID()
 			size_t id = identifyMyo(myo);
 			for (size_t i = 0; i < 8; i++) {
-				acq.getArmbandByID(id)->setValueByIndexEmg(i, emg[i]);
+				acq.getArmbandByID(id)->setValueByIndexEmg(i+1, emg[i]);
 			}
 		}
 	}
