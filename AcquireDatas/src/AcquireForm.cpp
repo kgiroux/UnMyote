@@ -193,11 +193,11 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 	//Process or stop data's acquisition
 	System::Windows::Forms::Button^ button = (System::Windows::Forms::Button^)sender;
 	std::string filename = msclr::interop::marshal_as<std::string>(textFilename->Text);
-
 	if (button->Text->Equals("Launch"))
 	{
 		//Launch acquisition
 		this->collector = new DataCollector();
+		this->collector->startTime();
 		std::cout << "Acquisition launched!" << std::endl;
 		this->butLaunchStop->Text = "Stop";
 		collector->setMesureAccel(this->checkAccel->Checked);
@@ -228,6 +228,8 @@ System::Void AcquireForm::butLaunchStop_Click(System::Object^  sender, System::E
 	}
 	else
 	{
+		this->collector->endTime();
+		std::cout <<"Time to execute :"  << this->collector->getTime() / 1000 << std::endl;
 		//Stop acquisition
 		this->task->toogleAcquisition(false);
 		std::cout << "Acquisition stopped!" << std::endl;

@@ -51,7 +51,10 @@ class DataCollector : public myo::DeviceListener
 		void setDualMode(bool dual);
 		const std::string& getName() const;
 		void setName(const std::string& name);
-
+		
+		void startTime();
+		void endTime();
+		clock_t getTime();
 
 	private:
 		Acquisition acq;
@@ -65,5 +68,6 @@ class DataCollector : public myo::DeviceListener
 		bool mesureACCEL;
 		bool dualMode;
 		bool run;
+		clock_t timeAcq;
 		std::string name;
 };

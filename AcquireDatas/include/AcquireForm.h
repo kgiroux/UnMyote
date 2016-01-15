@@ -4,6 +4,7 @@
 #include <msclr\marshal_cppstd.h>
 #include "DataCollector.h"
 #include "TaskAcquisition.h"
+#include <time.h>
 
 namespace AcquireDatas
 {
