@@ -3,7 +3,7 @@
 using namespace tinyxml2;
 using namespace std;
 
-XmlStorage::XmlStorage(std::string name, Acquisition acq)
+XmlStorage::XmlStorage(std::string name, Acquisition acq, clock_t time)
 {
 	tinyxml2::XMLDocument doc;
 	XMLNode * rootNode = doc.NewElement("acquisition");
@@ -17,13 +17,15 @@ XmlStorage::XmlStorage(std::string name, Acquisition acq)
 	nameElmt->SetText(name.c_str());
 	rootNode->InsertEndChild(nameElmt);
 	XMLElement * durationElmt = doc.NewElement("Duration");
-	durationElmt->SetText("Not defined Yet");
+	stringstream ss;
+	ss << time;
+	durationElmt->SetText(ss.str().c_str());
 	rootNode->InsertEndChild(durationElmt);
-	XMLNode * armhandsRoot = doc.NewElement("Armhands");
+	XMLNode * armhandsRoot = doc.NewElement("Armbands");
 	XMLElement * armhand;
 	// Creation of the armhand for the right side;
 	for (int j = 0; j < 2; j++) {
-		armhand = doc.NewElement("armhand");
+		armhand = doc.NewElement("armband");
 		armhand->SetAttribute("id", ListSide[j].c_str());
 
 		// Create Emgs 

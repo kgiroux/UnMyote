@@ -186,7 +186,7 @@ void DataCollector::printVectorAcce(uint64_t timestamp, const myo::Vector3< floa
 void DataCollector::end()
 {
 	openFiles(name);
-	XmlStorage xmlStorage(name, acq);
+	XmlStorage xmlStorage(name, acq,this->getTime());
 }
 
 
@@ -244,4 +244,16 @@ bool DataCollector::isDualMode() const{
 
 void DataCollector::setDualMode(bool dual) {
 	this->dualMode = dual;
+}
+
+void DataCollector::startTime() {
+	this->timeAcq = clock();
+}
+
+void DataCollector::endTime() {
+	this->timeAcq = clock() - this->timeAcq;
+}
+
+clock_t DataCollector::getTime() {
+	return this->timeAcq;
 }
