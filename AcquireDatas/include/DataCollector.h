@@ -68,6 +68,7 @@ class DataCollector : public myo::DeviceListener
 		bool mesureACCEL;
 		bool dualMode;
 		bool run;
+		uint64_t currentTImeStamp = NULL;
 		clock_t timeAcq;
 		std::string name;
 };

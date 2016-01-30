@@ -68,6 +68,7 @@ public:
 private : 
 
 	std::vector<double> EMG1;
+	
 	std::vector<double> EMG2;
 	std::vector<double> EMG3;
 	std::vector<double> EMG4;

@@ -1,0 +1,72 @@
+<acquisition>
+    <Name>./result/acq-Sat_30_01_2016-16_44_20.xml</Name>
+    <Duration>6173</Duration>
+    <Armbands>
+        <armband id="right">
+            <emgs>
+                <emg id="1"/>
+                <emg id="2"/>
+                <emg id="3"/>
+                <emg id="4"/>
+                <emg id="5"/>
+                <emg id="6"/>
+                <emg id="7"/>
+                <emg id="8"/>
+            </emgs>
+            <gyro>
+                <X/>
+                <Y/>
+                <Z/>
+            </gyro>
+            <acce>
+                <X/>
+                <Y/>
+                <Z/>
+            </acce>
+            <orien>
+                <X/>
+                <Y/>
+                <Z/>
+                <W/>
+            </orien>
+            <euler>
+                <roll/>
+                <pitch/>
+                <yaw/>
+            </euler>
+        </armband>
+        <armband id="left">
+            <emgs>
+                <emg id="1"/>
+                <emg id="2"/>
+                <emg id="3"/>
+                <emg id="4"/>
+                <emg id="5"/>
+                <emg id="6"/>
+                <emg id="7"/>
+                <emg id="8"/>
+            </emgs>
+            <gyro>
+                <X/>
+                <Y/>
+                <Z/>
+            </gyro>
+            <acce>
+                <X/>
+                <Y/>
+                <Z/>
+            </acce>
+            <orien>
+                <X/>
+                <Y/>
+                <Z/>
+                <W/>
+            </orien>
+            <euler>
+                <roll/>
+                <pitch/>
+                <yaw/>
+            </euler>
+        </armband>
+    </Armbands>
+</acquisition>

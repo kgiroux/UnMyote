@@ -31,16 +31,24 @@ void DataCollector:: openFiles(std::string name)
 // onEmgData() is called whenever a paired Myo has provided new EMG data, and EMG streaming is enabled.
 void DataCollector::onEmgData(myo::Myo* myo, uint64_t timestamp, const int8_t* emg)
 {
-	if (run) {
-		if (mesureEMG)
-		{
-			//acq.getArmbandByID()
-			size_t id = identifyMyo(myo);
-			for (size_t i = 0; i < 8; i++) {
-				acq.getArmbandByID(id)->setValueByIndexEmg(i+1, emg[i]);
+	if (currentTImeStamp == NULL) {
+		currentTImeStamp = timestamp;
+	}
+	//std::cout << timestamp << std::endl;
+	if (timestamp > currentTImeStamp + 10000) {
+		if (run) {
+			if (mesureEMG)
+			{
+				//acq.getArmbandByID()
+				size_t id = identifyMyo(myo);
+				for (size_t i = 0; i < 8; i++) {
+					acq.getArmbandByID(id)->setValueByIndexEmg(i + 1, emg[i]);
+				}
 			}
 		}
+		currentTImeStamp = timestamp;
 	}
+	
 }
 void DataCollector::checkOrientation(float x, float y, float z, float w) 
 {
