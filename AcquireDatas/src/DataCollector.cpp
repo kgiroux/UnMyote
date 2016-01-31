@@ -34,7 +34,7 @@ void DataCollector::onEmgData(myo::Myo* myo, uint64_t timestamp, const int8_t* e
 	if (currentTImeStamp == NULL) {
 		currentTImeStamp = timestamp;
 	}
-	//std::cout << timestamp << std::endl;
+	std::cout <<"EMG : " <<timestamp << std::endl;
 	if (timestamp > currentTImeStamp + 10000) {
 		if (run) {
 			if (mesureEMG)
@@ -72,6 +72,7 @@ size_t DataCollector ::identifyMyo(myo::Myo* myo) {
 // Be warned: This will not make any distiction between data from other Myo armbands
 void DataCollector::onOrientationData(myo::Myo *myo, uint64_t timestamp, const myo::Quaternion< float > &rotation) 
 {
+	std::cout << "Orientation Data : " << timestamp << std::endl;
 	if (run) {
 		if (mesureORIENT)
 		{
@@ -108,7 +109,7 @@ void DataCollector::onOrientationData(myo::Myo *myo, uint64_t timestamp, const m
 void DataCollector::onArmSync(myo::Myo * 	myo, uint64_t 	timestamp, myo::Arm 	arm, myo::XDirection 	xDirection,float 	rotation, myo::WarmupState 	warmupState) {
 	while (warmupState != myo::warmupStateWarm) {
 		if (arm == myo::armLeft) {
-			std::cout << "Left" << std::endl;
+			//std::cout << "Left" << std::endl;
 			acq.setIDLeft(identifyMyo(myo));
 			//myo->notifyUserAction();
 		}
@@ -139,6 +140,7 @@ void DataCollector::onAccelerometerData(myo::Myo *myo, uint64_t timestamp, const
 	if (run) {
 		if (mesureACCEL)
 		{
+			std::cout << "Accelerometer Data : " << timestamp << std::endl;
 			size_t id = identifyMyo(myo);
 			acq.getArmbandByID(id)->setValueByIndexAcce(1, accel.x());
 			acq.getArmbandByID(id)->setValueByIndexAcce(2, accel.y());
@@ -155,6 +157,7 @@ void DataCollector::onGyroscopeData(myo::Myo *myo, uint64_t timestamp, const myo
 	if (run) {
 		if (mesureGYRO)
 		{
+			std::cout << "Gyrometer Data : " << timestamp << std::endl;
 			size_t id = identifyMyo(myo);
 			acq.getArmbandByID(id)->setValueByIndexGyro(1, gyro.x());
 			acq.getArmbandByID(id)->setValueByIndexGyro(2, gyro.y());
